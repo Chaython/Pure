@@ -1,7 +1,12 @@
 "Resource/layout/overlaydashboard.layout" {
 
-	include "colors.styles"
 
+
+	colors {
+		OVERLAYBAR = "228 228 228 255"
+		OVERLAYBARBORDER = "214 214 214 255"
+		OVERLAYBACKGROUND = "222 222 222 125"
+	}
 	styles {
 		overlaymain {
 			render {
@@ -31,6 +36,6 @@
 			place { control=gamename region=overlay align=left y=30 }
 			place { control=TaskbarPanel region=overlay width=200 height=max align=right}
 
-		place { control=TopFadePanel,PowerMeterDim,BottomFadePanel,HotkeyLabel,HotkeyExplain height=0 width=0 }
+		place { control=CLOSEBUTTON,TopFadePanel,PowerMeterDim,BottomFadePanel,HotkeyLabel,HotkeyExplain height=0 width=0 }
 	}
 }
