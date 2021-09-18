@@ -85,8 +85,8 @@
 		place { controls=EnableOverlayCheck region=top start=DescriptionLabel dir=down height=20 margin-top=8 margin-bottom=6}
 		place [!$OSX] { controls=EnableSCTenfootOverlayCheck region=top start=EnableOverlayCheck dir=down height=20 }
 		place [!$OSX&&!$LINUX] { controls=EnableVRDesktopGameTheaterCheck region=top start=EnableSCTenfootOverlayCheck dir=down height=20 }
-		place { controls=HotKeySelectorLabel start=EnableVRDesktopGameTheaterCheck y=12 dir=down spacing=8 width=140 }
-		place { control=HotKeySelector start=HotKeySelectorLabel dir=RIGHT width=90 }
+		place { controls=HotKeySelectorLabel start=EnableVRDesktopGameTheaterCheck y=12 dir=down spacing=8 }
+		place { control=HotKeySelector start=HotKeySelectorLabel x=14 dir=RIGHT width=90 }
 		place { controls=ShowIngameFPSLabel dir=down start=ScreenshotLabel margin-top=36 width=max }
 		place { control=ShowIngameFPSCombo dir=down start=ShowIngameFPSLabel height=28 width=100 margin-top=8 }
 		place { control=ShowIngameFPSContrastCheck dir=down start=ShowIngameFPSCombo width=max margin-top=8 }	

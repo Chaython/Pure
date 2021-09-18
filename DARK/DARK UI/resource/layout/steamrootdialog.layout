@@ -2,7 +2,10 @@
 {
 	styles
 	{
-	
+		#STEAM_INBOX_INVITES 
+		{
+			TEXTCOLOR="255 0 0 255"
+		}
 		RootMenu
 		{
 			bgcolor="none"
@@ -112,7 +115,7 @@
 			{
 				0="fill(x0,y0+33,x1,y0+34, MENUBACKGROUND)"
 			}
-			textcolor = ACCENT
+			//textcolor = ACCENT
 			padding-left=7
 		}
 		inboxmenuitem:hover
@@ -121,7 +124,8 @@
 		}
 		inboxmenuitem_active
 		{
-			textcolor = BLACK
+			textcolor = BLUE
+			FONT-WEIGHT=500
 		}
 
 		announcement_button
