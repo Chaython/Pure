@@ -62,11 +62,9 @@
 
 		NextButtonSm
 		{
-			inset="-5 0 0 0"
 			render_bg{}
 			bgcolor="none"
 			image="icons/forward"
-			padding-left=12
 						render {
 				1="fill(x0,y0,x1,y0+1,"none")"  // top
 				2="fill(x0,y1-1,x1,y1,"none")"  // bottom
@@ -89,11 +87,9 @@
 
 		PrevButtonSm
 		{
-			inset="-5 0 0 0"
 			render_bg{}
 			bgcolor="none"
 			image="icons/back"
-			padding-left=12
 						render {
 				1="fill(x0,y0,x1,y0+1,"none")"  // top
 				2="fill(x0,y1-1,x1,y1,"none")"  // bottom
@@ -134,8 +130,8 @@
 	}
 	layout
 	{
-    place { control="Previous,Next" align=left x=1 y=1 height=38 width=40 }
-    place { control="FindEntry" start=Next width=max height=24 MARGIN-LEFT=12 margin-right=148 MARGIN-TOP=7 MARGIN-BOTTOM=3 }
+    place { control="Previous,Next" align=left x=8 y=8 height=24 width=32 }
+    place { control="FindEntry" start=Next width=max height=24 MARGIN-LEFT=16 margin-right=148 MARGIN-BOTTOM=3 }
     place { control="FindCount" align=right width=70 height=40 margin-right=56}
     place { control="Close" align=right y=1 width=40 height=38 margin-right=1 }
     // Hidden
