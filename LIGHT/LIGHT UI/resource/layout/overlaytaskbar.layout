@@ -2,7 +2,9 @@
 
 	styles { 
 	
-
+		TASKBAR {
+			TEXTCOLOR="NONE"
+		}
 	}
 
 	layout {
