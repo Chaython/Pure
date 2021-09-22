@@ -9,12 +9,12 @@
 	{
 		PageDragFrame
 		{			
-			bgcolor="Header_Dark"
+			bgcolor=BASE1
 		}
 		
 		PageDragPanel
 		{
-			bgcolor="ClientBG"
+			bgcolor=BASE2
 		}
 	}
 		
