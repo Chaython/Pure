@@ -6,7 +6,7 @@
 
 ![LIGHT UI](https://i.imgur.com/Mp39wfp.png)
 
-![LIGHT UI](https://i.imgur.com/EWosKCv.png)
+![LIGHT UI](https://i.imgur.com/FvlnP6U.png)
 
 ![LIGHT UI](https://i.imgur.com/iTTOT3q.png)
 
