@@ -1,267 +1,98 @@
-"caption.styles"
+"colors.styles"
 {
-	styles
+	include "custom.styles"
+	colors
 	{
-		//Default Style
-		FrameMinimizeButton [$WIN32||$WINDOWS||$LINUX]
-		{
-			inset="9 18 0 0"
-			render_bg{}
-			image="icons/caption/minimize"
-		}
-		FrameMinimizeButton [$OSX]
-		{
-			render_bg{}
-			image="graphics/osx_win_dis"
-			image="graphics/osx_win_dis_new_dark" [$OSX1010]
-		}
-		FrameMinimizeButton:hover [$WIN32||$WINDOWS||$LINUX]
-		{
-			bgcolor = CAPTIONBUTTONHOVER
-			//IMAGE="icons/caption/minimize_h"
-			render_bg{}
-		}
-		FrameMinimizeButton:hover [$OSX]
-		{
-			image="graphics/osx_min_hov"
-			image="graphics/osx_min_hov_new" [$OSX1010]
-		}
-		FrameMinimizeButton:framefocus [$OSX]
-		{
-			render_bg {}
-			bgcolor=BASE1
-			image="graphics/osx_min_def"
-			image="graphics/osx_min_def_new" [$OSX1010]
-		}
-		FrameMinimizeButton:framefocus:hover [$OSX]
-		{
-			render_bg {}
-			bgcolor="none"
-			image="graphics/osx_min_hov"
-			image="graphics/osx_min_hov_new" [$OSX1010]
-		}
-		FrameMinimizeButton:active [$WIN32||$WINDOWS||$LINUX]
-		{
-			bgcolor=BASE1
-		}
-		FrameMinimizeButton:active [$OSX]
-		{
-			image="graphics/osx_min_down"
-			image="graphics/osx_min_down_new" [$OSX1010]
-		}
-
-		FrameMaximizeButton [$WIN32||$WINDOWS||$LINUX]
-		{
-			inset="9 14 0 0"
-			image="icons/caption/maximize"
-		}
-		FrameMaximizeButton [$OSX]
-		{
-			render_bg{}
-			image="graphics/osx_win_dis"
-			image="graphics/osx_win_dis_new_dark" [$OSX1010]
-		}
-		FrameMaximizeButton:hover [$WIN32||$WINDOWS||$LINUX]
-		{
-			BGCOLOR = CAPTIONBUTTONHOVER
-			//IMAGE="graphics\metro\icons\caption\maximize_h"
-			render_bg{}
-		}
-		FrameMaximizeButton:hover [$OSX]
-		{
-			image="graphics/osx_max_hov"
-			image="graphics/osx_max_hov_new" [$OSX1010]
-		}
-		FrameMaximizeButton:framefocus [$OSX]
-		{
-			render_bg {}
-			bgcolor="none"
-			image="graphics/osx_max_def"
-			image="graphics/osx_max_def_new" [$OSX1010]
-		}
-		FrameMaximizeButton:framefocus:hover [$OSX]
-		{
-			render_bg {}
-			bgcolor=BASE1
-			image="graphics/osx_max_hov"
-			image="graphics/osx_max_hov_new" [$OSX1010]
-		}
-		FrameMaximizeButton:active [$WIN32||$WINDOWS||$LINUX]
-		{
-			IMAGE="icons/caption/maximize"
-		}
-		FrameMaximizeButton:active [$OSX]
-		{
-			image="graphics/osx_max_down"
-			image="graphics/osx_max_down_new" [$OSX1010]
-		}
-
-		FrameRestoreButton [$WIN32||$WINDOWS||$LINUX]
-		{
-			inset="9 14 0 0"
-			render_bg{}
-			image="icons/caption/restore"
-		}
-		FrameRestoreButton [$OSX]
-		{
-			render_bg{}
-			image="graphics/osx_win_dis"
-			image="graphics/osx_win_dis_new_dark" [$OSX1010]
-		}
-		FrameRestoreButton:hover [$WIN32||$WINDOWS||$LINUX]
-		{
-			bgcolor = CAPTIONBUTTONHOVER
-			//image="icons/caption/restore_h"
-			render_bg{}
-		}
-		FrameRestoreButton:hover [$OSX]
-		{
-			image="graphics/osx_max_hov"
-			image="graphics/osx_max_hov_new" [$OSX1010]
-		}
-		FrameRestoreButton:framefocus [$OSX]
-		{
-			render_bg {}
-			bgcolor="none"
-			image="graphics/osx_max_def"
-			image="graphics/osx_max_def_new" [$OSX1010]
-		}
-		FrameRestoreButton:framefocus:hover [$OSX]
-		{
-			render_bg {}
-			bgcolor=BASE1
-			image="graphics/osx_max_hov"
-			image="graphics/osx_max_hov_new" [$OSX1010]
-		}
-		FrameRestoreButton:active [$WIN32||$WINDOWS||$LINUX]
-		{
-			bgcolor=White5
-			image="icons/caption/restore"
-		}
-		FrameRestoreButton:active [$OSX]
-		{
-			image="graphics/osx_max_down"
-			image="graphics/osx_max_down_new" [$OSX1010]
-		}
-
-		FrameCloseButton [$WIN32||$WINDOWS||$LINUX]
-		{
-			inset="9 14 0 0"
-			image="icons/CAPTION/close"
-		}
-		FrameCloseButton [$OSX]
-		{
-			render_bg{}
-			image="graphics/osx_win_dis"
-			image="graphics/osx_win_dis_new_dark" [$OSX1010]
-		}
-		FrameCloseButton:hover [$WIN32||$WINDOWS||$LINUX]
-		{
-			//image="icons/CAPTION/close_h"
-			BGCOLOR = CAPTIONBUTTONHOVER
-			render_bg{}
-		}
-		FrameCloseButton:hover [$OSX]
-		{
-			image="graphics/osx_close_hov"
-			image="graphics/osx_close_hov_new" [$OSX1010]
-		}
-		FrameCloseButton:framefocus [$OSX]
-		{
-			render_bg {}
-			bgcolor="none"
-			image="graphics/osx_close_def"
-			image="graphics/osx_close_def_new" [$OSX1010]
-		}
-		FrameCloseButton:framefocus:hover [$OSX]
-		{
-			render_bg {}
-			bgcolor="none"
-			image="graphics/osx_close_hov"
-			image="graphics/osx_close_hov_new" [$OSX1010]
-		}
-		FrameCloseButton:active [$WIN32||$WINDOWS||$LINUX]
-		{
-			bgcolor=White5
-		}
-		FrameCloseButton:active [$OSX]
-		{
-			image="graphics/osx_close_down"
-			image="graphics/osx_close_down_new" [$OSX1010]
-		}
-		FrameCloseButton:disabled [$WIN32||$WINDOWS||$LINUX]
-		{
-			inset="9 14 0 0"
-			render_bg{}
-			image="icons/caption/close_d"
-		}
-		FrameCloseButton:disabled [$OSX]
-		{
-			render_bg{}
-			image="graphics/osx_win_dis"
-			image="graphics/osx_win_dis_new_dark" [$OSX1010]
-		}
-
-		//Semi Style
-		"ToolWindow FrameMinimizeButton"
-		{
-			inset="4 7 0 0"
-			render_bg{}
-			image="icons/caption/chat_min_sm"
-		}
-		"ToolWindow FrameMinimizeButton:hover"
-		{
-			bgcolor = CAPTIONBUTTONHOVER
-			RENDER_BG{}
-		}
-		"ToolWindow FrameMinimizeButton:active"
-		{
-			bgcolor=White10
-		}
-
-		"ToolWindow FrameMaximizeButton"
-		{
-			inset="4 10 0 0"
-			render_bg{}
-			image="icons/caption/chat_max_sm"
-		}
-		"ToolWindow FrameMaximizeButton:hover"
-		{
-			bgcolor=White05
-		}
-		"ToolWindow FrameMaximizeButton:active"
-		{
-			bgcolor=White10
-		}
-
-		"ToolWindow FrameRestoreButton"
-		{
-			inset="4 10 0 0"
-			render_bg{}
-			image="icons/caption/chat_res_sm"
-		}
-		"ToolWindow FrameRestoreButton:hover"
-		{
-			bgcolor=White05
-		}
-		"ToolWindow FrameRestoreButton:active"
-		{
-			bgcolor=White10
-		}
-
-		"ToolWindow FrameCloseButton"
-		{
-		
-			render_bg{}
-			image="ICONS/caption/sm/chat_close_sm"
-		}
-		"ToolWindow FrameCloseButton:hover"
-		{
-			bgcolor=CAPTIONBUTTONHOVER
-		}
-		"ToolWindow FrameCloseButton:active"
-		{
-			bgcolor=White10
-		}
+		none="0 0 0 0"
+		BASE1 = "27 27 27 255"
+		BASE2 = "33 33 33 255"
+		BASE3 = "43 43 43 255"
+		ACCENT = "167 167 167 255"
+		ACCENT2 = "133 133 133 255"
+		TEXTENTRY = "19 19 19 255"
+		BLACK = "0 0 0 255"
+		WHITE = "255 255 255 255"
+		BUTTON = "21 21 21 255"
+		BUTTONDISABLEDTEXT = "61 61 61 255"
+		BUTTONDISABLED = BLACK
+		BUTTONBORDER = "121 121 121 255"
+		DIVIDER = BUTTON
+		TEXTENTRYHIGHLIGHT = "213 213 213 255"
+		TEXTENTRYBORDER = "121 121 121 255"
+		OLTEXTENTRY = BASE2
+		OLTEXTENTRYBACKGROUNDHOVER =  BASE2
+		OLTEXTENTRYBACKGROUNDSELECTED = BASE3
+		TEXTENTRYBORDERHOVER = "165 165 165 255"
+		TEXTENTRYBORDERSELECTED = ACCENT
+		BLUE = "17 129 210 255"
+		BLUE2 = "40 93 131 255"
+		GREEN = "65 82 63 180"
+		FRIENDONLINE = BLUE
+		GREEN2 = "84 164 72 255"
+		GREEN3 = "34 209 43 255"
+		DISABLEDTEXT = "109 109 109 255"
+		BUTTONHOVERBORDER = "141 141 141 255"
+		BUTTONPRESSEDBORDER = "113 113 113 255"
+		URLHOVER = WHITE
+		SETTINGSSIDEBAR = BASE1
+		SETTINGSSIDEBARBORDER = BLACK
+		LISTPANELDISABLEDTEXT = DISABLEDTEXT
+		DOWNLOADSTATLABEL = WHITE
+		DOWNLOADSAPPPANEL = BASE1
+		LISTPANELHEADER = BUTTON
+		BALANCE = ACCENT
+		INACTIVEWINDOWBORDER = DIVIDER
+		ACTIVEFRAMEBORDER = "NONE"
+		NAVBAR = BASE1
+		NAVBARBOTTOMBORDER = DIVIDER
+		NAVBARPROGRESSBARPAUSED = "none"
+		MENUBUTTONHOVER = "NONE"
+		MENUBUTTON = "NONE"
+		CLIENTLOADING = BASE1
+		OVERLAYGAMENAME = ACCENT
+		OVERLAYBAR = BASE1
+		OVERLAYBARBORDER = DIVIDER
+		OVERLAYBACKGROUND = "14 14 14 125"
+		SMGAMENAMEINSTALLED = ACCENT2
+		SMGAMENAMEINSTALLEDHOVER = ACCENT2
+		SMGAMENAMEINSTALLEDSELECTED = ACCENT2
+		SMGAMENAMEUNINSTALLED = ACCENT
+		SMGAMENAMEUNINSTALLEDHOVER = ACCENT
+		SMGAMENAMERUNNING = GREEN3
+		SMGAMENAMERUNNINGHOVER = GREEN3
+		SMGAMENAMERUNNINGSELECTED = GREEN3
+		SMGAMENAMENONSTEAM = ACCENT2
+		SMGAMENAMENONSTEAMHOVER = ACCENT2
+		SMGAMENAMENONSTEAMSELECTED = ACCENT2
+		SMGAMENAMEUPDATING = BLUE
+		SMGAMENAMEUPDATINGHOVER = BLUE
+		SMGAMENAMEUPDATINGSELECTED = BLUE
+		MENUBACKGROUND = BASE1
+		LOADINGBAR = BLUE
+		PROGRESSBARCONTAINER = BASE1
+		PROGRESSBAR = GREEN
+		BUTTONHOVER = BUTTON
+		DOWNLOADSDISCGRAPH = ACCENT
+		DOWNLOADSNETGRAPH = BUTTON
+		NOTIFICATIONBACKGROUND = BASE1
+		NAVBUTTONMENU = BASE3
+		NAVBUTTON = ACCENT
+		NAVBUTTONACTIVEBORDER = "NONE"
+		NAVBUTTONSELECTED = WHITE
+		NAVBUTTONHOVER = WHITE
+		NAVBUTTONBACKGROUNDHOVER = "NONE"
+		APPDOWNLOADSTATLABELBG = BASE1
+		ACTIONBUTTONHOVER = "NONE"
+		CAPTIONBUTTONHOVER = BUTTON
+		LISTITEM = ACCENT
+		LISTITEMHOVER = ACCENT
+		LISTITEMBACKGROUNDHOVER = BUTTON
+		SCROLLBAR = "73 73 73 255"
+		SCROLLBARHOVER = "118 118 118 255"
+		DROPDOWN = BUTTON
+		DROPDOWNBORDER = TEXTENTRYBORDER
+		DROPDOWNHOVERBORDER = WHITE
+		COMBOMENUITEMHOVER = WHITE
+		TOOLTIPBACKGROUND = BASE1
 	}
 }
