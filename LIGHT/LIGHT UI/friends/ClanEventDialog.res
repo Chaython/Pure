@@ -135,20 +135,20 @@
 		{
 			inset-top=-1
 		}
-		Button
-		{
-			bgcolor="none"
-			image="graphics\metro\icons\event"
-			padding-left=-6
-		}
-		Button:hover
-		{
-			image="graphics\metro\icons\event_h"
-		}
-		Button:active
-		{
-			image="graphics\metro\icons\event_p"
-		}
+		//Button
+		//{
+		//	bgcolor="none"
+		//	image="graphics\metro\icons\event"
+		//	padding-left=-6
+		//}
+		//Button:hover
+		//{
+		//	image="graphics\metro\icons\event_h"
+		//}
+		//Button:active
+		//{
+		//	image="graphics\metro\icons\event_p"
+		//}
 	}
 	layout
 	{

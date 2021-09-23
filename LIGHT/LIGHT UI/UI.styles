@@ -2,6 +2,11 @@
 {
 	styles
 	{
+		cclaneventdialog 
+		{
+			bgcolor = BASE2
+		}
+		
 		CSteamAuthedHTMLPopup 
 		{
 			RENDER
