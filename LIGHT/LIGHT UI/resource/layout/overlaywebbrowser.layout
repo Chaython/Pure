@@ -27,13 +27,11 @@
 			region=nav y=3 x=116 height=24 width=max margin-right=22
 		}
 
-		place {
-			control=PageLoadThrobber
-			region=nav align=right height=0 width=0
-		}
-
 		place { control=HTMLField region=body width=max height=max }
 
-		place { control=EVCert,HomeButton,StatusText height=0 width=0 margin-left=-9999 }
+		
+		
+		
+		place { control=PageLoadThrobber,EVCert,HomeButton,StatusText height=0 width=0 margin-left=-9999 }
 	}
 }
