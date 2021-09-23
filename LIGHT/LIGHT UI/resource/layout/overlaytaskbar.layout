@@ -2,14 +2,21 @@
 
 	styles { 
 	
-		//TASKBAR {
-		//	TEXTCOLOR="NONE"
-		//}
+		TASKBAR {
+			font-family="overlaytaskbar"
+			FONT-SIZE=22
+			 render {
+			 	0="fill(x0+23,y0,x1,y1,BASE1"
+			 }
+		}
 	}
 
 	layout {
-		place { control=TaskbarPanel height=max width=max }
-		place { control=SettingsButton,WebBrowserButton,MusicPlayerButton spacing=6 height=20 y=93 align=right dir=down }
+		place { control=TaskbarPanel height=max }
+		place { control=SettingsButton height=32 width=32 y=80 align=right  }
+		place { control=WebBrowserButton start=SettingsButton height=32 width=32 y=4 dir=down }
+		place { control=MusicPlayerButton start=WebBrowserButton height=32 width=32 y=4 dir=down }
+
 		place { control=SteamLogo,FriendPanel,view_friends,online_friends height=0 width=0 }
 	}
 }
