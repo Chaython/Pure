@@ -423,7 +423,7 @@
 		place { start=PingFilter control="SecureFilterLabel" y=4 dir=down margin-right=8 }
 		place { start=SecureFilterLabel control="SecureFilter" y=4 dir=down  width=177 }
 
-		place { start=SecureFilter control="ServerFullFilterCheck,ServerEmptyFilterCheck,NoPasswordFilterCheck" y=4 height=24 dir=down spacing=4 margin-right=8 }
+		place { start=SecureFilter control="ServerFullFilterCheck,ServerEmptyFilterCheck,NoPasswordFilterCheck" y=8 height=24 dir=down spacing=2 margin-right=8 }
 
 		place { control="gamelist" x=200 y=0 width=max height=max margin-bottom=44 margin-right=0 }
 		place { control="AddServerButton,RefreshQuickButton,RefreshButton,ConnectButton" region="bottom" spacing=8 height=28 align=right }
