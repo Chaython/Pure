@@ -412,13 +412,16 @@
 	layout
 	{
 		region { name="bottom" align=bottom height=44 margin=8 }
-		region { name="left" y=8 width=200 margin-left=8 margin-bottom=44 }
+		region { name="left" y=8 width=200 margin-left=12 margin-bottom=44 }
 
-		place { region=left control="GameFilterLabel,GameFilter,MapFilterLabel,MapFilter" dir=down spacing=4 margin-right=8 }
-		place { start=MapFilter control="PingFilterLabel" y=4 dir=down margin-right=8 }
-		place { start=PingFilterLabel control="PingFilter" y=4 width=164 dir=down margin-right=8 }
+		place { region=left control="GameFilterLabel" dir=down spacing=4 margin-right=8 }
+		place { control=GameFilter start=GameFilterLabel dir=down margin-top=4 width=176 }
+		place { control=mapfilterlabel start=gamefilter dir=down x=-1 margin-top=4 margin-right=8 }
+		place { control=MapFilter start=mapfilterlabel dir=down margin-top=4 x=10 width=157 }
+		place { start=MapFilter control="PingFilterLabel" y=4 x=-10 dir=down margin-right=8 }
+		place { start=PingFilterLabel control="PingFilter" y=4  dir=down width=177 }
 		place { start=PingFilter control="SecureFilterLabel" y=4 dir=down margin-right=8 }
-		place { start=SecureFilterLabel control="SecureFilter" y=4 width=164 dir=down margin-right=8 }
+		place { start=SecureFilterLabel control="SecureFilter" y=4 dir=down  width=177 }
 
 		place { start=SecureFilter control="ServerFullFilterCheck,ServerEmptyFilterCheck,NoPasswordFilterCheck" y=4 height=24 dir=down spacing=4 margin-right=8 }
 
