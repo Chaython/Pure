@@ -293,6 +293,10 @@ steam.styles
 			render_bg
 			{
 				0="image(x0+152,y0+14,x1,y0,ICONS/login_logo)"
+				1="fill(x0+1,y0,x1-1,y0+1, DIVIDER)"
+				2="fill(x0+1,y1-1,x1-1,y1, DIVIDER)"
+				3="fill(x0,y0,x0+1,y1, DIVIDER)"
+				4="fill(x1-1,y0,x1,y1, DIVIDER)"
 			}
 		}
 		"ProgressBox ProgressBar"
