@@ -23,7 +23,7 @@
 
 # INSTRUCTIONS
 * Move LIGHT UI folder to steam/skins/
-
+* go to LIGHT UI/FONTS/ install overlaytaskbar.ttf
 * On steam go to settings -> interface and choose the newly added skin,
 Steam will have to restart to apply the skin
 
