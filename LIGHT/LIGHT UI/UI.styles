@@ -2,6 +2,10 @@
 {
 	styles
 	{
+		cdialogaddserver 
+		{
+			bgcolor=BASE2
+		}
 		cclaneventdialog 
 		{
 			bgcolor = BASE2
