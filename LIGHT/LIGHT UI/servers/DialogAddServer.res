@@ -201,9 +201,10 @@
 	}
 	layout
 	{
-		region { name="header" margin=8 margin-top=0 y=40 }
-		place { region=header control=InfoLabel,ServerNameText dir=down width=max height=28 spacing=8 margin-right=8 end-right=OKButton }
-		place { region=header control=OKButton,TestServersButton start=ServerNameText margin-top=-28 dir=down align=right width=180 height=28 spacing=8 }
+		region { name="header" margin=8 margin-top=0 y=48 }
+		place { region=header control=InfoLabel width=max height=28 margin-left=8 margin-right=22 end-right=OKButton }
+		place { control=ServerNameText start=InfoLabel dir=down height=24 margin-top=8 x=10 margin-right=8 }
+		place { region=header control=OKButton,TestServersButton start=ServerNameText margin-top=-38 dir=down align=right width=180 height=28 spacing=8 }
 		
 		place { control=GameTabs start=ServerNameText dir=down y=20 width=max height=max margin-right=8 margin-bottom=44 }
 		
