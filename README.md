@@ -37,8 +37,9 @@ Steam will have to restart to apply the skin
 * METRO SKIN <3
 * AIR SKIN <3
 * phantomgamers <3
-* jonius7 <3
 * RedSigma <3
+* jonius7 <3
+* purogamer <3
 * AikoMidori <3
 
 Its not perfect yet but I will keep working on it <3
