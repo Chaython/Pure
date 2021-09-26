@@ -8,14 +8,6 @@
 
 ![LIGHT UI](https://i.imgur.com/FvlnP6U.png)
 
-![LIGHT UI](https://i.imgur.com/iTTOT3q.png)
-
-![LIGHT UI](https://i.imgur.com/VMD2aZt.png)
-
-![LIGHT UI](https://i.imgur.com/pxdiXhC.png)
-
-![LIGHT UI](https://i.imgur.com/0bjNL3o.png)
-
 ![LIGHT UI](https://media.giphy.com/media/0Ar6OuLLCNriyjYN3F/giphy.gif)
 
 
