@@ -16,11 +16,22 @@
 				1="fill( x0, y0 + 234, x1, y0 + 235, OVERLAYBARBORDER )"
 				2="fill( x0, y0 + 235, x1, y1, OVERLAYBACKGROUND)"
 			}
-			//render {
-			//				0="IMAGE( x1-104, y0+92, x1,y0+116, ICONS/SETTINGS"
-			//				1="IMAGE( x1-104, y0+120, x1,y0+148, ICONS/WEB"
-			//				2="IMAGE( x1-104, y0+148, x1,y0+174, ICONS/MUSIC"
-			//}
+			render {
+				0="fill( x1-92, y0+64, x1-50,y0+184, BASE3 )"
+
+				1="image( x1-94, y0+61, x1, y1, ICONS/TOP )"
+
+				2="image( x1-94, y0+184, x1, y1, ICONS/BOTTOM )"
+
+				//1="fill( x1-92, y0+63, x1-50, y0+64, DIVIDER )"
+				//2="fill( x1-92, y0+184, x1-50, y0+185, DIVIDER )"
+
+				3="fill( x1-93, y0+63, x1-92,y0+185, DIVIDER )"
+				4="fill( x1-50, y0+63, x1-49, y0+185, DIVIDER )"
+
+			//	1="IMAGE( x1-104, y0+120, x1,y0+148,)"
+			//	2="IMAGE( x1-104, y0+148, x1,y0+174,)"
+			}
 		}
 
 		topbar {

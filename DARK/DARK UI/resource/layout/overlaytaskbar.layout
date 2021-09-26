@@ -7,7 +7,7 @@
 			FONT-SIZE=22
 			font-weight=100
 			 render {
-			 	0="fill(x0+23,y0,x1,y1,BASE1"
+			 	0="fill(x0+23,y0,x1,y1,BASE3"
 			 }
 		}
 	}
