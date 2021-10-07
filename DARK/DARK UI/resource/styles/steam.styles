@@ -16,6 +16,7 @@ steam.styles
 		PropertySheetBG="50 55 61 255"
 		ButtonBorderDisabled="112 120 136 255"
 		ScrollBar.Wide "15"
+		Progress.barinset "0"
 	}
 	
 	layout {
@@ -1056,8 +1057,12 @@ steam.styles
 			font-family=basefont
 			font-weight=400
 			bgcolor = NOTIFICATIONBACKGROUND
-			//render_bg {}
-			//render{}
+			render_bg {
+				0="fill(x0+1,y0,x1-1,y0+1,DIVIDER)"
+				1="fill(x0,y0,x0+1,y1,DIVIDER)"
+				//2="fill(x1-1,y0,x1,y1,DIVIDER)"
+				//3="fill(x0+1,y1-1,x1-1,y1,DIVIDER)"
+			}
 		}
 
 		Page
