@@ -22,7 +22,7 @@
 		//Bottom-First Row
 		region { name="first" align=bottom width=max height=60 }
 		place { region=first control="FileNameLabel" x=8 width=70 align=left margin-bottom=8 }
-		place { region=first start=FileNameLabel control="FileNameEdit" width=max height=24 margin-bottom=8 margin-right=83 }
+		place { region=first start=FileNameLabel control="FileNameEdit" width=max height=24 margin-bottom=8 margin-right=93 margin-left=9 }
 		place { region=first start=FileNameEdit control="OpenButton" align=right width=66 height=24 margin-bottom=8 margin-right=8 }
 		//Bottom-Second Row
 		region { name="second" align=bottom width=max height=30 }
