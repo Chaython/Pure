@@ -594,6 +594,20 @@
 
 /*-------------------------- STORAGE MANAGER --------------------------*/
 
+.basiclibraryhomestaticcollections_BasicHomeDropDownControlButton_2msPh:hover, .basiclibraryhomestaticcollections_BasicHomeDropDownControlButton_2msPh:active {
+  padding-left:0!important;
+  padding-right:0!important;
+}
+
+.basiclibraryhomestaticcollections_BasicHomeDropDownControlButton_2msPh.basiclibraryhomestaticcollections_SortingDropDownControlButton_1jYNo {
+  color:var(--ACCENT)!important;
+  background:var(--DRPDOWN)!important;
+}
+
+.basiclibraryhomestaticcollections_BasicHomeDropDownControlButton_2msPh svg.basiclibraryhomestaticcollections_SortIcon_2mB91 {
+  display:none!important;
+}
+
 .contentmanagement_AppBodyPortrait_1O1Jq:hover {
   transform: scale(1.06) !important;
   transition: transform 0.18s ease-in-out !important;
@@ -618,7 +632,7 @@
 }
 
 button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary {
-  padding: 0 !important;
+  padding: 2px !important;
   min-width: 100px !important;
 }
 
@@ -666,6 +680,15 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
   .ModalPosition_Content
   > div:not(.ModalPosition_TopBar):not(.ModalPosition_Dismiss) {
   user-select: none !important;
+}
+
+.contentmanagement_AddFolder_3C0_9:hover {
+  color:var(--BLACK)!important;
+}
+
+.contentmanagement_AddFolder_3C0_9 {
+  width:25px!important;
+  height:25px!important;
 }
 
 .contentmanagement_AddFolder_3C0_9 svg {
@@ -732,6 +755,7 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
 }
 
 .contentmanagement_AppActionBar_35T-O {
+  padding-top:8px!important;
   border-top: 1px SOLID VAR(--APPDETAILSPANELBORDER) !important;
   background-color: var(--APPACTIONBAR) !important;
 }
@@ -815,7 +839,7 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
 .contentmanagement_InstallFolder_12aBP {
   cursor: unset !important;
   color: var(--CMINSTALLFOLDER) !important;
-  padding: 10px 14px 10px 14px !important;
+  padding-right: 14px !important;
 }
 
 .contentmanagement_InstallFolder_12aBP svg {
