@@ -628,8 +628,12 @@
 }
 
 button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary {
-  padding: 2px !important;
+  padding: 6px !important;
   min-width: 100px !important;
+}
+
+.contentmanagement_DriveUsageText_1DFCG, .contentmanagement_DriveUsageNumber_181OY {
+  font-size:12px!important;
 }
 
 .contentmanagement_AppsGrid_2n6FN
@@ -2188,10 +2192,12 @@ div.NarrowRightPanel
   border-radius: var(--BORDERRADIUS) !important;
 }
 
-.ModalPosition_Content
+
+
+/* .ModalPosition_Content
   > div:not(.ModalPosition_TopBar):not(.ModalPosition_Dismiss) {
   border-radius: var(--BORDERRADIUS) !important;
-}
+} */
 
 .DialogTwoColLayout > ._DialogLayout {
   max-height: 34px !important;
