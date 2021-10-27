@@ -695,6 +695,10 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
   color: var(--ADDFOLDER) !important;
 }
 
+.contentmanagement_AddFolder_3C0_9 svg:hover {
+  color:var(--BLACK)!important;
+}
+
 .contentmanagement_DriveUsageGames_22KCi {
   background: VAR(--DRIVEUSAGEGAMES) !important;
 }
