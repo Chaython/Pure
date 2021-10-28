@@ -2632,6 +2632,10 @@ div.NarrowRightPanel
   border-color: VAR(--TEXTENTRYBORDERSELECTED) !important;
 }
 
+.chatentry_EmoticonPickerButton_Aupsw .SVGIcon_Emoticon {
+  margin-top:15px!important;
+}
+
 .emoticon_NewEmoticonIndicator_3O2gR {
   background: VAR(--NEWEMOTICONINDICATORSHADOW) !important;
 }
