@@ -44,7 +44,7 @@
 		NavLabel2:selected
 		{
 			textcolor="none"
-			bgcolor=BUTTON
+			bgcolor=ACTIVELIBRARYFILTERS
 		}
 		"CGamesPage_Mini CMiniGameFilterMenuButton"
 		{
