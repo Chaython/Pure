@@ -646,11 +646,11 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
   font-size:12px!important;
 }
 
-.contentmanagement_AppsGrid_2n6FN
+/* .contentmanagement_AppsGrid_2n6FN
   .contentmanagement_AppHeader_3_uaa
   .contentmanagement_Rule_2iZ4o {
   flex-grow: 0 !important;
-}
+} */
 
 .contentmanagement_AppsGrid_2n6FN .contentmanagement_LibraryInventory_299aN {
   overflow-x: unset !important;
@@ -6374,7 +6374,7 @@ A {
 }
 
 .appgrid_SortingDropDownContainer_1ZpBQ {
-  margin-left: 0 !important;
+  margin-left: -70px !important;
   /* min-width: 162px !important; */
 }
 
