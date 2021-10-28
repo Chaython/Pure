@@ -601,7 +601,17 @@
 
 .basiclibraryhomestaticcollections_BasicHomeDropDownControlButton_2msPh.basiclibraryhomestaticcollections_SortingDropDownControlButton_1jYNo {
   color:var(--ACCENT)!important;
-  background:var(--DRPDOWN)!important;
+  background:var(--DROPDOWN)!important;
+  PADDING-LEFT:6PX!important;
+  PADDING-right:6PX!important;
+  border: VAR(--DROPDOWNBORDERWIDTH) solid var(--DROPDOWNBORDER) !important;
+  border-bottom: VAR(--DROPDOWNBORDERWIDTH) solid var(--DROPDOWNBOTTOMBORDER) !important;
+}
+
+.basiclibraryhomestaticcollections_BasicHomeDropDownControlButton_2msPh.basiclibraryhomestaticcollections_SortingDropDownControlButton_1jYNo:hover {
+  background-color: var(--DROPDOWNHOVER) !important;
+  color: var(--ACCENT) !important;
+  border-color: var(--DROPDOWNBORDERHOVER) !important;
 }
 
 .contentmanagement_AppBodyPortrait_1O1Jq:hover {
