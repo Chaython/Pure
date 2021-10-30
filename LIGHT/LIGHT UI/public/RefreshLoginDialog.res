@@ -170,6 +170,10 @@
 	}
 	layout
 	{
+		place { control="UserNameLabel" y=20}
+		place { control="Unnamed dialog1" y=24}
+		place { control="UserNameEdit" margin-left=10}
+		place { control="PasswordEdit" margin-left=10}
 		place { control="ErrorInfoLabel" y=56 margin-left=32 }
 		place { control="SavePasswordCheck" start="PasswordEdit" x=-16 y=8 dir=down }
 		place { control="LoginButton" start=SavePasswordCheck dir=down y=8 }

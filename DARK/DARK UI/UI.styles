@@ -2,6 +2,17 @@
 {
 	styles
 	{
+
+		wizardsubpanel 
+		{
+			BGCOLOR=BASE2
+		}
+
+		crefreshlogindialog 
+		{
+			BGCOLOR=BASE2
+		}
+
 		csteamcacheworkdialog 
 		{
 			bgcolor=BASE2
