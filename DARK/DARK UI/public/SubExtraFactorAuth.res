@@ -153,12 +153,14 @@
 		
 		codeEntry
 		{
-		font-size=36
+
 		}
 	}
 	layout
 	{
 		place { control="frame_minimize,frame_maximize,frame_close" align=right width=40 height=40 margin-right=1 }
+		place { control="AuthCode" height=24 start=label1 dir=down margin-left=72 }
+		place { control="SubExtraFactorAuth" height=max width=max } 
 	}
 }
  
