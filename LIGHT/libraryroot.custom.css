@@ -4123,6 +4123,8 @@ div.ShortRightPanel .libraryhomeshowcases_AddShowcase_2aw5a {
   margin-top: 12px !important;
 }
 
+
+
 .libraryhomenewupdates_WhatsNewSettingsContainer_2JKpG {
   background: var(--BASE2) !important;
 }
@@ -6001,8 +6003,13 @@ div.NarrowRightPanel .appdetailsprimarylinkssection_LinksSection_3-V8v {
 .gamelisthome_Bar_3pSPl:hover .gamelisthome_CollectionIconBox_2tyaV {
   background-color: var(--COLLECTIONICONHOVER) !important;
 }
+
+.LibraryDisplaySizeMedium .libraryhome_UpdatesContainer_17uEB {
+  display:none!important;
+}
+
 .libraryhome_UpdatesContainer_17uEB {
-  background: var(--BASE2) !important;
+  display:none!important;
 }
 .libraryhome_LibraryHome_3Sb2o {
   padding: 10px 10px !important;
