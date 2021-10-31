@@ -1562,16 +1562,20 @@ div.MediumWindow
 
 /*-------------------------- LIBRARY HOME ICON --------------------------*/
 
+.gamelisthome_Bar_3pSPl .gamelisthome_Label_3O48L::BEFORE {
+  content:'H '!important;
+}
+
 .gamelisthome_Bar_3pSPl .gamelisthome_Label_3O48L {
   position: fixed !important;
   transition: filter 0.3s ease-in-out !important;
   width: 37px !important;
-  color: transparent !important;
-  background-image: url(https://i.imgur.com/Aiv7HJI.png) !important;
+  color: var(--ACCENT) !important;
+  /* background-image: url(https://i.imgur.com/Aiv7HJI.png) !important;
   background-size: 20px !important;
   background-repeat: no-repeat !important;
-  background-position: center !important;
-  left: -3px !important;
+  background-position: center !important; */
+  left: 8px !important;
   margin-left: 2px !important;
   height: 22px !important;
   top: 11px !important;
@@ -6061,11 +6065,11 @@ div.NarrowRightPanel .appdetailsprimarylinkssection_LinksSection_3-V8v {
 .gamelistsectionheader_SectionCount_29ute {
   color: var(--GAMEGROUPNAMECOLOR) !important;
 }
-.gamelisthome_Selected_eNLOx .gamelisthome_Label_3O48L {
+/* .gamelisthome_Selected_eNLOx .gamelisthome_Label_3O48L {
   color: TRANSPARENT !important;
-}
+} */
 .gamelisthome_Bar_3pSPl {
-  width: 22px !important;
+  /* width: 22px !important; */
   background-color: transparent !important;
 }
 .gamelisthome_CollectionBar_xeuK3 {
@@ -6216,8 +6220,9 @@ A {
   fill: var(--BUTTONHOVER) !important;
 }
 .gamelisthome_Bar_3pSPl:hover .gamelisthome_Label_3O48L {
-  color: transparent !important;
-  filter: VAR(--FILT) !important;
+  /* color: transparent !important;
+  filter: VAR(--FILT) !important; */
+  color:var(--BLACK)!important;
 }
 
 .gamelistdropdown_Bar_1ZS_x
