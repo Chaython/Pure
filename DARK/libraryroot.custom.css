@@ -1568,12 +1568,14 @@ div.MediumWindow
 }
 
 .gamelisthome_Bar_3pSPl .gamelisthome_Label_3O48L {
+  font-family:Untitled1!important;
+  font-size:20px!important;
   position: fixed !important;
   transition: filter 0.3s ease-in-out !important;
   width: 37px !important;
   color: var(--ACCENT) !important;
-  /* background-image: url(https://i.imgur.com/Aiv7HJI.png) !important;
-  background-size: 20px !important;
+  /* background-image: url(https://i.imgur.com/AAFscfG.png) !important; */
+  /* background-size: 20px !important;
   background-repeat: no-repeat !important;
   background-position: center !important; */
   left: 8px !important;
