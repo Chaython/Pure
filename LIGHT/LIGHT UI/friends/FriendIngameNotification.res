@@ -154,7 +154,6 @@
 		place { control="LabelGame" x=63 y=35 margin-right=10 }
 	
 		//Hidden
-		place { control="LabelInfo" width=1 align=right }
-		place { control="LabelHotkey" width=0 height=0 }
+		place { control="LabelInfo,LabelHotkey" margin-left=-999 height=0 width=0 }
 	}
 }
