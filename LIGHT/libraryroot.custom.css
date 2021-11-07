@@ -4726,7 +4726,12 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Mor
   margin-bottom: 8px !important;
 }
 
+.appdetailscommunityfeed_ArtItem_1aP1b .appdetailscommunityfeed_BottomSection_3uabi {
+  box-shadow:unset!important;
+}
+
 .steamavatar_avatar_3h-QR {
+  box-shadow:unset!important;
   opacity: var(--STEAMAVATAROP) !important;
   border: VAR(--AVATARBORDERWIDTH) solid var(--AVATARBORDER) !important;
 }
