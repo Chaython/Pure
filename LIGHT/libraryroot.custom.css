@@ -1484,6 +1484,7 @@ div.MediumWindow
 /*-------------------------- 0 u 0 COMPACT SIDEBAR 0 u 0 -------------------------- */
 
 .gamelistbar_GameListHomeAndSearch_2TKEa {
+  box-shadow:unset!important;
   position: absolute !important;
   background: none !important;
 }
@@ -2623,6 +2624,10 @@ div.NarrowRightPanel
   .DialogTextInputBase:hover:not(.DialogTextInputBase:active) {
   border-color: VAR(--TEXTENTRYBORDERHOVER) !important;
   background-color: VAR(--TEXTENTRYBACKGROUNDHOVER) !important;
+}
+
+.DialogTextInputBase:focus {
+  box-shadow:unset!important;
 }
 
 .gamelistsearchbar_Container_20QAC
@@ -5304,7 +5309,13 @@ div.ShortRightPanel
   .libraryhomenewupdates_PartnerEventRowCapsule_MainImageContainer_SPz0i {
   border-radius: 10px !important;
 }
+
+.gamelistentry_Selected_1UBpA.gamelistentry_Container_2-O4Z, .gamelistentry_Selected_1UBpA .gamelistentry_Container_2-O4Z {
+  box-shadow:unset!important;
+}
+
 .appportrait_LibraryItemBox_WYgDg {
+  box-shadow:unset!important;
   border-radius: 0 !important;
   border-top: 0 !important;
   border-bottom: 1px SOLID TRANSPARENT !important;
@@ -5609,6 +5620,7 @@ div.NarrowRightPanel
   border-top-right-radius: var(--COMMUNITYFEEDBORDERROUNDED4) !important;
 }
 .appdetailscommunityfeed_CommunityItem_3QS6O {
+  box-shadow:unset!important;
   border-radius: var(--BORDERRADIUS) !important;
   background-color: var(--APPDETAILSPANEL) !important;
 }
@@ -5690,6 +5702,7 @@ div.NarrowRightPanel
   border-radius: VAR(--PROGRESSBARBORDERROUNDED) !important;
 }
 .appdetailssection_Highlight_38t1m {
+  box-shadow:unset!important;
   color: var(--ACCENT) !important;
   background: NONE !important;
 }
@@ -6311,7 +6324,12 @@ A {
   transition: all 0.18s ease-in-out !important;
 }
 
+.DialogDropDown:hover {
+  box-shadow:unset!important;
+}
+
 .DialogCheckbox {
+  box-shadow:unset!important;
   border: 1px SOLID VAR(--CHECKBOXBORDER) !important;
   background-color: var(--CHECKBOX) !important;
   border-radius: var(--CHECKBOXBORDERRADIUS) !important;
@@ -7539,6 +7557,7 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
   background: var(--SHELFINSTALLBUTTONHOVER) !important;
 }
 .smartscrollcontainer_ScrollToTopButton_1J21t div {
+  box-shadow:unset!important;
   letter-spacing: var(--LETTERSPACING) !important;
   font-weight: var(--SCROLLTOTOPFONTWEIGHT) !important;
   color: var(--SCROLLTOTOPTEXT) !important;
