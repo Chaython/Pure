@@ -254,23 +254,23 @@
 				0="fill( x1 - 1, y1 - 1, x1 - 2, y1 - 2, "NONE" )"
 			}
 
-			image="ICONS/FVLOCK"
+			image="ICONS/FVUNLOCK"
 			PADDING-RIGHT=4
 		}
 		parental_lock_button:hover
 		{
 			BGCOLOR = ACTIONBUTTONHOVER
-			IMAGE="ICONS/FVLOCK_H"
+			IMAGE="ICONS/FVUNLOCK_H"
 		}
 		parental_lock_button:selected
 		{
 			bgcolor="none"
-			image="ICONS/FVUNLOCK"
+			image="ICONS/FVLOCK"
 		}
 		parental_lock_button:selected:hover
 		{
 			BGCOLOR = ACTIONBUTTONHOVER
-			IMAGE="ICONS/FVUNLOCK_H"
+			IMAGE="ICONS/FVLOCK_H"
 
 		}
 

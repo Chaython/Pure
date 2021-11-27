@@ -20,9 +20,8 @@
 		Password
 		{
 			font-family=semibold
-			font-size=40
-			bgcolor="Header_Dark"
-			minimum-height=50
+			font-size=24
+			minimum-height=24
 		}
 		Hey
 		{
