@@ -2,8 +2,15 @@
 {
 	styles
 	{
-
-		wizardsubpanel 
+		cdialogrequestdeviceauthorization
+		{
+			BGCOLOR=BASE2
+		}
+		cdialogchoosepurchaseorauthorization
+		{
+			BGCOLOR=BASE2
+		}
+		SubExtraFactorAuth
 		{
 			BGCOLOR=BASE2
 		}
