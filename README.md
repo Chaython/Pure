@@ -1,7 +1,4 @@
-# PREVIEW - [![paypal](https://i.imgur.com/STidKfu.png)](https://www.paypal.com/donate?hosted_button_id=3ZF6GWCRZEVUC)
-
 ![LIGHT UI](https://i.imgur.com/YabnX7y.png)
-
 ![LIGHT UI](https://i.imgur.com/QxdaBEX.png)
 
 ![LIGHT UI](https://i.imgur.com/Mp39wfp.png)
