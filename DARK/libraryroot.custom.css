@@ -5387,6 +5387,11 @@ div.ShortRightPanel
 .appportrait_PortraitMessage_3gwMk.appportrait_SubMessage_3DR9f {
   color: var(--ACCENT) !important;
 }
+
+.marquee_Container_1-4ek {
+  overflow-x:unset!important;
+}
+
 .appportrait_PlaytimeDetails_3bkuo.appportrait_PlayedTotal_ma8y_,
 .appportrait_PlaytimeDetails_3bkuo.appportrait_PlayedRecent_3JWBB {
   color: var(--ACCENT) !important;
