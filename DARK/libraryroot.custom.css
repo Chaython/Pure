@@ -5217,6 +5217,15 @@ div.ShortRightPanel
   .gamelisthome_CollectionIconBox_2tyaV {
   background-color: var(--COLLECTIONICON) !important;
 }
+
+.appdetailsspotlight_ReviewContainer_3LE-6 .appdetailsspotlight_RatingContainer_1E_EN {
+  margin-left:8px!important;
+}
+
+.spotlight_MajorEventHeader_1HL2n {
+  margin-left:8px!important;
+}
+
 .gamelistsearchbar_Container_20QAC
   .gamelistsearchbar_AdvancedSearchContainer_vCCmY
   .gamelistsearchbar_AdvancedSearchPaneContainer_1dgAM.gamelistsearchbar_Visible_1v65x

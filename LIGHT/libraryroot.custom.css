@@ -5216,6 +5216,15 @@ div.ShortRightPanel
 .appdetailsreviewsection_ReviewText_3k8QE {
   color: var(--ACCENT) !important;
 }
+
+.appdetailsspotlight_ReviewContainer_3LE-6 .appdetailsspotlight_RatingContainer_1E_EN {
+  margin-left:8px!important;
+}
+
+.spotlight_MajorEventHeader_1HL2n {
+  margin-left:8px!important;
+}
+
 .spotlight_MajorEventHeader_1HL2n .spotlight_EventType_3zVyX {
   font-weight: VAR(--MAJOREVENTHEADERFONTWEIGHT) !important;
   color: var(--ACCENT) !important;
