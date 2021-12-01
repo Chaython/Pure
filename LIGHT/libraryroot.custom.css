@@ -902,12 +902,6 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
 
 /*-------------------------- DOWNLOADS PAGE --------------------------*/
 
-
-div.NarrowWindow .downloadgraph_DownloadGraph_1BxZD .downloadgraph_Gradient_RfMM3, div.ShortWindow .downloadgraph_DownloadGraph_1BxZD .downloadgraph_Gradient_RfMM3 {
-  background: linear-gradient(90deg, rgba(222,222,222,1) 0%, rgba(255,255,255,0) 35%, rgba(255,255,255,0) 100%)!important;
-}
-
-
 .downloads_SectionItem_1VNuY
   .downloads_ButtonWrapper_2Zfas.downloads_Right_2WEwE:visible {
   display: none !important;
@@ -1068,11 +1062,6 @@ div.NarrowWindow .downloadgraph_DownloadGraph_1BxZD .downloadgraph_Gradient_RfMM
 
 .downloads_SectionJumpBar_mw7VZ.downloads_Show_2S18z {
   display: none !important;
-}
-
-.downloads_SectionTitle_qq2xI .downloads_TitleAndCount_ROxNr,
-.downloads_SectionJumpBar_mw7VZ .downloads_TitleAndCount_ROxNr {
-  /* display: none !important; */
 }
 
 .downloads_SectionList_OINnO.downloads_DropOption_2m6Q3 {
@@ -1651,7 +1640,7 @@ div.MediumWindow
   background-repeat: no-repeat !important;
   background-position: center !important;
   font-size: 0 !important;
-  color: transparent !important;
+  color: transparent !important; 
   border-radius: 100px !important;
   background-color: var(--BASE1) !important;
   border: 1px solid var(--APPDETAILSPANELBORDER) !important;
@@ -1683,14 +1672,48 @@ div.MediumWindow
 
 /*-------------------------- NEW COLLECTION ICON --------------------------*/
 
+.LibraryDisplaySizeSmall .allcollections_ScrollContainer_u1xD3 .allcollections_Grid_Ma65K .allcollections_NewCollection_2_dwx .allcollections_BigPlus_g0-tU:before,.LibraryDisplaySizeLarge .allcollections_ScrollContainer_u1xD3 .allcollections_Grid_Ma65K .allcollections_NewCollection_2_dwx .allcollections_BigPlus_g0-tU:before,.LibraryDisplaySizeMedium .allcollections_ScrollContainer_u1xD3 .allcollections_Grid_Ma65K .allcollections_NewCollection_2_dwx .allcollections_BigPlus_g0-tU:before {
+  content:'C'!important;
+  font-family:untitled1!important;
+}
+
+.LibraryDisplaySizeSmall .allcollections_ScrollContainer_u1xD3 .allcollections_Grid_Ma65K .allcollections_NewCollection_2_dwx .allcollections_BigPlus_g0-tU:before {
+  font-size:40px!important;
+}
+
+.LibraryDisplaySizeMedium .allcollections_ScrollContainer_u1xD3 .allcollections_Grid_Ma65K .allcollections_NewCollection_2_dwx .allcollections_BigPlus_g0-tU:before {
+  font-size:60px!important;
+}
+
+.LibraryDisplaySizeLarge .allcollections_ScrollContainer_u1xD3 .allcollections_Grid_Ma65K .allcollections_NewCollection_2_dwx .allcollections_BigPlus_g0-tU:before {
+  font-size:70px!important;
+}
+
+.allcollections_Collection_3IWn- svg {
+  display:none!important;
+}
+
 .allcollections_Collection_3IWn- .allcollections_BigPlus_g0-tU {
+  color:var(--REMOVECOLLECTIONXSTROKE)!important;
   margin-bottom: 7px !important;
-  background-image: url(https://i.imgur.com/uV1uBAo.png) !important;
+  /* background-image: url(https://i.imgur.com/uV1uBAo.png) !important;
   background-size: 20px !important;
   background-position: center !important;
   color: transparent !important;
-  opacity: 50% !important;
-  transform: scale(3) !important;
+  opacity: 50% !important; */
+  /* transform: scale(3) !important; */
+}
+
+
+.allcollections_Collection_3IWn-.allcollections_NewCollection_2_dwx {
+  border: VAR(--NEWCOLLECTIONBORDERWIDTH) SOLID var(--NEWCOLLECTIONBORDER) !important;
+  background: var(--NEWCOLLECTIONBACKGROUND) !important;
+  box-shadow: var(--BOXSHADOW) VAR(--NEWCOLLECTIONSHADOW) !important;
+}
+.allcollections_Collection_3IWn-:hover.allcollections_Collection_3IWn- .allcollections_BigPlus_g0-tU {
+  color:var(--ACCENT)!important;
+  background: VAR(--NEWCOLLECTIONBACKGROUNDHOVER) !important;
+  border-color: VAR(--NEWCOLLECTIONBORDERHOVER) !important;
 }
 
 /*-------------------------- NEW COLLECTION ICON --------------------------*/
@@ -2431,15 +2454,6 @@ div.NarrowRightPanel
   .allcollections_NewCollection_2_dwx
   .allcollections_BigPlus_g0-tU {
   top: 24% !important;
-}
-
-.LibraryDisplaySizeSmall
-  .allcollections_ScrollContainer_u1xD3
-  .allcollections_Grid_Ma65K
-  .allcollections_NewCollection_2_dwx
-  .allcollections_BigPlus_g0-tU {
-  top: calc(50% - 42px) !important;
-  transform: SCALE(1.9) !important;
 }
 
 .appgrid_ReadyToPlayBigButton_3wbWH.appgrid_Small_2JAQ7
@@ -4528,15 +4542,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Cen
   text-shadow: none !important;
   color: var(--ACCENT) !important;
 }
-.allcollections_Collection_3IWn-.allcollections_NewCollection_2_dwx {
-  border: VAR(--NEWCOLLECTIONBORDERWIDTH) SOLID var(--NEWCOLLECTIONBORDER) !important;
-  background: var(--NEWCOLLECTIONBACKGROUND) !important;
-  box-shadow: var(--BOXSHADOW) VAR(--NEWCOLLECTIONSHADOW) !important;
-}
-.allcollections_Collection_3IWn-:hover {
-  background: VAR(--NEWCOLLECTIONBACKGROUNDHOVER) !important;
-  border-color: VAR(--NEWCOLLECTIONBORDERHOVER) !important;
-}
+
 .allcollections_Collection_3IWn-
   .allcollections_CollectionLabel_1J1LQ
   .allcollections_CollectionLabelCount_36QQL {
@@ -6138,11 +6144,6 @@ div.NarrowRightPanel .appdetailsprimarylinkssection_LinksSection_3-V8v {
   position: ABSOLUTE !important;
   left: 41px !important;
   bottom: 2px !important;
-}
-
-.appdetailsoverview_Container_27RcN .appdetailsoverview_ColumnContainer_OhSdL {
-  /* padding: 0 !important;
-  padding-left: 4px !important; */
 }
 
 .gamelisthome_Bar_3pSPl.gamelisthome_Selected_eNLOx {
