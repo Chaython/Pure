@@ -1589,11 +1589,19 @@ div.MediumWindow
 
 /*-------------------------- INFO ICON --------------------------*/
 
+.appdetailsplaysection_DotDotDot_zvLq1::before {
+  content:'I'
+}
+
 .appdetailsplaysection_MenuButton_3qDWQ .appdetailsplaysection_DotDotDot_zvLq1 {
-  background-image: url(https://i.imgur.com/E2PFaFj.png) !important;
+  font-family:Untitled1!important;
+  color:var(--ACCENT)!important;
+  font-size:18px!important;
+  line-height:21px!important;
+  /* background-image: url(https://i.imgur.com/E2PFaFj.png) !important;
   background-size: 18px !important;
   background-repeat: NO-REPEAT !important;
-  background-position: CENTER !important;
+  background-position: CENTER !important; */
 }
 
 /*-------------------------- INFO ICON --------------------------*/
