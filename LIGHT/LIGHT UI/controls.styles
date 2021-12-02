@@ -286,7 +286,7 @@
 		{
 			render
 			{
-				1="fill(x0,y1-2,x1,y1,BUTTONHOVERBORDER)"  // bottom
+				1="fill(x0,y1-2,x1,y1,DROPDOWNHOVERBORDER)"  // bottom
 			}
 
 		
