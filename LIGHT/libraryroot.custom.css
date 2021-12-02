@@ -379,7 +379,7 @@
   --CONTEXTMENU: VAR(--BASE3);
   --CONTEXTMENUPLAYBUTTON: NONE;
   --CONTEXTMENUACTIONBUTTONTEXT: VAR(--ACCENT);
-  --CONTEXTMENUPLAYBUTTONHOVER: var(--BUTTON2);
+  --CONTEXTMENUPLAYBUTTONHOVER: var(--LISTITEMBACKGROUNDHOVER);
   --CONTEXTMENUINSTALLBUTTON: NONE;
   --CONTEXTMENUINSTALLBUTTONHOVER: VAR(--BUTTON2);
   --CHECKMARKPADDING: 2px;
@@ -6527,7 +6527,7 @@ A {
 }
 .contextmenu_contextMenuItem_1n7Wl:hover,
 .contextmenu_contextMenuItem_1n7Wl.contextmenu_active_18z-3 {
-  background: VAR(--BUTTON2) !important;
+  background: VAR(--LISTITEMBACKGROUNDHOVER) !important;
 }
 
 .appdetailsachievementssection_UnachievedSection_3ca11.appdetailsachievementssection_ShowDivider_3i6Pc {
