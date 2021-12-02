@@ -1712,6 +1712,9 @@ div.MediumWindow
 }
 .allcollections_Collection_3IWn-:hover.allcollections_Collection_3IWn- .allcollections_BigPlus_g0-tU {
   color:var(--ACCENT)!important;
+}
+
+.allcollections_Collection_3IWn-:hover {
   background: VAR(--NEWCOLLECTIONBACKGROUNDHOVER) !important;
   border-color: VAR(--NEWCOLLECTIONBORDERHOVER) !important;
 }
