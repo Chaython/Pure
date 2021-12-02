@@ -219,7 +219,7 @@
 		CheckButton:hover
 		{
 			image=ICONS/check_h
-			TEXTCOLOR=BLACK
+			TEXTCOLOR=CHECKBUTTONHOVER
 		}
 		CheckButton:selected
 		{
