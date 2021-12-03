@@ -91,7 +91,7 @@
 		//Caption Buttons
 		place { control="frame_minimize,frame_maximize,frame_close" align=right width=40 height=40 margin-right=1 }
 		//Page
-		place {	control="MusicPage_Details_Content" y=78 width=max height=max }
+		place {	control="MusicPage_Details_Content" width=max height=max }
 		//Search
 		place { control="library_search" region=top align=left y=7 height=24 width=224 }
 		place { control="label_search_icon" region=top align=left y=7 x=224 height=24 width=24 }

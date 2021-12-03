@@ -10,7 +10,7 @@
 	{
 		PositionLabelStyle
 		{ 
-			textcolor=White75
+			textcolor=ACCENT
 			font-family=basefont
 			font-size=16
 			font-weight=400
@@ -22,7 +22,7 @@
 
 		TrackLabelStyle
 		{
-			textcolor=White75
+			textcolor=ACCENT
 			font-family=basefont
 			font-size=16
 			font-weight=400

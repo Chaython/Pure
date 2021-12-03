@@ -1,5 +1,9 @@
 "UI.styles"
 {
+	LAYOUT {
+		place {control=inputdialog height=24}
+	}
+	
 	styles
 	{
 		WIZARDPANEL
@@ -530,11 +534,13 @@
 
 		InputDialog
 		{
+			BGCOLOR=BASE2
+			
 			render_bg
 			{
 				//Bottom
-				1="fill( x0, y1-36, x1, y1-35, DIVIDER )"
-				2="fill( x0, y1-35, x1, y1, BASE1 )"
+				//1="fill( x0, y1-36, x1, y1-35, DIVIDER )"
+				//2="fill( x0, y1-35, x1, y1, BASE1 )"
 			}
 		}
 
