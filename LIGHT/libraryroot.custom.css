@@ -1592,11 +1592,18 @@ div.MediumWindow
 
 /*-------------------------- SEND ICON --------------------------*/
 
+.posttextentry_PostTextEntry_3x31A .posttextentry_Controls_37e7D .posttextentry_PostButton_2JSyA::before {
+  content: 'P'!important;
+  font-family: untitled1!important;
+  font-size:18px!important;
+  color:var(--ACCENT)!important;
+}
+
 .posttextentry_PostTextEntry_3x31A
   .posttextentry_Controls_37e7D
   .posttextentry_PostButton_2JSyA {
   background-color: transparent !important;
-  background-image: url("https://i.imgur.com/WIakdrU.png") !important;
+  /* background-image: url("https://i.imgur.com/WIakdrU.png") !important; */
   background-size: 18px !important;
   background-repeat: NO-REPEAT !important;
   border-radius: 0 !important;
@@ -1605,6 +1612,10 @@ div.MediumWindow
   padding: 0 !important;
   margin-right: 3px !important;
   margin-top: 7px !important;
+}
+
+.posttextentry_PostTextEntry_3x31A .posttextentry_Controls_37e7D .posttextentry_PostButton_2JSyA::before:hover {
+  color:var(--BLACK)!important;
 }
 
 /*-------------------------- SEND ICON --------------------------*/
