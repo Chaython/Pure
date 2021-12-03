@@ -4316,12 +4316,14 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Cen
 .posttextentry_PostTextEntry_3x31A
   .posttextentry_Controls_37e7D
   .posttextentry_PostButton_2JSyA.posttextentry_Enabled_bGfja:hover {
-  background-image: url("https://i.imgur.com/WIakdrU.png");
+  /* background-image: url("https://i.imgur.com/WIakdrU.png"); */
+  color:var(--BLACK)!important;
 }
 .posttextentry_PostTextEntry_3x31A
   .posttextentry_Controls_37e7D
   .posttextentry_PostButton_2JSyA.posttextentry_Enabled_bGfja {
-  background-image: url("https://i.imgur.com/TLjoTgS.png") !important;
+  /* background-image: url("https://i.imgur.com/TLjoTgS.png") !important; */
+  BACKGROUND:TRANSPARENT!important;
 }
 .ModalPosition_Dismiss .closeButton {
   padding-right: 10px !important;
