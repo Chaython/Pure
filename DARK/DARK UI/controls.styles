@@ -181,7 +181,7 @@
 		RadioButton:hover
 		{
 			render_bg {}
-			TEXTCOLOR=BLACK
+			TEXTCOLOR=RADIOBUTTONHOVER
 			image="ICONS/radio_h"
 		}
 		RadioButton:selected
