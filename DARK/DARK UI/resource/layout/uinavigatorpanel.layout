@@ -346,7 +346,7 @@ styles
 
 	WebPanelStyle
 	{
-		bgcolor="255 0 0 255"
+		bgcolor=BASE2
 	}
 
 	CWebPanel
