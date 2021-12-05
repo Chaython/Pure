@@ -18,7 +18,7 @@
 * On steam go to settings -> interface and choose the newly added skin,
 Steam will have to restart to apply the skin
 
-* Install SteamFriendsPatcher. NOTE (if running v0.1.36-beta, "Steam Beta" in Settings, needs to be ticked.) 
+* Install (https://github.com/PhantomGamers/SteamFriendsPatcher). NOTE (if running v0.1.36-beta, "Steam Beta" in Settings, needs to be ticked.) 
 
 * take the libraryrootcustom.css file and paste it on steam/steamui/
 * take the friends.custom.css file and paste it on steam/clientui/
