@@ -4,11 +4,15 @@
 	{
 		"ListPanelColumnHeader"
 		{
-			BGCOLOR=BASE2
+			RENDER {
+				0="FILL(x0, y0, x1,y0+1, DIVIDER)"
+				1="FILL(x0, y1, x1,y1-1, DIVIDER)"
+			}
+			BGCOLOR=BASE3
 		}
 		"LISTPANELINTERIOR"
 		{
-			BGCOLOR=BASE2
+			BGCOLOR=BASE1
 		}
 		
 		"ListPanelColumnHeader CheckButton"
@@ -43,8 +47,8 @@
 
 	layout
 	{
-		place { control="AppList" height=max width=max x=1 margin-right=1 margin-top=76 margin-bottom=44 }
-		place { control="Label1" x=16 y=46 width=max margin-right=8 }
+		place { control="AppList" height=max width=max x=1 margin-right=1 margin-top=86 margin-bottom=44 }
+		place { control="Label1" x=16 y=50 width=max margin-right=8 }
 
 		region { name="right" align=bottom height=44 }
 		place { control="BrowseButton,AddSelectedButton,CloseButton" region=right height=28 spacing=6 margin=8 align=right }	
