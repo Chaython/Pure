@@ -7,7 +7,7 @@
 
   --DISPLAYCOMMUNITYCONTENT: GRID; /*DEFAULT IS "GRID" */
   --DISPLAYAPPDETAILS: flex; /*DEFAULT IS FLEX, set to "contents" when disabling community content*/
-  --DISPLAYLIBRARYPANEL: FLEX;
+  --DISPLAYLIBRARYPANEL: unset;
   --SIDEBARLISTTEXTCASE: NORMAL; /*default is normal*/
   --GAMEIMAGESHINE: unset;
   --SIDEBARMINWIDTH: 256px;
@@ -286,7 +286,7 @@
   --HIDDENACHIEVEMENTBG: RGB(0, 0, 0);
   --HIDDENACHIEVEMENTQMARK: VAR(--WHITE);
   --COMMUNITYFEEDCONTROLS: VAR(--BASE3);
-  --COMMUNITYFEEDCONTROLSBORDER: VAR(--SHADOW);
+  --COMMUNITYFEEDCONTROLSBORDER: VAR(--DIVIDER);
   --COMMUNITYFEEDBORDERROUNDED1: 4px; /*bottom left*/
   --COMMUNITYFEEDBORDERROUNDED2: 4px; /*bottom right*/
   --COMMUNITYFEEDBORDERROUNDED3: 4px; /*top left*/
@@ -419,7 +419,7 @@
   --SCROLLTOTOPTEXT: VAR(--BASE1);
   --SCROLLTOTOPFONTWEIGHT: 400;
   --SCROLLTOTOP: VAR(--ACCENT);
-  --SCROLLTOTOPBORDER: VAR(--BASE1);
+  --SCROLLTOTOPBORDER: VAR(--DIVIDER);
   --FILTERLABEL: VAR(--ACCENT);
   --FILTERLABELHOVER: VAR(--BLACK);
   --FILTERBUCKETLABELFONTWEIGHT: VAR(--INSTALLEDGAMENAMEFONTWEIGHT);
@@ -432,7 +432,7 @@
   --SIDEBARBORDERWIDTH: 2px;
   --SIDEBARBORDER: VAR(--DIVIDER);
   --SIDEBARBORDERHOVER: VAR(--DIVIDER);
-  --DIVIDER: VAR(--BASE1);
+  --DIVIDER: VAR(--BUTTON2);
   --SEARCHFILTERBORDER: VAR(--DIVIDER);
   --SEARCHFILTERBORDERWIDTH: 0;
   --REMOVESEARCHFILTERFILT: unset;
@@ -6915,6 +6915,11 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
   background-color: transparent !important;
   color: var(--FILTERLABEL) !important;
 }
+
+.gamelistsearchbar_Container_20QAC .gamelistsearchbar_AdvancedSearchContainer_vCCmY {
+  border-radius:var(--BORDERRADIUS)!important;
+}
+
 .appgrid_SortingDropDown_1tBzy .appgrid_SortingDropDownLabel_1ljKT {
   color: var(--ACCENT) !important;
   font-weight: 400 !important;
