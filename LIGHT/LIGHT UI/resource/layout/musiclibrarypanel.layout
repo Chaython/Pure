@@ -91,7 +91,7 @@
 		//Caption Buttons
 		place { control="frame_minimize,frame_maximize,frame_close" align=right width=40 height=40 margin-right=1 }
 		//Page
-		place {	control="MusicPage_Details_Content" width=max height=max }
+		place {	control="MusicPage_Details_Content" start=subnavgroup_library width=max height=max }
 		//Search
 		place { control="library_search" region=top align=left y=7 height=24 width=224 }
 		place { control="label_search_icon" region=top align=left y=7 x=224 height=24 width=24 }
@@ -99,6 +99,6 @@
 		place { control="library_music_player_icon" region=top align=right y=7 height=24 spacing=1 width=24 }	
 		place { control="library_music_add_button,library_music_menu" region=top align=right end-right=library_Music_player_icon y=7 height=24 margin-right=0 }	
 		//Hidden
-		place { control="subnavgroup_library" width=1 margin-left=-99 }
+		place { control="subnavgroup_library" height=0 width=0 margin-left=-99 }
 	}
 }

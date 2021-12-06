@@ -115,7 +115,7 @@
 
 	layout
 	{
-		region { name=songs width=max height=max X=-12 Y=-20 overflow=allow-vertical margin-right=16 }
+		region { name=songs width=max height=max X=-13 overflow=allow-vertical margin-top=6 margin-right=16 }
 		region { name=buttons x=216 y=8 width=max height=max overflow=scroll-vertical margin-right=16 }
 
 		//Album Art
