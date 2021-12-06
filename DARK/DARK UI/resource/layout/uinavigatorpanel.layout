@@ -511,7 +511,7 @@ layout [$WINDOWS]
 	place { control="library_zoom" region=top align=right y=10 height=26 width=100 margin-right=100 }
 	place { start=library_search control="library_filters_list,library_filters_details,library_filters_grid" align=right width=28 height=39 spacing=1 margin-right=1 }
 	place { start=library_filters control="library_music_menu" align=right height=32 end-right="library_music_add_button" }
-	place { start=library_filters control="library_music_add_button,library_music_player_icon" align=right margin-right=20 height=32 width=28 }
+	place { start=library_filters control="library_music_add_button,library_music_player_icon" align=right margin-right=8 height=32 width=28 }
   
   // Probably used for banners
   place { control=URLAnchor align=left y=84 height=28 width=max }
