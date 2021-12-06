@@ -20,7 +20,9 @@
 		Mini_Mode {	text="#steam_menu_minimode"  shellcmd="steam://open/minigameslist" }
 		Large_Mode { text="#steam_menu_largemode"  shellcmd="steam://open/largegameslist" }
 		Divider {}
-		lightmodeskin {	text="Light UI"  shellcmd="steam://openurl/https://github.com/uwuAngelo/LIGHT-UI" }
+		Hidden { text="#steam_menu_hidden_games" shellcmd="steam://nav/library/collection/hidden" }
+		Divider {}
+		lightmodeskin {	text="Light UI"  shellcmd="steam://openurl/https://github.com/snudgee/LIGHT-UI" }
 		}
 
 		
