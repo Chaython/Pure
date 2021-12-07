@@ -13,6 +13,7 @@
   --SHADOW: #d6d1d1;
   --BLUE: #1181d2;
   --GREEN: #54a448;
+  --COUNTDOWN: #FFD0A5;
   --TEXTENTRY: var(--BASE2);
   --TEXTENTRYHIGHLIGHT: #d5d5d5;
   --BUTTONBORDER: #b8b8b8;
@@ -133,6 +134,17 @@ span.platform_img.win::before {
 }
 
 /* REVIEW ICONS */
+
+.top_new_releases_banner_ctn a:hover {
+  background:var(--BASE3)!important;
+}
+
+.top_new_releases_banner_ctn a {
+  background:var(--BASE1)!important;
+  border:1px solid var(--PANELBORDER)!important;
+  border-radius:var(--BORDERRADIUS)!important;
+  box-shadow:var(--BOXSHADOW) var(--SHADOW)!important;
+}
 
 .search_labs_banner {
   display:none!important;
@@ -1538,6 +1550,8 @@ body::-webkit-scrollbar {
   }
 }
 .searchbox {
+  height:23px!important;
+  margin-top:2px!important;
   transition: all 0.18s ease-in-out !important;
   color: var(--ACCENT) !important;
   background-image: none !important;
@@ -4283,6 +4297,7 @@ body.v6 h2 {
 
 .review_box {
   border: 1px SOLID VAR(--PANELBORDER) !important;
+
   box-shadow: var(--BOXSHADOW) VAR(--SHADOW) !important;
 }
 
@@ -4709,7 +4724,7 @@ body.v6 .page_content.browse_reviews {
   background-color: var(--blue) !important;
   display: inline-block !important;
   font-size: 10px !important;
-  background: #ff7b00 !important;
+  background: var(--COUNTDOWN) !important;
   line-height: 13px !important;
   padding: 0 4px !important;
   margin-top: 4px !important;
@@ -5019,9 +5034,9 @@ body.v6 .store_nav .popup_block_new .popup_body {
 .search_area .popup_body .match:hover .match_name,
 .store_nav .popup_menu .popup_menu_item.focus,
 .store_nav .popup_menu .popup_menu_item:hover {
-  color: VAR(--ACCENT) !important;
-  background-color: var(--BUTTON2) !important;
-  border-radius: var(--BORDERRADIUS) !important;
+  color: VAR(--BLACK) !important;
+  /* background-color: var(--BUTTON2) !important;
+  border-radius: var(--BORDERRADIUS) !important; */
 }
 .store_nav .tab.focus,
 .store_nav .tab.focus > span,
@@ -5177,9 +5192,9 @@ div.store_header_btn {
   border-radius: var(--BORDERRADIUS) !important;
 }
 .store_capsule .discount_block {
-  border-radius: 6px !important;
-  box-shadow: var(--BOXSHADOW) var(--DIVIDER) !important;
-  border: 0 !important;
+  /* border-radius: 6px !important; */
+  /* box-shadow: var(--BOXSHADOW) var(--DIVIDER) !important; */
+  border: 1PX SOLID VAR(--PANELBORDER) !important;
   background-color: VAR(--BASE1) !important;
 }
 .discount_block_large .discount_prices {
@@ -7813,6 +7828,8 @@ div.early_access_header {
 }
 div.early_access_banner {
   background:var(--BASE1)!important;
+  border:1px solid var(--PANELBORDER)!important;
+  box-shadow:var(--BOXSHADOW) VAR(--SHADOW)!important;
   border-radius: var(--BORDERRADIUS) !important;
 }
 
@@ -9724,6 +9741,12 @@ input.btn_medium {
 
 .btnv6_green_white_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover {
   background: none !important;
+}
+
+.game_area_details_specs_ctn {
+  BACKGROUND-COLOR:VAR(--BUTTON2)!important;
+  border:1px solid var(--BUTTONBORDER)!important;
+  border-radius:var(--BORDERRADIUS)!important;
 }
 
 .btnv6_blue_blue_innerfade {
