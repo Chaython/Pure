@@ -150,6 +150,11 @@ span.platform_img.win::before {
 
 a.game_area_details_specs_ctn .label {
   color:var(--ACCENT)!important;
+  background:unset!important;
+}
+
+a.game_area_details_specs_ctn:hover .label {
+  background:unset!important;
 }
 
 .top_new_releases_banner_ctn a:hover {
@@ -2183,7 +2188,18 @@ body.v6 .page_desc {
 .user_reviews_count {
   color: VAR(--ACCENT) !important;
 }
+
+.contenthub_mature_content_notice {
+  color:var(--ACCENT)!important;
+  background-image:unset!important;
+  background:var(--BASE1)!important;
+  border:1px solid var(--PANELBORDER)!important;
+  box-shadow:var(--BOXSHADOW) var(--SHADOW)!important;
+  border-radius:var(--BORDERRADIUS)!important;
+}
+
 .user_reviews_active_filters .active_filter {
+  color:var(--WHITE)!important;
   background-color: VAR(--BLUE) !important;
   BORDER-RADIUS:VAR(--BORDERRADIUS)!important;
 }
