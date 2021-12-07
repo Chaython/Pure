@@ -120,11 +120,31 @@ span.platform_img.win::before {
   background-image:unset!important;
 }
 
+.search_review_summary.mixed {
+  background-image:unset!important;
+}
+
+.search_review_summary.mixed::before {
+  content:'9'!important;
+}
+
 .search_review_summary.positive::BEFORE {
   CONTENT:'0'!important;
 }
 
 /* REVIEW ICONS */
+
+.search_labs_banner {
+  display:none!important;
+}
+
+.labs_new {
+  display:none!important;
+}
+
+.searchbar .label {
+  display:none!important;
+}
 
 .reviewed_app .paging_thumbs .num_reviews_desc {
   color:var(--ACCENT)!important;
@@ -2133,7 +2153,7 @@ body.v6 .page_desc {
   color: VAR(--ACCENT) !important;
 }
 .user_reviews_active_filters .active_filter {
-  background-color: VAR(--ACCENT) !important;
+  background-color: VAR(--BLUE) !important;
 }
 .quadscreenshot_carousel .taglist > span {
   background-color: VAR(--ACCENT) !important;
@@ -3477,7 +3497,7 @@ h2 {
 }
 body.v6 .store_nav .popup_menu .hr,
 body.v6 #footer_nav .popup_menu .hr {
-  background-color: var(--BUTTON2) !important;
+  color: var(--BLACK) !important;
 }
 .popup_menu_twocol > .popup_menu:not(:first-child):not(:nth-child(4)) {
   border-left: 1px solid var(--BUTTON2) !important;
@@ -6961,6 +6981,7 @@ input.searchAppsInput {
   border-radius: var(--BORDERRADIUS) !important;
 }
 .dropdown_container {
+  background:var(--BASE3)!important;
   border-radius: var(--BORDERRADIUS) !important;
 }
 .dropdown_container .item {
@@ -9416,6 +9437,10 @@ input.btn_medium {
   background: var(--BUTTON2) !important;
 }
 
+.giant_curator_controls > span {
+  color:var(--ACCENT)!important;
+}
+
 .search_results_filtered_warning > div {
   BACKGROUND-COLOR:VAR(--BASE1)!important;
   color:var(--ACCENT)!important;
@@ -9730,6 +9755,10 @@ a.persona,
 
 #btn_submit_report {
   background: none !important;
+}
+
+.user_reviews_active_filters .title {
+  DISPLAY:NONE!important;
 }
 
 .group_block {
