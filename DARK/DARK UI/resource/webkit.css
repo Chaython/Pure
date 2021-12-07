@@ -135,6 +135,10 @@ span.platform_img.win::before {
 
 /* REVIEW ICONS */
 
+a.game_area_details_specs_ctn .label {
+  color:var(--ACCENT)!important;
+}
+
 .top_new_releases_banner_ctn a:hover {
   background:var(--BASE3)!important;
 }
@@ -1558,7 +1562,7 @@ body::-webkit-scrollbar {
   background-color: VAR(--TEXTENTRY) !important;
   border-radius: var(--TEXTENTRYBORDERROUNDED) !important;
   border: VAR(--TEXTENTRYBORDERWIDTH) solid VAR(--TEXTENTRYBORDER) !important;
-  margin-top: -1px !important;
+  margin-top: 2px !important;
 }
 
 .searchbox:hover {
@@ -8170,7 +8174,16 @@ div.early_access_announcements .post .more:hover {
 .notice_box_content {
   color: VAR(--ACCENT) !important;
 }
+
+.notice_box_content_blue_box b {
+  color:var(--BLACK)!important;
+}
+
 .notice_box_content_blue_box {
+background:var(--BASE1)!important;
+border:1px solid var(--PANELBORDER)!important;
+color:var(--ACCENT)!important;
+box-shadow:var(--BOXSHADOW) var(--SHADOW)!important;
   border-radius: var(--BORDERRADIUS) !important;
 }
 .group_tabs {
