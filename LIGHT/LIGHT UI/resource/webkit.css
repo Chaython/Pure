@@ -2,18 +2,18 @@
   --BORDERRADIUS: 4px;
   --BORDERRADIUS2: 0 0 4px 4px;
   --BORDERRADIUS3: 4px 4px 0 0;
-  --FILT: BRIGHTNESS(0);
+  --FILT: unset;
   --ACCOUNTNAMEHEADERDISPLAY: NONE;
   --BASE1: #e4e4e4;
   --BASE2: #dedede;
-  --BASE3: #ececec;
+  --BASE3: #eaeaea;
   --ACCENT: #585858;
   --BUTTON2: #d6d6d6;
   --BOXSHADOW: 0 1px 2px;
   --SHADOW: #d6d1d1;
   --BLUE: #1181d2;
   --GREEN: #54a448;
-  --TEXTENTRY: #e8e8e8;
+  --TEXTENTRY: var(--BASE2);
   --TEXTENTRYHIGHLIGHT: #d5d5d5;
   --BUTTONBORDER: #b8b8b8;
   --BUTTONBORDERHOVER: #8d8d8d;
@@ -63,13 +63,13 @@
   --SCROLLBARBORDERRADIUS: 0;
   --SCROLLBAR: VAR(--ACCENT);
   --SCROLLBARHOVER: VAR(--BLACK);
-  --DIVIDER1: var(--BUTTON2);
+  --DIVIDER: var(--BUTTON2);
   --grey: VAR(--ACCENT);
   --lightgrey: VAR(--ACCENT);
   --lightergrey: VAR(--ACCENT);
   --OFFLINE: VAR(--ACCENT);
   --AVATARBORDERRADIUS: 100px;
-  --PANELBORDER: var(--SHADOW);
+  --PANELBORDER: var(--DIVIDER);
   --TABITEMBORDER:VAR(--SHADOW);
   --PANEL: VAR(--BASE1);
   --PANEL2: VAR(--BASE2);
@@ -81,9 +81,53 @@
   --TEXTENTRYBORDERWIDTH: 2px;
   --TEXTENTRYBORDER: VAR(--BUTTONBORDER);
   --TEXTENTRYBORDERHOVER: VAR(--BUTTONBORDERHOVER);
-  --TEXTENTRYBACKGROUNDSELECTED: VAR(--TEXTENTRY);
+  --TEXTENTRYBACKGROUNDSELECTED: VAR(--BASE3);
   --TEXTENTRYBORDERSELECTED: VAR(--ACCENT);
   --blur: blur(10px);
+}
+
+/* PLATFORMS */
+
+span.platform_img.win {
+  background-image:unset!important;
+}
+
+span.platform_img.mac {
+  background-image:unset!important;
+}
+
+span.platform_img.linux {
+  background-image:unset!important;
+}
+
+span.platform_img.linux::before {
+  content: '3'!important;
+}
+
+span.platform_img.mac::before {
+  content: '2'!important;
+}
+
+span.platform_img.win::before {
+  content: '1'!important;
+}
+
+/* PLATFORMS */
+
+/* REVIEW ICONS */
+
+.search_review_summary.positive {
+  background-image:unset!important;
+}
+
+.search_review_summary.positive::BEFORE {
+  CONTENT:'0'!important;
+}
+
+/* REVIEW ICONS */
+
+.reviewed_app .paging_thumbs .num_reviews_desc {
+  color:var(--ACCENT)!important;
 }
 
 .payment_method_box {
@@ -300,7 +344,7 @@ body.clientNews .extImg {
 
 .report_txt_ctn {
   background: var(--BASE3) !important;
-  box-shadow: var(--BOXSHADOW) var(--DIVIDER1) !important;
+  box-shadow: var(--BOXSHADOW) var(--DIVIDER) !important;
 }
 
 .action_btn_ctn img {
@@ -309,11 +353,11 @@ body.clientNews .extImg {
 }
 
 .report_profile_current_step {
-  border-top: 1px solid var(--DIVIDER1) !important;
+  border-top: 1px solid var(--DIVIDER) !important;
 }
 
 .report_profile_nav_ctn {
-  border-top: 1px solid var(--DIVIDER1) !important;
+  border-top: 1px solid var(--DIVIDER) !important;
 }
 
 #step_header {
@@ -336,7 +380,7 @@ body.clientNews .extImg {
 
 .mediaTop {
   background-color: VAR(--BASE1) !important;
-  box-shadow: var(--BOXSHADOW) VAR(--DIVIDER1) !important;
+  box-shadow: var(--BOXSHADOW) VAR(--DIVIDER) !important;
 }
 
 .visibilityNotification {
@@ -1288,12 +1332,19 @@ body.v6 #footer #footer_logo img {
   opacity: 60% !important;
   filter: var(--FILT) !important;
 }
-img {
+
+/* bug */
+
+/* img {
   filter: grayscale(30%) !important;
-}
-a img {
+} */
+
+/* a img {
   filter: BRIGHTNESS(50%) !important;
-}
+} */
+
+/* bug */
+
 .carousel_container .arrow > div {
   opacity: 60% !important;
   filter: var(--FILT) !important;
@@ -1391,7 +1442,7 @@ a.linkbar > img {
   border-radius: 6 !important;
   border: 0 !important;
   background: VAR(--BASE1) !important;
-  box-shadow: var(--BOXSHADOW) var(--divider1) !important;
+  box-shadow: var(--BOXSHADOW) var(--DIVIDER) !important;
 }
 .carousel_container.maincap .carousel_items:active {
   background: VAR(--BASE1) !important;
@@ -3304,6 +3355,7 @@ body.v6 .game_page_background {
 }
 
 .search_result_row {
+  padding:6px!important;
   transition: all 0.18s ease-in-out !important;
   border-radius: VAR(--TABITEMBR) !important;
   border: 0 !important;
@@ -5106,7 +5158,7 @@ div.store_header_btn {
 }
 .store_capsule .discount_block {
   border-radius: 6px !important;
-  box-shadow: var(--BOXSHADOW) var(--divider1) !important;
+  box-shadow: var(--BOXSHADOW) var(--DIVIDER) !important;
   border: 0 !important;
   background-color: VAR(--BASE1) !important;
 }
@@ -5363,7 +5415,7 @@ a.home_marketing_message {
   color: VAR(--ACCENT) !important;
   border-radius: 6px !important;
   border: 0 !important;
-  box-shadow: var(--BOXSHADOW) var(--divider1) !important;
+  box-shadow: var(--BOXSHADOW) var(--DIVIDER) !important;
 }
 .home_content.single_buttonbar {
   background: var(--BASE2) !important;
@@ -5498,7 +5550,8 @@ a.home_marketing_message {
   border-radius: 6px !important;
   top: 15px !important;
   background: var(--BASE1) !important;
-  box-shadow: var(--BOXSHADOW) var(--DIVIDER1) !important;
+  BORDER:VAR(--PANELBORDER)!important;
+  box-shadow: var(--BOXSHADOW) var(--DIVIDER) !important;
   margin-top: 64px !important;
 }
 body.v6 .home_rightcol .tab_preview h2 {
@@ -6723,11 +6776,17 @@ body.v6 .discount_block {
 .formRowFields {
   color: VAR(--ACCENT) !important;
 }
-input[type="text"],
+
+/* BUG */
+
+/* input[type="text"],
 input[type="password"],
 select {
   border: 1px SOLID var(--BUTTONBORDER) !important;
-}
+} */
+
+/* BUG */
+
 .home_category_subtitle {
   text-shadow: NONE !important;
   color: VAR(--ACCENT) !important;
@@ -7725,13 +7784,14 @@ body.v6 #footer .rule {
 div.early_access_header {
   box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
   background: VAR(--BASE1) !important;
-  border: 0 !important;
+  border: 1px solid var(--panelborder) !important;
   border-radius: var(--BORDERRADIUS) !important;
 }
 .game_area_dlc_row.odd {
   border-radius: var(--BORDERRADIUS) !important;
 }
 div.early_access_banner {
+  background:var(--BASE1)!important;
   border-radius: var(--BORDERRADIUS) !important;
 }
 
@@ -8895,7 +8955,7 @@ div#sharedfiles_filterselect_app_filterable div.option:hover {
   padding: 20px 0 0 0 !important;
 }
 .achieveTxtHolder {
-  box-shadow: var(--BOXSHADOW) var(--DIVIDER1) !important;
+  box-shadow: var(--BOXSHADOW) var(--DIVIDER) !important;
   background-color: VAR(--BASE1) !important;
   padding: 0 10px !important;
   border-radius: 6px !important;
@@ -9355,12 +9415,26 @@ input.btn_medium {
   border-radius: VAR(--TEXTENTRYBORDERROUNDED) !important;
   background: var(--BUTTON2) !important;
 }
-.btnv6_blue_hoverfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active) {
+
+.search_results_filtered_warning > div {
+  BACKGROUND-COLOR:VAR(--BASE1)!important;
+  color:var(--ACCENT)!important;
+  border:1px solid var(--PANELBORDER)!important;
+  border-radius:var(--BORDERRADIUS)!important;
+  box-shadow:var(--BOXSHADOW) var(--SHADOW)!important;
+}
+
+/* BUG */
+
+/* .btnv6_blue_hoverfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active) {
   border-radius: 0 !important;
   border: 1px solid var(--BUTTONBORDER) !important;
   background: var(--BUTTON2) !important;
   color: VAR(--ACCENT) !important;
-}
+} */
+
+/* BUG */
+
 .eventrow_OtherEvents_TextTitle_2jc1D {
   color: VAR(--ACCENT) !important;
   font-weight: 500 !important;
@@ -9522,7 +9596,7 @@ input.discussionSearchText::selection {
 #ig_bottom .sidebar .panel,
 #ig_bottom .sidebar .detailPanel {
   background: VAR(--BASE1) !important;
-  box-shadow: var(--BOXSHADOW) VAR(--DIVIDER1) !important;
+  box-shadow: var(--BOXSHADOW) VAR(--DIVIDER) !important;
 }
 .commentthread_comment_text {
   color: VAR(--ACCENT) !important;
@@ -9541,7 +9615,7 @@ a.persona.in-game,
 .persona.in-game.a {
   color: VAR(--GREEN) !important;
   background: VAR(--BASE1) !important;
-  box-shadow: var(--BOXSHADOW) VAR(--DIVIDER1) !important;
+  box-shadow: var(--BOXSHADOW) VAR(--DIVIDER) !important;
   border-radius: VAR(--BORDERRADIUS) !important;
 }
 
@@ -9598,7 +9672,7 @@ a.persona.online,
   background: VAR(--BASE1) !important;
   border-radius: 6px !important;
   border: 0 !important;
-  box-shadow: var(--BOXSHADOW) var(--divider1) !important;
+  box-shadow: var(--BOXSHADOW) var(--DIVIDER) !important;
 }
 
 .block .block_header {
@@ -9607,7 +9681,7 @@ a.persona.online,
 
 .carousel_container.spotlight .carousel_items > * .store_capsule.daily_deal {
   border-radius: 6px !important;
-  box-shadow: var(--BOXSHADOW) var(--divider1) !important;
+  box-shadow: var(--BOXSHADOW) var(--DIVIDER) !important;
 }
 
 .btn_medium > span,
