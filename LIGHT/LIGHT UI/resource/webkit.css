@@ -5298,6 +5298,14 @@ a.following_button.btn_green_white_innerfade.btn_medium {
   border-radius: var(--BORDERRADIUS) !important;
 }
 
+.tab_item_cap {
+  TOP:UNSET!important;
+  /* left:unset!important; */
+  margin-left:4px!important;
+}
+
+
+
 img.tab_item_cap_img {
   border-radius: var(--BORDERRADIUS) !important;
 }
@@ -9754,6 +9762,8 @@ a.persona.online,
 }
 
 .tab_item {
+  padding-top:4px!important;
+  padding-bottom:4px!important;
   transition: all 0.1s ease-in-out !important;
   margin: 5px !important;
   border-radius: var(--TABITEMBR) !important;
