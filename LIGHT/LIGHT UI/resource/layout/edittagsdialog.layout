@@ -1,0 +1,17 @@
+"Resource/layout/edittagsdialog.layout" {
+
+	layout {
+		region { name=header height=40 width=max }
+			place [!$OSX] { control=frame_close height=39 width=39 align=right }
+			place [$OSX] { control=frame_close,frame_minimize,frame_maximize height=22 width=22 y=13 align=left margin-left=20 }
+			place { control=frame_captiongrip margin=2 width=max height=50 }
+
+		region { name=body height=max width=max y=50 margin-bottom=50 }
+		region { name=box height=max width=max region=body margin-left=26 margin-right=26 }
+
+		region { name=buttons align=bottom height=50 margin-bottom=8 }
+			place { control=OKButton,CancelButton region=buttons align=right width=100 spacing=10 y=16 margin-right=6 }
+
+		place [!$OSX] { control=frame_minimize height=0 width=0 margin-left=-9999 }
+	}
+}
