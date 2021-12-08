@@ -4074,6 +4074,7 @@ img {
   font-weight: bold !important;
 }
 .appproperties_AppProperties_1FyBL .appproperties_Checkbox_2V2nc {
+  padding-left:1px!important;
   background: var(--BASE2) !important;
   color: var(--ACCENT) !important;
 }
