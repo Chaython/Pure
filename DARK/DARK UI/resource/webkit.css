@@ -3800,6 +3800,7 @@ span.vr_required {
   box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .store_header_btn_green a {
+  color:var(--WHITE)!important;
   background: VAR(--GREEN) !important;
 }
 .game_area_sys_req ul li strong {
@@ -4563,6 +4564,7 @@ body.v6 .discount_prices > div {
   border-radius: var(--BORDERRADIUS) !important;
 }
 .ds_options > div {
+  display:none!important;
   border-radius: 50px !important;
   background-color: var(--BASE3) !important;
 }
@@ -5233,6 +5235,15 @@ div.store_header_btn {
 .spotlight_img {
   border-radius: var(--BORDERRADIUS) !important;
 }
+
+.help_your_issue_start {
+  color:var(--ACCENT)!important;
+}
+
+.help_wizard_button > img {
+  BORDER-RADIUS:VAR(--AVATARBORDERRADIUS)!important;
+}
+
 .help_wizard_button > img + span {
   border: 0 !important;
 }
@@ -6684,16 +6695,16 @@ a.persona,
   border-radius: var(--BORDERRADIUS) !important;
 }
 .help_wizard_button {
-  background: var(--BUTTON2) !important;
+  background: var(--BASE1) !important;
   border: 0 !important;
   box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .help_wizard_button_large > span {
   margin: 10px 14px 10px 14px !important;
 }
-.help_wizard_arrow_right {
-  border: 1px SOLID var(--BUTTONBORDER) !important;
-}
+/* .help_wizard_arrow_right {
+  border: 1px SOLID var(--PANELBORDER) !important;
+} */
 .help_search_result:hover {
   background-color: var(--BUTTON2) !important;
 }
@@ -9926,6 +9937,22 @@ a.tooltip {
 
 .checkout_content_box input[type="text"], .checkout_content_box input[type="password"], .checkout_content_box select, .checkout_content_box textarea, .checkout_main .dselect_container a.trigger {
   border-radius:0!important;
+}
+
+.feature_title {
+  color:var(--ACCENT)!important;
+}
+
+.small_timestamp {
+  color:var(--ACCENT)!important;
+}
+
+.help_purchase_detail_text {
+  color:var(--ACCENT)!important;
+}
+
+.help_purchase_price.price_strikeout {
+  color:var(--ACCENT)!important;
 }
 
 .apphub_WorkshopPiston {
