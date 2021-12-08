@@ -382,11 +382,11 @@
 		CScreenshotUploadDialog
 		{
 			bgcolor = BASE2
-			render_bg
-			{
-				1="fill( x0, y1-36, x1, y1-35, DIVIDER )"
-				2="fill( x0, y1-35, x1, y1, BASE1 )"
-			}
+			//render_bg
+			//{
+			//	1="fill( x0, y1-36, x1, y1-35, DIVIDER )"
+			//	2="fill( x0, y1-35, x1, y1, BASE1 )"
+			//}
 			minimum-width=325
 			minimum-height=240
 		}

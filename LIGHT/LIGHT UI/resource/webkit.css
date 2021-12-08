@@ -111,6 +111,7 @@ span.platform_img.mac::before {
 }
 
 span.platform_img.win::before {
+  font-family:store!important;
   content: '1'!important;
 }
 
@@ -137,6 +138,10 @@ span.platform_img.win::before {
 /* REVIEW ICONS */
 
 .playerAvatar.offline img, .friend_status_offline .friend_block_avatar img, .appHubIconHolder.offline img, .avatar_block_status_offline img {
+  BORDER-RADIUS:VAR(--AVATARBORDERRADIUS)!important;
+}
+
+.playerAvatar.offline, .friend_block_holder.friend_status_offline .friend_block_avatar, .friend_activity.friend_status_offline .friend_block_avatar, .appHubIconHolder.offline, .avatar_block_status_offline, .appHubIconHolder.ignored {
   BORDER-RADIUS:VAR(--AVATARBORDERRADIUS)!important;
 }
 
@@ -604,6 +609,14 @@ div.filterselect_options div.option {
 .dynamiclink_author {
   color: VAR(--ACCENT) !important;
 }
+.profile_fatalerror_message {
+  color:var(--ACCENT)!important;
+  background:var(--BASE1)!important;
+  border:1px solid var(--PANELBORDER)!important;
+  box-shadow:var(--BOXSHADOW) VAR(--SHADOW)!important;
+  border-radius:var(--BODRERRADIUS)!important;
+}
+
 .btn_grey_grey {
   color: VAR(--ACCENT) !important;
   background: NONE !important;
@@ -1319,8 +1332,9 @@ body.v6 #footer #footer_logo_steam {
   filter: var(--FILT) !important;
 }
 .cart_tab_left_on {
-  opacity: 60% !important;
-  filter: var(--FILT) !important;
+  background-image:unset!important;
+  /* opacity: 60% !important;
+  filter: var(--FILT) !important; */
 }
 #checkout_steam_logo img {
   filter: BRIGHTNESS(50%) !important;
@@ -3765,6 +3779,7 @@ span.vr_required {
   color: VAR(--ACCENT) !important;
 }
 .cart_status_message {
+  DISPLAY:NONE!important;
   background-color: VAR(--ACCENT) !important;
 }
 .cart_status_message_arrow {
@@ -4723,6 +4738,8 @@ select.gray_bevel {
   background: var(--ACCENT) !important;
 }
 .mature_content_notice {
+  color:var(--ACCENT)!important;
+  background:unset!important;
   border-radius: var(--BORDERRADIUS) !important;
 }
 .market_multi_warning_tooltip {
@@ -4736,7 +4753,11 @@ body.v6 .page_content.browse_reviews {
   display: none !important;
 }
 .forum_topic_tooltip {
-  border: 1px solid var(--lightgrey) !important;
+  color:var(--ACCENT)!important;
+  BACKGROUND:VAR(--BASE3)!important;
+  border-radius:var(--BORDERRADIUS)!important;
+  box-shadow:var(--BOXSHADOW) var(--SHADOW)!important;
+  border: 1px solid var(--PANELBORDER) !important;
 }
 .apphub_Card.interactable:hover .apphub_CardContentDiscussionType {
   background-color: transparent !important;
@@ -5235,7 +5256,7 @@ div.store_header_btn {
 .store_capsule .discount_block {
   /* border-radius: 6px !important; */
   /* box-shadow: var(--BOXSHADOW) var(--DIVIDER) !important; */
-  border: 1PX SOLID VAR(--PANELBORDER) !important;
+  /* border: 1PX SOLID VAR(--PANELBORDER) !important; */
   background-color: VAR(--BASE1) !important;
 }
 .discount_block_large .discount_prices {
@@ -5317,7 +5338,7 @@ a.following_button.btn_green_white_innerfade.btn_medium {
 .tab_item_cap {
   TOP:UNSET!important;
   /* left:unset!important; */
-  margin-left:4px!important;
+  margin-left:6px!important;
 }
 
 
@@ -5572,11 +5593,18 @@ BUG
 .btw_wrapper {
   border-radius: var(--BORDERRADIUS) !important;
 }
+
+/*
+
+BUG
+
 .btn_grey_white_innerfade {
   border-radius: var(--BORDERRADIUS) !important;
   color: VAR(--ACCENT) !important;
   background: var(--lightgrey) !important;
-}
+} */
+
+
 .btn_grey_white_innerfade:not(.btn_disabled):not(:disabled):not(.btn_active):not(.active):hover
   > span {
   border-radius: var(--BORDERRADIUS) !important;
@@ -9778,8 +9806,8 @@ a.persona.online,
 }
 
 .tab_item {
-  padding-top:4px!important;
-  padding-bottom:4px!important;
+  padding-top:6px!important;
+  padding-bottom:6px!important;
   transition: all 0.1s ease-in-out !important;
   margin: 5px !important;
   border-radius: var(--TABITEMBR) !important;
@@ -9888,9 +9916,16 @@ a.persona,
 #btn_submit_report {
   background: none !important;
 }
+a.tooltip {
+  display:none!important;
+}
 
 .user_reviews_active_filters .title {
   DISPLAY:NONE!important;
+}
+
+.checkout_content_box input[type="text"], .checkout_content_box input[type="password"], .checkout_content_box select, .checkout_content_box textarea, .checkout_main .dselect_container a.trigger {
+  border-radius:0!important;
 }
 
 .apphub_WorkshopPiston {
