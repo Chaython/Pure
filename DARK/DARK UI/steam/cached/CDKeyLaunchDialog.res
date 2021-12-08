@@ -3,11 +3,14 @@
 	styles {
 			"ListPanelColumnHeader"
 		{
-			BGCOLOR=BASE2
+			BGCOLOR=BASE3
+			render {
+				0="fill(x0,y0,x1,y0+1,DIVIDER)"
+			}
 		}
 		"LISTPANELINTERIOR"
 		{
-			BGCOLOR=BASE2
+			BGCOLOR=BASE1
 		}
 	}
 	
@@ -20,6 +23,6 @@
 		//Bottom
 		region { name=bottom align=bottom height=44 margin=8 }
 		place {	control="DontShowAgainCheck" region=bottom align=left height=28 }
-		place {	control="LaunchButton,CopyButton,CloseButton" region=bottom spacing=6 align=right height=28 margin-right=8 }
+		place {	control="LaunchButton,CopyButton,CloseButton" region=bottom spacing=6 align=right height=28 margin-right=6 }
 	}
 }
