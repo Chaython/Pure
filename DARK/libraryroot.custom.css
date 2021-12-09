@@ -1565,7 +1565,7 @@ div.MediumWindow
 }
 
 .gamelisthome_Bar_3pSPl .gamelisthome_Label_3O48L {
-  font-family:Untitled1!important;
+  font-family:library!important;
   font-size:20px!important;
   position: fixed !important;
   transition: filter 0.3s ease-in-out !important;
@@ -1590,7 +1590,7 @@ div.MediumWindow
 }
 
 .appdetailsplaysection_MenuButton_3qDWQ .appdetailsplaysection_DotDotDot_zvLq1 {
-  font-family:Untitled1!important;
+  font-family:library!important;
   color:var(--ACCENT)!important;
   font-size:18px!important;
   line-height:21px!important;
@@ -1606,7 +1606,7 @@ div.MediumWindow
 
 .posttextentry_PostTextEntry_3x31A .posttextentry_Controls_37e7D .posttextentry_PostButton_2JSyA::before {
   content: 'P'!important;
-  font-family: untitled1!important;
+  font-family: library!important;
   font-size:18px!important;
   color:var(--ACCENT)!important;
 }
@@ -1697,7 +1697,7 @@ div.MediumWindow
 /*-------------------------- NEW COLLECTION ICON --------------------------*/
 .LibraryDisplaySizeSmall .allcollections_ScrollContainer_u1xD3 .allcollections_Grid_Ma65K .allcollections_NewCollection_2_dwx .allcollections_BigPlus_g0-tU:before,.LibraryDisplaySizeLarge .allcollections_ScrollContainer_u1xD3 .allcollections_Grid_Ma65K .allcollections_NewCollection_2_dwx .allcollections_BigPlus_g0-tU:before,.LibraryDisplaySizeMedium .allcollections_ScrollContainer_u1xD3 .allcollections_Grid_Ma65K .allcollections_NewCollection_2_dwx .allcollections_BigPlus_g0-tU:before {
   content:'C'!important;
-  font-family:untitled1!important;
+  font-family:library!important;
 }
 
 .LibraryDisplaySizeSmall .allcollections_ScrollContainer_u1xD3 .allcollections_Grid_Ma65K .allcollections_NewCollection_2_dwx .allcollections_BigPlus_g0-tU:before {
@@ -1742,7 +1742,6 @@ div.MediumWindow
   border-color: VAR(--NEWCOLLECTIONBORDERHOVER) !important;
 }
 /*-------------------------- NEW COLLECTION ICON --------------------------*/
-
 
 .appdetailsplaysection_StatusAndStats_1YbtI .appdetailsplaysection_PlayBarIconAndGame_2MBVR {
   transition:unset!important;
@@ -5961,6 +5960,13 @@ div.NarrowRightPanel
 
 .online .steamavatar_avatarStatus_3xUpb {
   background: none !important;
+  border-radius:50px!important;
+  width:32px!important;
+  border:2px solid var(--ONLINE)!important;
+}
+
+.steamavatar_avatarStatus_3xUpb.bottom {
+  height:32px!important;
 }
 
 .ingame .steamavatar_avatarStatus_3xUpb {
