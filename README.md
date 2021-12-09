@@ -14,7 +14,7 @@
 
 # INSTRUCTIONS
 * Move LIGHT UI folder to steam/skins/
-* go to LIGHT UI/FONTS/ install overlaytaskbar.ttf and library.ttf
+* go to LIGHT UI/FONTS/ install overlaytaskbar.ttf, library.ttf, store.ttf
 * On steam go to settings -> interface and choose the newly added skin,
 Steam will have to restart to apply the skin
 
