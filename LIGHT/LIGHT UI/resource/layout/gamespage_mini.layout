@@ -23,6 +23,13 @@
 
 	styles
 	{
+		ListPanelColumnHeader
+		{
+				render {
+				0="fill( x0, y0, x1, y0+1, NONE)"
+		}
+		}
+
 		NavLabel2
 		{
 			INSET-TOP=4
@@ -75,7 +82,7 @@
 
 		//Search
 		place { control="label_search_icon" region=top height=0 width=0 }
-		place { control="library_search" region=top start=label_search_icon height=24 width=max margin-right=17 MARGIN-LEFT=16 MARGIN-TOP=4}
+		place { control="library_search" region=top start=label_search_icon height=24 width=max margin-right=15 MARGIN-LEFT=14 MARGIN-TOP=4}
 
 		 place { control="MenuButton" width=10 height=10}
 

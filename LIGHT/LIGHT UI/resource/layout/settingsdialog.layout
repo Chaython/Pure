@@ -18,10 +18,23 @@
 			bgcolor="none"
 			render_bg{}
 		}
+
+		LISTPANELCOLUMNHEADER {
+			RENDER {
+				0="fill( x0, y0, x1, y0+1, "NONE")"
+			}
+		LISTPANELINTERIOR {
+	 		RENDER {
+				0="fill( x0, y0, x1, y0+1, "NONE")"
+			}
+			
+			}
+		}
 		"SettingsList"
 		{
 				render {
-				0="fill( x0 + 182, y0, x0 + 184, y1, SETTINGSSIDEBARBORDER)"
+				0="fill( x0, y0, x1, y0+1, "NONE")"
+				1="fill( x0 + 182, y0, x0 + 184, y1, DIVIDER)"
 			    }
 			font-family=basefont
 			inset-top=60
@@ -31,6 +44,7 @@
 		ListPanel
 		{
 			selectedbgcolor=LISTITEMBACKGROUNDHOVER
+			
 		}
 	}
 	layout

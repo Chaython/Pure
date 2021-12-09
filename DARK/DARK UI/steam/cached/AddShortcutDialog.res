@@ -4,15 +4,26 @@
 	{
 		"ListPanelColumnHeader"
 		{
-			RENDER {
-				0="FILL(x0, y0, x1,y0+1, DIVIDER)"
-				1="FILL(x0, y1, x1,y1-1, DIVIDER)"
-			}
 			BGCOLOR=BASE3
+			render{
+				0="fill( x0 + 1, y0, x1-1, y0 + 1, DIVIDER )"
+				1="fill( x0, y0, x0+1, y1, DIVIDER)"
+				2="fill( x1-1, y0, x1, y1, DIVIDER)"
+				3="fill( x0 + 1, y1-1, x1-1, y1, DIVIDER )"
+			}
 		}
+
+		"ListPanelColumnHeader:hover"
+		{
+			BGCOLOR=BASE4	
+		}
+
 		"LISTPANELINTERIOR"
 		{
 			BGCOLOR=BASE1
+			//render{
+			//		0="fill( x1-1, y0, x1, y1, "NONE")"
+			//}
 		}
 		
 		"ListPanelColumnHeader CheckButton"
@@ -47,7 +58,7 @@
 
 	layout
 	{
-		place { control="AppList" height=max width=max x=1 margin-right=1 margin-top=86 margin-bottom=44 }
+		place { control="AppList" height=max width=max x=1 margin-right=1 margin-top=86 margin-bottom=43 }
 		place { control="Label1" x=16 y=50 width=max margin-right=8 }
 
 		region { name="right" align=bottom height=44 }

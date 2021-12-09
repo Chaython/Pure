@@ -21,10 +21,36 @@
 			  4="fill( x0+8, y1-26, x1-8, y1-25, "none" )"
 			}
 		}
+
+		ListPanelcolumnheader
+		{
+			BGCOLOR=BASE3
+			render{
+				0="fill( x0 + 1, y0, x1-1, y0 + 1, DIVIDER )"
+				1="fill( x0, y0, x0+1, y1, DIVIDER)"
+				2="fill( x1-1, y0, x1, y1, DIVIDER)"
+				3="fill( x0 + 1, y1-1, x1-1, y1, DIVIDER )"
+			}
+		}
+
+		ListPanelcolumnheader:hover
+		{
+			BGCOLOR=BASE4
+		}
+
+		listpanelinterior
+		{
+				render{
+				0="fill( x0 + 1, y0, x1-1, y0 + 1, DIVIDER )"
+				1="fill( x0, y0, x0+1, y1, DIVIDER)"
+				2="fill( x1-1, y0, x1, y1, DIVIDER)"
+				3="fill( x0 + 1, y1-1, x1-1, y1, DIVIDER )"
+			}
+		}
+
 		ListPanel
 		{
 			text_a=ACCENT
-			bgcolor=Header_Dark2
 		}
 		RichText
 		{
