@@ -5961,6 +5961,9 @@ div.NarrowRightPanel
 
 .ingame .steamavatar_avatarStatus_3xUpb {
   background: none !important;
+  border-radius:50px!important;
+  width:32px!important;
+  border:2px solid var(--INGAME)!important;
 }
 
 .appactivityday_PartnerEventTextOnly_Icon_1-llQ svg path {
