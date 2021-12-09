@@ -108,7 +108,10 @@
 		{
 			
 			RENDER_BG {
-					2="fill( x0, y1-53, x1, y1, BASE1 )"
+					2="fill( x0, y1-53, x1, y1, BASE3 )"
+			}
+			RENDER {
+				2="fill( x0, y1-53, x1, y1-52, DIVIDER )"
 			}
 		}
 		"CPlayersDialog URLLabel"
