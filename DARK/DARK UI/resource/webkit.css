@@ -102,16 +102,35 @@ span.platform_img.linux {
   background-image:unset!important;
 }
 
+span.platform_img.music {
+  background-image:unset!important;
+}
+
+span.platform_img.music::before {
+  font-family:store!important;
+  color:var(--ACCENT)!important;
+  FONT-SIZE:15PX!important;
+  content: '4'!important;
+}
+
 span.platform_img.linux::before {
+  font-family:store!important;
+  color:var(--ACCENT)!important;
+  FONT-SIZE:15PX!important;
   content: '3'!important;
 }
 
 span.platform_img.mac::before {
+  font-family:store!important;
+  color:var(--ACCENT)!important;
+  FONT-SIZE:15PX!important;
   content: '2'!important;
 }
 
 span.platform_img.win::before {
   font-family:store!important;
+  color:var(--ACCENT)!important;
+  FONT-SIZE:15PX!important;
   content: '1'!important;
 }
 
@@ -408,7 +427,7 @@ body.clientNews .extImg {
 
 .action_btn_ctn img {
   filter: var(--FILT) !important;
-  opacity: 60% !important;
+  opacity: var(--OP) !important;
 }
 
 .report_profile_current_step {
@@ -526,16 +545,16 @@ body.clientNews .extImg {
 }
 
 .hover_release span.platform_img.valveindex {
-  opacity: 60% !important;
+  opacity: var(--OP) !important;
 }
 .hover_release span.platform_img.htcvive {
-  opacity: 60% !important;
+  opacity: var(--OP) !important;
 }
 .hover_release span.platform_img.oculusrift {
-  opacity: 60% !important;
+  opacity: var(--OP) !important;
 }
 .hover_release span.platform_img.windowsmr {
-  opacity: 60% !important;
+  opacity: var(--OP) !important;
 }
 .market_commodity_orders_table tr:nth-child(even) {
   background-color: var(--BASE2) !important;
@@ -571,13 +590,13 @@ body.clientNews .extImg {
   background-color: VAR(--BASE1) !important;
 }
 .tab_item.focus .tab_item_details span.platform_img.win {
-  opacity: 60% !important;
+  opacity: var(--OP) !important;
 }
 .tab_item.focus .tab_item_details span.platform_img.mac {
-  opacity: 60% !important;
+  opacity: var(--OP) !important;
 }
 .tab_item.focus .tab_item_details span.platform_img.linux {
-  opacity: 60% !important;
+  opacity: var(--OP) !important;
 }
 .login_client_waitforauth_title {
   color: VAR(--ACCENT) !important;
@@ -642,7 +661,7 @@ div.filterselect_options div.option {
 #noteworthy_tab.tab.flyout_tab a.pulldown_desktop,
 #genre_tab.tab.flyout_tab a.pulldown_desktop {
   filter: var(--FILT) !important;
-  opacity: 60% !important;
+  opacity: var(--OP) !important;
 }
 
 .rewarditem_ItemWideContainer_26i5M .rewarditem_Item_CcuoO:hover {
@@ -674,7 +693,7 @@ div.filterselect_options div.option {
   .rewarditem_Item_CcuoO
   .rewarditem_ImageProfileShowcase_3iMI3 {
   filter: var(--FILT) !important;
-  opacity: 60% !important;
+  opacity: var(--OP) !important;
 }
 .ModalPosition_TopBar {
   background: none !important;
@@ -892,11 +911,11 @@ div.filterselect_options div.option {
 }
 .loyaltyprimarynav_SecondaryNavItem_2mFH5 .loyaltyprimarynav_Callout_YOdxt {
   filter: var(--FILT) !important;
-  opacity: 60% !important;
+  opacity: var(--OP) !important;
 }
 .banner_Banner_ECzA2 .banner_Image_28bFl {
   filter: var(--FILT) !important;
-  opacity: 60% !important;
+  opacity: var(--OP) !important;
 }
 .bundle_BundleFooter_zpf5C {
   background: VAR(--BASE1) !important;
@@ -976,7 +995,7 @@ div.filterselect_options div.option {
   border-left: none !important;
 }
 .eventreminder_ReminderOptions_1Tp8K {
-  opacity: 60% !important;
+  opacity: var(--OP) !important;
   filter: var(--FILT) !important;
 }
 .eventreminder_ReminderCheckBox_vPo2j.eventreminder_TextMode_553rC
@@ -1149,7 +1168,7 @@ div.filterselect_options div.option {
 }
 .legalfooter_LegalFooter_2XzXR img {
   filter: var(--FILT) !important;
-  opacity: 60% !important;
+  opacity: var(--OP) !important;
 }
 body.clientNews .header {
   background: var(--BASE2) !important;
@@ -1162,7 +1181,7 @@ body.clientNews .post_pmbutton {
 }
 .market_arrow_up {
   filter: var(--FILT) !important;
-  opacity: 60% !important;
+  opacity: var(--OP) !important;
 }
 
 .live_stream_play_icon {
@@ -1183,81 +1202,81 @@ body.clientNews .post_pmbutton {
 }
 p.reason.for:before {
   filter: var(--FILT) !important;
-  opacity: 60% !important;
+  opacity: var(--OP) !important;
 }
 .curators_for_app_filter_menu .title {
   filter: var(--FILT) !important;
-  opacity: 60% !important;
+  opacity: var(--OP) !important;
 }
 .apphub_WorkshopPiston {
   filter: var(--FILT) !important;
-  opacity: 60% !important;
+  opacity: var(--OP) !important;
 }
 .dotted_hr_uri,
 h2.stats:before,
 h2.stats:after {
   filter: var(--FILT) !important;
-  opacity: 60% !important;
+  opacity: var(--OP) !important;
 }
 .rateUpCount img {
   filter: var(--FILT) !important;
-  opacity: 60% !important;
+  opacity: var(--OP) !important;
 }
 span.platform_img.streamingvideo {
-  opacity: 60% !important;
+  opacity: var(--OP) !important;
   filter: var(--FILT) !important;
 }
 div.advanced_controls_toggle_icon {
   filter: var(--FILT) !important;
-  opacity: 60% !important;
+  opacity: var(--OP) !important;
 }
 .newmodal_close {
-  opacity: 60% !important;
+  opacity: var(--OP) !important;
   filter: var(--FILT) !important;
 }
 #filter_clear_btn {
   filter: var(--FILT) !important;
-  opacity: 60% !important;
+  opacity: var(--OP) !important;
 }
 img.category_icon {
   filter: var(--FILT) !important;
-  opacity: 60% !important;
+  opacity: var(--OP) !important;
 }
 .see_all_expander {
   border: 1px SOLID var(--BUTTONBORDER) !important;
   width: 20% !important;
   color: var(--WHITE) !important;
   filter: var(--FILT) !important;
-  opacity: 60% !important;
+  opacity: var(--OP) !important;
   background-color: var(--BUTTON2) !important;
 }
 .game_language_options td span {
-  opacity: 60% !important;
+  opacity: var(--OP) !important;
   filter: var(--FILT) !important;
 }
 .ico18 {
   filter: var(--FILT) !important;
-  opacity: 60% !important;
+  opacity: var(--OP) !important;
 }
 .forumtopic_answer.answer_header img {
   filter: var(--FILT) !important;
-  opacity: 60% !important;
+  opacity: var(--OP) !important;
 }
 .curator_received {
   filter: var(--FILT) !important;
 }
 div.graph_toggle_icon {
-  opacity: 60% !important;
+  opacity: var(--OP) !important;
   filter: var(--FILT) !important;
 }
 .apphub_CardCommentCount {
   filter: var(--FILT) !important;
-  opacity: 60% !important;
+  opacity: var(--OP) !important;
 }
 .broadcast_embeddable_viewer_bar_2Ygph
   .broadcast_embeddable_viewer_links_2EQpO {
   filter: var(--FILT) !important;
-  opacity: 60% !important;
+  opacity: var(--OP) !important;
 }
 a.forum_comment_action img {
   filter: var(--FILT) !important;
@@ -1270,7 +1289,7 @@ a.forum_comment_action img {
 }
 .forum_topic_reply_count img,
 .forum_topic_award_count img {
-  opacity: 60% !important;
+  opacity: var(--OP) !important;
   filter: var(--FILT) !important;
 }
 .dselect_container a.trigger::after,
@@ -1278,7 +1297,7 @@ a.forum_comment_action img {
   filter: BRIGHTNESS(50%) !important;
 }
 .commentthread_subscribe_check {
-  opacity: 60% !important;
+  opacity: var(--OP) !important;
   filter: var(--FILT) !important;
 }
 div.filterselect .filterselect_arrow,
@@ -1296,7 +1315,7 @@ div.filterselect #filterselect_arrow {
   opacity: 0.1 !important;
 }
 .published_file_icon {
-  opacity: 60% !important;
+  opacity: var(--OP) !important;
   filter: var(--FILT) !important;
 }
 div.sharedfiles_filterselect_options div.option:hover {
@@ -1313,14 +1332,14 @@ div.sortselect #sortselect_arrow {
   filter: BRIGHTNESS(50%) !important;
 }
 body.v6 #footer #footer_logo_steam {
-  opacity: 60% !important;
+  opacity: var(--OP) !important;
   filter: var(--FILT) !important;
 }
 .profile_customization_edit_icon {
   filter: BRIGHTNESS(50%) !important;
 }
 .view_inventory_logo img {
-  opacity: 60% !important;
+  opacity: var(--OP) !important;
   filter: var(--FILT) !important;
 }
 .apphub_CardMetaData .review_award_aggregated > img,
@@ -1328,76 +1347,80 @@ body.v6 #footer #footer_logo_steam {
   filter: var(--FILT) !important;
 }
 .gutter_item .icon {
-  opacity: 60% !important;
+  opacity: var(--OP) !important;
   filter: var(--FILT) !important;
 }
 .cart_tab_left_on {
   background-image:unset!important;
-  /* opacity: 60% !important;
+  /* opacity: var(--OP) !important;
   filter: var(--FILT) !important; */
 }
 #checkout_steam_logo img {
   filter: BRIGHTNESS(50%) !important;
 }
 .friends_nav a.icon_item .title {
-  opacity: 60% !important;
+  opacity: var(--OP) !important;
   filter: var(--FILT) !important;
 }
 .phone_header_description img {
   filter: var(--FILT) !important;
 }
 .live_steam_viewers {
-  opacity: 60% !important;
-  filter: var(--FILT) !important;
+  background-image:unset!important;
+  /* opacity: var(--OP) !important;
+  filter: var(--FILT) !important; */
 }
+
+.live_steam_viewers::before {
+  font-family:store!important;
+  font-size:20px!important;
+  content:'Q'!important;
+}
+
 .review_box .vote_header .review_source {
-  opacity: 60% !important;
+  opacity: var(--OP) !important;
   filter: var(--FILT) !important;
 }
 .ico16 {
-  opacity: 60% !important;
+  opacity: var(--OP) !important;
   filter: var(--FILT) !important;
 }
 .broadcast_embeddable_viewer_count_1MrTW svg {
   filter: brightness(50%) !important;
 }
 span.platform_img.valveindex {
-  opacity: 60% !important;
+  opacity: var(--OP) !important;
   filter: var(--FILT) !important;
 }
 .review_box .vote_info .commentCount a {
-  opacity: 60% !important;
-  filter: var(--FILT) !important;
-}
-span.platform_img.music {
-  opacity: 60% !important;
+  opacity: var(--OP) !important;
   filter: var(--FILT) !important;
 }
 span.platform_img.linux {
-  opacity: 60% !important;
+  opacity: var(--OP) !important;
   filter: var(--FILT) !important;
 }
 span.platform_img.htcvive {
   filter: brightness(50%) !important;
 }
 span.platform_img.oculusrift {
-  opacity: 60% !important;
+  opacity: var(--OP) !important;
   filter: var(--FILT) !important;
 }
 span.platform_img.windowsmr {
-  opacity: 60% !important;
+  opacity: var(--OP) !important;
   filter: var(--FILT) !important;
 }
 span.platform_img.mac {
-  opacity: 60% !important;
+  opacity: var(--OP) !important;
   filter: var(--FILT) !important;
 }
 span.platform_img.win {
-  opacity: 60% !important;
+  opacity: var(--OP) !important;
   filter: var(--FILT) !important;
 }
 body.v6 #footer #footer_logo img {
-  opacity: 60% !important;
+  opacity: var(--OP) !important;
   filter: var(--FILT) !important;
 }
 
@@ -1414,22 +1437,22 @@ body.v6 #footer #footer_logo img {
 /* bug */
 
 .carousel_container .arrow > div {
-  opacity: 60% !important;
+  opacity: var(--OP) !important;
   filter: var(--FILT) !important;
 }
 a.linkbar > img {
-  opacity: 60% !important;
+  opacity: var(--OP) !important;
   filter: var(--FILT) !important;
 }
 .apphub_UserReviewCardContent .review_award_aggregated > img {
-  opacity: 60% !important;
+  opacity: var(--OP) !important;
   filter: var(--FILT) !important;
 }
 .most_recommended .steam_curator_recommendation .steam_curator_for_app_img {
   filter: none !important;
 }
 .review_box .short_header .review_source {
-  opacity: 60% !important;
+  opacity: var(--OP) !important;
   filter: var(--FILT) !important;
 }
 .newmodal_background {
@@ -1491,16 +1514,16 @@ a.linkbar > img {
   border-radius: VAR(--BORDERRADIUS) !important;
 }
 .text_filter_toggle_icon {
-  opacity: 60% !important;
+  opacity: var(--OP) !important;
   filter: var(--FILT) !important;
 }
 .apphub_CardRating.rateUp {
-  opacity: 60% !important;
+  opacity: var(--OP) !important;
   color: VAR(--ACCENT) !important;
   filter: var(--FILT) !important;
 }
 .apphub_CardMetaData .reward_btn_icon {
-  opacity: 60% !important;
+  opacity: var(--OP) !important;
   filter: var(--FILT) !important;
 }
 [class*="libraryhome_WhatsNew"] {
@@ -1608,10 +1631,10 @@ body::-webkit-scrollbar {
 }
 
 .ico16.thumb_upv6 {
-  opacity: 60% !important;
+  opacity: var(--OP) !important;
 }
 .ico16.thumb_downv6 {
-  opacity: 60% !important;
+  opacity: var(--OP) !important;
 }
 .inventory_load_error {
   border: 0 !important;
@@ -2378,7 +2401,7 @@ div.sortselect_options div.option:hover {
   box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .menu_ico {
-  opacity: 60% !important;
+  opacity: var(--OP) !important;
   filter: var(--FILT) !important;
 }
 .gray_bevel input,
@@ -4886,7 +4909,7 @@ body.v6 .page_content_ctn.dark {
   background: var(--BASE2) !important;
 }
 .apphub_CardContentSpeechCorner {
-  opacity: 60% !important;
+  opacity: var(--OP) !important;
 }
 body.v6.infinite_scrolling #footer.small_footer {
   background: var(--BASE2) !important;
@@ -6268,7 +6291,7 @@ a.hoverunderline:hover {
   text-decoration: NONE !important;
 }
 a.forum_comment_action {
-  opacity: 60% !important;
+  opacity: var(--OP) !important;
   background-color: VAR(--BASE1) !important;
 }
 a.forum_comment_action:hover {
@@ -7079,7 +7102,7 @@ body.v6 h2 .header_inline {
   border-bottom: 1px solid var(--BUTTON2) !important;
 }
 #footerLogo {
-  opacity: 60% !important;
+  opacity: var(--OP) !important;
   filter: var(--FILT) !important;
 }
 .game_language_options th {
@@ -9855,7 +9878,7 @@ a.persona.online,
 
 .friendBlockStatusIcon {
   filter: var(--FILT) !important;
-  opacity: 60% !important;
+  opacity: var(--OP) !important;
 }
 
 .review_box {
