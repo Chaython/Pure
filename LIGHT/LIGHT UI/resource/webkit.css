@@ -103,6 +103,17 @@ span.platform_img.linux {
   background-image:unset!important;
 }
 
+span.platform_img.music {
+  background-image:unset!important;
+}
+
+span.platform_img.music::before {
+  font-family:store!important;
+  color:var(--ACCENT)!important;
+  FONT-SIZE:15PX!important;
+  content: '4'!important;
+}
+
 span.platform_img.linux::before {
   font-family:store!important;
   color:var(--ACCENT)!important;
@@ -1356,9 +1367,17 @@ body.v6 #footer #footer_logo_steam {
   filter: var(--FILT) !important;
 }
 .live_steam_viewers {
-  opacity: var(--OP) !important;
-  filter: var(--FILT) !important;
+  background-image:unset!important;
+  /* opacity: var(--OP) !important;
+  filter: var(--FILT) !important; */
 }
+
+.live_steam_viewers::before {
+  font-family:store!important;
+  font-size:20px!important;
+  content:'Q'!important;
+}
+
 .review_box .vote_header .review_source {
   opacity: var(--OP) !important;
   filter: var(--FILT) !important;
@@ -1375,10 +1394,6 @@ span.platform_img.valveindex {
   filter: var(--FILT) !important;
 }
 .review_box .vote_info .commentCount a {
-  opacity: var(--OP) !important;
-  filter: var(--FILT) !important;
-}
-span.platform_img.music {
   opacity: var(--OP) !important;
   filter: var(--FILT) !important;
 }
