@@ -192,6 +192,22 @@ span.platform_img.win::before {
 
 /* REVIEW ICONS */
 
+.store_capsule .capsule > img {
+  height:95%!important;
+  width:95%!important;
+  top:5px!important;
+  left:5px!important;
+}
+
+.recommended_creators_ctn .recommended_creators_container .avatars > a img {
+  border-radius:var(--BORDERRADIUS)!important;
+}
+
+#noteworthy_tab.tab.flyout_tab a.pulldown_desktop, #genre_tab.tab.flyout_tab a.pulldown_desktop {
+  background:unset!important;
+  padding:unset!important;
+}
+
 /* .carousel_container.maincap .arrow {
   top:unset!important;
 } */
@@ -1054,7 +1070,7 @@ div.filterselect_options div.option {
   color: VAR(--ACCENT) !important;
   background-image: none !important;
   background: var(--BUTTON2) !important;
-  border-bottom: 1px solid #b6b6b6 !important;
+  border-bottom: 1px solid VAR(--BUTTONBORDRER) !important;
 }
 .eventcalendar_SidebarContainer_15YLD {
   border-right: 1px SOLID VAR(--SIDEBARBORDER) !important;
@@ -1788,12 +1804,16 @@ span.experiment-name {
   background-color: var(--BUTTON2) !important;
   border: 1px solid var(--BUTTONBORDER) !important;
 }
+
+/*
+BUG
 .capsule {
   background-image: none !important;
   background-color: VAR(--PANEL) !important;
   box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
   border: 1px SOLID VAR(--PANELBORDER) !important;
-}
+} */
+
 body.clientNews .post_title {
   color: VAR(--ACCENT) !important;
 }
@@ -2778,9 +2798,6 @@ body.v6 .store_nav .popup_block_new .popup_body {
 body.v6 .recommended_by_steam_labs_ctn .header_inline_reason {
   color: VAR(--ACCENT) !important;
 }
-.discount_block .discount_prices {
-  border: 0 !important;
-}
 
 .home_tabs_content .discount_block .discount_prices,
 .tab_content_ctn .discount_block .discount_prices {
@@ -2800,7 +2817,7 @@ body.v6 .recommended_by_steam_labs_ctn .header_inline_reason {
   background-color: TRANSPARENT !important;
 }
 .DialogCheckbox {
-  border: 1px SOLID #b6b6b6 !important;
+  border: 1px SOLID VAR(--BUTTONBORDRER) !important;
   background-color: var(--BUTTON2) !important;
 }
 .commentnotification.unread:hover {
@@ -3105,7 +3122,7 @@ a {
   color: VAR(--ACCENT) !important;
 }
 .dropcontainer ul {
-  border: 1px solid #b6b6b6 !important;
+  border: 1px solid VAR(--BUTTONBORDRER) !important;
   background: var(--BASE2) !important;
 }
 .explore_rightcol_box {
@@ -3222,7 +3239,7 @@ select {
   background-color: var(--BUTTON2) !important;
 }
 #market_advancedsearch_appselect_options .market_advancedsearch_appname {
-  border-bottom: 1px solid #b6b6b6 !important;
+  border-bottom: 1px solid VAR(--BUTTONBORDRER) !important;
 }
 #market_advancedsearch_appselect {
   background-color: var(--BUTTON2) !important;
@@ -3454,10 +3471,10 @@ body.v6 .game_page_background {
 #TagSuggest {
   outline: 0 !important;
   background-color: var(--BUTTON2) !important;
-  border: 1px solid #b6b6b6 !important;
+  border: 1px solid VAR(--BUTTONBORDRER) !important;
 }
 #TagSuggest.blur {
-  border: 1px solid #b6b6b6 !important;
+  border: 1px solid VAR(--BUTTONBORDRER) !important;
   color: VAR(--ACCENT) !important;
   text-shadow: none !important;
 }
@@ -3854,6 +3871,12 @@ span.vr_required {
   background: VAR(--BASE1) !important;
   box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
+
+.store_header_btn_green {
+  background-color:unset!important;
+  background-image:unset!important;
+}
+
 .store_header_btn_green a {
   color:var(--WHITE)!important;
   background: VAR(--GREEN) !important;
@@ -4057,7 +4080,7 @@ a.market_listing_row_link:visited {
 .friends_search_text_box,
 .groups_search_text_box {
   background-color: var(--BUTTON2) !important;
-  border: 1px solid #b6b6b6 !important;
+  border: 1px solid VAR(--BUTTONBORDRER) !important;
 }
 .playerAvatar.profile_header_size.in-game {
   background: VAR(--GREEN) !important;
@@ -4888,6 +4911,18 @@ body.recommendgame #review_create {
   border: 0 !important;
   border-radius: 0 !important;
 }
+
+#permissionsBlock {
+  background:var(--BASE1)!important;
+  border-radius:var(--BORDERRADIUS)!important;
+  border:1px solid var(--PANELBORDER)!important;
+  box-shadow:var(--BOXSHADOW) var(--SHADOW)!important;
+}
+
+.blotter_gamepurchase_text {
+  color:var(--ACCENT)!important;
+}
+
 .recommended_creators_ctn .store_capsule {
   box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
   background-image: none !important;
@@ -4896,6 +4931,15 @@ body.recommendgame #review_create {
 .mainLoginPanel {
   background: var(--ACCENT) !important;
 }
+
+a.gutter_giftcard.gutter_item {
+  display:none!important;
+}
+
+.home_page_gutter_giftcard {
+  DISPLAY:NONE!important;
+}
+
 body.v6.summer2018_home .gutter_header a:hover .home_page_gutter_giftcard {
   background: VAR(--ACCENT) !important;
 }
@@ -5466,7 +5510,7 @@ img.member_tile {
   font-weight: BOLD !important;
 }
 .community_home_search_box {
-  border: 1px SOLID #b6b6b6 !important;
+  border: 1px SOLID VAR(--BUTTONBORDRER) !important;
   background-color: var(--BUTTON2) !important;
   border: 0 !important;
   border-radius: 0 !important;
@@ -5584,8 +5628,8 @@ a.home_marketing_message {
 .home_content.single {
   background: VAR(--BASE1) !important;
   color: VAR(--ACCENT) !important;
-  border-radius: 6px !important;
-  border: 0 !important;
+  border-radius: var(--BORDERRADIUS) !important;
+  border: 1px solid var(--PANELBORDER) !important;
   box-shadow: var(--BOXSHADOW) var(--DIVIDER) !important;
 }
 .home_content.single_buttonbar {
@@ -6424,7 +6468,7 @@ div#headerSearch.friend_activity_header_search {
   background-color: VAR(--BASE1) !important;
   margin-bottom: 2px !important;
   padding: 12px 8px 20px 60px !important;
-  border: #b6b6b6 !important;
+  border: VAR(--BUTTONBORDRER) !important;
   overflow: hidden !important;
   border-radius: var(--BORDERRADIUS) !important;
 }
@@ -7064,7 +7108,15 @@ body.v6 h2 .header_inline {
 }
 .ds_flag {
   color: var(--WHITE) !important;
+  top:unset!important;
+  bottom:0!important;
+  border-top-right-radius:var(--BORDERRADIUS)!important;
 }
+
+.store_capsule .ds_flag {
+  display:none!important;
+}
+
 .gameListRowLogo.ds_flagged img {
   border-radius: var(--BORDERRADIUS) !important;
 }
@@ -7179,7 +7231,7 @@ body.v6 .wishlist_header h2 {
   margin-top: 2px !important;
 }
 #wishlist_search {
-  border: 1px solid #b6b6b6 !important;
+  border: 1px solid VAR(--BUTTONBORDRER) !important;
   color: VAR(--ACCENT) !important;
   border-radius: var(--TEXTENTRYBORDERROUNDED) !important;
   background-color: var(--BUTTON2) !important;
@@ -7231,10 +7283,11 @@ body.v6 .newonsteam_capsules > a {
 .discount_block_large .discount_prices {
   border-radius: var(--BORDERRADIUS) !important;
 }
+
 .discount_block .discount_prices {
-  border: 1px SOLID #b6b6b6 !important;
-  background: var(--BUTTON2) !important;
-  border-radius: 10px !important;
+  border: 1px SOLID VAR(--BUTTONBORDRER) !important;
+  background: TRANSPARENT !important;
+  border-radius: VAR(--BORDERRADIUS) !important;
   vertical-align: 0 !important;
 }
 .btn_medium > span,
@@ -7976,9 +8029,9 @@ body.v6 #footer .rule {
 }
 .ds_flag.ds_wishlist_flag {
   color: VAR(--ACCENT) !important;
-  border-radius: 0 !important;
-  border: 1px solid var(--SHADOW) !important;
-  background-color: var(--BASE3) !important;
+  /* border-radius: 0 !important; */
+  /* border: 1px solid var(--SHADOW) !important; */
+  background-color: var(--BASE1) !important;
 }
 .ds_flag.ds_incart_flag {
   background-color: #54a348 !important;
@@ -8012,10 +8065,6 @@ h2 span.note {
   padding-left: 5px !important;
   padding-right: 5px !important;
   border-radius: var(--BORDERRADIUS) !important;
-}
-
-.discount_block > .discount_prices {
-  box-shadow: none !important;
 }
 
 .store_capsule .discount_block > .discount_prices {
@@ -8635,7 +8684,7 @@ input.btn_small:hover {
   border: 0 !important;
 }
 #widget {
-  border-color: #b6b6b6 !important;
+  border-color: VAR(--BUTTONBORDRER) !important;
   border: 0 !important;
   background: var(--BUTTON2) !important;
   border-radius: 10px !important;
@@ -8742,6 +8791,7 @@ img#blotter_nofriends_block {
 }
 
 .gameLogo {
+  background:unset!important;
   border-radius: var(--BORDERRADIUS) !important;
 }
 .blotter_group_announcement_header_ogg {
@@ -9682,12 +9732,14 @@ input.btn_medium {
   color: VAR(--ACCENT) !important;
   font-weight: 500 !important;
 }
+/*
+BUG
 .discount_block > .discount_prices {
   border-radius: 0 !important;
   background-color: VAR(--BASE1) !important;
   border: 0 !important;
   box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
-}
+} */
 .carousel_container.spotlight .carousel_items > * .store_capsule {
   border: 0 !important;
   background: VAR(--BASE1) !important;

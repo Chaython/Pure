@@ -774,7 +774,7 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
 }
 
 .contentmanagement_AppActionBar_35T-O {
-  padding-top:8px!important;
+  padding:8px 14px!important;
   border-top: 1px SOLID VAR(--APPDETAILSPANELBORDER) !important;
   background-color: var(--APPACTIONBAR) !important;
 }
