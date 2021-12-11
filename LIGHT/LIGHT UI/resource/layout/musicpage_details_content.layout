@@ -2,6 +2,12 @@
 {
 	styles
 	{
+		ListPanelColumnHeader {
+		render {
+				0="fill(x0,y0,x1,y0+1,NONE)"
+			}
+		}
+
 		DetailsBorderPanel
 		{
 			bgcolor="none"
