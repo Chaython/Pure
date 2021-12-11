@@ -91,6 +91,17 @@
 
 /* PLATFORMS */
 
+.carousel_container .arrow {
+  height:50px!important;
+  width:50px!important;
+  padding:0!important;
+}
+
+.carousel_container .arrow > div {
+  background-image:unset!important;
+}
+
+
 span.platform_img.win {
   background-image:unset!important;
 }
@@ -106,6 +117,30 @@ span.platform_img.linux {
 span.platform_img.music {
   background-image:unset!important;
 }
+
+.carousel_container .arrow.right {
+  border-radius:100px!important;
+  background: transparent !important;
+}
+
+.carousel_container .arrow.right::before {
+  margin-right:50%!important;
+  line-height:46px!important;
+  font-family:store!important;
+  color:var(--ACCENT)!important;
+  FONT-SIZE:22PX!important;
+  content:'W'!important;
+}
+
+.carousel_container .arrow.left > div::before {
+  margin-left:50%!important;
+  line-height:46px!important;
+  font-family:store!important;
+  color:var(--ACCENT)!important;
+  FONT-SIZE:22PX!important;
+  content:'E'!important;
+}
+
 
 span.platform_img.music::before {
   font-family:store!important;
@@ -156,6 +191,10 @@ span.platform_img.win::before {
 }
 
 /* REVIEW ICONS */
+
+/* .carousel_container.maincap .arrow {
+  top:unset!important;
+} */
 
 .playerAvatar.offline img, .friend_status_offline .friend_block_avatar img, .appHubIconHolder.offline img, .avatar_block_status_offline img {
   BORDER-RADIUS:VAR(--AVATARBORDERRADIUS)!important;
@@ -1437,10 +1476,6 @@ body.v6 #footer #footer_logo img {
 
 /* bug */
 
-.carousel_container .arrow > div {
-  opacity: var(--OP) !important;
-  filter: var(--FILT) !important;
-}
 a.linkbar > img {
   opacity: var(--OP) !important;
   filter: var(--FILT) !important;
@@ -3405,14 +3440,10 @@ body.v6 .game_page_background {
 }
 .carousel_container .arrow.left {
   background: transparent !important;
-  border-radius: 0 !important;
+  border-radius: 100px !important;
 }
 .carousel_container .arrow.left:hover {
   background-color: var(--BUTTON2) !important;
-}
-.carousel_container .arrow.right {
-  border-radius: 0 !important;
-  background: transparent !important;
 }
 .carousel_container .arrow.right:hover {
   background-color: var(--BUTTON2) !important;

@@ -5198,10 +5198,11 @@ div.ShortRightPanel
 }
 
 .reportitem_InputBox_1H8F9:focus-within {
+  background:var(--TEXTENTRYBACKGROUNDSELECTED)!important;
   border-color: VAR(--TEXTENTRYBORDERSELECTED) !important;
 }
 
-.reportitem_InputBox_1H8F9:hover {
+.reportitem_InputBox_1H8F9:hover:not(:focus-within) {
   background: VAR(--TEXTENTRYBACKGROUNDHOVER) !important;
   border-color: VAR(--TEXTENTRYBORDERHOVER) !important;
 }
