@@ -15,6 +15,7 @@
 	{
 		Hey
 		{
+			font-size=20
 			textcolor="ACCENT"
 			font-family=semilight
 		}
@@ -29,7 +30,7 @@
 	layout
 	{
 		//Text
-		place { control="Instructions" x=16 y=44 width=max margin-right=100 }
+		place { control="Instructions" x=16 y=50 width=max  }
 
 		//Footer
 		region { name=bottom align=bottom height=44 margin=8 }
