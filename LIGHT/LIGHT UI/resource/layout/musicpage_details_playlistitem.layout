@@ -29,7 +29,7 @@
 			bgcolor="none"
 			render_bg
 			{
-				0="fill(x0,y1-1,x1,y1,White08)"
+				0="fill(x0,y1-1,x1,y1,DIVIDER)"
 			}
 			padding-left=10
 			padding-top=10
@@ -37,7 +37,12 @@
 		}
 		TrackLabelStyle:hover
 		{
-			bgcolor=white05
+			bgcolor=LISTITEMBACKGROUNDHOVER
+
+			//RENDER_BG{
+			//	0="fill(x0-20,y0,x1,y1,LISTITEMBACKGROUNDHOVER)"
+			//}
+			
 			textcolor=ACCENT
 		}
 	}
@@ -46,7 +51,7 @@
 	{
 		region { name=panelregion width=max }
 
-		place {	region="panelregion" control="PositionLabel" width=24 }
+		place {	region="panelregion" control="PositionLabel" width=20 }
 		place {	region="panelregion" control="TrackLabel" x=32 width=max }
 	}
 }

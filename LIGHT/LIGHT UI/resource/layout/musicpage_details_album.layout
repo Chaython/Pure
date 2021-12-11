@@ -122,13 +122,13 @@
 		place { region=songs dir=down y=8 control=CoverImage width=200 height=200 }
 
 		//Album and Artist
-		 place { region=buttons x=56 control=AlbumTitleLabel,ArtistLabel,TracksInfoLabel dir=down }
+		 place { region=buttons x=56 control=AlbumTitleLabel,ArtistLabel,TracksInfoLabel dir=down spacing=4 }
 
 		//Play Button
 		place { dir=down x=216 y=16 control=PlayTracksButton,PlayAlbumButton width=40 height=40 }
 
 		//Other Buttons
-		place {	region=songs dir=down start=TracksInfoLabel control="AddTracksToQueueButton,AddTracksToPlaylistButton,AddAlbumToQueueButton,AddAlbumToPlaylistButton,ShowAlbumButton,ShowAlbumInSystemButton" x=0 y=8 margin-left=0 height=28 width=160 spacing=1 }
+		place {	region=songs dir=down start=TracksInfoLabel control="AddTracksToQueueButton,AddTracksToPlaylistButton,AddAlbumToQueueButton,AddAlbumToPlaylistButton,ShowAlbumButton,ShowAlbumInSystemButton" x=0 y=8 margin-left=0 height=28 width=160 spacing=6 }
 
 		//Song List
 		place { region=songs control=*MusicPageDetailsTrack dir=down start=CoverImage width=max y=16 height=40 spacing=-3 }
