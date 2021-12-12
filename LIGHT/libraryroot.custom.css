@@ -4601,7 +4601,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Cen
 .appdetailscommunityfeed_Guide_-85o5 {
   border-top-left-radius: 6px !important;
   border-top-right-radius: 6px !important;
-  border-bottom: 4px solid !important;
+  border-bottom: 1px solid var(--DIVIDER) !important;
   box-shadow: 1px 0 VAR(--SHADOW) !important;
 }
 .appdetailscommunityfeed_Guide_-85o5
@@ -7784,6 +7784,11 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
 
 .gamelistentry_AppIconDownloading_2kzMb .gamelistentry_GameIcon_ga1hy {
   filter: brightness(0.7) !important;
+}
+
+.appdetailscommunityfeed_Guide_-85o5 .appdetailscommunityfeed_TopSectionInner_1dJuv {
+  margin-top:6px!important;
+  margin-left:6px!important;
 }
 
 .gamelistentry_AppIconDownloading_2kzMb .gamelistentry_GameIcon_ga1hy {
