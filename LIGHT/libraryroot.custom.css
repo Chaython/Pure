@@ -68,7 +68,7 @@
   --DOWNLOADSBUTTONHOVER: var(--BLACK);
   --DOWNLOADEDVALUE: VAR(--BLUE);
   --DOWNLOADSITEMSTATUSLETTERSPACING: 0;
-  --DROPOPTIONBORDER: VAR(--BLUE);
+  --DROPOPTIONBORDER: VAR(--ACCENT);
   --ADDTOQUEUE: VAR(--ACCENT);
   --REMOVEFROMQUEUEHOVERFILTER: var(--FILT);
   --PROGRESS: VAR(--ACCENT);
@@ -223,7 +223,7 @@
   --NEWCOLLECTIONBORDERWIDTH: 1px;
   --NEWCOLLECTIONSHADOW: VAR(--SHADOW);
   --NEWCOLLECTIONTARGETBACKGROUND: VAR(--BASE3);
-  --NEWCOLLECTIONTARGETBORDER: VAR(--BLUE);
+  --NEWCOLLECTIONTARGETBORDER: VAR(--ACCENT);
   --SHOWALLCOLLECTIONSFONTWEIGHT: 600;
   --RATINGCONTAINER: VAR(--BASE1);
   --DYNAMICCOLLECTIONICON: VAR(--ACCENT);
@@ -1722,6 +1722,11 @@ div.MediumWindow
   background: var(--NEWCOLLECTIONBACKGROUND) !important;
   box-shadow: var(--BOXSHADOW) VAR(--NEWCOLLECTIONSHADOW) !important;
 }
+
+.allcollections_Collection_3IWn-.allcollections_DropOption_-D43E {
+  border:2px dashed var(--ACCENT)!important;
+}
+
 .allcollections_Collection_3IWn-:hover.allcollections_Collection_3IWn- .allcollections_BigPlus_g0-tU {
   color:var(--ACCENT)!important;
 }
@@ -1804,7 +1809,7 @@ div.MediumWindow
 }
 
 .allcollections_Collection_3IWn- .allcollections_NavTimer_2Tnpa svg circle {
-  stroke: var(--BLUE) !important;
+  stroke: var(--ACCENT) !important;
 }
 
 .comment_thread_ReactionIcon_QL3Aa {
@@ -2840,11 +2845,11 @@ div.NarrowRightPanel
 }
 
 .gamelistentry_Container_2-O4Z.gamelistentry_DropOption_3WdXW {
-  border-color: var(--BLUE) !important;
+  BORDER-COLOR: VAR(--ACCENT) !important;
 }
 
 .gamelistentry_Container_2-O4Z.gamelistentry_DropTarget_1m8Mc {
-  border-color: var(--BLUE) !important;
+  BORDER-COLOR: VAR(--ACCENT) !important;
 }
 
 .collectionview_Container_2q70u.collectionview_DropOption_3Buvs {
@@ -2852,19 +2857,19 @@ div.NarrowRightPanel
 }
 
 .gamelistsectionheader_Container_2sYIg.gamelistsectionheader_DropOption_2iS5r {
-  border-color: var(--BLUE) !important;
+  BORDER-COLOR: VAR(--ACCENT) !important;
 }
 
 .gamelistentry_Container_2-O4Z.gamelistentry_DropOption_3WdXW.gamelistentry_LastInCollection_1VBNp {
-  border-color: VAR(--BLUE) !important;
+  BORDER-COLOR: VAR(--ACCENT) !important;
 }
 
 .gamelistsectionheader_Container_2sYIg.gamelistsectionheader_DropTarget_3zHMJ {
-  border-color: var(--BLUE) !important;
+  BORDER-COLOR: VAR(--ACCENT) !important;
 }
 
 .gamelistentry_Container_2-O4Z.gamelistentry_DropTarget_1m8Mc.gamelistentry_LastInCollection_1VBNp {
-  border-color: var(--BLUE) !important;
+  border-color: var(--ACCENT) !important;
 }
 
 .DialogInput_ClearAction .SVGIcon_X_Line line {
@@ -7321,7 +7326,7 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
 .awardmodal_GrantAwardModal_2ilpH
   .awardmodal_ButtonContainer_JYQgs
   .awardmodal_Button_3M92h.awardmodal_Selected_Efo_8 {
-  border-color: var(--BLUE) !important;
+  BORDER-COLOR: VAR(--ACCENT) !important;
 }
 .localdateandtime_ShortDateAndTime_MBkkh {
   color: var(--ACCENT) !important;
