@@ -2,6 +2,37 @@
 {
 	styles
 	{
+		listpanelcolumnheader
+    	{
+  		font=basefont
+     	 bgcolor=BASE3
+    	render {
+        
+	    		0="fill( x0 + 1, y0, x1-1, y0 + 1, DIVIDER )"
+				1="fill( x0, y0, x0+1, y1, DIVIDER)"
+				2="fill( x1-1, y0, x1, y1, DIVIDER)"
+				3="fill( x0 + 1, y1-1, x1-1, y1, DIVIDER )"
+        
+     		 } 
+		}
+
+		listpanelcolumnheader:hover 
+		{
+			BGCOLOR=BASE4
+		}
+
+		listpanelinterior
+    {
+      render {
+        
+	    	0="fill( x0 + 1, y0, x1-1, y0 + 1, DIVIDER )"
+				1="fill( x0, y0, x0+1, y1, DIVIDER)"
+				2="fill( x1-1, y0, x1, y1, DIVIDER)"
+				3="fill( x0 + 1, y1-1, x1-1, y1, DIVIDER )"
+        
+      }
+		}
+
 		ComboBox
 		{
 			bgcolor=BUTTON
