@@ -6,7 +6,7 @@
   --FriendsDLCScreenshotsColumnWidth: 33%;
 
   --DISPLAYCOMMUNITYCONTENT: GRID; /*DEFAULT IS "GRID" */
-  --DISPLAYAPPDETAILS: FLEX; /*DEFAULT IS FLEX, set to "contents" when disabling community content*/
+  --DISPLAYAPPDETAILS: flex; /*DEFAULT IS FLEX, set to "contents" when disabling community content*/
   --DISPLAYLIBRARYPANEL: unset;
   --SIDEBARLISTTEXTCASE: NORMAL; /*default is normal*/
   --GAMEIMAGESHINE: unset;
@@ -50,8 +50,8 @@
   --DRIVEUSAGENUMBER: VAR(--ACCENT);
   --DISKPOINT:0;
   --DOWNLOADGRAPHBUTTONHOVER: VAR(--BLACK);
-  --DOWNLOADGRAPHBUTTONBORDER: transparent;
-  --DOWNLOADGRAPHBUTTONBR: var(--BORDERRADIUS);
+  --DOWNLOADGRAPHBUTTONBORDER: TRANSPARENT;
+  --DOWNLOADGRAPHBUTTONBR: VAR(--BORDERRADIUS);
   --DOWNLOADGRAPHBUTTON: VAR(--BASE2);
   --DOWNLOADITEMBR: VAR(--BORDERRADIUS);
   --GRAPHANDSTATSBG: VAR(--BASE2);
@@ -63,9 +63,9 @@
   --INSTALLFOLDERBORDERSELECTED: VAR(--BLUE);
   --DRIVEUSAGEGAMES: VAR(--BLUE);
   --INSTALLFOLDERTXT: VAR(--ACCENT);
-  --INSTALLFOLDER: VAR(--APPDETAILSPANEL);
+  --INSTALLFOLDER: var(--APPDETAILSPANEL);
   --NOINTERNETCONNECTION: VAR(--RED);
-  --DOWNLOADSBUTTONHOVER: var(--BLACK);
+  --DOWNLOADSBUTTONHOVER: VAR(--BLACK);
   --DOWNLOADEDVALUE: VAR(--BLUE);
   --DOWNLOADSITEMSTATUSLETTERSPACING: 0;
   --DROPOPTIONBORDER: VAR(--BLUE);
@@ -77,8 +77,9 @@
   --DOWNLOADING: VAR(--BLUE);
   --UPDATING: VAR(--BLUE);
   --ACTIVEHOURSHOVER: VAR(--BLACK);
-  --DOWNLOADSITEMSTATUSFONTWEIGHT: 400;
-  --DOWNLOADNAMEFONTWEIGHT: 400;
+  --DOWNLOADSITEMSTATUSFONTWEIGHT: 300;
+  --DOWNLOADNAMEFONTWEIGHT: 500;
+  --DOWNLOADSVALUE: VAR(--ACCENT);
   --DOWNLOADSPLAYBUTTONBG: transparent;
   --DOWNLOADSPLAYBUTTONHOVERFILTER: VAR(--FILT);
   --DOWNLOADPAUSEDLABEL: VAR(--ACCENT);
@@ -89,44 +90,41 @@
   --DOWNLOADSTATBORDER: VAR(--DIVIDER);
   --DOWNLOADSTATBG: VAR(--BASE1);
   --DOWNLOADSITEMSTATUS: VAR(--ACCENT);
-  --DOWNLOADSDRAGHANDLE: VAR(--ACCENT);
   --DOWNLOADITEMBORDER: VAR(--APPDETAILSPANELBORDER);
-  --DOWNLOADNAMETEXTCASE: UPPERCASE;
   --DOWNLOADNAME: VAR(--ACCENT);
   --DOWNLOADITEM: VAR(--BASE1);
   --DOWNLOADITEMHOVER: VAR(--BASE3);
   --DOWNLOADSITEMLIST: VAR(--BASE2);
-  --DOWNLOADSECTIONTITLEFONTWEIGHT: 500;
+  --DOWNLOADSECTIONTITLEFONTWEIGHT: 400;
   --DOWNLOADGRAPHLEGENDBG: VAR(--BASE2);
   --DOWNLOADSPAGEBG: VAR(--BASE2);
-  --DOWNLOADSTAT: VAR(--BLACK);
-  --DOWNLOADSFIGURE: VAR(--ACCENT);
-  --NETGRAPH: var(--BUTTON2);
+  --DOWNLOADSTAT: VAR(--WHITE);
+  --NETGRAPH: VAR(--BUTTON2);
   --DISKGRAPH: VAR(--ACCENT);
-  --NETDOWNLOADLEGEND: var(--NETGRAPH);
+  --NETDOWNLOADLEGEND: VAR(--BUTTON2);
   --DISKDOWNLOADLEGEND: VAR(--ACCENT);
+  --DISKDOWNLOADLEGENDHEIGHT: 1px;
+  --DOWNLOADSFIGURE: VAR(--ACCENT);
   --OP: 63%;
   --OP2: 60.5%;
-  --FILT: BRIGHTNESS(0);
-  --BASE1: #e4e4e4;
-  --BASE2: #dedede;
-  --BASE3: #eaeaea;
-  --BASE4: #efefef;
-  --BASE5: #d1d1d1;
-  --ACCENT: #585858;
-  --BUTTONBORDER: #b8b8b8;
+  --FILT: CONTRAST(5);
+  --BASE1: #1b1b1b;
+  --BASE2: #212121;
+  --BASE3: #2c2c2c;
+  --BASE4: #414141;
+  --BASE5: rgb(15, 15, 15);
+  --ACCENT: #a7a7a7;
+  --BUTTONBORDER: #797979;
   --BUTTONBORDER2: #b6b6b6;
   --CHECKBOX: TRANSPARENT;
-  --CHECKBOXBORDER: #b3b3b3;
+  --CHECKBOXBORDER: #4c4c4c;
   --CHECKBOXBORDERRADIUS: 4px;
   --CHECKBOXBORDERHOVER: VAR(--ACCENT);
-  --BUTTONBORDERHOVER: #8d8d8d;
-  --TEXTENTRYHIGHLIGHT: #d5d5d5;
+  --BUTTONBORDERHOVER: #a5a5a5;
+  --TEXTENTRYHIGHLIGHT: #4f5053;
+  --SHOWCASECOLLAPSERHOVER: VAR(--BLACK);
   --BUTTON2BORDERWIDTH: 1px;
-  --BUTTON2: #d6d6d6;
-  --SHOWCASECOLLAPSERHOVER: VAR(--BUTTONBORDERHOVER);
-  --CAPTIONBACKGROUNDHOVER: VAR(--BUTTON2);
-  --CAPTIONHOVER: var(--ACCENT);
+  --BUTTON2: #292929;
   --BUTTON2PRIMARY: VAR(--BLUE);
   --BUTTON2PRIMARYBORDER: VAR(--BLUE);
   --BUTTON2PRIMARYTEXT: VAR(--WHITE);
@@ -135,18 +133,18 @@
   --BUTTON2HOVER: VAR(--BUTTON2);
   --BUTTON2TEXT: VAR(--ACCENT);
   --BUTTON2FONTWEIGHT: 390;
-  --GAMENAMERIGHTCLICKBACKGROUNDHOVER: #d5d5d5;
-  --FILTERCLEARACTIVE: #cacaca;
-  --BLACK: #000;
+  --GAMENAMERIGHTCLICKBACKGROUNDHOVER: VAR(--TEXTENTRYHIGHLIGHT);
+  --FILTERCLEARACTIVE: VAR(--GAMENAMERIGHTCLICKBACKGROUNDHOVER);
+  --BLACK: #ffffff;
   --RED: #d21116;
   --RED2: #8a0005;
   --GREEN: #54a448;
   --GREEN3: #27771b;
   --GREEN4: #94be60;
   --GREEN2: #22d12b;
-  --BLUE: #1181d2;
-  --BLUE2: #285d83;
-  --REMOVECOLLECTIONXSTROKE: #9e9e9e;
+  --BLUE: #106daf;
+  --BLUE2: #0c89e2;
+  --REMOVECOLLECTIONXSTROKE: #747474;
   --INACTIVETOGGLE: VAR(--GAMENAMERIGHTCLICKBACKGROUNDHOVER);
   --INACTIVETOGGLETEXT: VAR(--BUTTONBORDER);
   --INACTIVETOGGLETEXTHOVER: VAR(--ACCENT);
@@ -155,22 +153,23 @@
   --ACTIVETOGGLEHOVER: VAR(--BLUE2);
   --LETTERSPACING: 0.25px;
   --SECTIONTITLELETTERSPACING: 0.25px;
-  --WHITE: VAR(--BASE1);
+  --WHITE: #ffffff;
   --CAPTION: VAR(--ACCENT);
   --ACTIVESCREENSHOTBORDER: VAR(--BLUE);
-  --ACTIVESCREENSHOTBR: 0;
   --ACTIVESCREENSHOTBORDERWIDTH: 2px;
-  --TEXTENTRY: var(--BASE2);
+  --TEXTENTRY: VAR(--BASE2);
   --TEXTENTRY2: var(--BASE5);
-  --TEXTENTRY3: #e4e4e4;
+  --TEXTENTRY3: #212121;
   --TEXTENTRYREVIEWBR: 4px;
   --BOXSHADOW: 0 1px 2px;
-  --SHADOW: #d6d1d1;
-  --SCROLLTOTOPSIDEBAR: transparent;
+  --SHADOW: #292e2e;
+  --SCROLLTOTOPSIDEBAR: TRANSPARENT;
   --SCROLLTOTOPSIDEBARBACKGROUNDBORDERRADIUS: 30px;
-  --SCROLLTOTOPSIDEBARBACKGROUNDHOVER: #d5d5d5;
-  --SCROLLTOTOPSIDEBARBACKGROUNDSELECTED: #cacaca;
-  --SCROLLTOTOPSIDEBARHOVER: transparent;
+  --SCROLLTOTOPSIDEBARBACKGROUNDHOVER: VAR(--BUTTON2);
+  --SCROLLTOTOPSIDEBARBACKGROUNDSELECTED: VAR(
+    --GAMENAMERIGHTCLICKBACKGROUNDHOVER
+  );
+  --SCROLLTOTOPSIDEBARHOVER: VAR(--ACCENT);
   --SCROLLTOTOPSIDEBARSTROKEWIDTH: 20px;
   --NEWEMOTICONINDICATORSHADOW: radial-gradient(
     ellipse farthest-corner at 50% 50%,
@@ -218,9 +217,9 @@
   --COLLECTIONNAMEEDITBACKGROUNDHOVER: VAR(--BUTTON2);
   --NEWCOLLECTIONBACKGROUND: VAR(--BASE1);
   --NEWCOLLECTIONBACKGROUNDHOVER: VAR(--BASE3);
-  --NEWCOLLECTIONBORDER: var(--APPDETAILSPANELBORDER);
+  --NEWCOLLECTIONBORDER: NONE;
   --NEWCOLLECTIONBORDERHOVER: TRANSPARENT;
-  --NEWCOLLECTIONBORDERWIDTH: 1px;
+  --NEWCOLLECTIONBORDERWIDTH: 0;
   --NEWCOLLECTIONSHADOW: VAR(--SHADOW);
   --NEWCOLLECTIONTARGETBACKGROUND: VAR(--BASE3);
   --NEWCOLLECTIONTARGETBORDER: VAR(--BLUE);
@@ -243,7 +242,6 @@
   --ADVANCEDSEARCHBORDERRADIUS: var(--BORDERRADIUS);
   --MAJOREVENTHEADERFONTWEIGHT: VAR(--INSTALLEDGAMENAMEFONTWEIGHT);
   --ACHIEVEMENTTITLEFONTWEIGHT: var(--INSTALLEDGAMENAMEFONTWEIGHT);
-  --POSTGAMESUMMARYFONTWEIGHT: VAR(--INSTALLEDGAMENAMEFONTWEIGHT);
   --REVIEWICONBACKGROUNDBORDERRADIUS: VAR(--BORDERRADIUS);
   --POSITIVEREVIEWICONBACKGROUND: VAR(--BLUE2);
   --POSITIVEREVIEWICONBACKGROUNDBORDER: none;
@@ -254,7 +252,7 @@
   --NEGATIVEREVIEWICON: VAR(--RED);
   --MISSINGGAMEART: VAR(--BASE5);
   --INFOPANEL: VAR(--BASE5);
-  --MOREINFOICONFILT: VAR(--FILT);
+  --MOREINFOICONFILT: CONTRAST(2);
   --MOREINFOICON: VAR(--ACCENT);
   --MOREINFOICONQMARK: VAR(--WHITE);
   --BBACTIVEDROPDOWNFILTERICONHOVER: VAR(--BLUE);
@@ -278,17 +276,17 @@
   --LSHOVERBORDERRADIUS: VAR(--BORDERRADIUS);
   --LSBACKGROUNDHOVER: VAR(--BASE3);
   --LSHOVERSHADOW: VAR(--SHADOW);
-  --LOADINGFILT: VAR(--FILT);
+  --LOADINGFILT: BRIGHTNESS(2);
   --LOADINGOP: VAR(--OP);
   --LOADINGDOT: VAR(--ACCENT);
   --AVATARBORDER: VAR(--SHADOW);
   --AVATARBORDERWIDTH: 1px;
   --ACHIEVEMENTBORDERRADIUS: VAR(--BORDERRADIUS);
   --HIDDENACHIEVEMENTBORDERRADIUS: var(--BORDERRADIUS);
-  --HIDDENACHIEVEMENTBG: VAR(--ACCENT);
+  --HIDDENACHIEVEMENTBG: RGB(0, 0, 0);
   --HIDDENACHIEVEMENTQMARK: VAR(--WHITE);
   --COMMUNITYFEEDCONTROLS: VAR(--BASE3);
-  --COMMUNITYFEEDCONTROLSBORDER: VAR(--SHADOW);
+  --COMMUNITYFEEDCONTROLSBORDER: VAR(--DIVIDER);
   --COMMUNITYFEEDBORDERROUNDED1: 4px; /*bottom left*/
   --COMMUNITYFEEDBORDERROUNDED2: 4px; /*bottom right*/
   --COMMUNITYFEEDBORDERROUNDED3: 4px; /*top left*/
@@ -300,14 +298,14 @@
   --ADVANCEDSEARCHBUTTON: VAR(--ACCENT);
   --ADVANCEDSEARCHBUTTONBACKGROUNDSELECTED: VAR(--BASE3);
   --ADVANCEDSEARCHBUTTONSELECTEDBORDER: VAR(--DIVIDER);
-  --ADVANCEDSEARCHBUTTONHOVER: VAR(--BLACK);
+  --ADVANCEDSEARCHBUTTONHOVER: VAR(--WHITE);
   --COLLECTIONICON: VAR(--ACCENT);
   --COLLECTIONICONBORDERRADIUS: 2px;
-  --COLLECTIONICONHOVER: VAR(--BLACK);
+  --COLLECTIONICONHOVER: VAR(--WHITE);
   --SCROLLBARBORDERRADIUS: 0px;
   --SCROLLBAROP: 0;
   --SCROLLBARHOVEROP: 1;
-  --SCROLLBAR: VAR(--ACCENT);
+  --SCROLLBAR: #494949;
   --SCROLLBARWIDTH: 14px;
   --SCROLLBARHOVERWIDTH: 14px;
   --RATINGICONBACKGROUNDHOVER: NONE;
@@ -317,11 +315,11 @@
   --LIKEBUTTONPRESSED: VAR(--BLUE);
   --UNLIKEBUTTON: VAR(--RED);
   --DISLIKEBUTTONPRESSED: VAR(--RED);
-  --SCROLLBARHOVER: VAR(--BLACK);
+  --SCROLLBARHOVER: #767676;
   --BUTTON1TEXTCOLOR: VAR(--WHITE);
-  --BUTTON1: VAR(--ACCENT);
+  --BUTTON1: VAR(--BASE4);
   --BUTTON1BORDER: NONE;
-  --BUTTON1HOVER: VAR(--BLACK);
+  --BUTTON1HOVER: RGB(0, 0, 0);
   --BUTTONHOVER: VAR(--BLACK);
   --GAMESTATEDASH: VAR(--ACCENT);
   --RUNNINGGAMENAMECOLOR: VAR(--GREEN);
@@ -347,8 +345,8 @@
   --UNINSTALLEDGAMENAMEHOVERCOLOR: VAR(--ACCENT);
   --QUICKINSTALLBORDERRADIUS: VAR(--BORDERRADIUS);
   --QUICKINSTALLBOTTOMMARGIN: 3.5%; /*DEFAULT IS 2%*/
-  --APPPORTRAITINSTALLBUTTON: VAR(--ACCENT);
-  --APPPORTRAITINSTALLBUTTONHOVER: VAR(--BLACK);
+  --APPPORTRAITINSTALLBUTTON: VAR(--BASE1);
+  --APPPORTRAITINSTALLBUTTONHOVER: RGB(0, 0, 0);
   --BROADCASTPLAYBUTTONWIDTH: 40px;
   --BROADCASTPLAYBUTTONHEIGHT: 40px;
   --BROADCASTPLAYBUTTONPADDING: 8px;
@@ -359,20 +357,20 @@
   --BROADCASTPLAYBUTTONBORDERHOVER: var(--BLACK);
   --BROADCASTPLAYBUTTONHOVER: VAR(--BASE1);
   --SHELFDROPDOWNLISTMENUBORDER: VAR(--DIVIDER);
-  --SHELFPLAYBUTTON: VAR(--ACCENT);
-  --SHELFPLAYBUTTONHOVER: VAR(--BLACK);
-  --SHELFINSTALLBUTTON: VAR(--ACCENT);
-  --SHELFINSTALLBUTTONHOVER: VAR(--BLACK);
-  --INSTALLBUTTON: VAR(--ACCENT);
-  --INSTALLBUTTONHOVER: VAR(--BLACK);
-  --PLAYBUTTON: VAR(--ACCENT);
-  --PLAYBUTTONHOVER: VAR(--BLACK);
+  --SHELFPLAYBUTTON: VAR(--BASE3);
+  --SHELFPLAYBUTTONHOVER: RGB(0, 0, 0);
+  --SHELFINSTALLBUTTON: VAR(--BASE3);
+  --SHELFINSTALLBUTTONHOVER: RGB(0, 0, 0);
+  --INSTALLBUTTON: VAR(--BASE1);
+  --INSTALLBUTTONHOVER: RGB(0, 0, 0);
+  --PLAYBUTTON: VAR(--BASE1);
+  --PLAYBUTTONHOVER: VAR(--BASE3);
   --GAMEGROUPNAMECOLOR: VAR(--ACCENT);
   --GAMEGROUPNAMECOLORHOVER: VAR(--ACCENT);
-  --LISTITEMBACKGROUNDHOVER: VAR(--BUTTON2);
-  --SELECTEDLISTITEMBACKGROUNDHOVER: VAR(--BUTTON2);
   --LISTITEMRIGHTBORDERWIDTH: 0;
   --LISTITEMRIGHTBORDER: TRANSPARENT;
+  --LISTITEMBACKGROUNDHOVER: #000;
+  --SELECTEDLISTITEMBACKGROUNDHOVER: VAR(--BUTTON2);
   --CONTEXTMENUBORDER: VAR(--DIVIDER);
   --CONTEXTMENUSHADOW: "NONE";
   --CONTEXTMENUTEXT: VAR(--ACCENT);
@@ -392,19 +390,19 @@
   --CHECKMARKSTROKEWIDTH: 40px; /*default is 40*/
   --DROPDOWNBORDERWIDTH: 2px;
   --SHELFDROPDOWN: VAR(--DROPDOWN);
-  --DROPDOWN: var(--BUTTON2);
-  --DROPDOWNBORDER: none;
+  --DROPDOWN: VAR(--BUTTON2);
+  --DROPDOWNBORDER: NONE;
   --DROPDOWNBOTTOMBORDER: VAR(--BUTTONBORDER);
-  --DROPDOWNBORDERHOVER: VAR(--BUTTONBORDERHOVER);
+  --DROPDOWNBORDERHOVER: VAR(--WHITE);
   --DROPDOWNHOVER: VAR(--BUTTON2);
   --CHOOSEEMOTICONSTROKEWIDTH: 18px;
   --CHOOSEEMOTICON: VAR(--ACCENT);
-  --CHOOSEEMOTICONHOVER: VAR(--BLACK);
+  --CHOOSEEMOTICONHOVER: VAR(--WHITE);
   --EMOTICONBACKGROUNDHOVER: VAR(--BUTTON2);
   --DOWNLOADPROGRESSBAR: VAR(--BLUE);
   --INACTIVEPROGRESSBAR: VAR(--ACCENT);
   --ACHIEVEMENTPROGRESSBAR: VAR(--BLUE);
-  --PROGRESSBARBACKGROUND: VAR(--BUTTON2);
+  --PROGRESSBARBACKGROUND: VAR(--DROPDOWN);
   --LIKETHUMBICON: VAR(--ACCENT);
   --LIKETHUMBICONHOVER: VAR(--BLACK);
   --LIKETHUMBICONSELECTED: VAR(--BLUE);
@@ -416,12 +414,12 @@
   --GAMEICONWIDTH: 22px;
   --GAMEICONLEFTMARGIN: -21px;
   --GAMEICONDOWNLOADCIRCLE: VAR(--BLUE);
-  --SCROLLTOTOPHOVER: VAR(--BLACK);
   --SCROLLTOTOPHOVERFILTER: NONE;
-  --SCROLLTOTOPTEXT: VAR(--WHITE);
+  --SCROLLTOTOPHOVER: VAR(--BLACK);
+  --SCROLLTOTOPTEXT: VAR(--BASE1);
   --SCROLLTOTOPFONTWEIGHT: 400;
   --SCROLLTOTOP: VAR(--ACCENT);
-  --SCROLLTOTOPBORDER: VAR(--WHITE);
+  --SCROLLTOTOPBORDER: VAR(--DIVIDER);
   --FILTERLABEL: VAR(--ACCENT);
   --FILTERLABELHOVER: VAR(--BLACK);
   --FILTERBUCKETLABELFONTWEIGHT: VAR(--INSTALLEDGAMENAMEFONTWEIGHT);
@@ -444,7 +442,7 @@
   --SEARCHFILTERTEXT: VAR(--WHITE);
   --SEARCHFILTERFONTWEIGHT: unset;
   --INACTIVEDROPDOWNFILTERICON: VAR(--ACCENT);
-  --INACTIVEDROPDOWNFILTERICONHOVER: VAR(--BLACK);
+  --INACTIVEDROPDOWNFILTERICONHOVER: VAR(--WHITE);
   --ACTIVEDROPDOWNFILTERICON: VAR(--BLUE);
   --ACTIVEDROPDOWNFILTERICONHOVER: VAR(--BLUE2);
   --BOXSIZEREDGE: VAR(--BLUE);
@@ -484,20 +482,21 @@
   --TEXTENTRY2BACKGROUNDHOVER: VAR(--BASE1);
   --TEXTENTRYBORDERWIDTH: 2px;
   --TEXTENTRYBORDER: VAR(--BUTTONBORDER);
-  --TEXTENTRYBACKGROUNDSELECTED: var(--BASE3);
+  --TEXTENTRYBACKGROUNDSELECTED: VAR(--TEXTENTRY);
   --TEXTENTRYBORDERHOVER: VAR(--BUTTONBORDERHOVER);
   --TEXTENTRYBORDERSELECTED: VAR(--ACCENT);
-  --DIALOGHEADERFONTWEIGHT: 100;
   --DIALOGTEXTENTRYBORDERROUNDED: 30px;
+  --DIALOGHEADERFONTWEIGHT: 100;
   --SHARESCREENSHOTTEXTENTRYBORDERROUNDED: 4px;
   --STATUSTEXTENTRYBORDERROUNDED: 30px;
   --STATUSTEXTENTRYBORDERROUNDEDSELECTED: 4px;
   --TEXTENTRYBORDERROUNDED: 30px;
   --BORDERRADIUS: 4px;
   --PANELCONTENTBR: 4px;
-  --BUTTON1BORDERRADIUS: 4px;
+  --BUTTON1BORDERRADIUS: 0;
   --BUTTON2PRIMARYBORDERRADIUS: 4px;
   --BUTTON2BORDERRADIUS: 0;
+  --POSTGAMESUMMARYFONTWEIGHT: VAR(--INSTALLEDGAMENAMEFONTWEIGHT);
   --GAMEGROUPNAMEFONTWEIGHT: var(--INSTALLEDGAMENAMEFONTWEIGHT);
   --GAMESTATLABELFONTWEIGHT: unset;
   --GAMESTATICONFILTER: VAR(--FILT);
@@ -565,6 +564,8 @@
   --RECENTGAMEDATEDISPLAY: NONE;
   --EMPTYRECENTGAMEDATEHEIGHT: 0;
   --ADDSHELFBACKGROUNDHOVER: VAR(--BASE3);
+  --CAPTIONBACKGROUNDHOVER: VAR(--BUTTON2);
+  --CAPTIONHOVER: VAR(--ACCENT);
 
   /* PILL SHAPED PLAY/INSTALL BUTTON
   --ACTIONBUTTONROUNDED1: 50px 0 0 50px;
@@ -599,7 +600,6 @@
   padding-right:0!important;
 }
 
-
 .basiclibraryhomestaticcollections_BasicHomeDropDownControlButton_2msPh.basiclibraryhomestaticcollections_SortingDropDownControlButton_1jYNo {
   color:var(--ACCENT)!important;
   background:var(--DROPDOWN)!important;
@@ -613,6 +613,10 @@
   background-color: var(--DROPDOWNHOVER) !important;
   color: var(--ACCENT) !important;
   border-color: var(--DROPDOWNBORDERHOVER) !important;
+}
+
+.basiclibraryhomestaticcollections_BasicHomeDropDownControlButton_2msPh svg.basiclibraryhomestaticcollections_SortIcon_2mB91 {
+  display:none!important;
 }
 
 .contentmanagement_AppBodyPortrait_1O1Jq:hover {
@@ -647,11 +651,11 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
   font-size:12px!important;
 }
 
-/* .contentmanagement_AppsGrid_2n6FN
+.contentmanagement_AppsGrid_2n6FN
   .contentmanagement_AppHeader_3_uaa
   .contentmanagement_Rule_2iZ4o {
   flex-grow: 0 !important;
-} */
+}
 
 .contentmanagement_AppsGrid_2n6FN .contentmanagement_LibraryInventory_299aN {
   overflow-x: unset !important;
@@ -710,6 +714,11 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
   color:var(--BLACK)!important;
 }
 
+.contentmanagement_DriveSettingsButton_1WKUO:hover,
+.contentmanagement_DriveSettingsButton_1WKUO:focus {
+  color: var(--DRIVESETTINGSHOVER) !important;
+}
+
 .contentmanagement_DriveUsageGames_22KCi {
   background: VAR(--DRIVEUSAGEGAMES) !important;
 }
@@ -717,11 +726,6 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
 .contentmanagement_DriveSettingsButton_1WKUO svg {
   height: 20px !important;
   width: 20px !important;
-}
-
-.contentmanagement_DriveSettingsButton_1WKUO:hover,
-.contentmanagement_DriveSettingsButton_1WKUO:focus {
-  color: var(--DRIVESETTINGSHOVER) !important;
 }
 
 .contentmanagement_IsSelected_3VQeL {
@@ -753,15 +757,20 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
   color: var(--ACCENT) !important;
 }
 
-.contentmanagement_AppsGrid_2n6FN
-  .contentmanagement_AppBodyLeft_d9dlN
-  .contentmanagement_AppInfo__g4ce
-  svg {
-  display: NONE !important;
+.contentmanagement_DriveSettingsButton_1WKUO {
+  color: VAR(--DRIVESETTINGS) !important;
+  background-color: var(--DRIVESETTINGSBG) !important;
 }
 
-.basiclibraryhomestaticcollections_BasicHomeDropDownControlButton_2msPh svg.basiclibraryhomestaticcollections_SortIcon_2mB91 {
-  display:none!important;
+.contentmanagement_ContentManagement_3wk64 {
+  background: VAR(--CONTENTMANAGEMENT) !important;
+}
+
+.contentmanagement_AppsGrid_2n6FN
+  .contentmanagement_AppHeader_3_uaa
+  .contentmanagement_Rule_2iZ4o {
+  background-color: VAR(--DIVIDER) !important;
+  height: 1px !important;
 }
 
 .contentmanagement_AppActionBar_35T-O {
@@ -772,31 +781,6 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
 
 .contentmanagement_Description_3SvU2 {
   display: none !important;
-}
-
-.contentmanagement_AppsGrid_2n6FN
-  .contentmanagement_AppBodyLeft_d9dlN
-  .contentmanagement_AppInfo__g4ce
-  .contentmanagement_AppUsageText_1G9v2 {
-  color: VAR(--CMAPPUSAGETEXT) !important;
-  font-weight: var(--CMAPPUSAGETEXTFW) !important;
-  margin-left: 0 !important;
-}
-
-.contentmanagement_AppsGrid_2n6FN
-  .contentmanagement_AppBodyRight_3vHX3
-  .contentmanagement_AppSize_mohK9 {
-  font-family: VAR(--FONTFAMILY) !important;
-  color: var(--CMAPPSIZE) !important;
-  font-weight: VAR(--CMAPPSIZEFW) !important;
-}
-
-.contentmanagement_AppsGrid_2n6FN
-  .contentmanagement_AppBodyLeft_d9dlN
-  .contentmanagement_AppInfo__g4ce
-  .contentmanagement_AppUsageValue_2B8dj {
-  color: var(--CMAPPUSAGEVALUE) !important;
-  font-weight: VAR(--CMAPPUSAGEVALUEFW) !important;
 }
 
 .contentmanagement_AppsGrid_2n6FN .contentmanagement_AppBody_2RCSU:hover {
@@ -811,8 +795,40 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
   font-family: VAR(--FONTFAMILY) !important;
 }
 
+.contentmanagement_AppsGrid_2n6FN
+  .contentmanagement_AppBodyLeft_d9dlN
+  .contentmanagement_AppInfo__g4ce
+  .contentmanagement_AppUsageText_1G9v2 {
+  color: VAR(--CMAPPUSAGETEXT) !important;
+  font-weight: var(--CMAPPUSAGETEXTFW) !important;
+  margin-left: 0 !important;
+}
+
+.contentmanagement_AppsGrid_2n6FN
+  .contentmanagement_AppBodyLeft_d9dlN
+  .contentmanagement_AppInfo__g4ce
+  .contentmanagement_AppUsageValue_2B8dj {
+  color: var(--CMAPPUSAGEVALUE) !important;
+  font-weight: VAR(--CMAPPUSAGEVALUEFW) !important;
+}
+
+.contentmanagement_AppsGrid_2n6FN
+  .contentmanagement_AppBodyLeft_d9dlN
+  .contentmanagement_AppInfo__g4ce
+  svg {
+  display: NONE !important;
+}
+
+.contentmanagement_AppsGrid_2n6FN
+  .contentmanagement_AppBodyRight_3vHX3
+  .contentmanagement_AppSize_mohK9 {
+  font-family: VAR(--FONTFAMILY) !important;
+  color: var(--CMAPPSIZE) !important;
+  font-weight: VAR(--CMAPPSIZEFW) !important;
+}
+
 .contentmanagement_AppsGrid_2n6FN .contentmanagement_AppHeader_3_uaa {
-  padding-right: 14px !important;
+  padding-right: 12px !important;
   color: VAR(--CMAPPHEADER) !important;
   text-transform: var(--CMAPPHEADERTEXTCASE) !important;
   font-family: VAR(--FONTFAMILY) !important;
@@ -824,29 +840,11 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
   color: var(--CMAPPHEADERVALUE);
 }
 
-.contentmanagement_DriveSettingsButton_1WKUO {
-  color: VAR(--DRIVESETTINGS) !important;
-  background-color: var(--DRIVESETTINGSBG) !important;
-}
-
-.contentmanagement_AppsGrid_2n6FN
-  .contentmanagement_AppHeader_3_uaa
-  .contentmanagement_Rule_2iZ4o {
-  background-color: VAR(--DIVIDER) !important;
-  height: 1px !important;
-}
-
 .contentmanagement_Title_3IvzT {
   color: VAR(--ACCENT) !important;
   font-family: VAR(--FONTFAMILY) !important;
   text-transform: unset !important;
   font-weight: var(--STORAGEMANAGERFONTWEIGHT) !important;
-}
-
-.contentmanagement_InstallFolder_12aBP svg {
-  margin-right: 9px !important;
-  width: 20px !important;
-  height: 20px !important;
 }
 
 .contentmanagement_DriveName_1rihl {
@@ -863,9 +861,15 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
   padding-right: 14px !important;
 }
 
+.contentmanagement_InstallFolder_12aBP svg {
+  margin-right: 9px !important;
+  width: 20px !important;
+  height: 20px !important;
+}
+
 .contentmanagement_DriveName_1rihl {
   font-family: VAR(--FONTFAMILY) !important;
-  line-height: 21px !important;
+  line-height: 22px !important;
   margin-right: 4px !important;
   text-transform: uppercase !important;
   font-size: 12px !important;
@@ -884,10 +888,6 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
   background: var(--BASE1) !important;
 }
 
-.contentmanagement_ContentManagement_3wk64 {
-  background: VAR(--CONTENTMANAGEMENT) !important;
-}
-
 .contentmanagement_DriveUsageNumber_181OY {
   color: var(--DRIVEUSAGENUMBER) !important;
 }
@@ -901,6 +901,14 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
 /*-------------------------- STORAGE MANAGER --------------------------*/
 
 /*-------------------------- DOWNLOADS PAGE --------------------------*/
+
+/* .downloads_ButtonWrapper_2Zfas.downloads_Right_2WEwE:not(:visible) {
+  margin-left: -36px !important;
+}
+
+.downloads_ButtonWrapper_2Zfas.downloads_Right_2WEwE:visible {
+  margin-left: 12px !important;
+} */
 
 .downloads_SectionItem_1VNuY
   .downloads_ButtonWrapper_2Zfas.downloads_Right_2WEwE:visible {
@@ -935,7 +943,7 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
 }
 
 .downloadgraph_DownloadGraph_1BxZD .downloadgraph_DiskPoint_10Cul {
-  stroke-width: VAR(--DISKPOINTSW) !important;
+  stroke-width: VAR(--DISKPOINT) !important;
 }
 
 .downloads_SectionItem_1VNuY
@@ -960,7 +968,11 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
   font-size: 12px !important;
   font-family: VAR(--FONTFAMILY) !important;
   color: var(--BLACK) !important;
-  /* padding: 0 4px 0 4px !important; */
+}
+
+.downloadgraph_Throttle_38T9T {
+  font-family: VAR(--FONTFAMILY) !important;
+  color: var(--BLACK) !important;
   background: var(--BASE2);
 }
 
@@ -985,7 +997,7 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
 .downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8:hover,
 .downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8:enabled:active:hover,
 .downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8.DialogButton:enabled {
-  padding-bottom: 5px !important;
+  padding-bottom: 7px !important;
 }
 
 .downloads_SectionItem_1VNuY.downloads_Active_IbePL {
@@ -1109,7 +1121,7 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
 }
 
 .downloads_RemoveAllButton_1GdR5.downloads_RemoveAllButton_1GdR5 {
-  background-image: url(https://i.imgur.com/gUl3euK.png) !important;
+  background-image: url(https://i.imgur.com/hJFlTst.png) !important;
   margin: 0 !important;
   padding: 0 !important;
   margin-top: -5px !important;
@@ -1374,8 +1386,8 @@ div.MediumWindow
 }
 
 .downloadgraph_DownloadGraph_1BxZD .downloadgraph_DiskGraph_2-AUy {
-  bottom: 7px !important;
   height: 56% !important;
+  bottom: 7px !important;
 }
 
 .downloadgraph_StatsPanel_3mdnp .downloadgraph_Stats_3RfkF {
@@ -1513,7 +1525,7 @@ div.MediumWindow
   height: 28px !important;
   margin-top: 2px !important;
   margin-left: 3px !important;
-  background-image: url(https://i.imgur.com/7sdRRO6.png) !important;
+  background-image: url(https://i.imgur.com/MwFziFD.png) !important;
   background-position: center !important;
   border-radius: VAR(--SCROLLTOTOPSIDEBARBACKGROUNDBORDERRADIUS) !important;
   border: NONE !important;
@@ -1530,7 +1542,7 @@ div.MediumWindow
   .appproperties_ViewMore_3jITh {
   padding: 0 !important;
   margin-right: 0 !important;
-  margin-top: 6px !important;
+  margin-top: 8px !important;
   width: 24px !important;
   height: 24px !important;
   border-radius: 50px !important;
@@ -1539,7 +1551,7 @@ div.MediumWindow
   border: 0 !important;
   background-size: 22px !important;
   flex: unset !important;
-  background-image: url(https://i.imgur.com/glp4wYI.png) !important;
+  background-image: url(https://i.imgur.com/3NHWp4r.png) !important;
   background-repeat: no-repeat !important;
   background-position: center !important;
 }
@@ -1579,11 +1591,11 @@ div.MediumWindow
 
 .appdetailsplaysection_MenuButton_3qDWQ .appdetailsplaysection_DotDotDot_zvLq1 {
   font-family:library!important;
-  color:VAR(--ACCENT)!important;
+  color:var(--ACCENT)!important;
   font-size:18px!important;
   line-height:21px!important;
-  /* background-image: url(https://i.imgur.com/2vWZ3Iq.png) !important; */
-  /* background-size: 18px !important;
+  /* background-image: url(https://i.imgur.com/E2PFaFj.png) !important;
+  background-size: 18px !important;
   background-repeat: NO-REPEAT !important;
   background-position: CENTER !important; */
 }
@@ -1615,8 +1627,8 @@ div.MediumWindow
 }
 
 .posttextentry_PostTextEntry_3x31A .posttextentry_Controls_37e7D .posttextentry_PostButton_2JSyA::before:hover {
-  color:var(--BLACK)!important;
-}
+    color:var(--BLACK)!important;
+  }
 
 /*-------------------------- SEND ICON --------------------------*/
 
@@ -1649,10 +1661,10 @@ div.MediumWindow
 .libraryhomeshowcases_AddShowcaseRow_3SkuN
   .libraryhomeshowcases_AddShowcase_2aw5a {
   background-image: url(https://i.imgur.com/uNig7fK.png) !important;
-  background-repeat: no-repeat !important;
   background-position: center !important;
+  background-repeat: no-repeat !important;
   font-size: 0 !important;
-  color: transparent !important; 
+  color: transparent !important;
   border-radius: 100px !important;
   background-color: var(--BASE1) !important;
   border: 1px solid var(--APPDETAILSPANELBORDER) !important;
@@ -1683,7 +1695,6 @@ div.MediumWindow
 /*-------------------------- SHOWCASE HEADER DRAG HANDLE --------------------------*/
 
 /*-------------------------- NEW COLLECTION ICON --------------------------*/
-
 .LibraryDisplaySizeSmall .allcollections_ScrollContainer_u1xD3 .allcollections_Grid_Ma65K .allcollections_NewCollection_2_dwx .allcollections_BigPlus_g0-tU:before,.LibraryDisplaySizeLarge .allcollections_ScrollContainer_u1xD3 .allcollections_Grid_Ma65K .allcollections_NewCollection_2_dwx .allcollections_BigPlus_g0-tU:before,.LibraryDisplaySizeMedium .allcollections_ScrollContainer_u1xD3 .allcollections_Grid_Ma65K .allcollections_NewCollection_2_dwx .allcollections_BigPlus_g0-tU:before {
   content:'C'!important;
   font-family:library!important;
@@ -1730,7 +1741,6 @@ div.MediumWindow
   background: VAR(--NEWCOLLECTIONBACKGROUNDHOVER) !important;
   border-color: VAR(--NEWCOLLECTIONBORDERHOVER) !important;
 }
-
 /*-------------------------- NEW COLLECTION ICON --------------------------*/
 
 .appdetailsplaysection_StatusAndStats_1YbtI .appdetailsplaysection_PlayBarIconAndGame_2MBVR {
@@ -7461,8 +7471,8 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
 .appdetailsgameinfopanel_SocialMedia_2SfB1
   .appdetailsgameinfopanel_Account_2thiM
   .appdetailsgameinfopanel_Icon_2jSAw {
-  opacity: 60% !important;
-  filter: brightness(0) !important;
+  opacity: var(--OP2) !important;
+  filter: var(--FILT) !important;
 }
 .appdetailsgameinfopanel_SocialMedia_2SfB1
   .appdetailsgameinfopanel_Account_2thiM:hover
