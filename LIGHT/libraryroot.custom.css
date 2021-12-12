@@ -1723,10 +1723,6 @@ div.MediumWindow
   box-shadow: var(--BOXSHADOW) VAR(--NEWCOLLECTIONSHADOW) !important;
 }
 
-.allcollections_Collection_3IWn-.allcollections_DropOption_-D43E {
-  border:2px dashed var(--ACCENT)!important;
-}
-
 .allcollections_Collection_3IWn-:hover.allcollections_Collection_3IWn- .allcollections_BigPlus_g0-tU {
   color:var(--ACCENT)!important;
 }
@@ -1737,6 +1733,15 @@ div.MediumWindow
 }
 
 /*-------------------------- NEW COLLECTION ICON --------------------------*/
+
+
+.allcollections_Collection_3IWn-.allcollections_DropOption_-D43E {
+  border:2px dashed var(--ACCENT)!important;
+}
+
+.allcollections_Collection_3IWn-.allcollections_DropTarget_2AN97 {
+  border:2px solid var(--ACCENT)!important;
+}
 
 .appdetailsplaysection_StatusAndStats_1YbtI .appdetailsplaysection_PlayBarIconAndGame_2MBVR {
   transition:unset!important;
