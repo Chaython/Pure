@@ -1701,9 +1701,9 @@ div.MediumWindow
   font-size:70px!important;
 }
 
-.allcollections_Collection_3IWn- svg {
+/* .allcollections_Collection_3IWn- svg {
   display:none!important;
-}
+} */
 
 .allcollections_Collection_3IWn- .allcollections_BigPlus_g0-tU {
   color:var(--REMOVECOLLECTIONXSTROKE)!important;
@@ -4589,7 +4589,6 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Cen
   border-top-left-radius: 6px !important;
   border-top-right-radius: 6px !important;
   border-bottom: 4px solid !important;
-  border-image: linear-gradient(red, yellow) !important;
   box-shadow: 1px 0 VAR(--SHADOW) !important;
 }
 .appdetailscommunityfeed_Guide_-85o5
