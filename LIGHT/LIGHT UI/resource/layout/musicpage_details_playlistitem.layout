@@ -20,6 +20,12 @@
 			padding-bottom=10
 		}
 
+		PositionLabelStyle:hover {
+			
+			bgcolor=LISTITEMBACKGROUNDHOVER
+			textcolor=ACCENT
+		}
+
 		TrackLabelStyle
 		{
 			textcolor=ACCENT
@@ -38,11 +44,6 @@
 		TrackLabelStyle:hover
 		{
 			bgcolor=LISTITEMBACKGROUNDHOVER
-
-			//RENDER_BG{
-			//	0="fill(x0-20,y0,x1,y1,LISTITEMBACKGROUNDHOVER)"
-			//}
-			
 			textcolor=ACCENT
 		}
 	}
@@ -50,8 +51,9 @@
 	layout
 	{
 		region { name=panelregion width=max }
+		place {	region="panelregion" control="TrackLabel" width=max }
 
-		place {	region="panelregion" control="PositionLabel" width=20 }
-		place {	region="panelregion" control="TrackLabel" x=32 width=max }
+		//HIDDEN
+		place {	region="panelregion" control="PositionLabel" width=0 height=0 }
 	}
 }
