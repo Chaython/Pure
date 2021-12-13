@@ -1734,6 +1734,14 @@ div.MediumWindow
 
 /*-------------------------- NEW COLLECTION ICON --------------------------*/
 
+/* .title-area-highlight {
+  background: VAR(--BASE1)!important;
+  border:1px solid var(--DIVIDER)!important;
+  height: 40px!important;
+  -webkit-mask: unset!important;
+  opacity:1!important;
+} */
+
 .gamelistsearchbar_SearchFilterInput_172OF.gamelistsearchbar_Disabled_1Gjk2 .gamelistsearchbar_FilterTag_3gzh_ {
   opacity:unset!important;
 }
