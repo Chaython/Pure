@@ -233,7 +233,11 @@
 		}
 		CMusicPlayerPanel
 		{
-			bgcolor= BASE3
+			render_bg {
+				0="fill(x0,y0,x1,y0+120,BASE3)"
+				0="fill(x0,y0+120,x1,y0+121,DIVIDER)"
+			}
+
 
 			minimum-width = 460
 			minimum-height = 127
