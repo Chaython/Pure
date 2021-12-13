@@ -1743,13 +1743,17 @@ div.MediumWindow
 }
 /*-------------------------- NEW COLLECTION ICON --------------------------*/
 
-.title-area-highlight {
+.appactivityday_ScreenshotCaption_23HTp.appactivityday_HasCaption_tLc3y, .appactivityday_VideoTitle_1d0ij.appactivityday_HasCaption_tLc3y {
+  backdrop-filter:unset!important;
+}
+
+/* .title-area-highlight {
   background: var(--BASE1)!important;
   border:1px solid var(--DIVIDER)!important;
   height: 40px!important;
   -webkit-mask: unset!important;
   opacity:1!important;
-}
+} */
 
 .gamelistsearchbar_SearchFilterInput_172OF.gamelistsearchbar_Disabled_1Gjk2 .gamelistsearchbar_FilterTag_3gzh_ {
   opacity:unset!important;

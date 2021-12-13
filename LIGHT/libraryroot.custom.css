@@ -1734,6 +1734,10 @@ div.MediumWindow
 
 /*-------------------------- NEW COLLECTION ICON --------------------------*/
 
+.appactivityday_ScreenshotCaption_23HTp.appactivityday_HasCaption_tLc3y, .appactivityday_VideoTitle_1d0ij.appactivityday_HasCaption_tLc3y {
+  backdrop-filter:unset!important;
+}
+
 /* .title-area-highlight {
   background: VAR(--BASE1)!important;
   border:1px solid var(--DIVIDER)!important;
