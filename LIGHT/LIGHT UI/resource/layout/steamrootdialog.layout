@@ -124,7 +124,7 @@
 		}
 		inboxmenuitem_active
 		{
-			textcolor = BLUE
+			textcolor = ACTIVEINBOXITEM
 			FONT-WEIGHT=500
 		}
 
