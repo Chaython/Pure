@@ -1036,21 +1036,13 @@ steam.styles
 			13="fill(x1-3,y0,x1-1,y0+1, BASE1)"  // CORNER
 			14="fill(x1-1,y0,x1,y0+3, BASE1)"  // CORNER
 			}
-
-
-
 		
 			render {
 
-					//LEFT
+			6="fill( x0, y1-1, x1, y1, TEXTENTRYBORDER )" 
 
-						6="fill( x0, y1-1, x1, y1, TEXTENTRYBORDER )" 
 			}
-
-
-
-
-			
+		
 		}
 		"ToolWindow PageTab:hover"
 		{
@@ -1066,7 +1058,7 @@ steam.styles
 
 
 
-						7="fill(x0,y0,x0+3,y0+1, BASE1)"  // CORNER
+				7="fill(x0,y0,x0+3,y0+1, BASE1)"  // CORNER
 				8="fill(x0,y0+1,x0+1,y0+2, BASE1)"  // CORNER
 				9="fill(x0,y0+2,x0+1,y0+3, BASE1)"  // CORNER
 				13="fill(x1-3,y0,x1-1,y0+1, BASE1)"  // CORNER
@@ -1078,28 +1070,7 @@ steam.styles
 		
 				render {
 
-					//LEFT
-				//	1="fill(x0+3,y0,x1-3,y0+1, DIVIDER)"   top
-				//	2="fill(x0+1,y0+1,x0+2,y0+3, DIVIDER)"   corner
-				//	3="fill(x0+2,y0+1,x0+3,y0+2, DIVIDER)"   corner
-
-						6="fill( x0, y1-1, x1, y1, TEXTENTRYBORDER )" 
-
-				//7="fill(x0,y0+3,x0+1,y1, DIVIDER)"   left
-
-
-
-
-						//RIGHT
-					
-					//8="fill(x0+3,y0,x1,y0+1, DIVIDER)"   top
-					
-					//9="fill(x1-3,y0+1,x1-1,y0+2, DIVIDER)" corner
-					//10="fill(x1-2,y0+2,x1-1,y0+3, DIVIDER)" corner
-				
-				//13="fill(x0+3,y1-1,x1,y1, DIVIDER)"   bottom
-				//14="fill(x1-1,y0+3,x1,y1, DIVIDER)"  RIGHT
-				
+					6="fill( x0, y1-1, x1, y1, TEXTENTRYBORDER )" 
 			}
 
 
@@ -1114,12 +1085,6 @@ steam.styles
 			BGCOLOR=BASE1
 			PADDING=2
 			textcolor="ACCENT"
-			//render {
-			//		0="fill(x0,y0,x1,y0+1,DIVIDER)"
-			//		1="fill(x0,y0,x0+1,y1,DIVIDER)"
-			//		2="fill( x1-1, y0+1, x1, y1-1, DIVIDER )"
-			//		3="fill( x0, y1-1, x1, y1, BASE1 )" 
-			//}
 
 					render_bg{
 				1="fill(x0,y0,x0+3,y0+1, BASE1)"  // CORNER
@@ -1130,7 +1095,7 @@ steam.styles
 
 
 
-						7="fill(x0,y0,x0+3,y0+1, BASE1)"  // CORNER
+				7="fill(x0,y0,x0+3,y0+1, BASE1)"  // CORNER
 				8="fill(x0,y0+1,x0+1,y0+2, BASE1)"  // CORNER
 				9="fill(x0,y0+2,x0+1,y0+3, BASE1)"  // CORNER
 				13="fill(x1-3,y0,x1-1,y0+1, BASE1)"  // CORNER
@@ -1141,11 +1106,11 @@ steam.styles
 
 				render {
 
-					//LEFT
-					1="fill(x0+3,y0,x1-3,y0+1, TEXTENTRYBORDER)"  // top
-					2="fill(x0+1,y0+1,x0+2,y0+3, TEXTENTRYBORDER)"  // corner
-					3="fill(x0+2,y0+1,x0+3,y0+2, TEXTENTRYBORDER)"  // corner
-						6="fill( x0, y1-1, x1, y1, BASE1 )" 
+				//LEFT
+				1="fill(x0+3,y0,x1-3,y0+1, TEXTENTRYBORDER)"  // top
+				2="fill(x0+1,y0+1,x0+2,y0+3, TEXTENTRYBORDER)"  // corner
+				3="fill(x0+2,y0+1,x0+3,y0+2, TEXTENTRYBORDER)"  // corner
+				6="fill( x0, y1-1, x1, y1, BASE1 )" 
 				7="fill(x0,y0+3,x0+1,y1, TEXTENTRYBORDER)"  // left
 
 
@@ -1153,12 +1118,9 @@ steam.styles
 
 						//RIGHT
 					
-					//8="fill(x0+3,y0,x1,y0+1, DIVIDER)"   top
-					
-					9="fill(x1-3,y0+1,x1-1,y0+2, TEXTENTRYBORDER)"  // corner
-					10="fill(x1-2,y0+2,x1-1,y0+3, TEXTENTRYBORDER)"  // corner
+				9="fill(x1-3,y0+1,x1-1,y0+2, TEXTENTRYBORDER)"  // corner
+				10="fill(x1-2,y0+2,x1-1,y0+3, TEXTENTRYBORDER)"  // corner
 				
-				//13="fill(x0+3,y1-1,x1,y1, DIVIDER)"   bottom
 				14="fill(x1-1,y0+3,x1,y1, TEXTENTRYBORDER)" //  RIGHT
 				
 			}
@@ -1199,12 +1161,6 @@ steam.styles
 			}
 		}
 
-		Panel
-		{
-			//textcolor="ACCENT"
-			//font-family=basefont
-			//font-weight=800	
-		}
 
 		ProgressBar
 		{
@@ -1241,10 +1197,7 @@ steam.styles
 			font-style=underline
 			selectedbgcolor= TEXTENTRYHIGHLIGHT
 		}
-		"RichText url:hover"
-		{
-			textcolor="White75"
-		}
+
 		"CFriendPanel RichText URL"
 		{
 			textcolor="ACCENT"
@@ -1480,14 +1433,12 @@ steam.styles
 
 		BackButton
 		{
-			//inset="-10 0 0 0"
-			//inset-right=8
 			bgcolor="none"
 			render_bg{}
 			image="icons/back"
 			padding-left=-6
 			render{
-			1="fill(x0,y0,x1,y0+1, "none")"  // top
+				1="fill(x0,y0,x1,y0+1, "none")"  // top
 				2="fill(x0,y1-1,x1,y1, "none")"  // bottom
 				3="fill(x0,y0+1,x0+1,y1-1, "none")"  // left
 				4="fill(x1-1,y0+1,x1,y1-1, "none")"  // right
@@ -1517,7 +1468,7 @@ steam.styles
 			image="icons/back"
 			padding-left=8
 			padding-right=8
-					render
+			render
 			{
 				1="fill( x0, y0, x1, y0+1, "none" )"		// Top
 				2="fill( x0, y1-1, x1, y1, "none")"		// Bottom
@@ -1613,8 +1564,6 @@ steam.styles
 
 		ForwardButton
 		{
-			//inset="-10 0 0 0"
-			//inset-right=8
 			bgcolor="none"
 			render_bg{}
 			image="icons/forward"
@@ -1650,7 +1599,7 @@ steam.styles
 			padding-left=8
 			padding-right=8
 					render{
-			1="fill(x0,y0,x1,y0+1, "none")"  // top
+				1="fill(x0,y0,x1,y0+1, "none")"  // top
 				2="fill(x0,y1-1,x1,y1, "none")"  // bottom
 				3="fill(x0,y0+1,x0+1,y1-1, "none")"  // left
 				4="fill(x1-1,y0+1,x1,y1-1, "none")"  // right
@@ -1660,7 +1609,7 @@ steam.styles
 		{
 			bgcolor=white05
 			image="icons/forward_h"
-					render
+				render
 			{
 				1="fill( x0, y0, x1, y0+1, "none" )"		// Top
 				2="fill( x0, y1-1, x1, y1, "none")"		// Bottom
@@ -1692,27 +1641,12 @@ steam.styles
 			}
 		}
 
-		HomeButton
-		{
-			inset-left=8
-			bgcolor="none"
-			image=graphics/metro/urlbar/home_p
-		}
-		HomeButton:hover
-		{
-			bgcolor=white05
-		}
-		HomeButton:active
-		{
-			bgcolor=white10
-		}
-
 		ReloadButton
 		{
-			//inset-left=8
 			bgcolor="none"
 			image=ICONS/REFRESH
-							render
+			
+			render
 			{
 				1="fill( x0, y0, x1, y0+1, "none" )"		// Top
 				2="fill( x0, y1-1, x1, y1, "none")"		// Bottom
@@ -1747,10 +1681,9 @@ steam.styles
 
 		StopButton
 		{
-			//inset-left=8
 			bgcolor="none"
 			image=ICONS/STOP
-									render
+			render
 			{
 				1="fill( x0, y0, x1, y0+1, "none" )"		// Top
 				2="fill( x0, y1-1, x1, y1, "none")"		// Bottom
@@ -1762,7 +1695,7 @@ steam.styles
 		{
 			bgcolor=NONE
 			image=ICONS/STOP_H
-									render
+			render
 			{
 				1="fill( x0, y0, x1, y0+1, "none" )"		// Top
 				2="fill( x0, y1-1, x1, y1, "none")"		// Bottom
@@ -1840,10 +1773,6 @@ steam.styles
 			font-style=uppercase
 			font-size="18"
 			font-weight=300
-			render_bg
-			{
-				//0="fill(x0,y1-2,x1,y1,focus)"
-			}
 			padding-left=0
 		}
 		gamedetails-headerlabel-red
@@ -1853,10 +1782,6 @@ steam.styles
 			font-style=uppercase
 			font-size="18"
 			font-weight=300
-			render_bg
-			{
-				//0="fill(x0,y1-2,x1,y1,focus)"
-			}
 			padding-left=0
 		}
 		gamedetails-headerlabel-green
@@ -1866,10 +1791,6 @@ steam.styles
 			font-style=uppercase
 			font-size="18"
 			font-weight=300
-			render_bg
-			{
-				//0="fill(x0,y1-2,x1,y1,focus)"
-			}
 			padding-left=0
 		}
 		gamedetails-headerlabel-blue
@@ -1879,10 +1800,6 @@ steam.styles
 			font-style=uppercase
 			font-size="18"
 			font-weight=300
-			render_bg
-			{
-				//0="fill(x0,y1-2,x1,y1,focus)"
-			}
 			padding-left=0
 		}
 
