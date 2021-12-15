@@ -4,7 +4,6 @@
   --TOOLTIPOPACITY: 0;
   --SwapColumns: right;
   --FriendsDLCScreenshotsColumnWidth: 33%;
-
   --DISPLAYCOMMUNITYCONTENT: GRID; /*DEFAULT IS "GRID" */
   --DISPLAYAPPDETAILS: flex; /*DEFAULT IS FLEX, set to "contents" when disabling community content*/
   --DISPLAYLIBRARYPANEL: unset;
@@ -667,7 +666,6 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
 
 .boxcarousel_BoxCarouselContents_3CJct.boxcarousel_MaskRight_1urF0 {
   -webkit-mask-image: unset !important;
-  /* --negative-margin: 40px !important; */
 }
 
 .contentmanagement_AppsGrid_2n6FN
@@ -901,14 +899,6 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
 /*-------------------------- STORAGE MANAGER --------------------------*/
 
 /*-------------------------- DOWNLOADS PAGE --------------------------*/
-
-/* .downloads_ButtonWrapper_2Zfas.downloads_Right_2WEwE:not(:visible) {
-  margin-left: -36px !important;
-}
-
-.downloads_ButtonWrapper_2Zfas.downloads_Right_2WEwE:visible {
-  margin-left: 12px !important;
-} */
 
 .downloads_SectionItem_1VNuY
   .downloads_ButtonWrapper_2Zfas.downloads_Right_2WEwE:visible {
@@ -1382,7 +1372,6 @@ div.MediumWindow
   height: 25px;
   margin-top: 75px;
   width: 4px;
-  /* border-radius: 50px !important; */
   background-color: VAR(--DISKDOWNLOADLEGEND) !important;
 }
 
@@ -1454,7 +1443,6 @@ div.MediumWindow
 
 .downloads_SectionTitle_qq2xI {
   letter-spacing: VAR(--SECTIONTITLELETTERSPACING) !important;
-  /* display: none !important; */
   padding: 0 14px !important;
   font-family: VAR(--FONTFAMILY) !important;
   font-weight: var(--DOWNLOADSECTIONTITLEFONTWEIGHT) !important;
@@ -1724,19 +1712,9 @@ div.MediumWindow
   font-size:70px!important;
 }
 
-/* .allcollections_Collection_3IWn- svg {
-  display:none!important;
-} */
-
 .allcollections_Collection_3IWn- .allcollections_BigPlus_g0-tU {
   color:var(--REMOVECOLLECTIONXSTROKE)!important;
   margin-bottom: 7px !important;
-  /* background-image: url(https://i.imgur.com/uV1uBAo.png) !important;
-  background-size: 20px !important;
-  background-position: center !important;
-  color: transparent !important;
-  opacity: 50% !important; */
-  /* transform: scale(3) !important; */
 }
 
 
@@ -1758,14 +1736,6 @@ div.MediumWindow
 .appactivityday_ScreenshotCaption_23HTp.appactivityday_HasCaption_tLc3y, .appactivityday_VideoTitle_1d0ij.appactivityday_HasCaption_tLc3y {
   backdrop-filter:unset!important;
 }
-
-/* .title-area-highlight {
-  background: var(--BASE1)!important;
-  border:1px solid var(--DIVIDER)!important;
-  height: 40px!important;
-  -webkit-mask: unset!important;
-  opacity:1!important;
-} */
 
 .gamelistsearchbar_SearchFilterInput_172OF.gamelistsearchbar_Disabled_1Gjk2 .gamelistsearchbar_FilterTag_3gzh_ {
   opacity:unset!important;
@@ -2309,13 +2279,6 @@ div.NarrowRightPanel
 .appactivityday_PartnerEventMediumImage_Image_VytJz {
   border-radius: var(--BORDERRADIUS) !important;
 }
-
-
-
-/* .ModalPosition_Content
-  > div:not(.ModalPosition_TopBar):not(.ModalPosition_Dismiss) {
-  border-radius: var(--BORDERRADIUS) !important;
-} */
 
 .DialogTwoColLayout > ._DialogLayout {
   max-height: 34px !important;
@@ -4356,13 +4319,11 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Cen
 .posttextentry_PostTextEntry_3x31A
   .posttextentry_Controls_37e7D
   .posttextentry_PostButton_2JSyA.posttextentry_Enabled_bGfja:hover {
-  /* background-image: url("https://i.imgur.com/WIakdrU.png"); */
   color:var(--BLACK)!important;
 }
 .posttextentry_PostTextEntry_3x31A
   .posttextentry_Controls_37e7D
   .posttextentry_PostButton_2JSyA.posttextentry_Enabled_bGfja {
-  /* background-image: url("https://i.imgur.com/TLjoTgS.png") !important; */
   BACKGROUND:TRANSPARENT!important;
 }
 .ModalPosition_Dismiss .closeButton {
@@ -6210,11 +6171,8 @@ div.NarrowRightPanel .appdetailsprimarylinkssection_LinksSection_3-V8v {
 .gamelistsectionheader_SectionCount_29ute {
   color: var(--GAMEGROUPNAMECOLOR) !important;
 }
-/* .gamelisthome_Selected_eNLOx .gamelisthome_Label_3O48L {
-  color: TRANSPARENT !important;
-} */
+
 .gamelisthome_Bar_3pSPl {
-  /* width: 22px !important; */
   background-color: transparent !important;
 }
 .gamelisthome_CollectionBar_xeuK3 {
@@ -6360,8 +6318,6 @@ A {
   fill: var(--BUTTONHOVER) !important;
 }
 .gamelisthome_Bar_3pSPl:hover .gamelisthome_Label_3O48L {
-  /* color: transparent !important; */
-  /* filter: VAR(--FILT) !important; */
   color:VAR(--BLACK)!important;
 }
 
@@ -7518,11 +7474,6 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
   .appdetailsgameinfopanel_Icon_2jSAw {
   opacity: 1 !important;
 }
-
-/* .libraryhomeshowcases_Showcase_V7RuD
-  .libraryhomeshowcases_ChildrenContainer_1VMQW {
-  height: 173px !important;
-} */
 
 .libraryhomerecentgames_RecentGames_1RLny {
   height: unset !important;
