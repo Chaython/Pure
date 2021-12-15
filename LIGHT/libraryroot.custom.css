@@ -1016,6 +1016,7 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
 }
 
 .downloads_SectionList_OINnO.downloads_DropOption_2m6Q3.downloads_DragOver_d9VKG {
+  border:2px solid var(--ACCENT)!important;
   background: var(--BASE5) !important;
 }
 
@@ -3582,7 +3583,7 @@ img {
 
 .library_MainPanel_3BFcm
   .library_NewCollectionTarget_3PAPB.library_Visible_3QGgg {
-  border: 3px dashed var(--NEWCOLLECTIONTARGETBORDER) !important;
+  /* border: 3px dashed var(--NEWCOLLECTIONTARGETBORDER) !important; */
   background-color: var(--NEWCOLLECTIONTARGETBACKGROUND) !important;
 }
 
