@@ -10,7 +10,7 @@
 	}
 
 	layout {
-		place { control=InfoLabel y=58 }
-		place { control=InfoLabel2 start=InfoLabel y=10 }
+		place { control=InfoLabel y=70 }
+		place { control=InfoLabel2 start=InfoLabel y=6 }
 	}
 }

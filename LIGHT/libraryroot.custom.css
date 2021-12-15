@@ -1866,6 +1866,10 @@ div.MediumWindow
   background: VAR(--CONTEXTMENUINSTALLBUTTONHOVER) !important;
 }
 
+.Cancel.library_ContextMenuAction_Z5iAX.contextmenu_contextMenuItem_1n7Wl.contextMenuItem:hover {
+  background: VAR(--CONTEXTMENUINSTALLBUTTONHOVER) !important;
+}
+
 .spotlight_MajorEventImageBackgroundBlur_3sVs6 {
   right: 7px !important;
   bottom: 2px !important;
