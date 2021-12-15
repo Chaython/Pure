@@ -1453,6 +1453,17 @@ div.MediumWindow
   top: 7px !important;
 }
 
+.downloads_PatchNotes_3kXEp {
+  FONT-FAMILY:VAR(--FONTFAMILY)!important;
+  color:var(--ACCENT)!important;
+
+}
+
+.downloads_PatchNotes_3kXEp:hover {
+  color:var(--BLACK)!important;
+
+}
+
 /*-------------------------- DOWNLOADS PAGE --------------------------*/
 
 /* -------------------------- jonius7 -------------------------- */
