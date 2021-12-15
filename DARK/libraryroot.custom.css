@@ -1851,7 +1851,7 @@ div.MediumWindow
 }
 
 .libraryhomeshowcases_DropOption_1HgDL .libraryhomeshowcases_Showcase_V7RuD {
-  border: 2px dashed var(--BLUE) !important;
+  border: 2px dashed var(--ACCENT) !important;
 }
 
 .LibraryDisplaySizeSmall
@@ -1909,7 +1909,7 @@ div.MediumWindow
 
 .libraryhomeshowcases_DropTarget_3oXyq .libraryhomeshowcases_Showcase_V7RuD {
   background: VAR(--BASE5) !important;
-  border: 2px solid var(--BLUE) !important;
+  border: 2px solid var(--ACCENT) !important;
 }
 
 .appportrait_LibraryItemBoxShine_MyNb5 {
