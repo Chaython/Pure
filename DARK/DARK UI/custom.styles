@@ -4,7 +4,7 @@ colors{Focus="88 88 88 255"
 SELECTEDSCREENSHOTBORDER="17 129 210 255"
 TEXTENTRYBORDERSELECTED="88 88 88 255"
 TEXTENTRYBORDERHOVER="141 141 141 255"
-MULTIPLESCREENSHOTSELECTION = "31 31 31 255"
+MULTIPLESCREENSHOTSELECTION = "228 228 228 255"
 basefont="Segoe UI"
 semibold="Segoe UI Semibold"
 1bold = "Segoe UI Bold"
@@ -29,10 +29,10 @@ styles{
          }
          }
          
-         "GameItem_Uninstalled"{
+     "GameItem_Uninstalled"{
         render{
         0="image(x1-18,y1-26,x1,y1,graphics/metro/icons/grid_uninstalled)"
         }
-        }
-        }
-        }
+    }
+   }
+}

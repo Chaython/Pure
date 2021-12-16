@@ -1727,9 +1727,6 @@ steam.styles
 				0="image(x0+16,y0+16,x1,y1,graphics/metro/icons/info)"
 			}
 		}
-		turnnotifications
-		{
-		}
 		
 		friendsdetails
 		{

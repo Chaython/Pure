@@ -29,10 +29,10 @@ styles{
          }
          }
          
-         "GameItem_Uninstalled"{
+     "GameItem_Uninstalled"{
         render{
         0="image(x1-18,y1-26,x1,y1,graphics/metro/icons/grid_uninstalled)"
         }
-        }
-        }
-        }
+    }
+   }
+}
