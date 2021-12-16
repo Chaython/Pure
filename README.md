@@ -8,7 +8,7 @@
 
 ![LIGHT UI](https://i.imgur.com/PFVEKSl.png)
 
-![LIGHT UI](https://media.giphy.com/media/0Ar6OuLLCNriyjYN3F/giphy.gif)
+![LIGHT UI](https://i.imgur.com/BFFeRzf.png)
 
 # EXTRA
 
