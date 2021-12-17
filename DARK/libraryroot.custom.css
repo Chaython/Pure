@@ -3113,6 +3113,10 @@ a:-webkit-any-link {
   opacity: VAR(--FRIENDPLAYINGOP) !important;
 }
 
+.appportrait_FriendsBar_3dncO.appportrait_IconsView_1WWmQ {
+  opacity:var(--FRIENDPLAYINGOP)!important;
+}
+
 .appportrait_FriendsBar_3dncO
   .appportrait_IconsRestCount_2JYwp.appportrait_Short_yGeS6 {
   opacity: VAR(--FIRENDPLAYINGCOUNTOP) !important;
