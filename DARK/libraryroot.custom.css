@@ -1734,6 +1734,10 @@ div.MediumWindow
 }
 /*-------------------------- NEW COLLECTION ICON --------------------------*/
 
+body, body.shared_common_v6_2Lxgd {
+  COLOR:VAR(--ACCENT)!important;
+}
+
 .gamelistsearchbar_Container_20QAC .gamelistsearchbar_AdvancedSearchContainer_vCCmY .gamelistsearchbar_AdvancedSearchPaneContainer_1dgAM .gamelistsearchbar_AdvancedSearchPane_Woh0k {
   transition:var(--TRANSITION)!important;
 }

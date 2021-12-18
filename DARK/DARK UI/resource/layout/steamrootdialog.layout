@@ -115,7 +115,7 @@
 			{
 				0="fill(x0,y0+33,x1,y0+34, MENUBACKGROUND)"
 			}
-			//textcolor = ACCENT
+			textcolor = ACCENT
 			padding-left=7
 		}
 		inboxmenuitem:hover

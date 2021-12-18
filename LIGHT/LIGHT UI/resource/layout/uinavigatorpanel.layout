@@ -272,7 +272,7 @@ styles
 	NavLabel2:hover
 	{
 		textcolor=ACCENT
-		bgcolor="214 214 214 255"
+		bgcolor=NAVBUTTONHOVER
 	}
 	NavLabel2:selected
 	{

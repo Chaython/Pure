@@ -23,14 +23,8 @@
 
 				2="image( x1-94, y0+184, x1, y1, ICONS/BOTTOM )"
 
-				//1="fill( x1-92, y0+63, x1-50, y0+64, DIVIDER )"
-				//2="fill( x1-92, y0+184, x1-50, y0+185, DIVIDER )"
-
 				3="fill( x1-93, y0+63, x1-92,y0+185, DIVIDER )"
 				4="fill( x1-50, y0+63, x1-49, y0+185, DIVIDER )"
-
-			//	1="IMAGE( x1-104, y0+120, x1,y0+148,)"
-			//	2="IMAGE( x1-104, y0+148, x1,y0+174,)"
 			}
 		}
 
@@ -48,8 +42,8 @@
 
 	layout {
 		region { name=overlay height=240 width=max margin-left=50 margin-right=50 }
-			place { control=gamename region=overlay align=left y=30 }
-			place { control=TaskbarPanel region=overlay width=200 height=max align=right}
+		place { control=gamename region=overlay align=left y=30 }
+		place { control=TaskbarPanel region=overlay width=200 height=max align=right}
 
 		place { control=CLOSEBUTTON,TopFadePanel,PowerMeterDim,BottomFadePanel,HotkeyLabel,HotkeyExplain height=0 width=0 }
 	}
