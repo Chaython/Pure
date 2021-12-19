@@ -24,7 +24,7 @@
 
 		place {
 			control=URLStatusImage,URLBar
-			region=nav y=3 x=116 height=24 width=max margin-right=22
+			region=nav y=3 x=116 height=24 width=max margin-right=15
 		}
 
 		place { control=HTMLField region=body width=max height=max }

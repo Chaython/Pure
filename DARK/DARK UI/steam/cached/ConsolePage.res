@@ -96,6 +96,6 @@
 	{
 		
 		place { control="console" y=0 height=max width=max margin-bottom=30 }
-		place { control="entry" start=console dir=down margin-top=4 margin-left=14 margin-right=14 height=24 width=max  }
+		place { control="entry" start=console dir=down margin-top=4 margin-left=12 margin-right=12 height=24 width=max  }
 	}
 }
