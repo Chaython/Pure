@@ -22,7 +22,7 @@
 		Divider {}
 		Hidden { text="#steam_menu_hidden_games" shellcmd="steam://nav/library/collection/hidden" }
 		Divider {}
-		lightmodeskin {	text="Light UI"  shellcmd="steam://openurl/https://github.com/snudgee/LIGHT-UI" }
+		lightmodeskin {	text="Minimal"  shellcmd="steam://openurl/https://github.com/snudgee/Minimal" }
 		}
 
 		

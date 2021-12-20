@@ -752,9 +752,9 @@ span.mention {
   background: var(--LISTITEMBACKGROUNDHOVER) !important;
 }
 
-.friend.offline:hover {
+/* .friend.offline:hover {
   background: VAR(--LISTITEMBACKGROUNDHOVER) !important;
-}
+} */
 
 .ScrollToBottomButton {
   padding-top: 0px !important;
