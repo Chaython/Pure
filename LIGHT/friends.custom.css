@@ -1,7 +1,7 @@
 :root {
   --BASE1: #e4e4e4;
   --BASE2: #dedede;
-  --BASE3: #ececec;
+  --BASE3: #eaeaea;
   --ACCENT: #585858;
   --BUTTONBORDER: #b8b8b8;
   --BUTTONBORDER2: #b6b6b6;
@@ -12,7 +12,7 @@
   --BLUE: #1181d2;
   --GREEN: #54a448;
   --WHITE: #fff;
-  --TEXTENTRY: #e8e8e8;
+  --TEXTENTRY: var(--BASE2);
   --SHADOW: #d6d1d1;
   --CHECKBOX: TRANSPARENT;
   --DIALOGHEADERTEXTCASE: unset;
@@ -65,7 +65,16 @@
   --CHATAVATARBORDERRADIUS: 50px;
   --ACTIVECHATTAB: VAR(--BASE1);
   --INACTIVECHATTAB: VAR(--BASE1);
-  --TEXTENTRYBORDER: VAR(--BUTTONBORDER) !important;
+  --TEXTENTRYBORDER: VAR(--BUTTONBORDER);
+  --GAMEICONBORDERRADIUS:50px;
+}
+
+.FriendInGameIcon img {
+  border-radius:var(--GAMEICONBORDERRADIUS)!important;
+}
+
+.FriendsListChatSection.ChatRoomListContainerParent.Collapsed.HasUnreadChats {
+  background:var(--BASE3)!important;
 }
 
 .DialogOnOffToggle._DialogInputContainer {
@@ -148,7 +157,7 @@ html.client_chat_frame .popup_chat_frame {
 }
 
 .activeTab .TabSearchButton {
-  border: 1px solid #b8b8b8 !important;
+  border: VAR(--TEXTENTRYBORDERWIDTH) solid var(--TEXTENTRYBORDER) !important;
   border-radius: 30px !important;
 }
 
@@ -2490,7 +2499,7 @@ html.web_chat_frame body {
 .currentUserAvatar .avatarHolder {
   width: 32px !important;
   height: 32px !important;
-  border: VAR(--CHATAVATARBORDERWIDTH) SOLID VAR(--CHATAVATARBORDER) !important;
+  /* border: VAR(--CHATAVATARBORDERWIDTH) SOLID VAR(--CHATAVATARBORDER) !important; */
   border-radius: VAR(--CHATAVATARBORDERRADIUS) !important;
 }
 
@@ -3161,10 +3170,10 @@ img.emoticon_emoticon_9hYGN.emoticon_large_p8Q42 {
   color: var(--ACCENT) !important;
 }
 
-.friendSearchInput[type="text"]:focus,
+/* .friendSearchInput[type="text"]:focus,
 .friendSearchInput[type="text"] {
   background-color: VAR(--TEXTENTRY) !important;
-}
+} */
 
 .TabSearchButton .searchIconButton {
   height: 23px !important;
