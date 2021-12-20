@@ -2,6 +2,7 @@
   --BASE1: #e4e4e4;
   --BASE2: #dedede;
   --BASE3: #eaeaea;
+  --BASE5: #d1d1d1;
   --ACCENT: #585858;
   --BUTTONBORDER: #b8b8b8;
   --BUTTONBORDER2: #b6b6b6;
@@ -150,7 +151,7 @@ html.client_chat_frame .popup_chat_frame {
 }
 
 .FriendPicker_Suggestions_List {
-  background: VAR(--BASE2) !important;
+  background: VAR(--BASE5) !important;
 }
 
 .DialogTextInputBase:focus {
@@ -665,6 +666,11 @@ span.mention {
 .insetshadow_FriendListInsetShadowTop_1mEmL,
 .insetshadow_FriendListInsetShadowBottom_3cl4u {
   background: none !important;
+}
+
+.insetShadow {
+  background:unset!important;
+  border:1px solid var(--BUTTONBORDER)!important;
 }
 
 /* Remove Playing with X amount of people */
