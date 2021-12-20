@@ -196,7 +196,6 @@
 
 		inbox_button_active
 		{
-			//inset="8 0 -1 0"
 			FONT-SIZE=0
 			textcolor=ACCENT
 			bgcolor="none"

@@ -42,8 +42,8 @@
   --GAMELISTBORDER: VAR(--DIVIDER1);
   --READYTOPLAYACTIVE: VAR(--BLUE);
   --SETTINGSSIDEBAR: VAR(--BASE1);
-  --SIDEBARBORDER: VAR(--SHADOW);
-  --SIDEBARBORDER2: VAR(--SHADOW);
+  --SIDEBARBORDER: VAR(--DIVIDER);
+  --SIDEBARBORDER2: VAR(--DIVIDER);
   --LISTITEMBACKGROUNDHOVER: VAR(--BUTTON);
   --CONTEXTMENU: VAR(--BASE3);
   --CONTEXTMENUBORDER: VAR(--SHADOW);
@@ -67,6 +67,11 @@
   --INACTIVECHATTAB: VAR(--BASE1);
   --TEXTENTRYBORDER: VAR(--BUTTONBORDER);
   --GAMEICONBORDERRADIUS:50px;
+  --TEXTENTRYBORDERROUNDED2:4px;
+}
+
+.friendSearchNoResultsContainer {
+  DISPLAY:NONE!important;
 }
 
 .FriendInGameIcon img {
@@ -1543,7 +1548,7 @@ border: 1px solid VAR(--DIVIDER)!important;} */
 
 .chatentry_chatTextarea_3e__5 {
   border: VAR(--TEXTENTRYBORDERWIDTH) SOLID VAR(--TEXTENTRYBORDER) !important;
-  border-radius: VAR(--TEXTENTRYBORDERROUNDED) !important;
+  border-radius: VAR(--TEXTENTRYBORDERROUNDED2) !important;
   margin: 0 !important;
   font-size: 16px !important;
   background-color: VAR(--TEXTENTRY) !important;
@@ -1554,6 +1559,11 @@ border: 1px solid VAR(--DIVIDER)!important;} */
 .chatentry_chatTextarea_3e__5:hover {
   background: VAR(--TEXTENTRYBACKGROUNDHOVER);
   border-color: var(--TEXTENTRYBORDERHOVER);
+}
+
+.chatentry_chatTextarea_3e__5:ACTIVE {
+  background: VAR(--TEXTENTRYBACKGROUNDSELECTED);
+  border-color: var(--ACCENT);
 }
 
 .chatentry_chatTextarea_3e__5::selection {
@@ -2167,12 +2177,12 @@ button.DialogButton.Primary:hover {
   color: var(--ACCENT) !important;
 }
 
-.ChatRoomSpeaker .speaker .speakerAvatar,
+/* .ChatRoomSpeaker .speaker .speakerAvatar,
 .ChatMsgSlashEmote .speaker .speakerAvatar,
 .speaker .speakerStatus {
   opacity: 0 !important;
   width: 0.5px !important;
-}
+} */
 
 .messages_SpeakerName_Online_2nKVN {
   color: rgb(var(--online)) !important;
@@ -3325,7 +3335,7 @@ body.shared_common_v6_39eAm {
 .addonpicker_FilterInputContainer_1RAg8 .addonpicker_FilterInput_2tfTm,
 .addonpicker_FilterInputContainer_1RAg8 .addonpicker_FilterInput_2tfTm:hover,
 .addonpicker_FilterInputContainer_1RAg8 .addonpicker_FilterInput_2tfTm:focus {
-  border: 1px SOLID VAR(--TEXTENTRYBORDER) !important;
+  border: VAR(--TEXTENTRYBORDERWIDTH) SOLID VAR(--TEXTENTRYBORDER) !important;
   border-radius: 30px !important;
   background-color: VAR(--TEXTENTRY) !important;
 }
