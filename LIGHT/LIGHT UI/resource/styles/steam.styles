@@ -1019,6 +1019,7 @@ steam.styles
 		"ToolWindow PageTab"
 		{
 			BGCOLOR=BASE1
+			FONT-STYLE=normal
 			PADDING=2
 			minimum-width=80
 
