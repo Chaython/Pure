@@ -1,14 +1,5 @@
 # PREVIEW
-![LIGHT UI](https://i.imgur.com/YabnX7y.png)
-![LIGHT UI](https://i.imgur.com/QxdaBEX.png)
-
-![LIGHT UI](https://i.imgur.com/Mp39wfp.png)
-
-![LIGHT UI](https://i.imgur.com/FvlnP6U.png)
-
-![LIGHT UI](https://i.imgur.com/PFVEKSl.png)
-
-![LIGHT UI](https://i.imgur.com/BFFeRzf.png)
+![LIGHT UI](https://media.giphy.com/media/P7UAC7b1uGN7p8Vase/giphy.gif)
 
 # EXTRA
 
