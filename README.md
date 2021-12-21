@@ -1,13 +1,12 @@
 # PREVIEW
-![LIGHT UI](https://media.giphy.com/media/P7UAC7b1uGN7p8Vase/giphy.gif)
+![Minimal](https://media.giphy.com/media/P7UAC7b1uGN7p8Vase/giphy.gif)
 
 # EXTRA
-
-![LIGHT UI](https://i.imgur.com/QHqZT6Z.png)
+![Minimal](https://i.imgur.com/QHqZT6Z.png)
 
 # INSTRUCTIONS
-* Move MINIMAL LIGHT folder to steam/skins/
-* go to MINIMAL LIGHT/FONTS/ install overlaytaskbar.ttf, library.ttf, store.ttf
+* Move Minimal (Light) or Minimal (Dark) folder to steam/skins/
+* go to FONTS folder and install all the fonts there
 * On steam go to settings -> interface and choose the newly added skin,
 Steam will have to restart to apply the skin
 
