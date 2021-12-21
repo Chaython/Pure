@@ -108,7 +108,6 @@
 		place { control="account_persona" align=right height=39 }
 		place { control="account_avatar" align=right end-right="account_persona" margin-top=3 height=30 width=30 }
 		place { control="account_balance" WIDTH=0 HEIGHT=0 }
-		//place { control="account_balance" align=right margin-top=10 end-right="account_avatar" }
 
 		//hidden
 		place { control="account_drop_down" margin-left=-999 }

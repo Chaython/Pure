@@ -172,15 +172,9 @@
 		}
 		"URLLabel"
 		{
-			//font-style=underline
+			
 		}
-		//Hidden - steam process still runnning
-		//FrameCloseButton
-		//{
-	    //	bgcolor="none"
-		//	render_bg{}
-		//	image=""
-		//}
+
 	}
 	layout
 	{
