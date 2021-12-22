@@ -533,11 +533,6 @@
   --COLLECTIONSCONTAINERGAMEIMAGEFILTER: none;
   --CIRCLECOLLAPSER: VAR(--ACCENT);
   --CIRCLECOLLAPSERHOVER: VAR(--BLACK);
-  --CIRCLECOLLAPSEROP: 1;
-  --CIRCLECOLLAPSERMARGINRIGHT: 5px; /*DEFAULT IS 0*/
-  --CIRCLECOLLAPSERMARGINLEFT: 3px; /*DEFAULT IS 0*/
-  --CIRCLECOLLAPSERWIDTH: 10px; /*DEFAULT IS 20PX*/
-  --CIRCLECOLLAPSERHEIGHT: 10px; /*DEFAULT IS 20PX*/
   --TWOOPTIONSCONTAINER: VAR(--BASE4);
   --TWOOPTIONSCONTAINERBORDER: VAR(--DIVIDER);
   --DIALOGCONTENT: VAR(--BASE3);
@@ -545,8 +540,6 @@
   --APPPORTRAITZOOM: VAR(--ACCENT);
   --APPPORTRAITZOOMBORDER: VAR(--WHITE);
   --TEXTENTRYFONTWEIGHT: 400;
-  --CHECKMARKHEIGHT: 14px; /*DEFAULT IS 14PX*/
-  --CHECKMARKWIDTH: 14px; /*DEFAULT IS 14PX*/
   --DESCRIPTIONBG: VAR(--BASE1);
   --GAMESTATICONDISPLAY: unset; /*default is unset*/
   --SHOWCASEDIVIDERHOVER: VAR(--BUTTON2);
@@ -2336,15 +2329,15 @@ div.NarrowRightPanel
   .appfilterpane_Row_1J53P
   .appfilterpane_Checkbox_2AOkQ
   svg {
-  width: var(--CHECKMARKWIDTH) !important;
-  height: var(--CHECKMARKHEIGHT) !important;
+  width: 14px !important;
+  height: 14px !important;
 }
 
 .gamelistdropdown_DropDown_EDl_m
   .gamelistdropdown_Row_1BAKX.gamelistdropdown_Checkbox_2_iY4
   svg {
-  height: var(--CHECKMARKHEIGHT) !important;
-  width: var(--CHECKMARKWIDTH) !important;
+  height: 14px !important;
+  width: 14px !important;
 }
 
 .gamelistdropdown_DropDown_EDl_m
@@ -2525,11 +2518,11 @@ div.NarrowRightPanel
 }
 
 .DialogCheckbox .SVGIcon_DialogCheck {
-  transition:var(--TRANSITION)!important;
+  transition:unset!important;
   margin-top: -1px !important;
   margin-left: -1px !important;
   height: var(--CHEKCMARKHEIGHT) !important;
-  width: var(--CHECKMARKWIDTH) !important;
+  width: 14px !important;
 }
 
 .appfilterpane_Container_170Np
@@ -2808,7 +2801,7 @@ div.NarrowRightPanel
 }
 
 .collapseicon_Container_3SFRZ .SVGIcon_PlusCircle circle {
-  opacity: var(--CIRCLECOLLAPSEROP) !important;
+  opacity: 1 !important;
   fill: var(--CIRCLECOLLAPSER) !important;
 }
 
@@ -2817,10 +2810,10 @@ div.NarrowRightPanel
 }
 
 .collapseicon_Container_3SFRZ .SVGIcon_PlusCircle {
-  width: VAR(--CIRCLECOLLAPSERWIDTH) !important;
-  height: VAR(--CIRCLECOLLAPSERHEIGHT) !important;
-  margin-right: VAR(--CIRCLECOLLAPSERMARGINRIGHT) !important;
-  margin-left: VAR(--CIRCLECOLLAPSERMARGINLEFT) !important;
+  width: 10px !important;
+  height: 10px !important;
+  margin-right: 5px !important;
+  margin-left: 3px !important;
 }
 
 .LowPerfMode
@@ -3425,7 +3418,6 @@ img {
   .appportrait_LibraryItemBox_WYgDg:hover
   .appportrait_UninstalledIcon_8YrRm:not(.appportrait_ComingSoonIcon_1pvln):hover {
   background: VAR(--APPPORTRAITINSTALLBUTTONHOVER) !important;
-  border: 1px SOLID VAR(--WHITE) !important;
 }
 
 .appdetailsachievementssection_Featured_1j_gj
@@ -4332,11 +4324,13 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Cen
 .posttextentry_PostTextEntry_3x31A
   .posttextentry_Controls_37e7D
   .posttextentry_PostButton_2JSyA.posttextentry_Enabled_bGfja:hover {
+  /* background-image: url("https://i.imgur.com/WIakdrU.png"); */
   color:var(--BLACK)!important;
 }
 .posttextentry_PostTextEntry_3x31A
   .posttextentry_Controls_37e7D
   .posttextentry_PostButton_2JSyA.posttextentry_Enabled_bGfja {
+  /* background-image: url("https://i.imgur.com/TLjoTgS.png") !important; */
   BACKGROUND:TRANSPARENT!important;
 }
 .ModalPosition_Dismiss .closeButton {
@@ -5857,8 +5851,6 @@ div.NarrowRightPanel
 .appdetailsprimarylinkssection_LinksSection_3-V8v {
   background: var(--BASE2) !important;
    padding-left: 4px !important;
-  /*padding-right: 0 !important;
-  margin-bottom: 4px !important; */
 }
 .appdetailscommunityfeed_HeaderStyles_2lNdD {
   background: var(--BASE2) !important;
@@ -6001,15 +5993,6 @@ div.NarrowRightPanel
   color: var(--REVIEWHEADER) !important;
 }
 
-/*-------BUG---------*/
-
-/* .appdetailsoverview_Container_27RcN
-  .appdetailsoverview_Spotlights_11kuV.appdetailsoverview_SpotlightLeftColumn_3wbnd {
-  padding-left: 1px !important;
-} */
-
-/*-------BUG---------*/
-
 .appdetailsoverview_Container_27RcN .appdetailsoverview_Spotlights_11kuV {
   padding-left:2px!important;
 }
@@ -6021,11 +6004,8 @@ div.NarrowRightPanel
 
 .writereview_RatingContainer_2SAb6 {
   background-color: var(--RATINGCONTAINER) !important;
-  /* padding: 10px !important; */
 }
 .appdetailsspotlight_ReviewContainer_3LE-6 {
-  /* padding-left: 0 !important;
-  padding-right: 0 !important; */
   MARGIN-LEFT:2PX!important;
    border-radius: var(--BORDERRADIUS) !important;
    border: 1px solid var(--APPDETAILSPANELBORDER) !important;
@@ -7487,6 +7467,11 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
   .appdetailsgameinfopanel_Icon_2jSAw {
   opacity: 1 !important;
 }
+
+/* .libraryhomeshowcases_Showcase_V7RuD
+  .libraryhomeshowcases_ChildrenContainer_1VMQW {
+  height: 173px !important;
+} */
 
 .libraryhomerecentgames_RecentGames_1RLny {
   height: unset !important;
