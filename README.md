@@ -1,8 +1,8 @@
 # PREVIEW
 ![Minimal](https://media.giphy.com/media/P7UAC7b1uGN7p8Vase/giphy.gif)
 
-# EXTRA
-![Minimal](https://i.imgur.com/QHqZT6Z.png)
+# EXTRAS
+![Minimal](https://media.giphy.com/media/LpmuNBVvoJLZA7tHOy/giphy.gif)
 
 # INSTRUCTIONS
 * Move Minimal (Light) or Minimal (Dark) folder to steam/skins/
