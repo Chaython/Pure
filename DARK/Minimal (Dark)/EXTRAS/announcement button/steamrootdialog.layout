@@ -130,6 +130,7 @@
 
 		announcement_button
 		{
+			inset-right=5
 			bgcolor=none
 			image="graphics/updatenone_notification"
 				render{
@@ -144,8 +145,13 @@
 			image="graphics/updatenone_notification_hover"
 		}
 		announcement_button_active
-		{
+		{	
+			inset-right=5
 			image="graphics/updatenew_notification"
+		}
+		announcement_button_active:hover 
+		{
+			image="graphics/updatenew_notification_h"
 		}
 
 		inbox_button
