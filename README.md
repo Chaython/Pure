@@ -1,11 +1,11 @@
 # PREVIEW
-![Minimal](https://media.giphy.com/media/P7UAC7b1uGN7p8Vase/giphy.gif)
+![Pure](https://media.giphy.com/media/P7UAC7b1uGN7p8Vase/giphy.gif)
 
 # EXTRAS
-![Minimal](https://media.giphy.com/media/LpmuNBVvoJLZA7tHOy/giphy.gif)
+![Pure](https://media.giphy.com/media/LpmuNBVvoJLZA7tHOy/giphy.gif)
 
 # INSTRUCTIONS
-* Move Minimal (Light) or Minimal (Dark) folder to steam/skins/
+* Move Pure (Light) or Pure (Dark) folder to steam/skins/
 * go to FONTS folder and install all the fonts there
 * On steam go to settings -> interface and choose the newly added skin,
 Steam will have to restart to apply the skin
