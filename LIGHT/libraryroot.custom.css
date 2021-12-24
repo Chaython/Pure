@@ -614,6 +614,7 @@
 }
 
 .contentmanagement_AppActionSelected_1dFOk {
+  line-height:26px!important;
   font-weight: 400 !important;
   font-family: VAR(--FONTFAMILY) !important;
   color: VAR(--ACCENT) !important;

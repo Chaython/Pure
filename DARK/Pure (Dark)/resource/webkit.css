@@ -197,6 +197,10 @@ span.platform_img.win::before {
   border-radius:4px 4px 0 0 !important;
 }
 
+.curation_tagline {
+  color:var(--ACCENT)!important;
+}
+
 .curation_tagline_edit_description {
   color:var(--ACCENT)!important;
 }
@@ -9658,7 +9662,8 @@ div.bb_h3,
   background-color: transparent !important;
 }
 .grouppage_friendsingroup_title {
-  border-radius: var(--BORDERRADIUS) !important;
+  display:none!important;
+  /* border-radius: var(--BORDERRADIUS) !important;
   background: var(--BASE1) !important;
   position: absolute !important;
   transform: translate(-50%, -50%) !important;
@@ -9666,7 +9671,7 @@ div.bb_h3,
   text-align: center !important;
   right: auto !important;
   left: 1% !important;
-  top: -130% !important;
+  top: -130% !important; */
 }
 .grouppage_friendsingroup .friendavatar {
   float: left !important;
