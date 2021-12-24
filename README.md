@@ -14,6 +14,11 @@
 * take the friends.custom.css file and paste it on steam/clientui/
 * run steamfriendspatcher and it will apply the theme
 
+# STEAM GROUP
+![Pure](https://i.imgur.com/zoRW6uW.png)
+
+* Join the Steam group here: https://steamcommunity.com/groups/pureskin
+
 # CREDITS
 * METRO SKIN <3
 * AIR SKIN <3
