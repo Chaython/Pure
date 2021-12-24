@@ -12,6 +12,7 @@
   --BOXSHADOW: 1px 1px 2px;
   --SHADOW: TRANSPARENT;
   --BLUE: #1181d2;
+  --BLUE2: #285d83;
   --RED: #d21116;
   --GREEN: #54a448;
   --COUNTDOWN: #FFD0A5;
@@ -1556,7 +1557,8 @@ a.linkbar > img {
   border-radius: var(--AVATARBORDERRADIUS) !important;
 }
 .grouppage_header_name {
-  box-shadow: 0 0 2px var(--SHADOW) !important;
+  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
+  BORDER:1PX SOLID VAR(--PANELBORDER)!important;
   color: VAR(--ACCENT) !important;
   background: VAR(--BASE1) !important;
   position: absolute !important;
@@ -1566,6 +1568,7 @@ a.linkbar > img {
   right: auto !important;
   left: 50% !important;
   top: 30% !important;
+  border-radius:VAR(--BORDERRADIUS)!important;
 }
 .recent_game {
   background-color: VAR(--RECENTGAME) !important;
@@ -2605,10 +2608,6 @@ body.checkout .block .block_content {
 }
 .addfunds_about {
   color: VAR(--ACCENT) !important;
-}
-.btn_blue_white_innerfade > span {
-  color: var(--WHITE) !important;
-  background: VAR(--ACCENT) !important;
 }
 .phone_box_subtext {
   color: VAR(--ACCENT) !important;
@@ -8358,6 +8357,8 @@ div.early_access_announcements .post .more:hover {
 }
 .group_content_rule {
   background-image: none !important;
+  BACKGROUND:VAR(--DIVIDER)!important;
+  height:1px!important;
 }
 .group_content {
   background: 0 0 !important;
@@ -9590,9 +9591,9 @@ div.bb_h3,
 }
 
 .grouppage_membertiles_overlay {
-  top: 0 !important;
-  padding-bottom: 12px !important;
-  background: var(--BASE2) !important;
+  top: 4px !important;
+  HEIGHT:238PX!important;
+  background: var(--BUTTON2) !important;
   opacity: 0.9 !important;
 }
 .grouppage_member_tiles {
@@ -9609,7 +9610,9 @@ div.bb_h3,
   background: 0 0 !important;
 }
 .grouppage_header_label {
-  border-top-left-radius: var(--BORDERRADIUS) !important;
+
+  display:none!important;
+  /* border-top-left-radius: var(--BORDERRADIUS) !important;
   border-top-right-radius: var(--BORDERRADIUS) !important;
   background: rgba(0, 0, 0, 0.2) !important;
   backdrop-filter: blur(10px) !important;
@@ -9621,7 +9624,7 @@ div.bb_h3,
   left: 50% !important;
   top: 15% !important;
   background-color: VAR(--BASE1) !important;
-  box-shadow: 0 0 2px var(--SHADOW) !important;
+  box-shadow: 0 0 2px var(--SHADOW) !important; */
 }
 .grouppage_friendsingroup {
   position: absolute !important;
