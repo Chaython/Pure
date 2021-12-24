@@ -192,6 +192,10 @@ span.platform_img.win::before {
 
 /* REVIEW ICONS */
 
+.membercount.ingame {
+  color:var(--GREEN)!important;
+}
+
 .apphub_sectionTab.active > span, .apphub_responsive_tab .responsive_tab_control .responsive_tab_control_inner {
   BACKGROUND:VAR(--BLUE)!important;
   border-radius:4px 4px 0 0 !important;
@@ -2218,7 +2222,8 @@ body.v6 .page_desc {
   background-color: VAR(--COMMENTNOTIFICATIONHOVER) !important;
 }
 .joinchat_bg .joinchat_button {
-  background: #1181d2 !important;
+  COLOR:VAR(--ACCENT)!important;
+  background: VAR(--BLUE) !important;
 }
 .game_area_comingsoon .not_yet {
   color: VAR(--ACCENT) !important;
@@ -8469,24 +8474,21 @@ color:var(--ACCENT)!important;
 box-shadow:var(--BOXSHADOW) var(--SHADOW)!important;
   border-radius: var(--BORDERRADIUS) !important;
 }
+
 .group_tabs {
-  /* bottom: -55px !important;
-  width: 950px !important; */
-  border-radius: var(--BORDERRADIUS) !important;
-  /* padding-left: 2px !important; */
+  margin-left:-1px!important;
 }
+
 .group_tab {
-  background: 0 0 !important;
-  border-radius: var(--BORDERRADIUS) !important;
-  -moz-border-radius: var(--BORDERRADIUS) !important;
+  background: var(--PANEL) !important;
+  border-radius: 4PX 4PX 0 0 !important;
 }
+
 a.group_tab {
   color: VAR(--ACCENT) !important;
 }
 a.group_tab:hover {
-  color: var(--BLACK) !important;
-  background: TRANSPARENT !important;
-  border-radius: var(--BORDERRADIUS) !important;
+  background: VAR(--PANEL3) !important;
 }
 
 .rightbox {
@@ -8502,12 +8504,7 @@ a.group_tab:hover {
   background: var(--blacker) !important;
   border-radius: var(--BORDERRADIUS) !important;
 }
-.joinchat_bg .joinchat_button {
-  top: 2px !important;
-  color: VAR(--ACCENT) !important;
-  background: rgba(102, 192, 244, 0.8) !important;
-  border-radius: var(--BORDERRADIUS) !important;
-}
+
 .joinchat_bg .joinchat_membercount {
   top: 1px !important;
   color: var(--blu) !important;
