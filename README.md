@@ -17,7 +17,7 @@
 # STEAM GROUP
 ![Pure](https://i.imgur.com/zoRW6uW.png)
 
-*Join the Steam group here: https://steamcommunity.com/groups/pureskin
+* Join the Steam group here: https://steamcommunity.com/groups/pureskin
 
 # CREDITS
 * METRO SKIN <3
