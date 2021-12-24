@@ -193,6 +193,24 @@ span.platform_img.win::before {
 
 /* REVIEW ICONS */
 
+#hello {
+  color:var(--ACCENT)!important;
+}
+
+#subHead {
+  color:var(--ACCENT)!important;
+}
+
+.welcome_header_ctn {
+  background:unset!important;
+}
+
+#description {
+  background:var(--PANEL)!important;
+  border:1px solid var(--PANELBORDER)!important;
+  box-shadow:var(--BOXSHADOW) var(--SHADOW)!important;
+}
+
 .membercount.ingame {
   color:var(--GREEN)!important;
 }
@@ -8500,10 +8518,7 @@ a.group_tab:hover {
   box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
 }
 .joinchat_bg {
-  position: relative;
-  width: 257px !important;
-  height: 36px !important;
-  background: var(--blacker) !important;
+  background: var(--PANEL3) !important;
   border-radius: var(--BORDERRADIUS) !important;
 }
 
