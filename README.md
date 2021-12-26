@@ -15,7 +15,7 @@
 * run steamfriendspatcher and it will apply the theme
 
 # STEAM GROUP
-![Pure](https://i.imgur.com/I76l5dB.png)
+![Pure](https://i.imgur.com/RTWjQL6.png)
 
 * Join the Steam group here: https://steamcommunity.com/groups/pureskin
 

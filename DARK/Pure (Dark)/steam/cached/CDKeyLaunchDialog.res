@@ -35,7 +35,7 @@
 
 		//Bottom
 		region { name=bottom align=bottom height=40}
-		place {	control="DontShowAgainCheck" region=bottom align=left height=28 }
+		place {	control="DontShowAgainCheck" region=bottom align=left height=28 y=6 x=4 }
 		place {	control="LaunchButton,CopyButton,CloseButton" region=bottom spacing=6 align=right Y=7 height=28 margin-right=6 }
 	}
 }
