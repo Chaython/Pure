@@ -145,37 +145,25 @@
 			font-family=basefont
 			font-weight=400
 			bgcolor="none"
-			render_bg {}
 			image="graphics/pure/radio_d"
 		}
 		RadioButton:hover
 		{
-			render_bg {}
 			TEXTCOLOR=RADIOBUTTONHOVER
 			image="graphics/pure/radio_h"
 		}
 		RadioButton:selected
 		{
-			render_bg {}
 			image="graphics/pure/radio_s"
 		}
 		
 		RadioButton:selected:hover
 		{
-			render_bg {}
 			image="graphics/pure/radio_sh"
 		}
 		RadioButtonList
 		{
-			inset="-2 0 0 0"
-			bgcolor="ClientBG"
-			render_bg
-			{
-				1="fill( x0, y0, x1, y0+1, White10 )"  // top
-				2="fill( x0, y1-1, x1, y1, White10 )"  // bottom
-				3="fill( x0-1, y0, x0, y1, White10 )"  // left
-				4="fill( x1, y0, x1+1, y1, White10 )"  // right
-			}
+			
 		}
 		
 		CheckButton
