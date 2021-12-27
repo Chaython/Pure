@@ -34,52 +34,52 @@
 		{
 			bgcolor="none"
 			render_bg{}
-			image="graphics/metro/icons/shortcut"
+			image="graphics/metro/graphics/pure/shortcut"
 		}
 		gamedetails-headerlabel:hover
 		{
 			bgcolor="none"
 			render_bg{}
-			image="graphics/metro/icons/shortcut_h"
+			image="graphics/metro/graphics/pure/shortcut_h"
 		}
 
 		gamedetails-headerlabel-red
 		{
 			bgcolor="none"
 			render_bg{}
-			image="graphics/metro/icons/shortcut"
+			image="graphics/metro/graphics/pure/shortcut"
 		}
 		gamedetails-headerlabel-red:hover
 		{
 			bgcolor="none"
 			render_bg{}
-			image="graphics/metro/icons/shortcut_h"
+			image="graphics/metro/graphics/pure/shortcut_h"
 		}
 
 		gamedetails-headerlabel-green
 		{
 			bgcolor="none"
 			render_bg{}
-			image="graphics/metro/icons/shortcut"
+			image="graphics/metro/graphics/pure/shortcut"
 		}
 		gamedetails-headerlabel-green:hover
 		{
 			bgcolor="none"
 			render_bg{}
-			image="graphics/metro/icons/shortcut_h"
+			image="graphics/metro/graphics/pure/shortcut_h"
 		}
 
 		gamedetails-headerlabel-blue
 		{
 			bgcolor="none"
 			render_bg{}
-			image="graphics/metro/icons/shortcut"
+			image="graphics/metro/graphics/pure/shortcut"
 		}
 		gamedetails-headerlabel-blue:hover
 		{
 			bgcolor="none"
 			render_bg{}
-			image="graphics/metro/icons/shortcut_h"
+			image="graphics/metro/graphics/pure/shortcut_h"
 		}
 	}
 

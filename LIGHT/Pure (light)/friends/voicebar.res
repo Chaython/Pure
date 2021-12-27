@@ -38,7 +38,7 @@
 			bgcolor=White10
 			render_bg
 			{
-				0="image(x0+6,y0+9,x1,y1,graphics/metro/icons/chat/phone)"
+				0="image(x0+6,y0+9,x1,y1,graphics/metro/graphics/pure/chat/phone)"
 				1="fill(x1,y0,x1+19,y1,White10)"
 			}
 			padding-right=-30

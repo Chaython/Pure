@@ -23,18 +23,18 @@
 		button
 		{
 			bgcolor=none
-			image=graphics/metro/overlay/icons/achievements
+			image=graphics/metro/overlay/graphics/pure/achievements
 			inset-left=-6
 		}
 
 		button:hover
 		{
-			image=graphics/metro/overlay/icons/achievements_h		
+			image=graphics/metro/overlay/graphics/pure/achievements_h		
 		}
 
 		button:active
 		{
-			image=graphics/metro/overlay/icons/achievements_p		
+			image=graphics/metro/overlay/graphics/pure/achievements_p		
 		}
 	}
 

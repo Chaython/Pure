@@ -15,7 +15,7 @@
 			bgcolor="none"
 			render_bg
 			{
-				0="image(x0,y0,x1,y1,graphics/metro/icons/preload/complete)"
+				0="image(x0,y0,x1,y1,graphics/metro/graphics/pure/preload/complete)"
 			}
 			render{}
 		}

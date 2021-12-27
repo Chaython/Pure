@@ -19,15 +19,15 @@
 		{
 			inset-left=-6
 			bgcolor="none"
-			image=graphics/metro/overlay/icons/discussions
+			image=graphics/metro/overlay/graphics/pure/discussions
 		}
 		Button:hover
 		{
-			image=graphics/metro/overlay/icons/discussions_h		
+			image=graphics/metro/overlay/graphics/pure/discussions_h		
 		}
 		Button:active
 		{
-			image=graphics/metro/overlay/icons/discussions_p		
+			image=graphics/metro/overlay/graphics/pure/discussions_p		
 		}
 	}
 	layout

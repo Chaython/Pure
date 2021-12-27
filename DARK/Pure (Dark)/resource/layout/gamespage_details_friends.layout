@@ -22,17 +22,17 @@
 		{
 			inset-left=-6
 			bgcolor="none"
-			image=graphics/metro/overlay/icons/friends
+			image=graphics/metro/overlay/graphics/pure/friends
 		}
 		viewallbutton:hover
 		{
 			bgcolor="none"
-			image=graphics/metro/overlay/icons/friends_h
+			image=graphics/metro/overlay/graphics/pure/friends_h
 		}
 		viewallbutton:active
 		{
 			bgcolor="none"
-			image=graphics/metro/overlay/icons/friends_p
+			image=graphics/metro/overlay/graphics/pure/friends_p
 		}
 
 		//Hidden

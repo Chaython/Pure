@@ -26,16 +26,16 @@
 		Button
 		{
 			bgcolor=none
-			image=graphics/metro/overlay/icons/guides
+			image=graphics/metro/overlay/graphics/pure/guides
 			inset-left=-6 
 		}
 		Button:hover
 		{
-			image=graphics/metro/overlay/icons/guides_h		
+			image=graphics/metro/overlay/graphics/pure/guides_h		
 		}
 		Button:active
 		{
-			image=graphics/metro/overlay/icons/guides_p		
+			image=graphics/metro/overlay/graphics/pure/guides_p		
 		}
 	}
 	layout

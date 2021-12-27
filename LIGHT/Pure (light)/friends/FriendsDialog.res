@@ -6,7 +6,7 @@
 		{
 			bgcolor="none"
 			render_bg {}
-			image="graphics/metro/icons/navbar/friends_add"
+			image="graphics/metro/graphics/pure/navbar/friends_add"
 			padding-left=2
 			padding-right=6
 		}

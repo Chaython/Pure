@@ -82,7 +82,7 @@
 		{
 			inset-left="9 3 0 0"
 			bgcolor=none
-			image="graphics/metro/icons/caption/close"
+			image="graphics/metro/graphics/pure/caption/close"
 		}
 
 		CloseStyle:hover

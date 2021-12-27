@@ -421,13 +421,13 @@ styles
 	MusicPlayerIcon
 	{
 		bgcolor="none"
-		image="ICONS/MUSIC"
+		image="graphics/pure/MUSIC"
 		padding-left=7
 	}
 	MusicPlayerIcon:hover
 	{
 		bgcolor=white05
-		image="ICONS/MUSIC_H"
+		image="graphics/pure/MUSIC_H"
 	}
 
 	MusicAddButton

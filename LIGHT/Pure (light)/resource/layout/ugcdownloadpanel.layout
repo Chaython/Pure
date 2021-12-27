@@ -102,7 +102,7 @@
 		{
 			inset-left=-6
 			bgcolor="none"
-			image="icons/play_sm"
+			image="graphics/pure/play_sm"
 			render_bg{}
 			render{}
 		}
@@ -111,14 +111,14 @@
 			bgcolor="none"
 			render_bg{}
 			render{}
-			image="icons/play_sm_h"
+			image="graphics/pure/play_sm_h"
 		}
 		DetailsLaunchButton:active
 		{
 			bgcolor="none"
 			render_bg{}
 			render{}
-			image="icons/play_sm_p"
+			image="graphics/pure/play_sm_p"
 		}
 		DetailsLaunchButton:disabled
 		{
@@ -133,17 +133,17 @@
 			inset-left=-6
 			bgcolor="none"
 			render{}
-			image="icons/pause"
+			image="graphics/pure/pause"
 		}
 		SmPauseButton:hover
 		{
 			render{}
-			image="icons/pause_h"
+			image="graphics/pure/pause_h"
 		}
 		SmPauseButton:active
 		{
 			render{}
-			image="icons/pause_p"
+			image="graphics/pure/pause_p"
 		}
 
 		SmResumeButton
@@ -151,17 +151,17 @@
 			inset-left=-6
 			bgcolor="none"
 			render{}
-			image="icons/play_sm"
+			image="graphics/pure/play_sm"
 		}
 		SmResumeButton:hover
 		{
 			render{}
-			image="icons/play_sm_h"
+			image="graphics/pure/play_sm_h"
 		}
 		SmResumeButton:active
 		{
 			render{}
-			image="icons/play_sm_p"
+			image="graphics/pure/play_sm_p"
 		}
 
 		SmRemoveButton
@@ -169,17 +169,17 @@
 			inset-left=-6
 			bgcolor="none"
 			render{}
-			image="icons/close"
+			image="graphics/pure/close"
 		}
 		SmRemoveButton:hover
 		{
 			render{}
-			image="icons/close_h"
+			image="graphics/pure/close_h"
 		}
 		SmRemoveButton:active
 		{
 			render{}
-			image="icons/close_p"
+			image="graphics/pure/close_p"
 		}
 
 		ViewModsButton
@@ -188,19 +188,19 @@
 			bgcolor="none"
 			render_bg{}
 			render{}
-			image="icons/workshop_sm"
+			image="graphics/pure/workshop_sm"
 		}
 		ViewModsButton:hover
 		{
 			render_bg{}
 			render{}
-			image="icons/workshop_sm_h"
+			image="graphics/pure/workshop_sm_h"
 		}
 		ViewModsButton:active
 		{
 			render_bg{}
 			render{}
-			image="icons/workshop_sm_p"
+			image="graphics/pure/workshop_sm_p"
 		}
 
 		//Hidden

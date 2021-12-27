@@ -110,7 +110,7 @@
 		{
 			bgcolor=TextEntry
 			render_bg{}
-			image="graphics/metro/icons/chat/emoticons"
+			image="graphics/metro/graphics/pure/chat/emoticons"
 			padding-left=5
 		}
 		CEmoticonButton:hover
@@ -146,24 +146,24 @@
 			font-weight=400
 			bgcolor="none"
 			render_bg {}
-			image="ICONS/radio_d"
+			image="graphics/pure/radio_d"
 		}
 		RadioButton:hover
 		{
 			render_bg {}
 			TEXTCOLOR=RADIOBUTTONHOVER
-			image="ICONS/radio_h"
+			image="graphics/pure/radio_h"
 		}
 		RadioButton:selected
 		{
 			render_bg {}
-			image="ICONS/radio_s"
+			image="graphics/pure/radio_s"
 		}
 		
 		RadioButton:selected:hover
 		{
 			render_bg {}
-			image="ICONS/radio_sh"
+			image="graphics/pure/radio_sh"
 		}
 		RadioButtonList
 		{
@@ -183,32 +183,32 @@
 			textcolor = ACCENT
 			font-family=basefont
 			font-weight=400
-			image=ICONS/check_d
+			image=graphics/pure/check_d
 		}
 		CheckButton:hover
 		{
-			image=ICONS/check_h
+			image=graphics/pure/check_h
 			TEXTCOLOR=CHECKBUTTONHOVER
 		}
 		CheckButton:selected
 		{
-			image=ICONS/check_s
+			image=graphics/pure/check_s
 		}
 		CheckButton:selected:hover
 		{
-			image=ICONS/check_sh
+			image=graphics/pure/check_sh
 		}
 		CheckButton:disabled
 		{
 			textcolor = DISABLEDTEXT
 			bgcolor="none"
-			image=ICONS/check_d
+			image=graphics/pure/check_d
 		}
 		CheckButton:selected:disabled
 		{
 			textcolor=DISABLEDTEXT
 			bgcolor="none"
-			image=ICONS/check_s
+			image=graphics/pure/check_s
 		}
 
 		CheckButtonList
@@ -316,7 +316,7 @@
 			inset-left=0
 			bgcolor="none"
 			render_bg{}
-			image=ICONS/SCROLLUP
+			image=graphics/pure/SCROLLUP
 			padding-left=-1
 			padding-bottom=3
 			MARGIN-RIGHT=1
@@ -330,7 +330,7 @@
 		ScrollBarButton.up:hover
 		{
 			render_bg{}
-			image=ICONS/SCROLLUP_H
+			image=graphics/pure/SCROLLUP_H
 		}
 
 		ScrollBarButton.down
@@ -339,7 +339,7 @@
 			inset-left=0
 			bgcolor="none"
 			render_bg{}
-			image=ICONS/SCROLLDOWN
+			image=graphics/pure/SCROLLDOWN
 			padding-left=-1
 			padding-bottom=2
 			MARGIN-RIGHT=1
@@ -353,7 +353,7 @@
 		ScrollBarButton.down:hover
 		{
 			render_bg{}
-			image=ICONS/SCROLLDOWN_H
+			image=graphics/pure/SCROLLDOWN_H
 		}
 
 		ScrollBarButton.left

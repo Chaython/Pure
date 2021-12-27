@@ -22,7 +22,7 @@
 		Button
 		{
 			bgcolor="none"
-			image=ICONS/screenshot
+			image=graphics/pure/screenshot
 			//inset-left=-6
 				render{
 			1="fill(x0,y0,x1,y0+1, "NONE")"  // top
@@ -34,12 +34,12 @@
 		Button:hover
 		{
 			bgcolor="none"
-			image=graphics/metro/overlay/icons/screenshots_h
+			image=graphics/metro/overlay/graphics/pure/screenshots_h
 		}
 		Button:active
 		{
 			bgcolor="none"
-			image=graphics/metro/overlay/icons/screenshots_p
+			image=graphics/metro/overlay/graphics/pure/screenshots_p
 		}
 
 		//Hidden

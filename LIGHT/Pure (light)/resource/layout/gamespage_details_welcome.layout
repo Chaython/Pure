@@ -33,52 +33,52 @@
 		{
 			bgcolor="none"
 			render_bg{}
-			image="graphics/metro/icons/info"
+			image="graphics/metro/graphics/pure/info"
 		}
 		gamedetails-headerlabel:hover
 		{
 			bgcolor="none"
 			render_bg{}
-			image="graphics/metro/icons/info_h"
+			image="graphics/metro/graphics/pure/info_h"
 		}
 
 		gamedetails-headerlabel-red
 		{
 			bgcolor="none"
 			render_bg{}
-			image="graphics/metro/icons/info"
+			image="graphics/metro/graphics/pure/info"
 		}
 		gamedetails-headerlabel-red:hover
 		{
 			bgcolor="none"
 			render_bg{}
-			image="graphics/metro/icons/info_h"
+			image="graphics/metro/graphics/pure/info_h"
 		}
 
 		gamedetails-headerlabel-green
 		{
 			bgcolor="none"
 			render_bg{}
-			image="graphics/metro/icons/info"
+			image="graphics/metro/graphics/pure/info"
 		}
 		gamedetails-headerlabel-green:hover
 		{
 			bgcolor="none"
 			render_bg{}
-			image="graphics/metro/icons/info_h"
+			image="graphics/metro/graphics/pure/info_h"
 		}
 
 		gamedetails-headerlabel-blue
 		{
 			bgcolor="none"
 			render_bg{}
-			image="graphics/metro/icons/info"
+			image="graphics/metro/graphics/pure/info"
 		}
 		gamedetails-headerlabel-blue:hover
 		{
 			bgcolor="none"
 			render_bg{}
-			image="graphics/metro/icons/info_h"
+			image="graphics/metro/graphics/pure/info_h"
 		}
 	}
 

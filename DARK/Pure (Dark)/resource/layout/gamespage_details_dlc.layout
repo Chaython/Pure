@@ -24,17 +24,17 @@
 		{
 			inset-left=-6
 			bgcolor="none"
-			image=graphics/metro/icons/dlc
+			image=graphics/metro/graphics/pure/dlc
 		}
 		Button:hover
 		{
 			bgcolor="none"
-			image="graphics/metro/icons/dlc_h"
+			image="graphics/metro/graphics/pure/dlc_h"
 		}
 		Button:active
 		{
 			bgcolor="none"
-			image="graphics/metro/icons/dlc_p"
+			image="graphics/metro/graphics/pure/dlc_p"
 		}
 
 		ListPanelColumnHeader

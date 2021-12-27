@@ -33,25 +33,25 @@
 		}
 		ListPanelCheckBox
 		{	
-			image="ICONS/DIALOGCHECK_d"
+			image="graphics/pure/DIALOGCHECK_d"
 			padding-left=4
 		}
 
 		ListPanelCheckBox:hover
 		{	
-			image="ICONS/DIALOGCHECK_h"
+			image="graphics/pure/DIALOGCHECK_h"
 			padding-left=4
 		}
 
 		ListPanelCheckBox:selected
 		{	
-			image="ICONS/DIALOGCHECK_s"
+			image="graphics/pure/DIALOGCHECK_s"
 			padding-left=4
 		}
 
 		ListPanelCheckBox:selected:hover
 		{	
-			image="ICONS/DIALOGCHECK_sh"
+			image="graphics/pure/DIALOGCHECK_sh"
 			padding-left=4
 		}
 	}

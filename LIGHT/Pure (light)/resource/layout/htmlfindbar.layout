@@ -64,7 +64,7 @@
 		{
 			render_bg{}
 			bgcolor="none"
-			image="icons/forward"
+			image="graphics/pure/forward"
 						render {
 				1="fill(x0,y0,x1,y0+1,"none")"  // top
 				2="fill(x0,y1-1,x1,y1,"none")"  // bottom
@@ -74,22 +74,22 @@
 		}
 		NextButtonSm:hover
 		{
-			image="icons/forward_h"
+			image="graphics/pure/forward_h"
 		}
 		NextButtonSm:active
 		{
-			image="icons/forward_p"
+			image="graphics/pure/forward_p"
 		}
 		NextButtonSm:disabled
 		{
-			image="icons/forward_d"
+			image="graphics/pure/forward_d"
 		}
 
 		PrevButtonSm
 		{
 			render_bg{}
 			bgcolor="none"
-			image="icons/back"
+			image="graphics/pure/back"
 						render {
 				1="fill(x0,y0,x1,y0+1,"none")"  // top
 				2="fill(x0,y1-1,x1,y1,"none")"  // bottom
@@ -99,22 +99,22 @@
 		}
 		PrevButtonSm:hover
 		{
-			image="icons/back_h"
+			image="graphics/pure/back_h"
 		}
 		PrevButtonSm:active
 		{
-			image="icons/back_p"
+			image="graphics/pure/back_p"
 		}
 		PrevButtonSm:disabled
 		{
-			image="icons/back_d"
+			image="graphics/pure/back_d"
 		}
 
 		CloseButtonSm
 		{
 			bgcolor="none"
 			inset="9 3 0 0"
-			image="icons/caption/close"
+			image="graphics/pure/caption/close"
 						render {
 				1="fill(x0,y0,x1,y0+1,"none")"  // top
 				2="fill(x0,y1-1,x1,y1,"none")"  // bottom

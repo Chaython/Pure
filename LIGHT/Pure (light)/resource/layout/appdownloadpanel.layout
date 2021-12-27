@@ -131,7 +131,7 @@
 		{
 			inset-left=-6
 			bgcolor="none"
-			image="icons/play_sm"
+			image="graphics/pure/play_sm"
 			render_bg{}
 			render{}
 		}
@@ -140,14 +140,14 @@
 			bgcolor="none"
 			render_bg{}
 			render{}
-			image="icons/play_sm_h"
+			image="graphics/pure/play_sm_h"
 		}
 		DetailsLaunchButton:active
 		{
 			bgcolor="none"
 			render_bg{}
 			render{}
-			image="icons/play_sm_p"
+			image="graphics/pure/play_sm_p"
 		}
 		DetailsLaunchButton:disabled
 		{
@@ -161,21 +161,21 @@
 		{
 			bgcolor="none"
 			render{}
-			image="icons/promote"
+			image="graphics/pure/promote"
 			padding-left=-1
 			padding-right=3
 		}
 		topOfQueueButton:hover
 		{
 			render{}
-			image="icons/promote_h"
+			image="graphics/pure/promote_h"
 		}
 
 		SmRemoveButton
 		{
 			bgcolor="none"
 			render{}
-			image="icons/close_sm"
+			image="graphics/pure/close_sm"
 			padding-left=-1
 			padding-right=3
 		}
@@ -183,7 +183,7 @@
 		{
 			bgcolor="none"
 			render{}
-			image="icons/close_sm_h"
+			image="graphics/pure/close_sm_h"
 		}
 
 		SlimProgressBar

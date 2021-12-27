@@ -27,9 +27,9 @@ steam.styles
 	
 	styles
 	{
-				ReloadButton { minimum-height=0 padding-left=0 padding-right=0 render_bg { } image="ICONS/refresh" }
+				ReloadButton { minimum-height=0 padding-left=0 padding-right=0 render_bg { } image="graphics/pure/refresh" }
 
-		ReloadButton:hover { render_bg { } image="ICONS/refresh_H" }
+		ReloadButton:hover { render_bg { } image="graphics/pure/refresh_H" }
 
 		account_menu_label { font-family=medium font-size=16 font-weight=500 textcolor=FRIENDONLINE font-style=regular }
 
@@ -38,8 +38,8 @@ steam.styles
 			BGCOLOR = OLTEXTENTRY
 			font-size=16
 			render_bg {
-			0="image(x0-10,y0,x1,y1, ICONS/LEFT2)"
-			1="image(x1-3,y0,x1-13,y1, ICONS/RIGHT2)"
+			0="image(x0-10,y0,x1,y1, graphics/pure/LEFT2)"
+			1="image(x1-3,y0,x1-13,y1, graphics/pure/RIGHT2)"
 					}
 			render{
 			1="fill(x0,y0,x1,y0+2,TEXTENTRYBORDER)" 
@@ -52,8 +52,8 @@ steam.styles
 		 	BGCOLOR=BASE3
 				
 			render {
-			0="image(x0-10,y0,x1,y1, ICONS/LEFT2_A)"
-			1="image(x1-3,y0,x1-13,y1, ICONS/RIGHT2_A)"
+			0="image(x0-10,y0,x1,y1, graphics/pure/LEFT2_A)"
+			1="image(x1-3,y0,x1-13,y1, graphics/pure/RIGHT2_A)"
 			2="fill(x0,y0,x1,y0+2, TEXTENTRYBORDERSELECTED)"   // top
 			3="fill(x0,y1-2,x1,y1, TEXTENTRYBORDERSELECTED)"   // bottom
 					}
@@ -66,7 +66,7 @@ steam.styles
 
 		TREEIMAGE
 		{
-			IMAGE="ICONS/BACK"
+			IMAGE="graphics/pure/BACK"
 		}
 
 	
@@ -76,8 +76,8 @@ steam.styles
 			BGCOLOR=OLTEXTENTRY
 			RENDER_BG {
 				0="fill( x0-16, y0, x1, y1, OLTEXTENTRY)"
-				1="image( x0-26, y0, x1, y1, ICONS/LEFT2)"
-				2="image( x1-1, y0, x1-11, y1, ICONS/RIGHT2)"
+				1="image( x0-26, y0, x1, y1, graphics/pure/LEFT2)"
+				2="image( x1-1, y0, x1-11, y1, graphics/pure/RIGHT2)"
 			}
 			RENDER {
 				1="fill( x0-16, y0, x1, y0+2, TEXTENTRYBORDER )"		// Top
@@ -94,8 +94,8 @@ steam.styles
 			BGCOLOR=OLTEXTENTRYBACKGROUNDHOVER
 				RENDER_BG {
 				0="fill( x0-16, y0, x1, y1, OLTEXTENTRYBACKGROUNDHOVER)"
-					1="image( x0-26, y0, x1, y1, ICONS/LEFT2_H)"
-					2="image( x1-1, y0, x1-11, y1, ICONS/RIGHT2_H)"
+					1="image( x0-26, y0, x1, y1, graphics/pure/LEFT2_H)"
+					2="image( x1-1, y0, x1-11, y1, graphics/pure/RIGHT2_H)"
 			}
 			RENDER {
 						5="fill( x0-16, y0, x1, y0+2, TEXTENTRYBORDERHOVER )"		// Top
@@ -112,8 +112,8 @@ steam.styles
 			BGCOLOR=OLTEXTENTRYBACKGROUNDSELECTED
 				RENDER_BG {
 				0="fill( x0-16, y0, x1, y1, OLTEXTENTRYBACKGROUNDSELECTED)"
-					1="image( x0-26, y0, x1, y1, ICONS/LEFT2_A)"
-					2="image( x1-1, y0, x1-11, y1, ICONS/RIGHT2_A)"
+					1="image( x0-26, y0, x1, y1, graphics/pure/LEFT2_A)"
+					2="image( x1-1, y0, x1-11, y1, graphics/pure/RIGHT2_A)"
 			}
 			RENDER {
 				5="fill( x0-16, y0, x1, y0+2, TEXTENTRYBORDERSELECTED )"		// Top
@@ -141,7 +141,7 @@ steam.styles
 			textcolor=SecureURL
 			padding-left=4
 			padding-right=4
-			image="ICONS/URL_SECURE"
+			image="graphics/pure/URL_SECURE"
 		}
 
 		Slider
@@ -176,7 +176,7 @@ steam.styles
 		CChatActionsButton
 		{
 			bgcolor="none"
-			image="icons/menu"
+			image="graphics/pure/menu"
 			padding-left=13
 		}
 		CChatActionsButton:hover
@@ -190,7 +190,7 @@ steam.styles
 
 		"HotkeyEntryClearButton"
 		{
-			image="graphics/metro/icons/caption/close"
+			image="graphics/metro/graphics/pure/caption/close"
 			inset-right=9
 			inset-bottom=4
 			minimum-width=24
@@ -198,7 +198,7 @@ steam.styles
 		}
 		"HotkeyEntryClearButton:hover"
 		{
-			image="graphics/metro/icons/caption/close_h"
+			image="graphics/metro/graphics/pure/caption/close_h"
 		}
 
 		"TextEntryClearButton"
@@ -270,7 +270,7 @@ steam.styles
 			BGCOLOR = CLIENTLOADING
 			render_bg
 			{
-				0="image(x0+152,y0+14,x1,y0,ICONS/login_logo)"
+				0="image(x0+152,y0+14,x1,y0,graphics/pure/login_logo)"
 				1="fill(x0+1,y0,x1-1,y0+1, DIVIDER)"
 				2="fill(x0+1,y1-1,x1-1,y1, DIVIDER)"
 				3="fill(x0,y0,x0+1,y1, DIVIDER)"
@@ -310,40 +310,40 @@ steam.styles
 		uparrow
 		{
 			render_bg {}
-			image="ICONS/up_arrow"
+			image="graphics/pure/up_arrow"
 		}
 		uparrow:hover
 		{
 			render_bg {}
-			image="ICONS/up_arrow_h"
+			image="graphics/pure/up_arrow_h"
 		}
 
 		downarrow
 		{
-			image="ICONS/down_arrow"
+			image="graphics/pure/down_arrow"
 			
 		}
 		downarrow:hover
 		{
-			image="ICONS/down_arrow_h"
+			image="graphics/pure/down_arrow_h"
 		
 		}
 
 			downarrow:selected
 		{
-			image="ICONS/down_arrow_s"
+			image="graphics/pure/down_arrow_s"
 		
 		}
 
 		rightarrow
 		{
 			render_bg {}
-			image="ICONS/SMSECTION_CLOSED"
+			image="graphics/pure/SMSECTION_CLOSED"
 		}
 		rightarrow:hover
 		{
 			render_bg {}
-			image="ICONS/SMSECTION_CLOSED_H"
+			image="graphics/pure/SMSECTION_CLOSED_H"
 		}
 
 ///////////////////////////////////////////
@@ -787,21 +787,21 @@ steam.styles
 			bgcolor="none"
 			render_bg{}
 			render{}
-			image="icons/plus"
+			image="graphics/pure/plus"
 		}
 		ListPanelColumnSelectButton:hover
 		{
 			bgcolor="none"
 			render_bg{}
 			render{}
-			image="icons/plus_h"
+			image="graphics/pure/plus_h"
 		}
 		ListPanelColumnSelectButton:selected
 		{
 			bgcolor="none"
 			render_bg{}
 			render{}
-			image="icons/plus_p"
+			image="graphics/pure/plus_p"
 		}
 		"CGamesListPanel ListPanelColumnSelectButton"
 		{
@@ -841,7 +841,7 @@ steam.styles
 		{
 			bgcolor=CategoryBG
 			render_bg{}
-			image="icons/smsection_open"
+			image="graphics/pure/smsection_open"
 			padding-left=3
 			padding-right=4
 			padding-top=1
@@ -856,17 +856,17 @@ steam.styles
 		ListPanelSectionCollapser:hover
 		{
 			render_bg{}
-			image="icons/smsection_open_h"
+			image="graphics/pure/smsection_open_h"
 		}
 		ListPanelSectionCollapser:selected
 		{
 			render_bg{}
-			image="icons/smsection_closed"
+			image="graphics/pure/smsection_closed"
 		}
 		ListPanelSectionCollapser:selected:hover
 		{
 			render_bg{}
-			image="icons/smsection_closed_h"
+			image="graphics/pure/smsection_closed_h"
 		}
 
 		MainNav
@@ -967,7 +967,7 @@ steam.styles
 		{
 			bgcolor="NONE"
 			render_bg{}
-			image="icons/menu"
+			image="graphics/pure/menu"
 			inset-left=3
 			padding-left=5
 			minimum-width=38
@@ -976,13 +976,13 @@ steam.styles
 		{
 			bgcolor = MENUBUTTONHOVER
 			render_bg{}
-			image="icons/menu_h"
+			image="graphics/pure/menu_h"
 		}
 		"MenuBar MenuButton:selected"
 		{
 			bgcolor = MENUBUTTON
 			render_bg{}
-			image="icons/menu_h"
+			image="graphics/pure/menu_h"
 		}
 
 		MenuButton
@@ -1144,21 +1144,21 @@ steam.styles
 				4="fill( x1, y0, x1+1, y1, NONE )"  // right
 			}
 				render_bg {
-				0="image( x0, y0, x1, y1, ICONS/TABCLOSE )"
+				0="image( x0, y0, x1, y1, graphics/pure/TABCLOSE )"
 			}
 		}
 
 		TabCloseButton:hover
 		{
 					render_bg {
-				0="image( x0, y0, x1, y1, ICONS/TABCLOSE_H )"
+				0="image( x0, y0, x1, y1, graphics/pure/TABCLOSE_H )"
 			}
 		}
 
 		TabCloseButton:active
 		{
 			render_bg {
-				0="image( x0, y0, x1, y1, ICONS/TABCLOSE_P )"
+				0="image( x0, y0, x1, y1, graphics/pure/TABCLOSE_P )"
 			}
 		}
 
@@ -1247,7 +1247,7 @@ steam.styles
 			render_bg{}
 			padding-right=1
 			padding-left=3
-			image="ICONS/section_closed.tga"
+			image="graphics/pure/section_closed.tga"
 			render{
 				1="fill(x0,y0,x1,y0+1,"none")"  // top
 				2="fill(x0,y1-1,x1,y1,"none")"  // bottom
@@ -1258,17 +1258,17 @@ steam.styles
 		SectionedListPanelCollapser:hover
 		{
 			render_bg{}
-			image="ICONS/section_closed_h.tga"
+			image="graphics/pure/section_closed_h.tga"
 		}
 		SectionedListPanelCollapser:selected
 		{
 			render_bg{}
-			image="ICONS/section_open.tga"
+			image="graphics/pure/section_open.tga"
 		}
 		SectionedListPanelCollapser:selected:hover
 		{
 			render_bg{}
-			image="ICONS/section_open_h.tga"
+			image="graphics/pure/section_open_h.tga"
 		}
 		SectionHeaderStyleLabel
 		{
@@ -1334,7 +1334,7 @@ steam.styles
 //======Select Directory Dialog's folders tree view=====//
 		TreeNode
 		{
-			IMAGE="ICONS/TREENODE"
+			IMAGE="graphics/pure/TREENODE"
 			bgcolor="none"
 			render_bg{}
 		}
@@ -1436,7 +1436,7 @@ steam.styles
 		{
 			bgcolor="none"
 			render_bg{}
-			image="icons/back"
+			image="graphics/pure/back"
 			padding-left=-6
 			render{
 				1="fill(x0,y0,x1,y0+1, "none")"  // top
@@ -1448,17 +1448,17 @@ steam.styles
 		BackButton:hover
 		{
 			bgcolor = NAVBUTTONBACKGROUNDHOVER
-			image="icons/back_h"
+			image="graphics/pure/back_h"
 			
 		}
 		BackButton:active
 		{
 			bgcolor="none"
-			image="icons/back_p"
+			image="graphics/pure/back_p"
 		}
 		BackButton:disabled
 		{
-			image="icons/back_d"
+			image="graphics/pure/back_d"
 		}
 
 		BackButtonSm
@@ -1466,7 +1466,7 @@ steam.styles
 			inset-left=-10
 			bgcolor="none"
 			render_bg{}
-			image="icons/back"
+			image="graphics/pure/back"
 			padding-left=8
 			padding-right=8
 			render
@@ -1480,7 +1480,7 @@ steam.styles
 		BackButtonSm:hover
 		{
 			bgcolor=NONE
-			image="icons/back_h"
+			image="graphics/pure/back_h"
 					render
 			{
 				1="fill( x0, y0, x1, y0+1, "none" )"		// Top
@@ -1492,7 +1492,7 @@ steam.styles
 		BackButtonSm:active
 		{
 			bgcolor=NONE
-			image="icons/back_p"
+			image="graphics/pure/back_p"
 					render
 			{
 				1="fill( x0, y0, x1, y0+1, "none" )"		// Top
@@ -1503,7 +1503,7 @@ steam.styles
 		}
 		BackButtonSm:disabled
 		{
-			image="icons/back_d"
+			image="graphics/pure/back_d"
 					render
 			{
 				1="fill( x0, y0, x1, y0+1, "none" )"		// Top
@@ -1567,7 +1567,7 @@ steam.styles
 		{
 			bgcolor="none"
 			render_bg{}
-			image="icons/forward"
+			image="graphics/pure/forward"
 			padding-left=-6
 			render{
 			1="fill(x0,y0,x1,y0+1, "none")"  // top
@@ -1579,16 +1579,16 @@ steam.styles
 		ForwardButton:hover
 		{
 			bgcolor=NAVBUTTONBACKGROUNDHOVER
-			image="icons/forward_h"
+			image="graphics/pure/forward_h"
 		}
 		ForwardButton:active
 		{
 			bgcolor="none"
-			image="icons/forward_p"
+			image="graphics/pure/forward_p"
 		}
 		ForwardButton:disabled
 		{
-			image="icons/forward_d"
+			image="graphics/pure/forward_d"
 		}
 
 		ForwardButtonSm
@@ -1596,7 +1596,7 @@ steam.styles
 			inset-left=-10
 			bgcolor="none"
 			render_bg{}
-			image="icons/forward"
+			image="graphics/pure/forward"
 			padding-left=8
 			padding-right=8
 					render{
@@ -1609,7 +1609,7 @@ steam.styles
 		ForwardButtonSm:hover
 		{
 			bgcolor=white05
-			image="icons/forward_h"
+			image="graphics/pure/forward_h"
 				render
 			{
 				1="fill( x0, y0, x1, y0+1, "none" )"		// Top
@@ -1621,7 +1621,7 @@ steam.styles
 		ForwardButtonSm:active
 		{
 			bgcolor=white10
-			image="icons/forward_p"
+			image="graphics/pure/forward_p"
 					render
 			{
 				1="fill( x0, y0, x1, y0+1, "none" )"		// Top
@@ -1632,7 +1632,7 @@ steam.styles
 		}
 		ForwardButtonSm:disabled
 		{
-			image="icons/forward_d"
+			image="graphics/pure/forward_d"
 					render
 			{
 				1="fill( x0, y0, x1, y0+1, "none" )"		// Top
@@ -1645,7 +1645,7 @@ steam.styles
 		ReloadButton
 		{
 			bgcolor="none"
-			image=ICONS/REFRESH
+			image=graphics/pure/REFRESH
 			
 			render
 			{
@@ -1658,7 +1658,7 @@ steam.styles
 		ReloadButton:hover
 		{
 			bgcolor=none
-			image=ICONS/REFRESH_H
+			image=graphics/pure/REFRESH_H
 			render
 			{
 				1="fill( x0, y0, x1, y0+1, "none" )"		// Top
@@ -1670,7 +1670,7 @@ steam.styles
 		ReloadButton:active
 		{
 			bgcolor=none
-			image=ICONS/REFRESH_P
+			image=graphics/pure/REFRESH_P
 			render
 			{
 				1="fill( x0, y0, x1, y0+1, "none" )"		// Top
@@ -1683,7 +1683,7 @@ steam.styles
 		StopButton
 		{
 			bgcolor="none"
-			image=ICONS/STOP
+			image=graphics/pure/STOP
 			render
 			{
 				1="fill( x0, y0, x1, y0+1, "none" )"		// Top
@@ -1695,7 +1695,7 @@ steam.styles
 		StopButton:hover
 		{
 			bgcolor=NONE
-			image=ICONS/STOP_H
+			image=graphics/pure/STOP_H
 			render
 			{
 				1="fill( x0, y0, x1, y0+1, "none" )"		// Top
@@ -1707,7 +1707,7 @@ steam.styles
 		StopButton:active
 		{
 			bgcolor=NONE
-			image=ICONS/STOP_P
+			image=graphics/pure/STOP_P
 			render
 			{
 				1="fill( x0, y0, x1, y0+1, "none" )"		// Top
@@ -1725,7 +1725,7 @@ steam.styles
 			minimum-height=68
 			render_bg
 			{
-				0="image(x0+16,y0+16,x1,y1,graphics/metro/icons/info)"
+				0="image(x0+16,y0+16,x1,y1,graphics/metro/graphics/pure/info)"
 			}
 		}
 		

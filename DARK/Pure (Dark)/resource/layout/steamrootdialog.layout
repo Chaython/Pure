@@ -28,7 +28,7 @@
 		{
 			padding-left=6
 			bgcolor="none"
-			image="icons/friends"
+			image="graphics/pure/friends"
 			padding-right=2
 			render{
 			1="fill(x0,y0,x1,y0+1, "none")"  // top
@@ -41,7 +41,7 @@
 		{
 			bgcolor = ACTIONBUTTONHOVER
 			render_bg={}
-			image="icons/friends_h"
+			image="graphics/pure/friends_h"
 		}
 		view_friends:active
 		{
@@ -159,7 +159,7 @@
 			font-style="none"
 			render_bg
 			{
-				0="image(x0+8,y0+12,x1,y1,icons/notifications)"
+				0="image(x0+8,y0+12,x1,y1,graphics/pure/notifications)"
 			}
 			padding-left=0
 			padding-right=0
@@ -171,7 +171,7 @@
 			bgcolor = ACTIONBUTTONHOVER
 			render_bg
 			{
-				0="image(x0+8,y0+12,x1,y1,icons/notifications_h)"
+				0="image(x0+8,y0+12,x1,y1,graphics/pure/notifications_h)"
 			}
 			render {}
 		}
@@ -181,7 +181,7 @@
 			bgcolor="NONE"
 			render_bg
 			{
-				0="image(x0+8,y0+12,x1,y1, icons/notifications_selected)"
+				0="image(x0+8,y0+12,x1,y1, graphics/pure/notifications_selected)"
 			}
 		}
 		inbox_button:disabled
@@ -190,7 +190,7 @@
 			bgcolor="none"
 			render_bg
 			{
-				0="image(x0+8,y0+12,x1,y1,icons/notifications)"
+				0="image(x0+8,y0+12,x1,y1,graphics/pure/notifications)"
 			}
 		}
 
@@ -201,7 +201,7 @@
 			bgcolor="none"
 			render_bg
 			{
-				0="image(x0+8,y0+12,x1,y1,icons/notifications_active)"
+				0="image(x0+8,y0+12,x1,y1,graphics/pure/notifications_active)"
 				1="fill(x0,y1,x1,y1+1,NAVBUTTONACTIVEBORDER)"
 			}
 			padding-left=0
@@ -214,7 +214,7 @@
 			bgcolor = "NONE"
 			render_bg
 			{
-				0="image(x0+8,y0+12,x1,y1,icons/notifications_active_h)"
+				0="image(x0+8,y0+12,x1,y1,graphics/pure/notifications_active_h)"
 				1="fill(x0,y1,x1,y1+1,NAVBUTTONACTIVEBORDER)"
 			}
 			render {}
@@ -225,7 +225,7 @@
 			bgcolor="none"
 			render_bg
 			{
-				0="image(x0+8,y0+12,x1,y1,icons/notifications_active_selected)"
+				0="image(x0+8,y0+12,x1,y1,graphics/pure/notifications_active_selected)"
 				1="fill(x0,y1,x1,y1+1,NAVBUTTONACTIVEBORDER)"
 			}
 			render {}
@@ -236,7 +236,7 @@
 			bgcolor="none"
 			render_bg
 			{
-				0="image(x0+8,y0+12,x1,y1, icons/notifications_active)"
+				0="image(x0+8,y0+12,x1,y1, graphics/pure/notifications_active)"
 				1="fill(x0,y1,x1,y1+1,white45)"
 			}
 			render {}
@@ -252,23 +252,23 @@
 				0="fill( x1 - 1, y1 - 1, x1 - 2, y1 - 2, "NONE" )"
 			}
 
-			image="ICONS/FVUNLOCK"
+			image="graphics/pure/FVUNLOCK"
 			PADDING-RIGHT=4
 		}
 		parental_lock_button:hover
 		{
 			BGCOLOR = ACTIONBUTTONHOVER
-			IMAGE="ICONS/FVUNLOCK_H"
+			IMAGE="graphics/pure/FVUNLOCK_H"
 		}
 		parental_lock_button:selected
 		{
 			bgcolor="none"
-			image="ICONS/FVLOCK"
+			image="graphics/pure/FVLOCK"
 		}
 		parental_lock_button:selected:hover
 		{
 			BGCOLOR = ACTIONBUTTONHOVER
-			IMAGE="ICONS/FVLOCK_H"
+			IMAGE="graphics/pure/FVLOCK_H"
 
 		}
 
@@ -276,7 +276,7 @@
 		{
 			bgcolor="none"
 			render_bg={}
-			image="icons/bigpic"
+			image="graphics/pure/bigpic"
 			padding-left=2
 			padding-right=6
 			padding-top=1
@@ -291,7 +291,7 @@
 		{
 			bgcolor = ACTIONBUTTONHOVER
 			render_bg={}
-			image="ICONS/bigpic_h"
+			image="graphics/pure/bigpic_h"
 		}
 		FullscreenButton:active
 		{

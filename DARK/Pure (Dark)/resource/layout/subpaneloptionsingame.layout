@@ -52,7 +52,7 @@
 	{
 
 		HIGHLIGHT69 {
-			IMAGE="ICONS/BACK"
+			IMAGE="graphics/pure/BACK"
 		}
 
 		highlight

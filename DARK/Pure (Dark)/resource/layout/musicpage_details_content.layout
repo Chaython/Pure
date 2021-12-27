@@ -82,7 +82,7 @@
 		"AlbumOrArtistListStyle ListPanelColumnSelectButton"   
 		{
 			bgcolor="none"
-			image="graphics/metro/icons/plus"
+			image="graphics/metro/graphics/pure/plus"
 		}
 
 		DetailsBorderPanel

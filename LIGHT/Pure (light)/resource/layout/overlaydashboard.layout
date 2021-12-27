@@ -19,9 +19,9 @@
 			render {
 				0="fill( x1-92, y0+64, x1-50,y0+184, BASE3 )"
 
-				1="image( x1-94, y0+61, x1, y1, ICONS/TOP )"
+				1="image( x1-94, y0+61, x1, y1, graphics/pure/TOP )"
 
-				2="image( x1-94, y0+184, x1, y1, ICONS/BOTTOM )"
+				2="image( x1-94, y0+184, x1, y1, graphics/pure/BOTTOM )"
 
 				3="fill( x1-93, y0+63, x1-92,y0+185, DIVIDER )"
 				4="fill( x1-50, y0+63, x1-49, y0+185, DIVIDER )"

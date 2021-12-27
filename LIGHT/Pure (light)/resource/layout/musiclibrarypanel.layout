@@ -45,7 +45,7 @@
 		MusicPlayerIcon
 		{
 			bgcolor=none
-			image="icons/music"
+			image="graphics/pure/music"
 			inset-left=-2
 			render {
 
@@ -57,7 +57,7 @@
 		}
 		MusicPlayerIcon:hover
 		{
-			image="icons/music_h"
+			image="graphics/pure/music_h"
 		}
 
 		MusicAddButton

@@ -28,7 +28,7 @@
 
 		Key
 		{
-			image="ICONS/icon_security_key"
+			image="graphics/pure/icon_security_key"
 		}
 		
 		AuthCode

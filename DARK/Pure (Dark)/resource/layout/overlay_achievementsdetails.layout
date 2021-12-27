@@ -4,7 +4,7 @@
 		detailsbox { }
 
 		button {
-			image="ICONS/OVERLAY ACHIEVEMENTS"
+			image="graphics/pure/OVERLAY ACHIEVEMENTS"
 			//minimum-height=0 
 			//padding-right=0 padding-left=0
 			BGCOLOR = NONE
@@ -17,7 +17,7 @@
 		}
 
 		button:hover {
-			IMAGE="ICONS/OVERLAY ACHIEVEMENTS_H"
+			IMAGE="graphics/pure/OVERLAY ACHIEVEMENTS_H"
 		}
 	}
 
