@@ -1167,15 +1167,15 @@ steam.styles
 		{
 			textcolor = LOADINGBAR
 			RENDER_BG{
-					0="fill( x0, y0, x1, y1, BUTTON )"
+			0="fill( x0, y0, x1, y1, BUTTON)"
 			}
 
 				render
 			{
-				1="fill( x0, y0, x1, y0+1, DIVIDER2 )"  // top
-				2="fill( x0, y1-1, x1, y1, DIVIDER2 )"  // bottom
-				3="fill( x0-1, y0, x0, y1, DIVIDER2 )"  // left
-				4="fill( x1, y0, x1+1, y1, DIVIDER2 )"  // right
+				1="fill( x0, y0, x1, y0+1, DIVIDER2)"  // top
+				2="fill( x0, y1-1, x1, y1, DIVIDER2)"  // bottom
+				3="fill( x0-1, y0, x0, y1, DIVIDER2)"  // left
+				4="fill( x1, y0, x1+1, y1, DIVIDER2)"  // right
 			}
 		}
 
