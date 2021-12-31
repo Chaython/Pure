@@ -9,6 +9,10 @@
 			render_bg {
 				0="image( x0 + 8, y0 - 28, x1, y1, graphics/pure/downloads_inprogress)"
 			}
+		
+			render {
+				0="fill( x0, y1-1, x1, y1, "none")"
+			}
 		}
 
 		StatusLabel {
