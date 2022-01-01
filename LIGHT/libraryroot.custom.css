@@ -1298,6 +1298,7 @@ button.downloads_Button_3oavR:hover.DialogButton._DialogLayout.Secondary:hover,
 }
 
 .downloads_ItemLists_1ugNi {
+  overflow-x:hidden!important;
   background: VAR(--DOWNLOADSITEMLIST) !important;
 }
 
@@ -1447,6 +1448,10 @@ div.MediumWindow
 .downloads_PatchNotes_3kXEp:hover {
   color:var(--BLACK)!important;
 
+}
+
+.downloads_SectionJumpBar_mw7VZ {
+  display:none!important;
 }
 
 /*-------------------------- DOWNLOADS PAGE --------------------------*/
