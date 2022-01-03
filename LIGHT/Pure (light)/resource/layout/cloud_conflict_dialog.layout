@@ -108,25 +108,25 @@
 		region { region=box name=cancel margin-top=310 }
 		
 		
-		place { region=intro control=WarningIcon x=20 y=0 }
-		place { region=intro controls=TextIntro x=165 y=10 width=310 height=80 }
+		place { region=intro control=WarningIcon x=0 y=0 }
+		place { region=intro controls=TextIntro x=110 y=10 width=320 height=80 }
 		place { region=intro controls=TopDivider y=80 width=max }
 		
-		place { region=cloud control=CloudFilesIcon x=0 y=0 }
-		place { region=cloud control=TextCloudFiles x=75 y=10 }
-		place { region=cloud control=TextCloudFilesTime x=75 y=35 width=max }
+		place { region=cloud control=CloudFilesIcon x=0 y=4}
+		place { region=cloud control=TextCloudFiles x=65 y=10 }
+		place { region=cloud control=TextCloudFilesTime x=65 y=35 width=max }
 		place { region=cloud controls=DownloadIcon x=200 y=8 }
 		place { region=cloud controls=AcceptRemoteButton x=225 y=8 width=max }
 		
-		place { region=local control=LocalFilesIcon x=0 y=0 }
-		place { region=local control=TextLocalFiles x=75 y=10 }
-		place { region=local control=TextLocalFilesTime x=75 y=35 width=max }
+		place { region=local control=LocalFilesIcon x=0 y=4}
+		place { region=local control=TextLocalFiles x=65 y=10 }
+		place { region=local control=TextLocalFilesTime x=65 y=35 width=max }
 		place { region=local controls=UploadIcon x=200 y=8 }
 		place { region=local controls=AcceptLocalButton x=225 y=8 width=max}
 		place { region=local controls=BottomDivider y=80 width=max }
 		
-		place { region=cancel control=CancelButton x=220 y=15 width=max }
-		place { region=cancel control=TextCancelNote x=220 y=40 width=max }
+		place { region=cancel control=CancelButton x=0 y=15 }
+		place { region=cancel control=TextCancelNote x=0 y=44 width=max }
 	}
 
 }
