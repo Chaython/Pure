@@ -22,7 +22,7 @@
 # DISCORD SERVER
 ![Pure](https://i.imgur.com/kCxL1Bi.png)
 
-* Join the Discord server here: 
+* Join the Discord server here: https://discord.gg/e8a2eZNx
 
 # CREDITS
 * METRO SKIN <3
