@@ -1716,6 +1716,18 @@ div.MediumWindow
 
 /*-------------------------- NEW COLLECTION ICON --------------------------*/
 
+.youtubeembed_DynamicLink_Content_2FhVX {
+  color:var(--ACCENT)!important;
+}
+
+.youtubeembed_DynamicLink_Author_3z0n0 {
+  color:var(--BLUE)!important;
+}
+
+.youtubeembed_DynamicLink_Author_3z0n0 span {
+  color:var(--BLUE)!important;
+}
+
 body, body.shared_common_v6_2Lxgd {
   COLOR:VAR(--ACCENT)!important;
 }
