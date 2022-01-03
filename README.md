@@ -19,6 +19,11 @@
 
 * Join the Steam group here: https://steamcommunity.com/groups/pureskin
 
+# DISCORD SERVER
+![Pure](https://i.imgur.com/kCxL1Bi.png)
+
+* Join the Discord server here: 
+
 # CREDITS
 * METRO SKIN <3
 * AIR SKIN <3
