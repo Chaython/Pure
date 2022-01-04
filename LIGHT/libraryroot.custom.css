@@ -1309,7 +1309,6 @@ button.downloads_Button_3oavR:hover.DialogButton._DialogLayout.Secondary:hover,
 .downloads_SectionTitle_qq2xI .downloads_Rule_1CTr1 {
   background-color: VAR(--DIVIDER) !important;
   height: 1px !important;
-  /* display: none !important; */
 }
 
 .downloadgraph_Button_3Tfp8.downloadgraph_Button_3Tfp8,
@@ -3573,7 +3572,6 @@ img {
 
 .library_MainPanel_3BFcm
   .library_NewCollectionTarget_3PAPB.library_Visible_3QGgg {
-  /* border: 3px dashed var(--NEWCOLLECTIONTARGETBORDER) !important; */
   background-color: var(--NEWCOLLECTIONTARGETBACKGROUND) !important;
 }
 
@@ -4326,13 +4324,11 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Cen
 .posttextentry_PostTextEntry_3x31A
   .posttextentry_Controls_37e7D
   .posttextentry_PostButton_2JSyA.posttextentry_Enabled_bGfja:hover {
-  /* background-image: url("https://i.imgur.com/WIakdrU.png"); */
   color:var(--BLACK)!important;
 }
 .posttextentry_PostTextEntry_3x31A
   .posttextentry_Controls_37e7D
   .posttextentry_PostButton_2JSyA.posttextentry_Enabled_bGfja {
-  /* background-image: url("https://i.imgur.com/TLjoTgS.png") !important; */
   BACKGROUND:TRANSPARENT!important;
 }
 .ModalPosition_Dismiss .closeButton {
@@ -5269,10 +5265,6 @@ div.ShortRightPanel
   color: var(--ACCENT) !important;
 }
 
-/* .appdetailsspotlight_ReviewContainer_3LE-6 .appdetailsspotlight_RatingContainer_1E_EN {
-  margin-left:8px!important;
-} */
-
 .spotlight_MajorEventHeader_1HL2n {
   margin-left:8px!important;
 }
@@ -5295,7 +5287,6 @@ div.ShortRightPanel
 .appportrait_RecentGameFooter_2d1hS {
   border-bottom-right-radius: var(--BORDERRADIUS) !important;
   border-bottom-left-radius: var(--BORDERRADIUS) !important;
-  /* width: 99% !important; */
   background-color: VAR(--APPDETAILSPANEL) !important;
   border: 1px SOLID VAR(--APPDETAILSPANELBORDER) !important;
   border-top: 0 !important;
@@ -5799,7 +5790,6 @@ div.NarrowRightPanel
 
 .appactivityday_PartnerEventMediumImage_Container_1HZy7 {
   background: VAR(--APPDETAILSPANEL) !important;
-  /* border: 1px SOLID VAR(--APPDETAILSPANELBORDER) !important; */
   border-radius: var(--BORDERRADIUS) !important;
 }
 
@@ -6481,7 +6471,6 @@ A {
 
 .appgrid_SortingDropDownContainer_1ZpBQ {
   margin-left: -70px !important;
-  /* min-width: 162px !important; */
 }
 
 .appgrid_SortingDropDownContainer_1ZpBQ > div {
@@ -7469,11 +7458,6 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
   .appdetailsgameinfopanel_Icon_2jSAw {
   opacity: 1 !important;
 }
-
-/* .libraryhomeshowcases_Showcase_V7RuD
-  .libraryhomeshowcases_ChildrenContainer_1VMQW {
-  height: 173px !important;
-} */
 
 .libraryhomerecentgames_RecentGames_1RLny {
   height: unset !important;
