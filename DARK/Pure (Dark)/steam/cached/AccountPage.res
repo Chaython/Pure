@@ -12,7 +12,7 @@ Steam/cached/AccountPage.res {
     place { control=ManageSecurityButton dir=down start=NoPersonalInfoCheck y=10}
     place { control=ChangePasswordButton dir=down start=ManageSecurityButton y=10}
     place { control=ChangeContactEmailButton dir=down start=ChangePasswordButton y=10}
-    place { control=ValidateContactEmailButton dir=down start=ChangeContactEmailButton } //only in offline mode
+    place { control=ValidateContactEmailButton dir=down start=ChangeContactEmailButton y=10 } //only in offline mode
     
     place { control=Divider1 start=ValidateContactEmailButton width=max height=1 dir=down y=10 }
 

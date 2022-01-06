@@ -59,8 +59,8 @@
 	
 	layout
 	{
-		place { control=HasBeenValidated x=24 y=12 }
-		place { control=URLLabel1 x=24 y=100 }
+		place { control=HasBeenValidated x=8 y=12 }
+		place { control=URLLabel1 x=8 y=100 }
 	}
 }
  
