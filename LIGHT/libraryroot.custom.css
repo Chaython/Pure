@@ -1049,9 +1049,9 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
   color: var(--DOWNLOADEDVALUE) !important;
 }
 
-.downloads_SectionJumpBar_mw7VZ.downloads_Show_2S18z {
+/* .downloads_SectionJumpBar_mw7VZ.downloads_Show_2S18z {
   display: none !important;
-}
+} */
 
 .downloads_SectionList_OINnO.downloads_DropOption_2m6Q3 {
   border-radius: var(--DOWNLOADITEMBR) !important;
@@ -1450,6 +1450,10 @@ div.MediumWindow
 }
 
 .downloads_SectionJumpBar_mw7VZ {
+  display:none!important;
+}
+
+.downloads_SectionJumpBar_mw7VZ .downloads_View_26xEj {
   display:none!important;
 }
 

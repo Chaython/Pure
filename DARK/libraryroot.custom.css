@@ -1670,7 +1670,8 @@ div.MediumWindow
 
 .libraryhomeshowcases_AddShowcaseRow_3SkuN.libraryhomeshowcases_ButtonHovered_3dQDo .libraryhomeshowcases_AddShowcase_2aw5a {
   background-color: var(--ADDSHELFBACKGROUNDHOVER) !important;
-  background-image: url(https://i.imgur.com/XadeuqH.png) !important;
+  filter:var(--FILT)!important;
+  /* background-image: url(https://i.imgur.com/XadeuqH.png) !important; */
   background-position: CENTER !important;
   background-repeat: no-repeat !important;
 }
