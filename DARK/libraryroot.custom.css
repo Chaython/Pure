@@ -1658,11 +1658,11 @@ div.MediumWindow
 
 .libraryhomeshowcases_AddShowcaseRow_3SkuN
   .libraryhomeshowcases_AddShowcase_2aw5a {
-  background-image: url(https://i.imgur.com/uNig7fK.png) !important;
+  background-image: url(https://i.imgur.com/njPIgAQ.png) !important;
+  background-size:12px!important;
   background-position: center !important;
   background-repeat: no-repeat !important;
   font-size: 0 !important;
-  color: transparent !important;
   border-radius: 100px !important;
   background-color: var(--BASE1) !important;
   border: 1px solid var(--APPDETAILSPANELBORDER) !important;
@@ -1670,8 +1670,8 @@ div.MediumWindow
 
 .libraryhomeshowcases_AddShowcaseRow_3SkuN.libraryhomeshowcases_ButtonHovered_3dQDo .libraryhomeshowcases_AddShowcase_2aw5a {
   background-color: var(--ADDSHELFBACKGROUNDHOVER) !important;
-  filter:var(--FILT)!important;
-  /* background-image: url(https://i.imgur.com/XadeuqH.png) !important; */
+  background-image: url(https://i.imgur.com/krakZwM.png) !important;
+  background-size:12px!important;
   background-position: CENTER !important;
   background-repeat: no-repeat !important;
 }
@@ -1722,7 +1722,7 @@ div.MediumWindow
   box-shadow: var(--BOXSHADOW) VAR(--NEWCOLLECTIONSHADOW) !important;
 }
 .allcollections_Collection_3IWn-:hover.allcollections_Collection_3IWn- .allcollections_BigPlus_g0-tU {
-  color:var(--ACCENT)!important;
+  color:var(--WHITE)!important;
 }
 
 .allcollections_Collection_3IWn-:hover {
