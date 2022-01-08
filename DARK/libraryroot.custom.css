@@ -1659,7 +1659,7 @@ div.MediumWindow
 .libraryhomeshowcases_AddShowcaseRow_3SkuN
   .libraryhomeshowcases_AddShowcase_2aw5a {
   background-image: url(https://i.imgur.com/njPIgAQ.png) !important;
-  background-size:12px!important;
+  background-size:10px!important;
   background-position: center !important;
   background-repeat: no-repeat !important;
   font-size: 0 !important;
@@ -1671,7 +1671,7 @@ div.MediumWindow
 .libraryhomeshowcases_AddShowcaseRow_3SkuN.libraryhomeshowcases_ButtonHovered_3dQDo .libraryhomeshowcases_AddShowcase_2aw5a {
   background-color: var(--ADDSHELFBACKGROUNDHOVER) !important;
   background-image: url(https://i.imgur.com/krakZwM.png) !important;
-  background-size:12px!important;
+  background-size:10px!important;
   background-position: CENTER !important;
   background-repeat: no-repeat !important;
 }
