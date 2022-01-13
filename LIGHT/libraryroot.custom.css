@@ -23,7 +23,6 @@
   --GAMEIMAGEDRAGGEDOP: 1;
   --GAMEIMAGEMAXHEIGHT: 320px; /*DEFAULT IS 320px*/
   --CMINSTALLFOLDERHOVER: VAR(--ACCENT);
-  --CMINSTALLFOLDER: VAR(--ACCENT);
   --CMACTIVETABBR: 8px 8px 0 0;
   --ADDFOLDER: VAR(--ACCENT);
   --DRIVESETTINGSHOVER: VAR(--BLACK);
@@ -289,10 +288,6 @@
   --HIDDENACHIEVEMENTQMARK: VAR(--WHITE);
   --COMMUNITYFEEDCONTROLS: VAR(--BASE3);
   --COMMUNITYFEEDCONTROLSBORDER: VAR(--SHADOW);
-  --COMMUNITYFEEDBORDERROUNDED1: 4px; /*bottom left*/
-  --COMMUNITYFEEDBORDERROUNDED2: 4px; /*bottom right*/
-  --COMMUNITYFEEDBORDERROUNDED3: 4px; /*top left*/
-  --COMMUNITYFEEDBORDERROUNDED4: 4px; /*top right*/
   --APPDETAILSPANEL: VAR(--BASE1);
   --APPDETAILSPANEL2: VAR(--BASE3);
   --APPDETAILSPANELHOVER: VAR(--BASE3);
@@ -498,7 +493,6 @@
   --BUTTON1BORDERRADIUS: 4px;
   --BUTTON2PRIMARYBORDERRADIUS: 4px;
   --BUTTON2BORDERRADIUS: 0;
-  --GAMEGROUPNAMEFONTWEIGHT: var(--INSTALLEDGAMENAMEFONTWEIGHT);
   --GAMESTATLABELFONTWEIGHT: unset;
   --GAMESTATICONFILTER: VAR(--FILT);
   --COMMUNITYFEEDICONFILTER: VAR(--FILT);
@@ -555,37 +549,9 @@
   --SHAREDAPPDETAILHEADEROP: 0;
   --SHAREDAPPDETAILHEADERLETTERSPACING: 0;
   --SHAREDAPPDETAILHEADERFONTSIZE: 8px;
-  --RECENTGAMEDATEDISPLAY: NONE;
-  --EMPTYRECENTGAMEDATEHEIGHT: 0;
-  --ADDSHELFBACKGROUNDHOVER: VAR(--BASE3);
-
-  /* PILL SHAPED PLAY/INSTALL BUTTON
-  --ACTIONBUTTONROUNDED1: 50px 0 0 50px;
-  --ACTIONBUTTONROUNDED2: 0 50px 50px 0;
-  --ACTIONBUTTONROUNDED3: 50px;
-  */
-
-  /* PILL SHAPED DROPDOWNBUTTON
-   --DROPDOWNROUNDED1: 50PX;
-  --DROPDOWNROUNDED2: 50PX
-  */
-
-  /* DEFAULT SHAPED PLAY/INSTALL BUTTON
-  --ACTIONBUTTONROUNDED1: 0;
-  --ACTIONBUTTONROUNDED2: 0;
-  --ACTIONBUTTONROUNDED3: 0;
-  */
-
-  /* FILTERS
-  GRAYSCALE(5)
-  SEPIA(5)
-  BLUR(5PX)
-  CONTRAST(5%)
-  INVERT(2)
-  */
 }
-
 /*-------------------------- STORAGE MANAGER --------------------------*/
+
 
 .basiclibraryhomestaticcollections_BasicHomeDropDownControlButton_2msPh:hover, .basiclibraryhomestaticcollections_BasicHomeDropDownControlButton_2msPh:active {
   padding-left:0!important;
@@ -837,16 +803,16 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
 }
 
 .contentmanagement_DriveName_1rihl {
-  color: var(--CMINSTALLFOLDER) !important;
+  color: var(--ACCENT) !important;
 }
 
 .contentmanagement_DriveSize_5bG9I {
-  color: VAR(--CMINSTALLFOLDER) !important;
+  color: VAR(--ACCENT) !important;
 }
 
 .contentmanagement_InstallFolder_12aBP {
   cursor: unset !important;
-  color: var(--CMINSTALLFOLDER) !important;
+  color: var(--ACCENT) !important;
   padding-right: 14px !important;
 }
 
@@ -1655,7 +1621,7 @@ div.MediumWindow
 }
 
 .libraryhomeshowcases_AddShowcaseRow_3SkuN.libraryhomeshowcases_ButtonHovered_3dQDo .libraryhomeshowcases_AddShowcase_2aw5a {
-  background-color: var(--ADDSHELFBACKGROUNDHOVER) !important;
+  background-color: VAR(--BASE3) !important;
   background-image: url(https://i.imgur.com/StsIY67.png) !important;
   background-size:10px!important;
   background-position: CENTER !important;
@@ -1851,18 +1817,9 @@ body, body.shared_common_v6_2Lxgd {
   margin-bottom: 4px !important;
 }
 
-.library_ContextMenuAction_Z5iAX.Download,
-.library_ContextMenuAction_Z5iAX.Update,
-.library_ContextMenuAction_Z5iAX.PreLoad,
-.library_ContextMenuAction_Z5iAX.Resume,
-.library_ContextMenuAction_Z5iAX.Pause,
-.library_ContextMenuAction_Z5iAX.BorrowApp,
-.library_ContextMenuAction_Z5iAX.Stop,
-.library_ContextMenuAction_Z5iAX.Cancel,
-.library_ContextMenuAction_Z5iAX.Install,
-.library_ContextMenuAction_Z5iAX.PurchaseApp:hover {
+/* .Launch.library_ContextMenuAction_Z5iAX.contextmenu_contextMenuItem_1n7Wl.contextMenuItem:hover {
   background: VAR(--CONTEXTMENUINSTALLBUTTONHOVER) !important;
-}
+} */
 
 .Cancel.library_ContextMenuAction_Z5iAX.contextmenu_contextMenuItem_1n7Wl.contextMenuItem:hover {
   background: VAR(--CONTEXTMENUINSTALLBUTTONHOVER) !important;
@@ -1935,12 +1892,12 @@ body, body.shared_common_v6_2Lxgd {
 
 .libraryhomerecentgames_RecentGame_1esfE
   .libraryhomerecentgames_EmptyDate_33gR3 {
-  height: var(--EMPTYRECENTGAMEDATEHEIGHT) !important;
+  height: 0 !important;
 }
 
 .libraryhomerecentgames_RecentGame_1esfE
   .libraryhomerecentgames_AddedDate_1ANYF {
-  display: var(--RECENTGAMEDATEDISPLAY) !important;
+  display: NONE !important;
 }
 
 .appportrait_HoversEnabled_54PuC
@@ -5691,8 +5648,8 @@ div.NarrowRightPanel
 
 .appdetailscommunityfeed_CommunityItem_3QS6O
   .appdetailscommunityfeed_PreviewContainer_3XZzf {
-  border-top-left-radius: VAR(--COMMUNITYFEEDBORDERROUNDED3) !important;
-  border-top-right-radius: var(--COMMUNITYFEEDBORDERROUNDED4) !important;
+  border-top-left-radius: var(--BORDERRADIUS) !important;
+  border-top-right-radius: var(--BORDERRADIUS) !important;
 }
 .appdetailscommunityfeed_CommunityItem_3QS6O {
   box-shadow:unset!important;
@@ -5764,8 +5721,8 @@ div.NarrowRightPanel
   background: var(--APPDETAILSPANEL) !important;
   border: 0 !important;
   box-shadow: var(--BOXSHADOW) VAR(--SHADOW) !important;
-  border-bottom-left-radius: var(--COMMUNITYFEEDBORDERROUNDED1) !important;
-  border-bottom-right-radius: VAR(--COMMUNITYFEEDBORDERROUNDED2) !important;
+  border-bottom-left-radius: 4px !important;
+  border-bottom-right-radius: 4px !important;
 }
 .appdetailsachievementssection_AchievementProgressContainer_3ns91
   .appdetailsachievementssection_AchievementProgress_3Rm36 {
@@ -6846,7 +6803,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
 }
 .gamelistsectionheader_SectionHeaderContent_3cV3O {
   color: var(--GAMEGROUPNAMECOLOR) !important;
-  font-weight: VAR(--GAMEGROUPNAMEFONTWEIGHT) !important;
+  font-weight: 500 !important;
   margin-top: 3px;
   padding: 0 9px 5px 0px;
 }
@@ -7567,10 +7524,10 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
   color: var(--CONTEXTMENUACTIONBUTTONTEXT) !important;
   background: var(--CONTEXTMENUPLAYBUTTON) !important;
 }
-.library_ContextMenuAction_Z5iAX.Stream,
-.library_ContextMenuAction_Z5iAX.Connect,
-.library_ContextMenuAction_Z5iAX.Launch,
-.library_ContextMenuAction_Z5iAX.PlayMusic,
+.library_ContextMenuAction_Z5iAX.Stream:hover,
+.library_ContextMenuAction_Z5iAX.Connect:hover,
+.library_ContextMenuAction_Z5iAX.Launch:hover,
+.library_ContextMenuAction_Z5iAX.PlayMusic:hover,
 .library_ContextMenuAction_Z5iAX.Play:hover {
   background: var(--CONTEXTMENUPLAYBUTTONHOVER) !important;
 }
