@@ -866,6 +866,10 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
 
 /*-------------------------- DOWNLOADS PAGE --------------------------*/
 
+.downloads_SectionItem_1VNuY .downloads_Button_3oavR, .downloads_SectionItem_1VNuY .downloads_Button_3oavR:enabled, .downloads_SectionItem_1VNuY .downloads_Button_3oavR:active, .downloads_SectionItem_1VNuY .downloads_Button_3oavR:hover, .downloads_SectionItem_1VNuY .downloads_Button_3oavR:enabled:active:hover, .downloads_SectionItem_1VNuY .downloads_Button_3oavR.DialogButton:enabled {
+  min-width:unset!important;
+}
+
 .downloads_SectionItem_1VNuY
   .downloads_ButtonWrapper_2Zfas.downloads_Right_2WEwE:visible {
   display: none !important;
@@ -1701,6 +1705,10 @@ div.MediumWindow
   border-color: VAR(--NEWCOLLECTIONBORDERHOVER) !important;
 }
 /*-------------------------- NEW COLLECTION ICON --------------------------*/
+
+.appdetailsplaysection_GameStatIconForced_3bkqc.appdetailsplaysection_PlaytimeIconForced_1UXbB {
+  display:none!important;
+}
 
 .youtubeembed_DynamicLink_Content_2FhVX {
   color:var(--ACCENT)!important;
