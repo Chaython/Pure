@@ -1028,6 +1028,7 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
   position: absolute !important;
   left: 0 !important;
   bottom: 0 !important;
+  margin:0!important;
 }
 
 .downloads_ProgressDetails_sv3ZH .downloads_Value_1dHjj.downloads_Active_IbePL {
