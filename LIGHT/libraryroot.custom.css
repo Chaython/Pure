@@ -1144,6 +1144,7 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
   font-family: VAR(--FONTFAMILY) !important;
   color: VAR(--PROGRESSDETAILS) !important;
   font-weight: var(--PROGRESSDETAILSFONTWEIGHT) !important;
+  font-size:12px!important;
 }
 
 .downloads_ProgressDetails_sv3ZH .downloads_Value_1dHjj {
