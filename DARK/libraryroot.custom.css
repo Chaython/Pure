@@ -1708,6 +1708,14 @@ div.MediumWindow
 }
 /*-------------------------- NEW COLLECTION ICON --------------------------*/
 
+.dropdownlabel_DropDownLabelTitle_3g-QH {
+  color:var(--ACCENT)!important;
+}
+
+.dropdownlabel_DropDownLabelDescription_cbinv {
+  color:var(--ACCENT)!important;
+}
+
 .appdetailsplaysection_GameStatIconForced_3bkqc.appdetailsplaysection_PlaytimeIconForced_1UXbB {
   display:none!important;
 }
