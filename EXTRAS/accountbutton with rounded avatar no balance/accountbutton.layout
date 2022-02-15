@@ -11,7 +11,7 @@
 			PADDING-LEFT=6
 			render
 			{
-				0="image(x0-38, y0-5, x1, y1-2, graphics/ABavatarBorderOffline)"
+				0="image(x0-38, y0-8, x1, y1-2, graphics/ABavatarBorderOffline)"
 			}
 		}
 
@@ -24,7 +24,7 @@
 			PADDING-LEFT=6
 			render
 			{
-				0="image(x0-38, y0-5, x1, y1-2, graphics/ABavatarBorderOnline)"
+				0="image(x0-38, y0-8, x1, y1-2, graphics/ABavatarBorderOnline)"
 			}
 		}
 
@@ -37,7 +37,7 @@
 			PADDING-LEFT=6
 			render
 			{
-				0="image(x0-38, y0-5, x1, y1, graphics/ABavatarBorderInGame)"
+				0="image(x0-38, y0-8, x1, y1, graphics/ABavatarBorderInGame)"
 			}
 		}
 
@@ -112,8 +112,8 @@
 	layout
 	{
 		place { control="account_menu_button" align=left height=39 width=max  } // span over everything
-		place { control="account_persona" align=right height=39 }
-		place { control="account_avatar" align=left margin-left=2 margin-top=3 height=30 width=30 }
+		place { control="account_avatar" margin-left=2 margin-top=3 height=30 width=30 }
+		place { control="account_persona" start=account_avatar dir=right align=right height=39}
 		place { control="account_balance" WIDTH=0 HEIGHT=0 }
 
 		//hidden
