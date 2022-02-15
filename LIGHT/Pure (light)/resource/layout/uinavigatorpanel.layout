@@ -379,15 +379,17 @@ styles
 	}
 	CUINavButton:hover
 	{
+
 		textcolor=NAVBUTTONHOVER
 		BGCOLOR = NAVBUTTONBACKGROUNDHOVER
 	}
 	CUINavButton:selected
 	{
+		FONT-FAMILY=SEMIBOLD
 		textcolor=NAVBUTTONSELECTED
 		render
 		{
-			1="fill(x0, y1-1, x1, y1, NAVBUTTONACTIVEBORDER)"
+			0="fill(x0, y1-1, x1, y1, NAVBUTTONACTIVEBORDER)"
 			1="fill(x0, y0+1, x1, y0+2, NAVBUTTONACTIVEBORDER)" [$OSX||$LINUX]
 		}
 	}
@@ -396,7 +398,7 @@ styles
 		textcolor=mainButton_d
 		render_bg
 		{
-      1="fill(x0,y1-1,x1,y1, white45)"
+     	    0="fill(x0,y1-1,x1,y1, white45)"
 			1="fill(x0, y0+1, x1, y0+2, white45)" [$OSX||$LINUX]
 		}
 	}
@@ -421,13 +423,13 @@ styles
 	MusicPlayerIcon
 	{
 		bgcolor="none"
-		image="graphics/pure/MUSIC"
+		image="ICONS/MUSIC"
 		padding-left=7
 	}
 	MusicPlayerIcon:hover
 	{
 		bgcolor=white05
-		image="graphics/pure/MUSIC_H"
+		image="ICONS/MUSIC_H"
 	}
 
 	MusicAddButton
