@@ -113,7 +113,7 @@
 	{
 		place { control="account_menu_button" align=left height=39 width=max  } // span over everything
 		place { control="account_avatar" margin-left=2 margin-top=3 height=30 width=30 }
-		place { control="account_persona" start=account_avatar dir=right align=right height=39}
+		place { control="account_persona" start=account_avatar dir=right align=right height=32}
 		place { control="account_balance" WIDTH=0 HEIGHT=0 }
 
 		//hidden
