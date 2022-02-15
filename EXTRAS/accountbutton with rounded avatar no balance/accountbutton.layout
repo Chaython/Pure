@@ -6,11 +6,12 @@
 		{
 		
 			textcolor=ACCENT
+			font-family=SEMIBOLD
 			font-size=16
 			PADDING-LEFT=6
 			render
 			{
-				0="image(x0-40, y0-5, x1, y1-2, graphics/ABavatarBorderOffline)"
+				0="image(x0-38, y0-5, x1, y1-2, graphics/ABavatarBorderOffline)"
 			}
 		}
 
@@ -18,11 +19,12 @@
 		{
 	
 			textcolor=BLUE
+			font-family=SEMIBOLD
 			font-size=16
 			PADDING-LEFT=6
 			render
 			{
-				0="image(x0-40, y0-5, x1, y1-2, graphics/ABavatarBorderOnline)"
+				0="image(x0-38, y0-5, x1, y1-2, graphics/ABavatarBorderOnline)"
 			}
 		}
 
@@ -30,11 +32,12 @@
 		{
 
 			textcolor=GREEN2
+			font-family=SEMIBOLD
 			font-size=16
 			PADDING-LEFT=6
 			render
 			{
-				0="image(x0-40, y0-5, x1, y1, graphics/ABavatarBorderInGame)"
+				0="image(x0-38, y0-5, x1, y1, graphics/ABavatarBorderInGame)"
 			}
 		}
 
@@ -57,8 +60,8 @@
 	
 		{
 			textcolor = BALANCE
+			font-family=SEMIBOLD
 			bgcolor="NONE"
-			font-weight=500
 			padding-right=6
 			render{
 				0="fill( x0 + 1, y0 + 1, x0 + 2, y0 + 2, "none" )"
@@ -71,7 +74,6 @@
 		AccountMenuButtonStyle
 		{
 			bgcolor=none
-			render_bg {}
 			render{
 				1="fill(x0,y0,x1,y0+1, "none")"  // top
 				2="fill(x0,y1-1,x1,y1, "none")"  // bottom
@@ -82,7 +84,11 @@
 		}
 		AccountMenuButtonStyle:hover
 		{
-			bgcolor = "214 214 214 100"
+			render
+			{
+				0="image(x0-8, y0-5, x1, y1, graphics/ABavatarBorder_hover)"
+			}
+			
 		}
 		
 				AccountMenuButtonStyle:selected
@@ -96,9 +102,10 @@
 		
 		AccountMenuButtonStyle:active
 		{
-			bgcolor = "NONE" 
-			render {}
-			image="graphics/user (2)"
+			render
+			{
+				0="image(x0-8, y0-5, x1, y1, graphics/ABavatarBorder_active)"
+			}
 		}
 	}
 
@@ -106,10 +113,10 @@
 	{
 		place { control="account_menu_button" align=left height=39 width=max  } // span over everything
 		place { control="account_persona" align=right height=39 }
-		place { control="account_avatar" align=right end-right="account_persona" margin-top=3 height=30 width=30 }
+		place { control="account_avatar" align=left margin-left=2 margin-top=3 height=30 width=30 }
 		place { control="account_balance" WIDTH=0 HEIGHT=0 }
 
 		//hidden
-		place { control="account_drop_down" margin-left=-999 }
+		place { control="account_drop_down" WIDTH=0 HEIGHT=0 }
 	}
 }
