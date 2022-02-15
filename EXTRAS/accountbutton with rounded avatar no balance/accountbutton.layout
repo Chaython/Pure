@@ -93,11 +93,10 @@
 		
 				AccountMenuButtonStyle:selected
 		{
-			bgcolor=none
-			render_bg {}
-			inset-left=2
-			image="graphics/user (2)"
-			
+			render
+			{
+				0="image(x0-8, y0-5, x1, y1, graphics/ABavatarBorder_active)"
+			}
 		}
 		
 		AccountMenuButtonStyle:active
