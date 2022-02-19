@@ -8,7 +8,8 @@
 			textcolor=ACCENT
 			font-family=SEMIBOLD
 			font-size=16
-			PADDING-LEFT=6
+			padding-left=8
+			padding-right=5
 			render
 			{
 				0="image(x0-38, y0-8, x1, y1-2, graphics/ABavatarBorderOffline)"
@@ -21,7 +22,8 @@
 			textcolor=BLUE
 			font-family=SEMIBOLD
 			font-size=16
-			PADDING-LEFT=6
+				padding-left=8
+			padding-right=5
 			render
 			{
 				0="image(x0-38, y0-8, x1, y1-2, graphics/ABavatarBorderOnline)"
@@ -34,7 +36,8 @@
 			textcolor=GREEN2
 			font-family=SEMIBOLD
 			font-size=16
-			PADDING-LEFT=6
+				padding-left=8
+			padding-right=5
 			render
 			{
 				0="image(x0-38, y0-8, x1, y1, graphics/ABavatarBorderInGame)"
