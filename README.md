@@ -1,10 +1,12 @@
-# PREVIEW
+[Support me ☕](https://www.patreon.com/user?u=69814056&fan_landing=true)
+
+# PREVIEW 🖼
 ![Pure](https://media.giphy.com/media/P7UAC7b1uGN7p8Vase/giphy.gif)
 
-# EXTRAS
+# EXTRAS 🎈
 ![Pure](https://media.giphy.com/media/LpmuNBVvoJLZA7tHOy/giphy.gif)
 
-# INSTRUCTIONS
+# INSTRUCTIONS 👨‍🏫
 * Move Pure (Light) or Pure (Dark) folder to steam/skins/
 * go to FONTS folder and install all the fonts there
 * Pick an extra that you like from the EXTRAS folder and paste the layout file in resource/layout (replace the file)
@@ -14,17 +16,17 @@
 * take the friends.custom.css file and paste it on steam/clientui/
 * run steamfriendspatcher and it will apply the theme
 
-# STEAM GROUP
+# STEAM GROUP 👪
 ![Pure](https://i.imgur.com/RTWjQL6.png)
 
 * Join the Steam group here: https://steamcommunity.com/groups/pureskin
 
-# DISCORD SERVER
+# DISCORD SERVER 👪
 ![Pure](https://i.imgur.com/kCxL1Bi.png)
 
 * Join the Discord server here: https://discord.gg/e8a2eZNx
 
-# CREDITS
+# CREDITS 💖
 * METRO SKIN <3
 * AIR SKIN <3
 * phantomgamers <3
