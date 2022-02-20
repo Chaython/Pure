@@ -1,4 +1,4 @@
-===============[Support me ☕](https://www.patreon.com/user?u=69814056&fan_landing=true)=====[REPORT A BUG 💻🐛](https://github.com/Snudgee/Pure/issues)=====[REQUEST A FEATURE 🤔](https://github.com/Snudgee/Pure/issues)===============
+===========[Support me ☕](https://www.patreon.com/user?u=69814056&fan_landing=true)=====[REPORT A BUG 💻🐛](https://github.com/Snudgee/Pure/issues)=====[REQUEST A FEATURE 🤔](https://github.com/Snudgee/Pure/issues)===========
 
 
 # PREVIEW 🖼
