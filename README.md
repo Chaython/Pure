@@ -1,4 +1,5 @@
-[Support me ☕](https://www.patreon.com/user?u=69814056&fan_landing=true)
+[Support me ☕](https://www.patreon.com/user?u=69814056&fan_landing=true) [REPORT A BUG 💻🐛](https://github.com/Snudgee/Pure/issues) [REQUEST A FEATURE 🤔](https://github.com/Snudgee/Pure/issues)
+
 
 # PREVIEW 🖼
 ![Pure](https://media.giphy.com/media/P7UAC7b1uGN7p8Vase/giphy.gif)
