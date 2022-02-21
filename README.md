@@ -1,4 +1,4 @@
-
+# LINKS 🔗
 [SUPPORT ME ☕](https://www.patreon.com/puresteamskin)<br/>
 [REPORT A BUG 💻🐛](https://github.com/Snudgee/Pure/issues)<br/>
 [REQUEST A FEATURE 🤔](https://github.com/Snudgee/Pure/issues)
