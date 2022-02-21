@@ -1,7 +1,7 @@
 
-*[SUPPORT ME ☕](https://www.patreon.com/puresteamskin)
-*[REPORT A BUG 💻🐛](https://github.com/Snudgee/Pure/issues)
-*[REQUEST A FEATURE 🤔](https://github.com/Snudgee/Pure/issues)
+[SUPPORT ME ☕](https://www.patreon.com/puresteamskin)<br/>
+[REPORT A BUG 💻🐛](https://github.com/Snudgee/Pure/issues)<br/>
+[REQUEST A FEATURE 🤔](https://github.com/Snudgee/Pure/issues)
 
 # PREVIEW 🖼
 ![Pure](https://media.giphy.com/media/P7UAC7b1uGN7p8Vase/giphy.gif)
