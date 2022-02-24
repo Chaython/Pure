@@ -564,6 +564,7 @@
   padding-right:0!important;
 }
 
+
 .basiclibraryhomestaticcollections_BasicHomeDropDownControlButton_2msPh.basiclibraryhomestaticcollections_SortingDropDownControlButton_1jYNo {
   color:var(--ACCENT)!important;
   background:var(--DROPDOWN)!important;
@@ -577,10 +578,6 @@
   background-color: var(--DROPDOWNHOVER) !important;
   color: var(--ACCENT) !important;
   border-color: var(--DROPDOWNBORDERHOVER) !important;
-}
-
-.basiclibraryhomestaticcollections_BasicHomeDropDownControlButton_2msPh svg.basiclibraryhomestaticcollections_SortIcon_2mB91 {
-  display:none!important;
 }
 
 .contentmanagement_AppBodyPortrait_1O1Jq:hover {
@@ -616,12 +613,6 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
   font-size:12px!important;
 }
 
-.contentmanagement_AppsGrid_2n6FN
-  .contentmanagement_AppHeader_3_uaa
-  .contentmanagement_Rule_2iZ4o {
-  flex-grow: 0 !important;
-}
-
 .contentmanagement_AppsGrid_2n6FN .contentmanagement_LibraryInventory_299aN {
   overflow-x: unset !important;
 }
@@ -649,6 +640,15 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
   width: var(--SCROLLBARHOVERWIDTH) !important;
 }
 
+.contentmanagement_InstallFolder_12aBP:hover {
+  background-color:var(--BASE3)!important;
+  border-radius:var(--BORDERRADIUS) var(--BORDERRADIUS) 0 0!important;
+}
+
+.contentmanagement_IsSelected_3VQeL:hover {
+  BACKGROUND-COLOR:VAR(--BASE1)!important;
+}
+
 .contentmanagement_InstallFolder_12aBP:hover .contentmanagement_DriveName_1rihl,
 .contentmanagement_InstallFolder_12aBP:hover .contentmanagement_DriveSize_5bG9I,
 .contentmanagement_InstallFolder_12aBP:hover svg {
@@ -663,6 +663,7 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
 
 .contentmanagement_AddFolder_3C0_9:hover {
   color:var(--BLACK)!important;
+  background-color:TRANSPARENT!important;
 }
 
 .contentmanagement_AddFolder_3C0_9 {
@@ -678,11 +679,6 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
   color:var(--BLACK)!important;
 }
 
-.contentmanagement_DriveSettingsButton_1WKUO:hover,
-.contentmanagement_DriveSettingsButton_1WKUO:focus {
-  color: var(--DRIVESETTINGSHOVER) !important;
-}
-
 .contentmanagement_DriveUsageGames_22KCi {
   background: VAR(--DRIVEUSAGEGAMES) !important;
 }
@@ -690,6 +686,11 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
 .contentmanagement_DriveSettingsButton_1WKUO svg {
   height: 20px !important;
   width: 20px !important;
+}
+
+.contentmanagement_DriveSettingsButton_1WKUO:hover,
+.contentmanagement_DriveSettingsButton_1WKUO:focus {
+  color: var(--DRIVESETTINGSHOVER) !important;
 }
 
 .contentmanagement_IsSelected_3VQeL {
@@ -721,20 +722,15 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
   color: var(--ACCENT) !important;
 }
 
-.contentmanagement_DriveSettingsButton_1WKUO {
-  color: VAR(--DRIVESETTINGS) !important;
-  background-color: var(--DRIVESETTINGSBG) !important;
-}
-
-.contentmanagement_ContentManagement_3wk64 {
-  background: VAR(--CONTENTMANAGEMENT) !important;
-}
-
 .contentmanagement_AppsGrid_2n6FN
-  .contentmanagement_AppHeader_3_uaa
-  .contentmanagement_Rule_2iZ4o {
-  background-color: VAR(--DIVIDER) !important;
-  height: 1px !important;
+  .contentmanagement_AppBodyLeft_d9dlN
+  .contentmanagement_AppInfo__g4ce
+  svg {
+  display: NONE !important;
+}
+
+.basiclibraryhomestaticcollections_BasicHomeDropDownControlButton_2msPh svg.basiclibraryhomestaticcollections_SortIcon_2mB91 {
+  display:none!important;
 }
 
 .contentmanagement_AppActionBar_35T-O {
@@ -745,6 +741,31 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
 
 .contentmanagement_Description_3SvU2 {
   display: none !important;
+}
+
+.contentmanagement_AppsGrid_2n6FN
+  .contentmanagement_AppBodyLeft_d9dlN
+  .contentmanagement_AppInfo__g4ce
+  .contentmanagement_AppUsageText_1G9v2 {
+  color: VAR(--CMAPPUSAGETEXT) !important;
+  font-weight: var(--CMAPPUSAGETEXTFW) !important;
+  margin-left: 0 !important;
+}
+
+.contentmanagement_AppsGrid_2n6FN
+  .contentmanagement_AppBodyRight_3vHX3
+  .contentmanagement_AppSize_mohK9 {
+  font-family: VAR(--FONTFAMILY) !important;
+  color: var(--CMAPPSIZE) !important;
+  font-weight: VAR(--CMAPPSIZEFW) !important;
+}
+
+.contentmanagement_AppsGrid_2n6FN
+  .contentmanagement_AppBodyLeft_d9dlN
+  .contentmanagement_AppInfo__g4ce
+  .contentmanagement_AppUsageValue_2B8dj {
+  color: var(--CMAPPUSAGEVALUE) !important;
+  font-weight: VAR(--CMAPPUSAGEVALUEFW) !important;
 }
 
 .contentmanagement_AppsGrid_2n6FN .contentmanagement_AppBody_2RCSU:hover {
@@ -759,40 +780,8 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
   font-family: VAR(--FONTFAMILY) !important;
 }
 
-.contentmanagement_AppsGrid_2n6FN
-  .contentmanagement_AppBodyLeft_d9dlN
-  .contentmanagement_AppInfo__g4ce
-  .contentmanagement_AppUsageText_1G9v2 {
-  color: VAR(--CMAPPUSAGETEXT) !important;
-  font-weight: var(--CMAPPUSAGETEXTFW) !important;
-  margin-left: 0 !important;
-}
-
-.contentmanagement_AppsGrid_2n6FN
-  .contentmanagement_AppBodyLeft_d9dlN
-  .contentmanagement_AppInfo__g4ce
-  .contentmanagement_AppUsageValue_2B8dj {
-  color: var(--CMAPPUSAGEVALUE) !important;
-  font-weight: VAR(--CMAPPUSAGEVALUEFW) !important;
-}
-
-.contentmanagement_AppsGrid_2n6FN
-  .contentmanagement_AppBodyLeft_d9dlN
-  .contentmanagement_AppInfo__g4ce
-  svg {
-  display: NONE !important;
-}
-
-.contentmanagement_AppsGrid_2n6FN
-  .contentmanagement_AppBodyRight_3vHX3
-  .contentmanagement_AppSize_mohK9 {
-  font-family: VAR(--FONTFAMILY) !important;
-  color: var(--CMAPPSIZE) !important;
-  font-weight: VAR(--CMAPPSIZEFW) !important;
-}
-
 .contentmanagement_AppsGrid_2n6FN .contentmanagement_AppHeader_3_uaa {
-  padding-right: 12px !important;
+  padding-right: 14px !important;
   color: VAR(--CMAPPHEADER) !important;
   text-transform: var(--CMAPPHEADERTEXTCASE) !important;
   font-family: VAR(--FONTFAMILY) !important;
@@ -804,11 +793,29 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
   color: var(--CMAPPHEADERVALUE);
 }
 
+.contentmanagement_DriveSettingsButton_1WKUO {
+  color: VAR(--DRIVESETTINGS) !important;
+  background-color: var(--DRIVESETTINGSBG) !important;
+}
+
+.contentmanagement_AppsGrid_2n6FN
+  .contentmanagement_AppHeader_3_uaa
+  .contentmanagement_Rule_2iZ4o {
+  background-color: VAR(--DIVIDER) !important;
+  height: 1px !important;
+}
+
 .contentmanagement_Title_3IvzT {
   color: VAR(--ACCENT) !important;
   font-family: VAR(--FONTFAMILY) !important;
   text-transform: unset !important;
   font-weight: var(--STORAGEMANAGERFONTWEIGHT) !important;
+}
+
+.contentmanagement_InstallFolder_12aBP svg {
+  margin-right: 9px !important;
+  width: 20px !important;
+  height: 20px !important;
 }
 
 .contentmanagement_DriveName_1rihl {
@@ -825,15 +832,9 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
   padding-right: 14px !important;
 }
 
-.contentmanagement_InstallFolder_12aBP svg {
-  margin-right: 9px !important;
-  width: 20px !important;
-  height: 20px !important;
-}
-
 .contentmanagement_DriveName_1rihl {
   font-family: VAR(--FONTFAMILY) !important;
-  line-height: 22px !important;
+  line-height: 21px !important;
   margin-right: 4px !important;
   text-transform: uppercase !important;
   font-size: 12px !important;
@@ -850,6 +851,10 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
 .contentmanagement_LibraryContent_ybEU2 {
   border-top: 1px solid var(--APPDETAILSPANELBORDER) !important;
   background: var(--BASE1) !important;
+}
+
+.contentmanagement_ContentManagement_3wk64 {
+  background: VAR(--CONTENTMANAGEMENT) !important;
 }
 
 .contentmanagement_DriveUsageNumber_181OY {

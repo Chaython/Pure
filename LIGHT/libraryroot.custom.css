@@ -634,6 +634,15 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
   width: var(--SCROLLBARHOVERWIDTH) !important;
 }
 
+.contentmanagement_InstallFolder_12aBP:hover {
+  background-color:var(--BASE3)!important;
+  border-radius:var(--BORDERRADIUS) var(--BORDERRADIUS) 0 0!important;
+}
+
+.contentmanagement_IsSelected_3VQeL:hover {
+  BACKGROUND-COLOR:VAR(--BASE1)!important;
+}
+
 .contentmanagement_InstallFolder_12aBP:hover .contentmanagement_DriveName_1rihl,
 .contentmanagement_InstallFolder_12aBP:hover .contentmanagement_DriveSize_5bG9I,
 .contentmanagement_InstallFolder_12aBP:hover svg {
@@ -648,6 +657,7 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
 
 .contentmanagement_AddFolder_3C0_9:hover {
   color:var(--BLACK)!important;
+  background-color:TRANSPARENT!important;
 }
 
 .contentmanagement_AddFolder_3C0_9 {
