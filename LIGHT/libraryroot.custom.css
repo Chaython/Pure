@@ -552,6 +552,23 @@
 }
 /*-------------------------- STORAGE MANAGER --------------------------*/
 
+.sortingdropdowncontrolbutton_BasicHomeDropDownControlButton_17SQW svg.sortingdropdowncontrolbutton_SortIcon_jewgw {
+  display:none!important;
+}
+
+.sortingdropdowncontrolbutton_BasicHomeDropDownControlButton_17SQW.sortingdropdowncontrolbutton_SortingDropDownControlButton_2ddeJ {
+  color:var(--ACCENT)!important;
+  BACKGROUND-COLOR:VAR(--DROPDOWN)!important;
+  border: var(--DROPDOWNBORDERWIDTH) solid var(--DROPDOWNBORDER) !important;
+  border-bottom: VAR(--DROPDOWNBORDERWIDTH) SOLID VAR(--DROPDOWNBOTTOMBORDER) !important;
+  padding: 3px !important;
+  padding-left: 5px !important;
+  padding-right: 5px !important;
+}
+
+.sortingdropdowncontrolbutton_BasicHomeDropDownControlButton_17SQW:hover, .sortingdropdowncontrolbutton_BasicHomeDropDownControlButton_17SQW:active {
+  border-color:var(--DROPDOWNBORDERHOVER)!important;
+}
 
 .basiclibraryhomestaticcollections_BasicHomeDropDownControlButton_2msPh:hover, .basiclibraryhomestaticcollections_BasicHomeDropDownControlButton_2msPh:active {
   padding-left:0!important;
@@ -661,6 +678,7 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
 }
 
 .contentmanagement_AddFolder_3C0_9 {
+  align-self:center!important;
   width:25px!important;
   height:25px!important;
 }
