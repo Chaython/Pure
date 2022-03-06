@@ -1732,8 +1732,8 @@ div.MediumWindow
 }
 /*-------------------------- NEW COLLECTION ICON --------------------------*/
 
-.appdetailsplaysection_PlayBarDetailLabel_2TYVG.appdetailsplaysection_LastPlayedInfo_1nfJN {
-  MARGIN-TOP:7PX!important;
+div.NarrowRightPanel .appdetailsplaysection_PlayBarDetailLabel_2TYVG {
+  line-height:27px!important;
 }
 
 .dropdownlabel_DropDownLabelTitle_3g-QH {
@@ -7453,6 +7453,12 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
   background: var(--BASE1) !important;
   border-radius: var(--BORDERRADIUS) !important;
 }
+
+.appdetailsplaysection_GameStat_1kiZK {
+  padding: 0!important;
+  padding-left:4px!important;
+}
+
 .appdetailsplaysection_GameStat_1kiZK
   .appdetailsplaysection_GameStatIcon_1tIg- {
   margin: 0px 3px 3px 3px !important;
