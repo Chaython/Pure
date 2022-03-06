@@ -17,7 +17,7 @@
 * Install https://github.com/PhantomGamers/SteamFriendsPatcher 
 * take the libraryrootcustom.css file and paste it on steam/steamui/
 * take the friends.custom.css file and paste it on steam/clientui/
-* go to steam/steamui/2.css then paste these lines "@import url("https://steamloopback.host/libraryroot.original.css");
+* go to steam/steamui/2.css then paste these lines at the top: "@import url("https://steamloopback.host/libraryroot.original.css");
 @import url("https://steamloopback.host/libraryroot.custom.css");"
 * open steamfriendspatcher and go to settings set the library css to 7.css, click save settings and force check 
 * Enjoy :)
