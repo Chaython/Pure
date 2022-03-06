@@ -550,6 +550,199 @@
   --SHAREDAPPDETAILHEADERLETTERSPACING: 0;
   --SHAREDAPPDETAILHEADERFONTSIZE: 8px;
 }
+
+/*-------------------------- STEAM DECK UI --------------------------*/
+
+.gamepadhome_TabbedContent_cE1Sa {
+  background:var(--BASE2)!important;
+}
+
+.gamepadhomewhatsnew_EventInfo_6TGe7 {
+  background-color:var(--BASE1)!important;
+}
+
+.mediapage_Details_10UNz .mediapage_DetailsRow_2F3cn .mediapage_CaptureTime_2UWVW {
+  color:var(--ACCENT)!important;
+}
+
+.gamepadui_BasicHome_3LYP1 {
+  color:var(--ACCENT)!important;
+}
+
+.mediapage_Screenshot_3Qh8h {
+  background-color:var(--BASE1)!important;
+  border:1px solid var(--DIVIDER)!important;
+  box-shadow:var(--BOXSHADOW) var(--SHADOW)!important;
+}
+
+.mediapage_ScreenshotHeaderBanner_Bly4O .mediapage_SortOrder_21DQz {
+  color:var(--ACCENT)!important;
+}
+
+.mediapage_RecentMedia_j1fbS .mediapage_NoRecent_11zss {
+  color:var(--ACCENT)!important;
+}
+
+.mediapage_RecentMedia_j1fbS .mediapage_NoRecent_11zss svg {
+  color:var(--ACCENT)!important;
+}
+
+.mediapage_MediaPage_gG1JN {
+  background-color:var(--BASE2)!important;
+}
+
+.mediapage_ScreenshotHeaderBanner_Bly4O .mediapage_DividerLine_3muZW {
+  background:var(--DIVIDER)!important;
+}
+
+.basicpagedsettings_PagedSettingsDialog_PageListItem_2p8QU {
+  color:var(--ACCENT)!important;
+}
+
+.basicpagedsettings_PagedSettingsDialog_PageListColumn_2bCBJ {
+  background:var(--BASE1)!important;
+}
+
+.basicpagedsettings_PagedSettingsDialog_PageListItem_2p8QU.basicpagedsettings_Active_3WgdW {
+  color:var(--ACCENT)!important;
+  background:var(--LISTITEMBACKGROUNDHOVER)!important;
+}
+
+.BasicUI .appactivityday_Event_UVeN0 .appactivityday_EventHeadline_QCKBq {
+  background:unset!important;
+}
+
+.gamepadsearch_NoResultsFound_ZAX7o {
+  color:var(--ACCENT)!important;
+}
+
+.BasicUI .appactionbutton_ButtonChild_2AzIX .appactionbutton_ButtonText_33cnX {
+  text-transform:uppercase!important;
+}
+
+.BasicUI .appactionbutton_PlayButton_3ydig {
+  min-width:unset!important;
+}
+
+.downloadgraph_DownloadGraphLegend_hGZq4 .downloadgraph_LegendBox_3PLc4 {
+  height:24px!important;
+  width:4px!important;
+}
+
+.accountpanel_Highlight_35ztZ {
+  color:var(--BLACK)!important;
+}
+
+.basicdialog_FieldDescription_9cdq8 {
+  color:var(--ACCENT)!important;
+}
+
+.gamepadsearch_ResultTemplateImage_3K3Bx {
+  box-shadow:var(--BOXSHADOW) VAR(--SHADOW)!important;
+}
+
+.offline .steamavatar_avatarStatus_3xUpb.GamepadMode, .GamepadMode .offline .steamavatar_avatarStatus_3xUpb {
+  background:unset!important;
+}
+
+.basicdialog_Field_ugL9c.basicdialog_WithBottomSeparator_1e8sp::after {
+  background:var(--DIVIDER)!important;
+}
+
+.basicdialog_FieldLabel_2URP7 {
+  color:var(--ACCENT)!important;
+}
+
+.loadingthrobber_Container_3sa1N img {
+  filter:var(--FILT)!important;
+  opacity:var(--OP)!important;
+}
+
+.gamepadsearch_ResultTemplateDescriptionRow_19p6s .gamepadsearch_Description_3RDew {
+  color:var(--ACCENT)!important;
+}
+
+.gamepadsearch_ResultTemplateDescriptionRow_19p6s .gamepadsearch_Icon_3hAUu {
+  color:var(--ACCENT)!important;
+}
+
+.loadingthrobber_Container_3sa1N.loadingthrobber_PreloadThrobber_1-epa {
+  background:var(--BASE1)!important;
+}
+
+.basicappdetailssectionstyler_AppDetailsRoot_3fp5y {
+  background:var(--BASE2)!important;
+}
+
+.footericons_Light_1LgIo .footericons_Background_yjs9m {
+  color:var(--ACCENT)!important;
+}
+
+.footericons_Light_1LgIo .footericons_Foreground_JgT6Z {
+  color:var(--WHITE)!important;
+}
+
+.gamepadsearch_GamepadSearch_P_AlE {
+  background:var(--BASE2)!important;
+}
+
+.header_Header_1E_SL::before {
+  background:var(--BASE1)!important;
+  border-bottom:1px solid var(--DIVIDER)!important;
+}
+
+.footer_BasicFooter_3T1iF {
+  background:var(--BASE1)!important;
+  border-top:1px solid var(--DIVIDER)!important;
+}
+
+.actionbuttonlegenditem_ActionButtonLegend_Mbyhb .actionbuttonlegenditem_ActionButtonLabel_31Jnn {
+  color:var(--ACCENT)!important;
+}
+
+.searchbar_SearchContainer_161Tj .searchbar_SearchIconRight_1Ka4T {
+  color:var(--ACCENT)!important;
+}
+
+.header_Clock_1HhLU {
+  color:var(--ACCENT)!important;
+}
+
+/* .appgrid_YourCollection_11p6F {
+  gap: var(--gridrowgap) var(--gridcolumngap) !important;
+} */
+
+.steamavatar_avatar_3h-QR.GamepadMode, .GamepadMode .steamavatar_avatar_3h-QR {
+  border-radius:50px!important;
+}
+
+.gamepadlibrary_GamepadLibrary_ZBBhe {
+  background:var(--BASE2)!important;
+}
+
+.gamepadtabbedpage_TabCount_1ui4I {
+  color:var(--ACCENT)!important;
+}
+
+.gamepadtabbedpage_Tab_3eEbS.gamepadtabbedpage_Selected_3Gp1b {
+  color:var(--ACCENT)!important;
+}
+
+.gamepadtabbedpage_Tab_3eEbS.gamepadtabbedpage_Selected_3Gp1b {
+  background:var(--BASE1)!important;
+  border:1px solid var(--LISTITEMBACKGROUNDHOVER)!important;
+}
+
+.gamepadtabbedpage_Tab_3eEbS {
+  color:var(--ACCENT)!important;
+}
+
+.gamepadtabbedpage_Tab_3eEbS:hover {
+  background-color:var(--LISTITEMBACKGROUNDHOVER)!important;
+}
+
+/*-------------------------- STEAM DECK UI --------------------------*/
+
 /*-------------------------- STORAGE MANAGER --------------------------*/
 
 .sortingdropdowncontrolbutton_BasicHomeDropDownControlButton_17SQW svg.sortingdropdowncontrolbutton_SortIcon_jewgw {
@@ -3346,6 +3539,7 @@ a:-webkit-any-link {
 }
 
 .steamavatar_avatarHolder_nibod {
+  height:34px!important;
   margin-bottom: 8px !important;
 }
 
