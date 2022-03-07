@@ -553,6 +553,96 @@
 
 /*-------------------------- STEAM DECK UI --------------------------*/
 
+.loginpanel_SubHeader_1oQc7 {
+  color:var(--ACCENT)!important;
+}
+
+.loginpanel_Header_3IMA7 {
+  color:var(--ACCENT)!important;
+}
+
+.loginpanel_LoginBackground_1lh1e {
+  background:var(--BASE2)!important;
+}
+
+.mediapage_Details_10UNz .mediapage_DetailsRow_2F3cn .mediapage_CaptureTime_2UWVW .mediapage_Date_2Qjih {
+  color:var(--BLUE)!important;
+}
+
+.BasicUI .trendingwithfriends_TrendingWithFriends_ZOp3h .trendingwithfriends_Header_iP_E5 {
+  color:var(--ACCENT)!important;
+}
+
+.appdetailsplaysection_CloudStatusRow_QvHky:before, .appdetailsplaysection_CloudStatusRow_QvHky:after {
+  background-color:var(--DIVIDER)!important;
+}
+
+.BasicUI .appdetailsplaysection_CloudStatusLabel_fUTbl {
+  color:var(--ACCENT)!important;
+}
+
+.deckverified_CompatibilityDetailRatingSummary_mJGYS {
+  color:var(--ACCENT)!important;
+}
+
+.deckverified_DialogTitle_2WJTd {
+  color:var(--ACCENT)!important;
+}
+
+.mainbrowser_URLBar_1CwIx .mainbrowser_URL_2aM-J {
+  color:var(--ACCENT)!important;
+}
+
+.basicdialog_ToggleRail_3ZEjC::before {
+  background:var(--BLUE)!important;
+}
+
+.basicpagedsettings_Separator_3sfkC {
+  background:var(--DIVIDER)!important;
+}
+
+.BasicUI .recentlycompleted_RecentlyCompleted_3fDIR .recentlycompleted_Header_NhBU2 {
+  color:var(--ACCENT)!important;
+}
+
+.gamepadhomefriends_InGameGame_KLo2n .gamepadhomefriends_FriendsPlaying_15rrZ {
+  color:var(--GREEN)!important;
+}
+
+.gamepadhomefriends_InGameGame_KLo2n .gamepadhomefriends_Title_EZ-F- {
+  color:var(--ACCENT)!important;
+}
+
+.gamepadhomefriends_InGameGame_KLo2n .gamepadhomefriends_InLibrary_ho5Qo {
+  color:var(--ACCENT)!important;
+}
+
+.gamepadhomefriends_InGameGame_KLo2n {
+  background-color:var(--BASE1)!important;
+  border:1px solid var(--DIVIDER)!important;
+  box-shadow:var(--BOXSHADOW) var(--SHADOW)!important;
+}
+
+.BasicUI .header_Header_1E_SL {
+  color:var(--ACCENT)!important;
+}
+
+:not(.appactionbutton_Disabled_1Pb6P)>.BasicUI .appactionbutton_ButtonChild_2AzIX:hover::after {
+  background:unset!important;
+}
+
+.appportrait_FriendsBar_3dncO .appportrait_SummaryCount_1CA44 {
+  text-shadow:unset!important;
+}
+
+.BasicUI .gamepadhomefriends_FriendsHeader_1Ejje {
+  color:var(--ACCENT)!important;
+}
+
+.appactivityday_StoreGameCapsule_1OYOt {
+  color:var(--ACCENT)!important;
+}
+
 .gamepadhome_TabbedContent_cE1Sa {
   background:var(--BASE2)!important;
 }
@@ -3539,7 +3629,8 @@ a:-webkit-any-link {
 }
 
 .steamavatar_avatarHolder_nibod {
-  height:34px!important;
+  height:32px!important;
+  width:32px!important;
   margin-bottom: 8px !important;
 }
 
