@@ -100,10 +100,6 @@
   --DOWNLOADSPAGEBG: VAR(--BASE2);
   --DOWNLOADSTAT: VAR(--BLACK);
   --DOWNLOADSFIGURE: VAR(--ACCENT);
-  --NETGRAPH: var(--BUTTON2);
-  --DISKGRAPH: VAR(--ACCENT);
-  --NETDOWNLOADLEGEND: var(--NETGRAPH);
-  --DISKDOWNLOADLEGEND: VAR(--ACCENT);
   --OP: 63%;
   --OP2: 60.5%;
   --FILT: BRIGHTNESS(0);
@@ -553,6 +549,84 @@
 
 /*-------------------------- STEAM DECK UI --------------------------*/
 
+.searchbar_SearchBox_2a1-s.gpfocus, .searchbar_SearchContainer_161Tj.searchbar_OnSearchPage_-ZQJU .searchbar_SearchBox_2a1-s {
+  color:var(--ACCENT)!important;
+}
+
+.searchbar_SearchContainer_161Tj.gpfocuswithin .searchbar_SearchIconLeft_2Ya83, .searchbar_SearchContainer_161Tj.searchbar_OnSearchPage_-ZQJU .searchbar_SearchIconLeft_2Ya83 {
+  opacity:0!important;
+}
+
+.gamepadhomerecommended_PlayNextCarouselSubHeading_2VByW {
+  color:var(--ACCENT)!important;
+}
+
+.BasicUI .gamepadhomerecommended_PlayNextCarouselTitle_2r7cQ {
+  color:var(--ACCENT)!important;
+}
+
+.mainmenu_ItemLabel_3x-ZK {
+  color:var(--ACCENT)!important;
+}
+
+.basicgamecarousel_BasicGameCarouselItem_3YYQ9 .basicgamecarousel_TextBoxCarouselContents_3bvCH {
+  background:var(--BASE1)!important;
+  border-radius:var(--BORDERRADIUS)!important;
+  border:1px solid var(--DIVIDER)!important;
+}
+
+.gamepadhomewhatsnew_GameIconAndName_1jXSh .gamepadhomewhatsnew_GameName_3H9W- {
+  color:VAR(--ACCENT)!important;
+}
+
+
+.basicgamecarousel_SubMessage_1BtXg {
+  color:var(--ACCENT)!important;
+  text-shadow:unset!important;
+}
+
+.BasicUI .appportrait_PortraitMessage_3gwMk .appportrait_Message_3CRLA {
+  text-shadow:unset!important;
+  color:var(--ACCENT)!important;
+}
+
+.mainmenu_ItemIcon_3xZ3Z {
+  color:var(--ACCENT)!important;
+}
+
+.gamepadhomerecentgames_RecentGamesHeader_35iRe {
+  color:var(--ACCENT)!important;
+}
+
+.gamepadui_BasicHome_3LYP1.gamepadui_OpaqueBackground_b084m {
+  background:VAR(--BASE2)!important;
+}
+
+/* .gamepadhomerecentgames_RecentGamesBackground_1SRox {
+  filter:unset!important;
+} */
+
+.BasicUI .marketingmessages_MarketingMessages_jdr42 .marketingmessages_Header_1QCdV {
+  color:var(--ACCENT)!important;
+}
+
+.loadingthrobber_LoadingStatus_3rAIy {
+  color:var(--ACCENT)!important;
+}
+
+.loginpanel_LoginCachedAvatar_l_0WJ .loginpanel_LoginCachedAvatarImage_3nhzM {
+  background-color:var(--ACCENT)!important;
+}
+
+.loginpanel_LoginCachedAvatar_l_0WJ .loginpanel_LoginCachedAvatarImage_3nhzM {
+  box-shadow:unset!important;
+  border:unset!important;
+}
+
+.loginpanel_CachedName_3iVOC {
+  color:var(--ACCENT)!important;
+}
+
 .loginpanel_SubHeader_1oQc7 {
   color:var(--ACCENT)!important;
 }
@@ -649,6 +723,8 @@
 
 .gamepadhomewhatsnew_EventInfo_6TGe7 {
   background-color:var(--BASE1)!important;
+  border:1px solid var(--DIVIDER)!important;
+  box-shadow:var(--BOXSHADOW) VAR(--SHADOW)!important;
 }
 
 .mediapage_Details_10UNz .mediapage_DetailsRow_2F3cn .mediapage_CaptureTime_2UWVW {
@@ -1165,6 +1241,7 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
 /*-------------------------- STORAGE MANAGER --------------------------*/
 
 /*-------------------------- DOWNLOADS PAGE --------------------------*/
+
 .downloads_SectionItem_1VNuY .downloads_Button_3oavR, .downloads_SectionItem_1VNuY .downloads_Button_3oavR:enabled, .downloads_SectionItem_1VNuY .downloads_Button_3oavR:active, .downloads_SectionItem_1VNuY .downloads_Button_3oavR:hover, .downloads_SectionItem_1VNuY .downloads_Button_3oavR:enabled:active:hover, .downloads_SectionItem_1VNuY .downloads_Button_3oavR.DialogButton:enabled {
   min-width:unset!important;
 }
@@ -1202,6 +1279,7 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
 
 .downloadgraph_DownloadGraph_1BxZD .downloadgraph_DiskPoint_10Cul {
   stroke-width: VAR(--DISKPOINTSW) !important;
+  color:transparent!important;
 }
 
 .downloads_SectionItem_1VNuY
@@ -1213,7 +1291,7 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
 .downloadgraph_DownloadGraph_1BxZD
   .downloadgraph_GraphBarWrapper_gpPxC:hover
   .downloadgraph_DiskPoint_10Cul {
-  color: VAR(--DISKGRAPH) !important;
+  color: VAR(--ACCENT) !important;
 }
 
 .downloadgraph_Throttle_38T9T .downloadgraph_ThrottleValue_3XTah {
@@ -1529,7 +1607,7 @@ button.downloads_Button_3oavR:hover.DialogButton._DialogLayout.Secondary:hover,
 
 .downloadgraph_DownloadGraph_1BxZD .downloadgraph_GraphBar_3raSL,
 .downloadgraph_DownloadGraph_1BxZD .downloadgraph_GraphBarEmpty_11-Rk {
-  color: VAR(--NETGRAPH) !important;
+  color: VAR(--BUTTON2) !important;
   fill: currentColor !important;
 }
 
@@ -1574,7 +1652,7 @@ button.downloads_Button_3oavR:hover.DialogButton._DialogLayout.Secondary:hover,
 }
 
 .downloadgraph_DownloadGraph_1BxZD .downloadgraph_GraphLine_3H2JW {
-  stroke: VAR(--DISKGRAPH) !important;
+  stroke: var(--ACCENT) !important;
   stroke-width: var(--DISKGRAPHSTROKEWIDTH) !important;
 }
 
@@ -1629,7 +1707,7 @@ div.MediumWindow
 
 .downloadgraph_DownloadGraphLegend_hGZq4 .downloadgraph_Network_33jqE svg {
   color: transparent !important;
-  border-left: 4px solid var(--NETDOWNLOADLEGEND) !important;
+  border-left: 4px solid var(--BUTTON2) !important;
   height: 87px !important;
   margin-top: 71px !important;
 }
@@ -1638,7 +1716,7 @@ div.MediumWindow
   height: 25px;
   margin-top: 75px;
   width: 4px;
-  background-color: VAR(--DISKDOWNLOADLEGEND) !important;
+  background-color: VAR(--ACCENT) !important;
 }
 
 .downloadgraph_DownloadGraph_1BxZD .downloadgraph_DiskGraph_2-AUy {
