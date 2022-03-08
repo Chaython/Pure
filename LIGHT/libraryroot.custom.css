@@ -1242,6 +1242,19 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
 
 /*-------------------------- DOWNLOADS PAGE --------------------------*/
 
+.downloadgraph_DownloadGraph_1BxZD .downloadgraph_GraphLine_3H2JW {
+  stroke:var(--ACCENT)!important;
+  stroke-width:1px!important;
+}
+
+.downloadgraph_DownloadGraph_1BxZD .downloadgraph_GraphBarWrapper_gpPxC:hover .downloadgraph_GraphBar_3raSL {
+  color:var(--BUTTON2)!important;
+}
+
+.downloadgraph_DownloadGraph_1BxZD .downloadgraph_GraphBarWrapper_gpPxC .downloadgraph_GraphBar_3raSL {
+  color:var(--BUTTON2)!important;
+}
+
 .downloads_SectionItem_1VNuY .downloads_Button_3oavR, .downloads_SectionItem_1VNuY .downloads_Button_3oavR:enabled, .downloads_SectionItem_1VNuY .downloads_Button_3oavR:active, .downloads_SectionItem_1VNuY .downloads_Button_3oavR:hover, .downloads_SectionItem_1VNuY .downloads_Button_3oavR:enabled:active:hover, .downloads_SectionItem_1VNuY .downloads_Button_3oavR.DialogButton:enabled {
   min-width:unset!important;
 }
@@ -1275,11 +1288,6 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
 
 .downloadgraph_Throttle_38T9T.downloadgraph_Empty_pHDI1 {
   opacity: 0 !important;
-}
-
-.downloadgraph_DownloadGraph_1BxZD .downloadgraph_DiskPoint_10Cul {
-  stroke-width: VAR(--DISKPOINTSW) !important;
-  color:transparent!important;
 }
 
 .downloads_SectionItem_1VNuY
@@ -1406,10 +1414,6 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
 .downloads_ProgressDetails_sv3ZH .downloads_Value_1dHjj.downloads_Active_IbePL {
   color: var(--DOWNLOADEDVALUE) !important;
 }
-
-/* .downloads_SectionJumpBar_mw7VZ.downloads_Show_2S18z {
-  display: none !important;
-} */
 
 .downloads_SectionList_OINnO.downloads_DropOption_2m6Q3 {
   border-radius: var(--DOWNLOADITEMBR) !important;
@@ -1605,16 +1609,6 @@ button.downloads_Button_3oavR:hover.DialogButton._DialogLayout.Secondary:hover,
   color: VAR(--DOWNLOADSDRAGHANDLE) !important;
 }
 
-.downloadgraph_DownloadGraph_1BxZD .downloadgraph_GraphBar_3raSL,
-.downloadgraph_DownloadGraph_1BxZD .downloadgraph_GraphBarEmpty_11-Rk {
-  color: VAR(--BUTTON2) !important;
-  fill: currentColor !important;
-}
-
-.downloadgraph_DownloadGraph_1BxZD .downloadgraph_GraphBarEmpty_11-Rk {
-  color: transparent !important;
-}
-
 .downloads_SectionItem_1VNuY .downloads_Name_35eOQ {
   font-family: VAR(--FONTFAMILY) !important;
   font-weight: VAR(--DOWNLOADNAMEFONTWEIGHT) !important;
@@ -1649,11 +1643,8 @@ button.downloads_Button_3oavR:hover.DialogButton._DialogLayout.Secondary:hover,
   transform: SCALEX(-1) !important;
   margin-left: 204px !important;
   margin-right: 7px !important;
-}
-
-.downloadgraph_DownloadGraph_1BxZD .downloadgraph_GraphLine_3H2JW {
-  stroke: var(--ACCENT) !important;
-  stroke-width: var(--DISKGRAPHSTROKEWIDTH) !important;
+  -webkit-mask-image:unset!important;
+  MIX-BLEND-MODE:UNSET!important;
 }
 
 .downloads_ItemLists_1ugNi {
@@ -7298,7 +7289,6 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
   display: none !important;
 }
 .libraryhomenewupdates_GameIconAndName_3_xMy {
-  background-color: #797979 !important;
   border-radius: 0 !important;
 }
 .libraryhomeshowcases_AddShowcaseRow_3SkuN {
@@ -8178,6 +8168,7 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
 ::-webkit-scrollbar-thumb {
   border-radius: VAR(--SCROLLBARBORDERRADIUS);
 }
+
 .game_list4NG310_Library_Y0V3YE {
   color: var(--ACCENT) !important;
 }
