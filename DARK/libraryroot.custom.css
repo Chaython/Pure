@@ -1252,6 +1252,12 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
 
 /*-------------------------- DOWNLOADS PAGE --------------------------*/
 
+
+
+.downloads_TimeRemaining_1-Mr1 {
+  display:none!important;
+}
+
 .downloadgraph_DownloadGraph_1BxZD .downloadgraph_GraphLine_3H2JW {
   stroke:var(--ACCENT)!important;
   stroke-width:1px!important;
@@ -2084,6 +2090,14 @@ div.MediumWindow
   border-color: VAR(--NEWCOLLECTIONBORDERHOVER) !important;
 }
 /*-------------------------- NEW COLLECTION ICON --------------------------*/
+
+.gamelistentry_Container_2-O4Z .gamelistentry_GameListEntryContainer_1vO6B svg:not(.SVGIcon_FriendIcon) {
+  COLOR:VAR(--BLUE)!important;
+}
+
+.gamelistentry_Container_2-O4Z.gamelistentry_CloudError_cMb2t {
+  color:var(--BLUE2)!important;
+}
 
 div.NarrowRightPanel .appdetailsplaysection_PlayBarDetailLabel_2TYVG {
   line-height:27px!important;
