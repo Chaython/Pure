@@ -1698,14 +1698,14 @@ div.MediumWindow
 .downloadgraph_DownloadGraphLegend_hGZq4 .downloadgraph_Network_33jqE svg {
   color: transparent !important;
   border-left: 4px solid var(--BUTTON2) !important;
-  height: 87px !important;
-  margin-top: 71px !important;
+  height: 91px !important;
+  margin-top: 67px !important;
 }
 
 .downloadgraph_DownloadGraphLegend_hGZq4 .downloadgraph_Disk_1QHr4 {
-  height: 25px;
-  margin-top: 75px;
-  width: 4px;
+  height: 29px!important;
+  margin-top: 69px!important;
+  width: 4px!important;
   background-color: VAR(--ACCENT) !important;
 }
 
