@@ -2091,6 +2091,11 @@ div.MediumWindow
 }
 /*-------------------------- NEW COLLECTION ICON --------------------------*/
 
+.gamelistentry_Selected_1UBpA.gamelistentry_Container_2-O4Z .gamelistentry_CloudError_cMb2t, .gamelistentry_Selected_1UBpA .gamelistentry_Container_2-O4Z .gamelistentry_CloudError_cMb2t {
+  color:unset!important;
+  background:unset!important;
+}
+
 .gamelistentry_Container_2-O4Z .gamelistentry_GameListEntryContainer_1vO6B svg:not(.SVGIcon_FriendIcon) {
   COLOR:VAR(--BLUE)!important;
 }
