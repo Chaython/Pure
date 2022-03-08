@@ -47,7 +47,6 @@
   --DRIVEUSAGETEXT: VAR(--ACCENT);
   --APPACTIONBAR: VAR(--BASE3);
   --DRIVEUSAGENUMBER: VAR(--ACCENT);
-  --DISKPOINT:0;
   --DOWNLOADGRAPHBUTTONHOVER: VAR(--BLACK);
   --DOWNLOADGRAPHBUTTONBORDER: transparent;
   --DOWNLOADGRAPHBUTTONBR: var(--BORDERRADIUS);
@@ -1299,7 +1298,7 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
 .downloadgraph_DownloadGraph_1BxZD
   .downloadgraph_GraphBarWrapper_gpPxC:hover
   .downloadgraph_DiskPoint_10Cul {
-  color: VAR(--ACCENT) !important;
+  color: transparent !important;
 }
 
 .downloadgraph_Throttle_38T9T .downloadgraph_ThrottleValue_3XTah {
