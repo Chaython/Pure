@@ -30,9 +30,10 @@
 
 		place { region=box controls=DescriptionLabel y=6 width=max }
 		place { start=DescriptionLabel controls=OverlayHomePageLabel y=20 dir=down }
-		place { start=OverlayHomePageLabel controls=OverlayHomePage  x=14  width=180 }
-
+		place { start=OverlayHomePageLabel controls=OverlayHomePage  x=16  width=180 }
+		place { control=ClearAllBrowserDataButton start=OverlayHomePage x=18 width=163 }
 		place { start=OverlayHomePageLabel controls=ClientBrowserAuthHomePage y=14 dir=down width=max }
+		
 		place { control=Divider1 start=ClientBrowserAuthHomePage margin-top=10 width=max height=1 }
 		place { start=Divider1 controls=ClearWebCacheButton,ClearAllCookiesButton y=15 spacing=6 height=24 width=168 region=bottom dir=down }
 	}
