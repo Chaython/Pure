@@ -370,7 +370,6 @@
   --CONTEXTMENUPLAYBUTTON: NONE;
   --CONTEXTMENUACTIONBUTTONTEXT: VAR(--ACCENT);
   --CONTEXTMENUPLAYBUTTONHOVER: var(--LISTITEMBACKGROUNDHOVER);
-  --CONTEXTMENUINSTALLBUTTON: NONE;
   --CONTEXTMENUINSTALLBUTTONHOVER: VAR(--BUTTON2);
   --CHECKMARKPADDING: 2px;
   --CHECKMARK: VAR(--WHITE);
@@ -2073,6 +2072,15 @@ div.MediumWindow
 
 /*-------------------------- NEW COLLECTION ICON --------------------------*/
 
+.library_ContextMenuAction_Z5iAX.Download, .library_ContextMenuAction_Z5iAX.Update, .library_ContextMenuAction_Z5iAX.PreLoad, .library_ContextMenuAction_Z5iAX.Resume, .library_ContextMenuAction_Z5iAX.Pause, .library_ContextMenuAction_Z5iAX.BorrowApp, .library_ContextMenuAction_Z5iAX.Stop, .library_ContextMenuAction_Z5iAX.Cancel, .library_ContextMenuAction_Z5iAX.Install, .library_ContextMenuAction_Z5iAX.PurchaseApp {
+  background:none!important;
+}
+
+
+.PurchaseApp.library_ContextMenuAction_Z5iAX.contextmenu_contextMenuItem_1n7Wl.contextMenuItem:HOVER {
+  background-color:var(--CONTEXTMENUINSTALLBUTTONHOVER)!important;
+}
+
 .gamelistentry_Selected_1UBpA.gamelistentry_Container_2-O4Z .gamelistentry_CloudError_cMb2t, .gamelistentry_Selected_1UBpA .gamelistentry_Container_2-O4Z .gamelistentry_CloudError_cMb2t {
   color:unset!important;
   background:unset!important;
@@ -2232,10 +2240,6 @@ body, body.shared_common_v6_2Lxgd {
   .allcollections_BigPlus_g0-tU {
   margin-bottom: 4px !important;
 }
-
-/* .Launch.library_ContextMenuAction_Z5iAX.contextmenu_contextMenuItem_1n7Wl.contextMenuItem:hover {
-  background: VAR(--CONTEXTMENUINSTALLBUTTONHOVER) !important;
-} */
 
 .Cancel.library_ContextMenuAction_Z5iAX.contextmenu_contextMenuItem_1n7Wl.contextMenuItem:hover {
   background: VAR(--CONTEXTMENUINSTALLBUTTONHOVER) !important;
@@ -7026,7 +7030,7 @@ A {
 .library_ContextMenuAction_Z5iAX.PurchaseApp {
   border-radius: 0 !important;
   color: var(--CONTEXTMENUACTIONBUTTONTEXT) !important;
-  background: var(--CONTEXTMENUINSTALLBUTTON) !important;
+  background: none !important;
 }
 .dropdown_DialogDropDownMenu_30wJO._DialogInputContainer {
   user-select: none !important;

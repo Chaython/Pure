@@ -376,7 +376,7 @@
   --CONTEXTMENUPLAYBUTTON: NONE;
   --CONTEXTMENUACTIONBUTTONTEXT: VAR(--ACCENT);
   --CONTEXTMENUPLAYBUTTONHOVER: var(--LISTITEMBACKGROUNDHOVER);
-  --CONTEXTMENUINSTALLBUTTON: NONE;
+  --CONTEXTMENUINSTALLBUTTON: VAR(--BUTTON2);
   --CONTEXTMENUINSTALLBUTTONHOVER: VAR(--BUTTON2);
   --CHECKMARKPADDING: 2px;
   --CHECKMARK: VAR(--WHITE);
@@ -2090,6 +2090,15 @@ div.MediumWindow
   border-color: VAR(--NEWCOLLECTIONBORDERHOVER) !important;
 }
 /*-------------------------- NEW COLLECTION ICON --------------------------*/
+
+.library_ContextMenuAction_Z5iAX.Download, .library_ContextMenuAction_Z5iAX.Update, .library_ContextMenuAction_Z5iAX.PreLoad, .library_ContextMenuAction_Z5iAX.Resume, .library_ContextMenuAction_Z5iAX.Pause, .library_ContextMenuAction_Z5iAX.BorrowApp, .library_ContextMenuAction_Z5iAX.Stop, .library_ContextMenuAction_Z5iAX.Cancel, .library_ContextMenuAction_Z5iAX.Install, .library_ContextMenuAction_Z5iAX.PurchaseApp {
+  background:none!important;
+}
+
+
+.PurchaseApp.library_ContextMenuAction_Z5iAX.contextmenu_contextMenuItem_1n7Wl.contextMenuItem:HOVER {
+  background-color:var(--CONTEXTMENUINSTALLBUTTONHOVER)!important;
+}
 
 .gamelistentry_Selected_1UBpA.gamelistentry_Container_2-O4Z .gamelistentry_CloudError_cMb2t, .gamelistentry_Selected_1UBpA .gamelistentry_Container_2-O4Z .gamelistentry_CloudError_cMb2t {
   color:unset!important;
