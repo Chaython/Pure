@@ -7,7 +7,7 @@
 			textcolor=none
 			bgcolor=none
 			render_bg {
-				0="image( x0 + 8, y0 - 28, x1, y1, graphics/pure/downloads_inprogress)"
+				0="image( x0 + 6, y0 - 28, x1, y1, graphics/pure/downloads_inprogress)"
 			}
 		
 			render {
@@ -18,13 +18,13 @@
 		StatusLabel {
 			textcolor=none
 			render_bg {
-				0="image( x0 + 8, y0 + 12, x1, y1, graphics/pure/downloads)"
+				0="image( x0 + 6, y0 + 12, x1, y1, graphics/pure/downloads)"
 			}
 		}
 
 		StatusLabel:hover {
 			render_bg {
-				0="image( x0 + 8, y0 + 12, x1, y1, graphics/pure/downloads_h)" 
+				0="image( x0 + 6, y0 + 12, x1, y1, graphics/pure/downloads_h)" 
 			}
 		}
 

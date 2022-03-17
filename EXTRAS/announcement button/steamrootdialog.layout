@@ -156,27 +156,16 @@
 
 		inbox_button
 		{
-			inset="8 0 8 0"
 			textcolor=ACCENT
 			font-family=basefont
 			font-style="none"
-			render_bg
-			{
-				0="image(x0+8,y0+12,x1,y1,graphics/pure/notifications)"
-			}
-			padding-left=0
-			padding-right=0
-			padding-top=0
+			image=graphics/pure/notifications
 		}
 		inbox_button:hover
 		{
 			textcolor=ACCENT
 			bgcolor = ACTIONBUTTONHOVER
-			render_bg
-			{
-				0="image(x0+8,y0+12,x1,y1,graphics/pure/notifications_h)"
-			}
-			render {}
+			image=graphics/pure/notifications_h
 		}
 		inbox_button:selected
 		{

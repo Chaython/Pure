@@ -966,23 +966,21 @@ steam.styles
 		"MenuBar MenuButton"
 		{
 			bgcolor="NONE"
-			render_bg{}
 			image="graphics/pure/menu"
-			inset-left=3
 			padding-left=5
 			minimum-width=38
 		}
 		"MenuBar MenuButton:hover"
 		{
 			bgcolor = MENUBUTTONHOVER
-			render_bg{}
 			image="graphics/pure/menu_h"
+			padding-left=5
 		}
 		"MenuBar MenuButton:selected"
 		{
 			bgcolor = MENUBUTTON
-			render_bg{}
 			image="graphics/pure/menu_h"
+			padding-left=5
 		}
 
 		MenuButton
@@ -999,10 +997,6 @@ steam.styles
 			font-family=basefont
 			font-weight=400
 			bgcolor = NOTIFICATIONBACKGROUND
-			render_bg {
-				//0="fill(x0+1,y0,x1-1,y0+1,DIVIDER)"
-				//1="fill(x0,y0,x0+1,y1,DIVIDER)"
-			}
 		}
 
 		Page
