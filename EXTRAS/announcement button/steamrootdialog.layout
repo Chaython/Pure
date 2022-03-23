@@ -154,12 +154,13 @@
 			image="graphics/updatenew_notification_h"
 		}
 
-		inbox_button
+			inbox_button
 		{
 			textcolor=ACCENT
 			font-family=basefont
 			font-style="none"
 			image=graphics/pure/notifications
+			padding-right=8
 		}
 		inbox_button:hover
 		{
@@ -171,19 +172,15 @@
 		{
 			textcolor=ACCENT
 			bgcolor="NONE"
-			render_bg
-			{
-				0="image(x0+8,y0+12,x1,y1, graphics/pure/notifications_selected)"
-			}
+			image=graphics/pure/notifications_selected
+			padding-right=8
 		}
 		inbox_button:disabled
 		{
 			textcolor=ACCENT
 			bgcolor="none"
-			render_bg
-			{
-				0="image(x0+8,y0+12,x1,y1,graphics/pure/notifications)"
-			}
+			image=graphics/pure/notifications
+			padding-right=8
 		}
 
 		inbox_button_active
@@ -191,47 +188,30 @@
 			FONT-SIZE=0
 			textcolor=ACCENT
 			bgcolor="none"
-			render_bg
-			{
-				0="image(x0+8,y0+12,x1,y1,graphics/pure/notifications_active)"
-				1="fill(x0,y1,x1,y1+1,NAVBUTTONACTIVEBORDER)"
-			}
-			padding-left=0
-			padding-right=0
-			padding-top=-5	//numbers are centered
+			image=graphics/pure/notifications_active
+			padding-right=8
 		}
 		inbox_button_active:hover
 		{
 			textcolor=ACCENT
 			bgcolor = "NONE"
-			render_bg
-			{
-				0="image(x0+8,y0+12,x1,y1,graphics/pure/notifications_active_h)"
-				1="fill(x0,y1,x1,y1+1,NAVBUTTONACTIVEBORDER)"
-			}
-			render {}
+			image=graphics/pure/notifications_active_h
 		}
+		
 		inbox_button_active:selected
 		{
 			textcolor=ACCENT
 			bgcolor="none"
-			render_bg
-			{
-				0="image(x0+8,y0+12,x1,y1,graphics/pure/notifications_active_selected)"
-				1="fill(x0,y1,x1,y1+1,NAVBUTTONACTIVEBORDER)"
-			}
-			render {}
+			image=graphics/pure/notifications_active_selected
+			padding-right=8
+		
 		}
 		inbox_button_active:disabled
 		{
 			textcolor=ACCENT
 			bgcolor="none"
-			render_bg
-			{
-				0="image(x0+8,y0+12,x1,y1, graphics/pure/notifications_active)"
-				1="fill(x0,y1,x1,y1+1,white45)"
-			}
-			render {}
+			image=graphics/pure/notifications
+			padding-right=8
 		}
 
 		parental_lock_button
