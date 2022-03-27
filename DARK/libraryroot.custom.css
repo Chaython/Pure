@@ -1605,10 +1605,6 @@ button.downloads_Button_3oavR:hover.DialogButton._DialogLayout.Secondary:hover,
   color: VAR(--DOWNLOADPAUSEDLABEL) !important;
 }
 
-.downloads_SectionItem_1VNuY .downloads_DragHandle_14DhZ {
-  opacity: 0 !important;
-}
-
 .downloads_SectionItem_1VNuY .downloads_DragHandle_14DhZ svg {
   width: 20px !important;
   height: 20px !important;
@@ -1623,6 +1619,7 @@ button.downloads_Button_3oavR:hover.DialogButton._DialogLayout.Secondary:hover,
 
 .downloads_SectionItem_1VNuY .downloads_DragHandle_14DhZ {
   color: VAR(--DOWNLOADSDRAGHANDLE) !important;
+  margin-top:0!important;
 }
 
 .downloads_SectionItem_1VNuY .downloads_Name_35eOQ {
