@@ -2088,6 +2088,24 @@ div.MediumWindow
 }
 /*-------------------------- NEW COLLECTION ICON --------------------------*/
 
+.appfilterpane_SteamDeckCompatDropDown_1SFpb ._DialogInputContainer .DialogDropDown_CurrentDisplay {
+  padding-bottom: 5px!important;
+  padding-top: 5px!important;
+}
+
+.appfilterpane_SteamDeckCompatDropDown_1SFpb .appfilterpane_Default_ixnYx {
+  text-transform: uppercase!important;
+  font-style: unset!important;
+}
+
+.shared_svg_library_SteamDeckCompatVerified_kEODD {
+  color:var(--GREEN)!important;
+}
+
+.shared_svg_library_SteamDeckCompatUnsupported_2LAax, .shared_svg_library_SteamDeckCompatUnknown_xBqU_ {
+  color:var(--ACCENT)!important;
+}
+
 .library_ContextMenuAction_Z5iAX.Download, .library_ContextMenuAction_Z5iAX.Update, .library_ContextMenuAction_Z5iAX.PreLoad, .library_ContextMenuAction_Z5iAX.Resume, .library_ContextMenuAction_Z5iAX.Pause, .library_ContextMenuAction_Z5iAX.BorrowApp, .library_ContextMenuAction_Z5iAX.Stop, .library_ContextMenuAction_Z5iAX.Cancel, .library_ContextMenuAction_Z5iAX.Install, .library_ContextMenuAction_Z5iAX.PurchaseApp {
   background:none!important;
 }
