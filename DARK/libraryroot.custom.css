@@ -2088,6 +2088,10 @@ div.MediumWindow
 }
 /*-------------------------- NEW COLLECTION ICON --------------------------*/
 
+.appfilterpane_DropDownContainer_1g2o2 .appfilterpane_DropDownItems_HHtHx:hover {
+  background-color: var(--LISTITEMBACKGROUNDHOVER)!important;
+}
+
 .appfilterpane_SteamDeckCompatDropDown_1SFpb ._DialogInputContainer .DialogDropDown_CurrentDisplay {
   padding-bottom: 5px!important;
   padding-top: 5px!important;
