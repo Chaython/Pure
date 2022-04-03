@@ -18,7 +18,7 @@
   --COLLECTIONSGRIDSPACING: 4px 4px;
   --PLAYNEXTGAMEIMAGESPACING: 2px;
   --RECENTGAMESGAMEIMAGESPACING: 2px;
-  --GAMEIMAGEACTIVEFILTER: BRIGHTNESS(1.3);
+  --GAMEIMAGEACTIVEFILTER: BRIGHTNESS(1.2);
   --GAMEIMAGEDRAGGEDFILTER: GRAYSCALE(2);
   --GAMEIMAGEDRAGGEDOP: 1;
   --GAMEIMAGEMAXHEIGHT: 320px; /*DEFAULT IS 320px*/
@@ -5758,7 +5758,8 @@ div.ShortRightPanel
 
 .appportrait_HoversEnabled_54PuC
   .appportrait_LibraryItemBox_WYgDg:hover:not(.appportrait_Landscape_3VOR2) {
-  transform: translatez(10px) !important;
+    transform: unset!important;
+    filter: VAR(--GAMEIMAGEACTIVEFILTER) !important;
 }
 .appportrait_UninstalledBar_kX-tI {
   height: 5px !important;
