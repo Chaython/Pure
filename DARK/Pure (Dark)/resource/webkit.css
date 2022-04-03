@@ -89,88 +89,6 @@
   --blur: blur(10px);
 }
 
-/* PLATFORMS */
-
-.carousel_container .arrow {
-  height:50px!important;
-  width:50px!important;
-  padding:0!important;
-}
-
-.carousel_container .arrow > div {
-  background-image:unset!important;
-}
-
-
-span.platform_img.win {
-  background-image:unset!important;
-}
-
-span.platform_img.mac {
-  background-image:unset!important;
-}
-
-span.platform_img.linux {
-  background-image:unset!important;
-}
-
-span.platform_img.music {
-  background-image:unset!important;
-}
-
-.carousel_container .arrow.right {
-  border-radius:100px!important;
-  background: transparent !important;
-}
-
-.carousel_container .arrow.right::before {
-  margin-right:50%!important;
-  line-height:46px!important;
-  font-family:store!important;
-  color:var(--ACCENT)!important;
-  FONT-SIZE:22PX!important;
-  content:'W'!important;
-}
-
-.carousel_container .arrow.left > div::before {
-  margin-left:50%!important;
-  line-height:46px!important;
-  font-family:store!important;
-  color:var(--ACCENT)!important;
-  FONT-SIZE:22PX!important;
-  content:'E'!important;
-}
-
-
-span.platform_img.music::before {
-  font-family:store!important;
-  color:var(--ACCENT)!important;
-  FONT-SIZE:15PX!important;
-  content: '4'!important;
-}
-
-span.platform_img.linux::before {
-  font-family:store!important;
-  color:var(--ACCENT)!important;
-  FONT-SIZE:15PX!important;
-  content: '3'!important;
-}
-
-span.platform_img.mac::before {
-  font-family:store!important;
-  color:var(--ACCENT)!important;
-  FONT-SIZE:15PX!important;
-  content: '2'!important;
-}
-
-span.platform_img.win::before {
-  font-family:store!important;
-  color:var(--ACCENT)!important;
-  FONT-SIZE:15PX!important;
-  content: '1'!important;
-}
-
-/* PLATFORMS */
 
 /* REVIEW ICONS */
 
@@ -191,6 +109,11 @@ span.platform_img.win::before {
 }
 
 /* REVIEW ICONS */
+
+.store_horizontal_minislider_ctn {
+  border-bottom: 4px solid var(--BLUE)!important;
+}
+
 
 #hello {
   color:var(--ACCENT)!important;
@@ -1604,7 +1527,7 @@ a.linkbar > img {
   border-radius: var(--AVATARBORDERRADIUS) !important;
 }
 .grouppage_header_name {
-  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
+  box-shadow: VAR(--BOXSHADOW) var(--SHADOW) !important;
   BORDER:1PX SOLID VAR(--PANELBORDER)!important;
   color: VAR(--ACCENT) !important;
   background: VAR(--BASE1) !important;
@@ -2075,7 +1998,8 @@ input.inputTagsFilter + label {
   color: VAR(--ACCENT) !important;
 }
 body.v6 .broadcast_live_stream_icon {
-  background: var(--BASE3) !important;
+  border-bottom-right-radius:VAR(--BORDERRADIUS)!important;
+  background: var(--BASE1) !important;
 }
 .ratingSummaryHeader {
   background: VAR(--BASE1) !important;
@@ -2240,8 +2164,8 @@ body.v6 .page_desc {
   background-color: VAR(--COMMENTNOTIFICATIONHOVER) !important;
 }
 .joinchat_bg .joinchat_button {
-  COLOR:VAR(--ACCENT)!important;
-  background: VAR(--BLUE) !important;
+  color:var(--ACCENT)!important;
+  background: var(--BLUE) !important;
 }
 .game_area_comingsoon .not_yet {
   color: VAR(--ACCENT) !important;
@@ -3984,9 +3908,7 @@ body.v6 #footer_nav .pulldown {
 .commentthread_comment_author a {
   color: VAR(--ACCENT) !important;
 }
-/* .group_tab.active {
-  background: VAR(--ACCENT) !important;
-} */
+
 div.bb_h1,
 .bb_wysiwyg h1 {
   color: VAR(--ACCENT) !important;
@@ -5044,9 +4966,7 @@ body.v6.summer2018_home .home_page_body_ctn {
   border-radius: var(--BORDERRADIUS) !important;
 }
 .home_ctn.tab_container {
-  BORDER-TOP:1PX SOLID VAR(--DIVIDER)!important;
-  BORDER-BOTTOM:1PX SOLID VAR(--DIVIDER)!important;
-  background: var(--BASE1) !important;
+  background: unset !important;
 }
 .navigation_bar > a:hover {
   background-color: var(--BUTTON2) !important;
@@ -5852,14 +5772,8 @@ BUG
   background: none !important;
 }
 .home_tab.active .tab_content {
-  border-top:1PX SOLID var(--DIVIDER) !important;
-  border-left:1PX SOLID var(--DIVIDER) !important;
-  border-right:1PX SOLID var(--DIVIDER) !important;
-  border-top-left-radius: var(--BORDERRADIUS) !important;
-  border-top-right-radius: var(--BORDERRADIUS) !important;
-  background-color: var(--BASE1) !important;
-  color: var(--ACCENT) !important;
-  /* border-radius: 0 !important; */
+  background-color: var(--BLUE) !important;
+  color: var(--WHITE) !important;
 }
 .tab_item.focus .tab_item_name {
   color: VAR(--ACCENT) !important;
@@ -6106,7 +6020,7 @@ body.v6 div#global_header .content {
   background: 0 0 !important;
 }
 .apphub_sectionTabsHR {
-  background-color: VAR(--BLUE) !important;
+  background-color: var(--BLUE) !important;
 }
 .apphub_sectionTab:hover {
   color: VAR(--ACCENT) !important;
@@ -6988,7 +6902,6 @@ a.games_list_tab.first_tab {
   border-radius: var(--BORDERRADIUS) !important;
   border: 0 !important;
 }
-
 .player_avatar {
   border-radius: 50px !important;
 }
@@ -8228,7 +8141,7 @@ h2 span.note:hover {
   color: VAR(--ACCENT) !important;
 }
 .bundle_label {
-  color: VAR(--BLUE) !important;
+  color: var(--BLUE) !important;
 }
 .referring_curator .blurb {
   color: VAR(--ACCENT) !important;
@@ -8501,7 +8414,6 @@ box-shadow:var(--BOXSHADOW) var(--SHADOW)!important;
   background: var(--PANEL) !important;
   border-radius: 4PX 4PX 0 0 !important;
 }
-
 a.group_tab {
   color: VAR(--ACCENT) !important;
 }
@@ -8509,6 +8421,10 @@ a.group_tab:hover {
   background: VAR(--PANEL3) !important;
 }
 
+.group_tab.active > span {
+  background: VAR(--BLUE) !important;
+  border-radius: 4px 4px 0 0 !important;
+}
 .rightbox {
   border: 1px SOLID VAR(--PANELBORDER) !important;
   border-radius: var(--BORDERRADIUS) !important;
@@ -8772,6 +8688,8 @@ input.btn_small:hover {
   border-radius: 0 !important;
   background: var(--BASE2) !important;
 }
+
+
 /*
 
 BUG
@@ -9647,7 +9565,6 @@ div.bb_h3,
   background: 0 0 !important;
 }
 .grouppage_header_label {
-
   display:none!important;
   /* border-top-left-radius: var(--BORDERRADIUS) !important;
   border-top-right-radius: var(--BORDERRADIUS) !important;
@@ -9918,10 +9835,6 @@ input.discussionSearchText:focus-within {
 
 input.discussionSearchText::selection {
   color: VAR(--ACCENT) !important;
-}
-.group_tab.active > span {
-  background: VAR(--BLUE) !important;
-  border-radius:4px 4px 0 0 !important;
 }
 
 .member_block:hover {
