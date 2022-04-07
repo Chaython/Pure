@@ -2,8 +2,8 @@
   --BORDERRADIUS: 4px;
   --BORDERRADIUS2: 0 0 4px 4px;
   --BORDERRADIUS3: 4px 4px 0 0;
-  --FILT: unset;
-  --OP:unset;
+  --FILT:BRIGHTNESS(0);
+  --OP:63%;
   --ACCOUNTNAMEHEADERDISPLAY: NONE;
   --BASE1: #e4e4e4;
   --BASE2: #dedede;
@@ -3448,14 +3448,13 @@ body.v6 .game_page_background {
   background: TRANSPARENT !important;
 }
 .carousel_container .arrow.left {
-  background: transparent !important;
-  border-radius: 100px !important;
+  background-color: var(--ACCENT) !important;
 }
 .carousel_container .arrow.left:hover {
-  background-color: var(--BUTTON2) !important;
+  background-color: var(--BLACK) !important;
 }
 .carousel_container .arrow.right:hover {
-  background-color: var(--BUTTON2) !important;
+  background-color: var(--BLACK) !important;
 }
 .col.search_price:not(.discounted) {
   color: VAR(--ACCENT) !important;
@@ -3520,6 +3519,10 @@ body.v6 .game_page_background {
 .search_result_row:hover {
   background-color: var(--SEARCHRESULTHOVER) !important;
 }
+.group_block_medium:hover {
+  transition: transform 0.18s ease-in-out !important;
+  transform:scale(1.1)!important;
+}
 .slider_ctn .slider_left:hover,
 .slider_ctn .slider_right:hover,
 .slider .handle:hover {
@@ -3528,6 +3531,7 @@ body.v6 .game_page_background {
 }
 .btnv6_blue_hoverfade {
   border-radius: 0 !important;
+  color:var(--WHITE)!important;
 }
 .tab_see_more .btnv6_blue_hoverfade {
   border-radius: VAR(--TEXTENTRYBORDERROUNDED) !important;
@@ -5790,10 +5794,10 @@ BUG
   background-color: var(--BASE3) !important;
 }
 #tab_preview_container {
-  border-radius: 6px !important;
+  border-radius: var(--BORDERRADIUS) !important;
   top: 15px !important;
   background: var(--BASE1) !important;
-  BORDER:VAR(--PANELBORDER)!important;
+  BORDER:1px solid VAR(--PANELBORDER)!important;
   box-shadow: var(--BOXSHADOW) var(--DIVIDER) !important;
   margin-top: 64px !important;
 }
