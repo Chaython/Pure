@@ -545,6 +545,21 @@
   --SHAREDAPPDETAILHEADERFONTSIZE: 8px;
 }
 
+.SVGIcon_Button {
+  fill: var(--WHITE) !important;
+}
+
+:not(.appactionbutton_Disabled_1Pb6P)
+  > .appactionbutton_ButtonChild_2AzIX
+  svg
+  line,
+:not(.appactionbutton_Disabled_1Pb6P)
+  > .appactionbutton_ButtonChild_2AzIX
+  svg
+  polygon {
+  stroke: VAR(--WHITE) !important;
+}
+
 /*-------------------------- STEAM DECK UI --------------------------*/
 
 .searchbar_SearchBox_2a1-s.gpfocus, .searchbar_SearchContainer_161Tj.searchbar_OnSearchPage_-ZQJU .searchbar_SearchBox_2a1-s {
@@ -2719,7 +2734,7 @@ div.NarrowRightPanel
 }
 
 .appportrait_Short_yGeS6 .appportrait_PortraitMessage_3gwMk {
-  padding-top: 10px !important;
+  padding-top: 6px !important;
 }
 
 .appfilterpane_Container_170Np
@@ -3894,17 +3909,6 @@ img {
 .appdetailstradingcardssection_Card_1WsOn.appdetailstradingcardssection_Unowned_1A6NC.appdetailstradingcardssection_Loaded_3rqAf
   .appdetailstradingcardssection_CardImage_1DgYm {
   opacity: 1 !important;
-}
-
-:not(.appactionbutton_Disabled_1Pb6P)
-  > .appactionbutton_ButtonChild_2AzIX
-  svg
-  line,
-:not(.appactionbutton_Disabled_1Pb6P)
-  > .appactionbutton_ButtonChild_2AzIX
-  svg
-  polygon {
-  stroke: VAR(--WHITE) !important;
 }
 
 .gamelistentry_Container_2-O4Z.gamelistentry_Uninstalled_5YTBr:hover,
@@ -5792,9 +5796,7 @@ div.ShortRightPanel
 .appportrait_LibraryItemBox_WYgDg.appportrait_InFriendsActivity_3ngZC {
   border-radius: 0 !important;
 }
-.SVGIcon_Button {
-  fill: var(--WHITE) !important;
-}
+
 .contextmenu_contextMenuItem_1n7Wl.contextmenu_SubMenu_2RlEO
   .SVGIcon_DownArrowContextMenu {
   fill: var(--ACCENT) !important;
