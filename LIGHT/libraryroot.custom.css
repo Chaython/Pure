@@ -5839,7 +5839,6 @@ div.ShortRightPanel
   fill: var(--ACTIVEDROPDOWNFILTERICON) !important;
 }
 .appportrait_LibraryItemBox_WYgDg .appportrait_UninstalledIcon_8YrRm {
-  opacity: 1 !important;
   top: VAR(--QUICKINSTALLBOTTOMMARGIN) !important;
   bottom: unset !important;
   border-radius: VAR(--QUICKINSTALLBORDERRADIUS) !important;
