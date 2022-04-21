@@ -2082,6 +2082,22 @@ div.MediumWindow
 
 /*-------------------------- NEW COLLECTION ICON --------------------------*/
 
+.appdetailsspotlight_AppDetailsSpotlightDemo_xYbDd {
+  background: var(--APPDETAILSPANEL)!important;
+  border:1px solid var(--APPDETAILSPANELBORDER)!important;
+  border-radius:var(--BORDERRADIUS)!important;
+  box-shadow:var(--BOXSHADOW) var(--SHADOW)!important;
+}
+
+.appdetailsspotlight_AppDetailsSpotlightDemo_xYbDd .appdetailsspotlight_Info_1AazH .appdetailsspotlight_Title_2rPfS {
+  color:var(--ACCENT)!important;
+}
+
+.appdetailsspotlight_SpotlightButton_1fSOe {
+  background-color:unset!important;
+  /* border:1px solid var(--BUTTONBORDER)!important; */
+}
+
 .appfilterpane_DropDownContainer_1g2o2 .appfilterpane_DropDownItems_HHtHx:hover {
   background-color: var(--LISTITEMBACKGROUNDHOVER)!important;
 }

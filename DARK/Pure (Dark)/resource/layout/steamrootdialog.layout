@@ -205,7 +205,7 @@
 			bgcolor="none"
 			render_bg
 			{
-				0="image(x0+8,y0+12,x1,y1,graphics/pure/notifications_selected)"
+				0="image(x0+8,y0+12,x1,y1,graphics/pure/notifications_active_selected)"
 			}
 		}
 		inbox_button_active:disabled
