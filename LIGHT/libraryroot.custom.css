@@ -2082,6 +2082,9 @@ div.MediumWindow
 
 /*-------------------------- NEW COLLECTION ICON --------------------------*/
 
+.appportrait_LibraryItemBox_WYgDg:hover~.appportrait_LibraryItemBoxSubscript_1LJqx {
+  transform:unset!important;
+}
 
 .appdetailsspotlight_AppDetailsSpotlightDemo_xYbDd {
   background: var(--APPDETAILSPANEL)!important;
