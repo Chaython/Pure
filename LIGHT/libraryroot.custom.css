@@ -6386,18 +6386,18 @@ div.NarrowRightPanel
 .online .steamavatar_avatarStatus_3xUpb {
   background: none !important;
   border-radius:50px!important;
-  width:32px!important;
+  width:28px!important;
   border:2px solid var(--ONLINE)!important;
 }
 
 .steamavatar_avatarStatus_3xUpb.bottom {
-  height:32px!important;
+  height:28px!important;
 }
 
 .ingame .steamavatar_avatarStatus_3xUpb {
   background: none !important;
   border-radius:50px!important;
-  width:32px!important;
+  width:28px!important;
   border:2px solid var(--INGAME)!important;
 }
 
