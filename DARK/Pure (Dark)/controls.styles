@@ -18,8 +18,6 @@
 	
 	styles
 	{
-	
-		
 		
 		Button
 		{
@@ -38,7 +36,7 @@
 			
 			bgcolor=BUTTONHOVER
 			textcolor=ACCENT
-					render {
+				render {
 				1="fill(x0,y0,x1,y0+1, BUTTONHOVERBORDER)"  // top
 				2="fill(x0,y1-1,x1,y1, BUTTONHOVERBORDER)"  // bottom
 				3="fill(x0,y0+1,x0+1,y1-1, BUTTONHOVERBORDER)"  // left
@@ -73,7 +71,7 @@
 			}
 		}
 
-			ToggleButton:selected:hover
+		ToggleButton:selected:hover
 		{
 			bgcolor=BLUE2
 

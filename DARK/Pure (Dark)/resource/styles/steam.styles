@@ -16,18 +16,17 @@ steam.styles
 		PropertySheetBG="50 55 61 255"
 		ButtonBorderDisabled="112 120 136 255"
 		ScrollBar.Wide "15"
-		Progress.barinset "0"
 	}
 	
 	layout {
 			place{control=CAppSectionHeader height=20}
-		place{control=SectionedListPanelCollapser width=10}
+			place{control=SectionedListPanelCollapser width=10}
 	}
 	
 	
 	styles
 	{
-				ReloadButton { minimum-height=0 padding-left=0 padding-right=0 render_bg { } image="graphics/pure/refresh" }
+		ReloadButton { minimum-height=0 padding-left=0 padding-right=0 render_bg { } image="graphics/pure/refresh" }
 
 		ReloadButton:hover { render_bg { } image="graphics/pure/refresh_H" }
 
@@ -93,12 +92,12 @@ steam.styles
 			textcolor = ACCENT
 			BGCOLOR=OLTEXTENTRYBACKGROUNDHOVER
 				RENDER_BG {
-				0="fill( x0-16, y0, x1, y1, OLTEXTENTRYBACKGROUNDHOVER)"
+			    	0="fill( x0-16, y0, x1, y1, OLTEXTENTRYBACKGROUNDHOVER)"
 					1="image( x0-26, y0, x1, y1, graphics/pure/LEFT2_H)"
 					2="image( x1-1, y0, x1-11, y1, graphics/pure/RIGHT2_H)"
 			}
 			RENDER {
-						5="fill( x0-16, y0, x1, y0+2, TEXTENTRYBORDERHOVER )"		// Top
+				5="fill( x0-16, y0, x1, y0+2, TEXTENTRYBORDERHOVER )"		// Top
 				6="fill( x0-16, y1-2, x1, y1, TEXTENTRYBORDERHOVER)"		// Bottom
 
 				7="fill( x0, y0+1, x0+1, y1-1, "none")"	// Left
