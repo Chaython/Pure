@@ -520,10 +520,6 @@ body.clientNews .extImg {
   color: VAR(--ACCENT) !important;
 }
 
-.ds_collapse_flag.ds_flagged:hover .ds_flag {
-  color: VAR(--ACCENT) !important;
-}
-
 .eventcalendar_SidebarContainer_15YLD
   .eventcalendar_Sidebar_1nf0v
   .eventcalendar_FilterOption_2LoOb {
@@ -5411,17 +5407,14 @@ div.store_header_btn {
 }
 .big_button {
   width: 224px !important;
-  color: VAR(--ACCENT) !important;
-  border-radius: 0 !important;
+  color: VAR(--WHITE) !important;
+  border-radius: VAR(--BORDERRADIUS) !important;
   background-image: none !important;
-  background: var(--BUTTON2) !important;
-  border: 1px solid var(--BUTTONBORDER) !important;
+  background: var(--BLUE) !important;
 }
 .big_button:hover {
-  color: VAR(--ACCENT) !important;
-  border-radius: 0 !important;
-  background: var(--BUTTON2) !important;
-  border-color: #8d8d8d !important;
+  color: VAR(--WHITE) !important;
+  background: var(--BLUE2) !important;
 }
 .carousel_items.curator_featured_tags {
   border-radius: var(--BORDERRADIUS) !important;
@@ -7107,9 +7100,7 @@ body.v6 h2 .header_inline {
 }
 .ds_flag {
   color: var(--WHITE) !important;
-  top:unset!important;
-  bottom:0!important;
-  border-top-right-radius:var(--BORDERRADIUS)!important;
+  padding-left:6px!important;
 }
 
 .store_capsule .ds_flag {
@@ -8020,20 +8011,31 @@ body.v6 #footer .rule {
 .sale_page_purchase_content .bundle_contents_preview {
   border-radius: var(--BORDERRADIUS) !important;
 }
+
+.ds_collapse_flag.ds_flagged .ds_flag {
+  max-width:unset!important;
+  opacity:0!important;
+}
+
+.ds_collapse_flag.ds_flagged:hover .ds_flag {
+  opacity:1!important;
+}
+
 .ds_flag.ds_owned_flag {
-  color: VAR(--ACCENT) !important;
-  box-shadow: var(--BOXSHADOW) var(--SHADOW) !important;
-  background-color: var(--BASE3) !important;
-  border-radius: 0 !important;
+  color: VAR(--WHITE) !important;
+  background:unset!important;
+  background-color: var(--BLUE) !important;
+  border-radius: VAR(--BORDERRADIUS) !important;
 }
 .ds_flag.ds_wishlist_flag {
-  color: VAR(--ACCENT) !important;
-  /* border-radius: 0 !important; */
-  /* border: 1px solid var(--SHADOW) !important; */
-  background-color: var(--BASE1) !important;
+  color: VAR(--WHITE) !important;
+  background:unset!important;
+  background-color: var(--BLUE2) !important;
+  border-radius:var(--BORDERRADIUS)!important;
 }
 .ds_flag.ds_incart_flag {
-  background-color: #54a348 !important;
+  background:unset!important;
+  background-color: var(--GREEN) !important;
   border-radius: var(--BORDERRADIUS) !important;
 }
 .ds_flag.ds_ignored_flag {
