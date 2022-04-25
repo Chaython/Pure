@@ -2082,6 +2082,14 @@ div.MediumWindow
 
 /*-------------------------- NEW COLLECTION ICON --------------------------*/
 
+.artworkmodal_CreatedBy_dnuQ_ .artworkmodal_Label_1mwKp {
+  color:var(--ACCENT)!important;
+}
+
+.artworkmodal_FileDetails_1-MBE .artworkmodal_Fields_1gvuj .artworkmodal_IconAndDate_3Z5_f .artworkmodal_Timestamp_2nKVT {
+  color:var(--ACCENT)!important;
+}
+
 .gamelistentry_Container_2-O4Z .gamelistentry_GameListEntryContainer_1vO6B.gamelistentry_CloudError_cMb2t {
   padding-left:0!important;
 }
