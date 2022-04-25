@@ -2151,6 +2151,13 @@ div.MediumWindow
 
 .gamelistentry_Container_2-O4Z .gamelistentry_GameListEntryContainer_1vO6B svg:not(.SVGIcon_FriendIcon) {
   COLOR:VAR(--BLUE)!important;
+  margin:unset!important;
+  height:var(--GAMEICONHEIGHT)!important;
+  width:var(--GAMEICONWIDTH)!important;
+}
+
+.gamelistentry_Container_2-O4Z .gamelistentry_GameListEntryContainer_1vO6B svg:not(.SVGIcon_FriendIcon) circle {
+  stroke-width:60!important;
 }
 
 .gamelistentry_Container_2-O4Z.gamelistentry_CloudError_cMb2t {
