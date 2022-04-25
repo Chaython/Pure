@@ -2082,6 +2082,14 @@ div.MediumWindow
 
 /*-------------------------- NEW COLLECTION ICON --------------------------*/
 
+.gamelistentry_Container_2-O4Z .gamelistentry_GameListEntryContainer_1vO6B.gamelistentry_CloudError_cMb2t {
+  padding-left:0!important;
+}
+
+.gamelistentry_Container_2-O4Z .gamelistentry_GameListEntryContainer_1vO6B svg:not(.SVGIcon_FriendIcon) polyline, .gamelistentry_Container_2-O4Z .gamelistentry_GameListEntryContainer_1vO6B svg:not(.SVGIcon_FriendIcon) path {
+  display:none!important;
+}
+
 .gamelistsearchbar_Container_20QAC .DialogInput_ClearAction, .gamelistsearchbar_Container_20QAC .gamelistsearchbar_SearchFilterInputClear_38tIM {
   border-radius:50px!important;
   padding:4px!important;
@@ -2147,6 +2155,10 @@ div.MediumWindow
 .gamelistentry_Selected_1UBpA.gamelistentry_Container_2-O4Z .gamelistentry_CloudError_cMb2t, .gamelistentry_Selected_1UBpA .gamelistentry_Container_2-O4Z .gamelistentry_CloudError_cMb2t {
   color:unset!important;
   background:unset!important;
+}
+
+.gamelistentry_Container_2-O4Z.gamelistentry_CloudOutOfDate_26PT_ {
+  color:var(--BLUE2)!important;
 }
 
 .gamelistentry_Container_2-O4Z .gamelistentry_GameListEntryContainer_1vO6B svg:not(.SVGIcon_FriendIcon) {
