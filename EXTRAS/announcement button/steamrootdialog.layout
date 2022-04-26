@@ -326,7 +326,7 @@
 		region { name=top align=top width=max height=48 margin-top=0 }
 
 		//Caption Buttons
-		place [!$OSX] { control="frame_minimize,frame_maximize,frame_close" y=1 align=right width=40 height=38 }
+		place { control="frame_minimize,frame_maximize,frame_close" y=1 align=right width=40 height=38 }
 		
 
 		//Content

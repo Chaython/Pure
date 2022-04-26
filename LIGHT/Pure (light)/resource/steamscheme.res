@@ -126,18 +126,17 @@ Scheme
 			
 			frame_maximize
 			{
-				xpos	r120
-				xpos	43 [$OSX]
-				ypos	1
-				ypos	12 [$OSX]
-				wide	40 
-				wide	24 [$OSX]
-				tall	38
-				tall	24 [$OSX]
-				visible 0 [!$OSX]
+				xpos	r59
+				xpos	47 [$OSX]
+				ypos	7
+				ypos	3 [$OSX]
+				wide	20
+				wide	16 [$OSX]
+				tall	20
+				tall	16 [$OSX]
 				PinCorner	1
 				PinCorner	0 [$OSX]
-			}			
+			}		
 			frame_close
 			{
 				xpos	r40
