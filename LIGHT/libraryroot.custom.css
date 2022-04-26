@@ -2082,6 +2082,10 @@ div.MediumWindow
 
 /*-------------------------- NEW COLLECTION ICON --------------------------*/
 
+.appfilterpane_Buttons_2GVYK {
+  margin-top:unset!important;
+}
+
 .artworkmodal_CreatedBy_dnuQ_ .artworkmodal_Label_1mwKp {
   color:var(--ACCENT)!important;
 }
