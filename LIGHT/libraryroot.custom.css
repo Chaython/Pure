@@ -1653,8 +1653,8 @@ button.downloads_Button_3oavR:hover.DialogButton._DialogLayout.Secondary:hover,
 .downloadgraph_DownloadGraph_1BxZD {
   z-index: unset !important;
   transform: SCALEX(-1) !important;
-  margin-left: 204px !important;
-  margin-right: 7px !important;
+  margin-left: 202px !important;
+  margin-right: 5px !important;
   -webkit-mask-image:unset!important;
   MIX-BLEND-MODE:UNSET!important;
 }
@@ -1765,7 +1765,7 @@ div.MediumWindow
 .downloadgraph_StatsPanel_3mdnp {
   position: ABSOLUTE !important;
   padding-left: 4px !important;
-  margin-left: 4px !important;
+  margin-left: 2px !important;
   background: var(--DOWNLOADGRAPHLEGENDBG) !important;
 }
 
@@ -2081,6 +2081,17 @@ div.MediumWindow
 }
 
 /*-------------------------- NEW COLLECTION ICON --------------------------*/
+
+.salepreviewwidgets_Banner_2gxv9 {
+  border-radius:var(--BORDERRADIUS)!important;
+  background-color:var(--BLUE2)!important;
+  color:var(--WHITE)!important;
+  padding: 4px 8px 4px 8px;
+}
+
+.salepreviewwidgets_Banner_2gxv9 .salepreviewwidgets_LinesImg_3LecB {
+  display:none!important;
+}
 
 .artworkmodal_FileDetails_1-MBE .artworkmodal_Caption_2yt71 {
   color:var(--BLUE)!important;
@@ -5762,10 +5773,6 @@ div.ShortRightPanel
   box-shadow: var(--BOXSHADOW) VAR(--SHADOW) !important;
 }
 
-.gamelisthome_Bar_3pSPl {
-  height:26px!important;
-}
-
 .gamelisthome_Bar_3pSPl.gamelisthome_CollectionButton_30KGS {
   background: transparent !important;
   margin-right: 0 !important;
@@ -6630,13 +6637,15 @@ div.NarrowRightPanel .appdetailsprimarylinkssection_LinksSection_3-V8v {
 }
 
 .gamelisthome_Bar_3pSPl {
+  height:21px!important;
   background-color: transparent !important;
+  border:unset!important;
 }
 .gamelisthome_CollectionBar_xeuK3 {
   width: 26px !important;
   position: ABSOLUTE !important;
-  left: 41px !important;
-  bottom: 8px !important;
+  left: 43px !important;
+  bottom: 9px !important;
 }
 
 .gamelisthome_Bar_3pSPl.gamelisthome_Selected_eNLOx {
@@ -7237,11 +7246,13 @@ button.DialogButton.Primary:hover {
   align-self: flex-start !important;
 }
 .gamelisthome_CollectionIcon_nC-pL {
+  width:20px!important;
+  height:20px!important;
+  padding-top: 0 !important;
   padding-left: 0 !important;
   grid-template-rows: 9px 9px !important;
   grid-column-gap: 2px !important;
   grid-row-gap: 2px !important;
-  padding-top: 3px !important;
 }
 .appdetailsworkshopsection_WorkshopContainer_176QJ {
   background: var(--BASE1) !important;
