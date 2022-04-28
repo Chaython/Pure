@@ -2152,6 +2152,12 @@ div.MediumWindow
   background-color: var(--LISTITEMBACKGROUNDHOVER)!important;
 }
 
+.appfilterpane_SteamDeckCompatDropDown_1SFpb {
+  position: absolute;
+  right: -216px;
+  bottom: -94px;
+}
+
 .appfilterpane_SteamDeckCompatDropDown_1SFpb ._DialogInputContainer .DialogDropDown_CurrentDisplay {
   padding-bottom: 5px!important;
   padding-top: 5px!important;
@@ -6045,7 +6051,7 @@ div.NarrowRightPanel
   .appfilterpane_FilterArea_1ennW
   .appfilterpane_FilterBucket_1axoi
   .appfilterpane_FilterBucketLabel_3iV2v {
-  color: var(--ACCENT) !important;
+  color: var(--BLACK) !important;
   font-weight: VAR(--FILTERBUCKETLABELFONTWEIGHT) !important;
 }
 :not(.appactionbutton_Disabled_1Pb6P)
@@ -7569,12 +7575,12 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
   color: var(--ACCENT) !important;
 }
 
-.appfilterpane_Container_170Np
+/* .appfilterpane_Container_170Np
   .appfilterpane_FilterArea_1ennW
   .appfilterpane_FilterBucket_1axoi
   .appfilterpane_FilterBucketLabel_3iV2v {
   display: none !important;
-}
+} */
 
 .appfilterpane_Container_170Np .appfilterpane_FilterArea_1ennW {
   grid-gap: 0 24px !important;
