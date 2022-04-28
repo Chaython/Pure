@@ -1924,7 +1924,7 @@ div.MediumWindow
   font-size:20px!important;
   position: fixed !important;
   transition: filter 0.3s ease-in-out !important;
-  width: 37px !important;
+  width: 20px !important;
   color: var(--ACCENT) !important;
   left: 8px !important;
   margin-left: 2px !important;
@@ -2081,6 +2081,10 @@ div.MediumWindow
 }
 
 /*-------------------------- NEW COLLECTION ICON --------------------------*/
+
+.artworkmodal_FileDetails_1-MBE .artworkmodal_Caption_2yt71 {
+  color:var(--BLUE)!important;
+}
 
 .appfilterpane_Buttons_2GVYK {
   margin-top:unset!important;
@@ -5757,6 +5761,11 @@ div.ShortRightPanel
   border-top: 0 !important;
   box-shadow: var(--BOXSHADOW) VAR(--SHADOW) !important;
 }
+
+.gamelisthome_Bar_3pSPl {
+  height:26px!important;
+}
+
 .gamelisthome_Bar_3pSPl.gamelisthome_CollectionButton_30KGS {
   background: transparent !important;
   margin-right: 0 !important;
@@ -6624,10 +6633,10 @@ div.NarrowRightPanel .appdetailsprimarylinkssection_LinksSection_3-V8v {
   background-color: transparent !important;
 }
 .gamelisthome_CollectionBar_xeuK3 {
-  width: 28px !important;
+  width: 26px !important;
   position: ABSOLUTE !important;
   left: 41px !important;
-  bottom: 2px !important;
+  bottom: 8px !important;
 }
 
 .gamelisthome_Bar_3pSPl.gamelisthome_Selected_eNLOx {
