@@ -2098,7 +2098,7 @@ div.MediumWindow
 }
 
 .appfilterpane_Buttons_2GVYK {
-  margin-top:9px!important;
+  margin-top:8px!important;
 }
 
 .artworkmodal_CreatedBy_dnuQ_ .artworkmodal_Label_1mwKp {
@@ -2155,7 +2155,7 @@ div.MediumWindow
 .appfilterpane_SteamDeckCompatDropDown_1SFpb {
   position: absolute;
   right: -216px;
-  bottom: -103px;
+  bottom: -102px;
 }
 
 .appfilterpane_SteamDeckCompatDropDown_1SFpb ._DialogInputContainer .DialogDropDown_CurrentDisplay {
@@ -7338,7 +7338,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
   .appfilterpane_FilterArea_1ennW
   .appfilterpane_FilterBucket_1axoi
   .DialogInput_ClearAction {
-  top: 7px !important;
+  top: 3px !important;
 }
 
 .appfilterpane_Container_170Np
@@ -7346,7 +7346,7 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
   .appfilterpane_FilterBucket_1axoi
   .DialogInput_Wrapper
   .DialogTextInputBase {
-  height: 18px !important;
+  height: 17px !important;
   border: VAR(--TEXTENTRYBORDERWIDTH) solid var(--TEXTENTRYBORDER) !important;
   background: var(--BASE1) !important;
   border-radius: VAR(--TEXTENTRYBORDERROUNDED) !important;
@@ -8127,7 +8127,7 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
   .appfilterpane_FilterArea_1ennW
   .appfilterpane_FilterBucket_1axoi.appfilterpane_SearchResultsBox_MIMuV
   .appfilterpane_FilterBucketBoxes_32e6r {
-  top: 38px !important;
+  top: 53px !important;
 }
 
 .appportrait_LibraryItemBox_WYgDg:active,
