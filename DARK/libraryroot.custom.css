@@ -1255,6 +1255,10 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
 
 /*-------------------------- DOWNLOADS PAGE --------------------------*/
 
+.downloads_AutoUpdateSettings_22mb5 {
+  display:none!important;
+}
+
 .downloads_TimeRemaining_1-Mr1 {
   display:none!important;
 }
@@ -1801,6 +1805,7 @@ div.MediumWindow
 }
 
 .downloads_PatchNotes_3kXEp {
+  padding-top:4px!important;
   FONT-FAMILY:VAR(--FONTFAMILY)!important;
   color:var(--ACCENT)!important;
 
@@ -1863,7 +1868,7 @@ div.MediumWindow
 }
 
 .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_MenuHeader_2PF_m {
-  margin-left: 58px !important;
+  margin-left: 56px !important;
 }
 
 .gamelistdropdown_Bar_1ZS_x {
@@ -6649,7 +6654,7 @@ div.NarrowRightPanel .appdetailsprimarylinkssection_LinksSection_3-V8v {
 .gamelisthome_CollectionBar_xeuK3 {
   width: 26px !important;
   position: ABSOLUTE !important;
-  left: 43px !important;
+  left: 42px !important;
   bottom: 9px !important;
 }
 
@@ -8188,7 +8193,7 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
 }
 .gamelistdropdown_DropDown_EDl_m {
   width: fit-content !important;
-  margin-left: 58px !important;
+  margin-left: 56px !important;
   margin-top: 2px !important;
 }
 
