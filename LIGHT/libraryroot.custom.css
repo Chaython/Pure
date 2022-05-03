@@ -230,7 +230,6 @@
   --FRIENDPLAYINGOP: 0;
   --FIRENDPLAYINGCOUNTOP: 0;
   --STEAMAVATAROP: 1;
-  --SUBSCRIPTBORDERRADIUS: 4px;
   --DROPDOWNITEMSFONTWEIGHT: 400;
   --DROPDOWNBORDERROUNDED: var(--BORDERRADIUS);
   --CONTEXTMENUBORDERRADIUS: 4px;
@@ -441,20 +440,19 @@
   --PINBOXHOVER: VAR(--GREEN);
   --DETAILSSECTIONHEADER: VAR(--ACCENT);
   --DETAILSSECTIONHEADERFONTWEIGHT: VAR(--INSTALLEDGAMENAMEFONTWEIGHT);
-  --MCSCOREBACKGROUNDHIGHSCORE: VAR(--BASE2);
+  --MCSCOREBACKGROUNDHIGHSCORE: VAR(--BLUE);
   --MCSCOREBACKGROUND: VAR(--BLACK);
   --MCSCORETOPBORDER: VAR(--DIVIDER);
   --MCSCORERIGHTBORDER: VAR(--DIVIDER);
   --SUBSCRIPTTEXTFONTWEIGHT: var(--INSTALLEDGAMENAMEFONTWEIGHT);
-  --MCSCORETEXTHIGH: VAR(--GREEN);
-  --MCSCORETEXTLOW: #d69d00;
+  --MCSCORETEXTHIGH: VAR(--WHITE);
+  --MCSCORETEXTLOW: VAR(--WHITE);
   --NEWAPPBANNERTOPMARGIN: 2px;
   --NEWAPPBANNERLEFTMARGIN: 56px;
   --SUBSCRIPTLEFTMARGIN: 0;
-  --SUBSCRIPTBACKGROUND: VAR(--BASE2);
+  --SUBSCRIPTBACKGROUND: VAR(--BLUE);
   --STEAMREVIEWCOLOR: VAR(--ACCENT);
-  --SUBSCRIPTTEXT: VAR(--ACCENT);
-  --SUBSCRIPTTOPBORDER: VAR(--DIVIDER);
+  --SUBSCRIPTTEXT: VAR(--WHITE);
   --SUBSCRIPTRIGHTBORDER: VAR(--DIVIDER);
   --PROGRESSBARBORDERROUNDED: 100px;
   --SEARCHFILTERROUNDED: 4px;
@@ -5340,12 +5338,9 @@ a.appdetailsbroadcastsection_ViewBroadcastOnWeb_1Z3B4:hover {
 }
 .appportrait_LibraryItemBoxSubscript_1LJqx.appportrait_MCGreen_1KR40 {
   background: var(--MCSCOREBACKGROUNDHIGHSCORE) !important;
-  border-top: 1px solid var(--MCSCORETOPBORDER) !important;
-  border-right: 1px solid var(--MCSCORERIGHTBORDER) !important;
   color: VAR(--MCSCORETEXTHIGH) !important;
   font-weight: VAR(--SUBSCRIPTTEXTFONTWEIGHT) !important;
-  border-radius: var(--SUBSCRIPTBORDERRADIUS) !important;
-  border-top-right-radius: var(--SUBSCRIPTTOPRIGHTRADIUS) !important;
+  border-radius:var(--BORDERRADIUS)!important;
   padding: 1px 8px !important;
 }
 .appactivityday_ReviewIconThumbsUp_2oPMu {
@@ -8175,18 +8170,12 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
 }
 
 .appportrait_LibraryItemBoxSubscript_1LJqx {
-  position: absolute !important;
-  bottom: 0 !important;
-  left: 0 !important;
+  margin-top:-28px!important;
   background-color: VAR(--SUBSCRIPTBACKGROUND) !important;
   color: VAR(--SUBSCRIPTTEXT) !important;
   font-weight: VAR(--SUBSCRIPTTEXTFONTWEIGHT) !important;
   padding: 2px 8px !important;
-  border-top: 1px solid var(--SUBSCRIPTTOPBORDER) !important;
-  border-right: 1px solid var(--SUBSCRIPTRIGHTBORDER) !important;
-  border-radius: VAR(--SUBSCRIPTBORDERRADIUS) !important;
-  border-top-right-radius: var(--SUBSCRIPTTOPRIGHTRADIUS) !important;
-  margin-left: VAR(--SUBSCRIPTLEFTMARGIN) !important;
+  border-radius: VAR(--BORDERRADIUS)!important;
 }
 .gamelistdropdown_DropDown_EDl_m {
   width: fit-content !important;
