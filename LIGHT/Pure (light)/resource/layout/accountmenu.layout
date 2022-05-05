@@ -12,15 +12,16 @@
 	}
 	
 	styles
+	
 	{
 		AccountMenuStyle
 		{
 			bgcolor=MENUBACKGROUND
 			render_bg
 			{
-				1="fill( x0 + 1, y0, x1 - 1, y0 + 1, DIVIDER )"  // top
+				0="fill( x0, y0, x1, y0 + 1, DIVIDER )"  // top
 
-				2="image( x0+124, y0+62,x1,y1, graphics/pure/ACCOUNTNAME )"  // top
+				1="image( x0+124, y0+62,x1,y1, GRAPHICS/PURE/ACCOUNTNAME )"  // top
 		
 			}
 		}
