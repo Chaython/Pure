@@ -178,12 +178,14 @@
 	}
 	layout
 	{
-		place { control="Label1,URLLabel1" spacing=10 dir=down x=30 y=70 margin-top=-9 }
+		place { control="Label1,Label3," spacing=46 dir=down x=27 y=60 }
 		region { name=bottom align=bottom height=44 margin=8 }
+		region { name=bottom1 align=bottom height=44 margin-top=-20 margin-right=8 }
+		place { control="URLLabel1" region=bottom1 align=right }
 		place { control="OfflineModeButton,RetryButton" region=bottom align=right height=28 spacing=8 }
 
 		//Hidden
 		
-		place { control="LabelAppearOffline,Label3,QuitButton" width=1 align=right }
+		place { control="LabelAppearOffline,QuitButton" width=0 height=0 }
 	}
 }
