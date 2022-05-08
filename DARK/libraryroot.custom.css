@@ -1996,6 +1996,10 @@ div.MediumWindow
 
 /*-------------------------- ADD SHELF ICON --------------------------*/
 
+.libraryhomeshowcases_AddShowcaseRow_3SkuN .libraryhomeshowcases_Rule_1PhK8 {
+  background-color:unset!important;
+}
+
 .libraryhomeshowcases_AddShowcaseRow_3SkuN
   .libraryhomeshowcases_AddShowcase_2aw5a {
   background-image: url(https://i.imgur.com/S0HlFow.png) !important;
@@ -2504,12 +2508,6 @@ body, body.shared_common_v6_2Lxgd {
 
 .gamelistentry_AppIconDownloading_2kzMb svg circle {
   stroke: VAR(--GAMEICONDOWNLOADCIRCLE) !important;
-}
-
-.libraryhomeshowcases_AddShowcaseRow_3SkuN
-  .libraryhomeshowcases_AddShowcase_2aw5a {
-  margin-left: 47.8% !important;
-  margin-right: 0 !important;
 }
 
 .libraryhomeshowcases_ShowcaseHeader_23Snl
@@ -4661,7 +4659,15 @@ SVGIcon_Button {
 }
 
 div.ShortRightPanel .libraryhomeshowcases_AddShowcase_2aw5a {
-  letter-spacing: 0 !important;
+  font-size:0!important;
+  max-width:18px!important;
+  max-height:18px!important;
+}
+
+.libraryhomeshowcases_AddShowcaseRow_3SkuN .libraryhomeshowcases_AddShowcase_2aw5a {
+  font-size:0!important;
+  max-width:18px!important;
+  max-height:18px!important;
 }
 
 .appproperties_AppProperties_1FyBL
@@ -5364,10 +5370,6 @@ div.ShortRightPanel
   .libraryhomeshowcases_Showcase_V7RuD
   .libraryhomeshowcases_ShowcaseHeader_23Snl {
   outline: NONE !important;
-}
-
-.libraryhomeshowcases_AddShowcaseRow_3SkuN .libraryhomeshowcases_Rule_1PhK8 {
-  flex-grow: 0 !important;
 }
 
 .libraryhomeshowcases_ShowcaseHeader_23Snl
