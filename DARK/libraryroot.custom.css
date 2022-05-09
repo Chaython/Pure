@@ -391,9 +391,6 @@
   --DISLIKETHUMBICONHOVER: VAR(--BLACK);
   --FRIENDISPLAYING: VAR(--ACCENT);
   --FRIENDISPLAYINGDISPLAY: none;
-  --GAMEICONHEIGHT: 22px;
-  --GAMEICONWIDTH: 22px;
-  --GAMEICONLEFTMARGIN: -21px;
   --GAMEICONDOWNLOADCIRCLE: VAR(--BLUE);
   --SCROLLTOTOPHOVER: VAR(--BLACK);
   --SCROLLTOTOPHOVERFILTER: NONE;
@@ -2122,7 +2119,7 @@ div.MediumWindow
 }
 
 .gamelistentry_Container_2-O4Z .gamelistentry_GameListEntryContainer_1vO6B.gamelistentry_CloudError_cMb2t {
-  padding-left:0!important;
+  padding-left:3px!important;
 }
 
 .gamelistentry_Container_2-O4Z .gamelistentry_GameListEntryContainer_1vO6B svg:not(.SVGIcon_FriendIcon) polyline, .gamelistentry_Container_2-O4Z .gamelistentry_GameListEntryContainer_1vO6B svg:not(.SVGIcon_FriendIcon) path {
@@ -2209,8 +2206,8 @@ div.MediumWindow
 .gamelistentry_Container_2-O4Z .gamelistentry_GameListEntryContainer_1vO6B svg:not(.SVGIcon_FriendIcon) {
   COLOR:VAR(--BLUE)!important;
   margin:unset!important;
-  height:var(--GAMEICONHEIGHT)!important;
-  width:var(--GAMEICONWIDTH)!important;
+  height:19px!important;
+  width:19px!important;
 }
 
 .gamelistentry_Container_2-O4Z .gamelistentry_GameListEntryContainer_1vO6B svg:not(.SVGIcon_FriendIcon) circle {
@@ -8221,14 +8218,10 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
   width: 14px !important;
 }
 .gamelistentry_Container_2-O4Z .gamelistentry_GameIcon_ga1hy {
-  height: VAR(--GAMEICONHEIGHT) !important;
-  width: VAR(--GAMEICONWIDTH) !important;
-  margin-left: var(--GAMEICONLEFTMARGIN) !important;
+  height:20px!important;
+  width:20px!important;
+  margin-left:-20px!important;
   pointer-events: none !important;
-}
-
-.gamelistentry_AppIconDownloading_2kzMb .gamelistentry_GameIcon_ga1hy {
-  filter: brightness(0.7) !important;
 }
 
 .appdetailscommunityfeed_Guide_-85o5 .appdetailscommunityfeed_TopSectionInner_1dJuv {
@@ -8237,15 +8230,16 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
 }
 
 .gamelistentry_AppIconDownloading_2kzMb .gamelistentry_GameIcon_ga1hy {
-  left: VAR(--GAMEICONHEIGHT) !important;
+  filter: brightness(0.7) !important;
+  left: 23px !important;
   top: 2px !important;
   pointer-events: none !important;
 }
 
 .gamelistentry_AppIconDownloading_2kzMb {
-  height: VAR(--GAMEICONHEIGHT) !important;
-  width: VAR(--GAMEICONWIDTH) !important;
-  margin-left: var(--GAMEICONLEFTMARGIN) !important;
+  height:20px!important;
+  width:20px!important;
+  margin-left:-19px!important;
   position: unset !important;
   pointer-events: none !important;
 }
