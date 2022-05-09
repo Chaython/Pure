@@ -2077,6 +2077,10 @@ div.MediumWindow
 
 /*-------------------------- NEW COLLECTION ICON --------------------------*/
 
+.appdetailsplaysection_PlayBarCloudStatusContainer_2cRYm {
+  display:none!important;
+}
+
 .LibraryDisplaySizeSmall .appportrait_LibraryItemActionButton_3AjoL.appportrait_Landscape_3VOR2, .LibraryDisplaySizeMedium .appportrait_LibraryItemActionButton_3AjoL.appportrait_Landscape_3VOR2 {
   bottom:10px!important;
 }
