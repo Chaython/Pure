@@ -1431,11 +1431,7 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
   margin-left: 20px !important;
 }
 
-.downloads_SectionItem_1VNuY .downloads_AppPortrait_2pjdg {
-  padding-right: 20px !important;
-}
-
-.downloads_SectionItem_1VNuY .downloads_SectionItemColumn_kGTS5 {
+.downloads_SectionItemButtons_31Ig9.downloads_SectionItemColumn_kGTS5.downloads_Right_2WEwE {
   padding-left: 0 !important;
 }
 
@@ -1507,13 +1503,19 @@ button.contentmanagement_ActionButton_O_nD7.DialogButton._DialogLayout.Secondary
 
 .downloads_SectionItemStatus_1Sygg
   .downloads_State_2ns4w.downloads_Downloading_33BlY {
+  margin-right:1px!important;
   color: var(--DOWNLOADING) !important;
   font-family: VAR(--FONTFAMILY) !important;
+}
+
+.downloads_Active_IbePL .downloads_ProgressDetails_sv3ZH {
+  padding-right:0!important;
 }
 
 .downloads_SectionItemStatus_1Sygg
   .downloads_SectionItemStatusLine_17xMw
   .downloads_State_2ns4w {
+  margin-right:1px!important;
   color: var(--UPDATING) !important;
   font-family: VAR(--FONTFAMILY) !important;
 }
