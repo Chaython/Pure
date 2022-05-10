@@ -5544,6 +5544,7 @@ div.ShortRightPanel
   filter: BRIGHTNESS(0) !important;
 }
 .gamelistsectionheader_Container_2sYIg {
+  border:unset!important;
   background: NONE !important;
 }
 .gamelistbar_GameListHomeAndSearch_2TKEa .gamelistbar_HomeBox_3AhYl {
@@ -5867,6 +5868,8 @@ div.ShortRightPanel
 }
 
 .gamelistentry_Container_2-O4Z {
+  border-left:unset!important;
+  border-right:unset!important;
   box-shadow:unset!important;
 }
 
