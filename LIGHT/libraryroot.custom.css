@@ -6607,6 +6607,10 @@ div.NarrowRightPanel .appdetailsprimarylinkssection_LinksSection_3-V8v {
   letter-spacing: VAR(--LETTERSPACING) !important;
 }
 
+.gamelistentry_Container_2-O4Z.gamelistentry_Synchronizing_1yaIZ {
+  color:var(--BLUE2)!important;
+}
+
 .gamelistentry_Selected_1UBpA.gamelistentry_Container_2-O4Z,
 .gamelistentry_Selected_1UBpA .gamelistentry_Container_2-O4Z {
   background-color: var(--LISTITEMBACKGROUNDHOVER) !important;
