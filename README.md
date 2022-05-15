@@ -37,6 +37,7 @@
 * RedSigma <3
 * jonius7 <3
 * AikoMidori <3
+* purogamer <3
 
 Its not perfect yet but I will keep working on it <3
 

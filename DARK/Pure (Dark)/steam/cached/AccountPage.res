@@ -1,11 +1,12 @@
 Steam/cached/AccountPage.res {
 
   layout {
-    place { control=SecurityStatusState dir=down  y=0 x=0 }
-    place { control=VACInfoLink dir=down start=SecurityStatusState y=10 }
-    place { control=AccountLink dir=down start=VACInfoLink y=10 }
+    place { control=SecurityIcon }
+    place { control=SecurityStatusState START=SecurityIcon dir=right x=6 }
+    place { control=VACInfoLink dir=down start=SecurityStatusState y=4 }
+    place { control=AccountLink dir=down start=VACInfoLink y=4 }
 
-    place { control=Divider2 start=AccountLink width=max height=1 dir=down y=10 }
+    place { control=Divider2 start=SecurityIcon width=max height=1 dir=down y=10 }
 
     place { control=NoPersonalInfoCheck dir=down y=10 start=Divider2 }
 
@@ -21,6 +22,6 @@ Steam/cached/AccountPage.res {
     place { control=ChangeBetaButton dir=down start=BetaParticipationLabel y=10 }
     place { control=ReportBugLink dir=right start=ChangeBetaButton y=2 x=8 }
 
-    place { control=EmailInfo,AccountInfo,Label1,LogoutLabel,ContactEmailLabel,Label2,SecurityStatusLabel,SecurityIcon height=0 width=0 }
+    place { control=EmailInfo,AccountInfo,Label1,LogoutLabel,ContactEmailLabel,Label2,SecurityStatusLabel height=0 width=0 }
   }
 }
