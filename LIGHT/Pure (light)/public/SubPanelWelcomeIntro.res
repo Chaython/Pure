@@ -116,6 +116,10 @@
 	}
 
 	LAYOUT {
-		PLACE { CONTROL=BigLogo WIDTH=110 HEIGHT=40 X=150 Y=40 }
+		PLACE { CONTROL=BigLogo WIDTH=155 HEIGHT=59 X=64 Y=50 }
+		place { control=infolabel start=BigLogo dir=down Y=26 }
+		place { control=LoginButton start=infolabel dir=down y=6 }
+		place { control=CreateAccountButton start=LoginButton dir=down y=8 }
+		place { control=ValveLogo start=CreateAccountButton dir=down y=16 }
 	}
 }
