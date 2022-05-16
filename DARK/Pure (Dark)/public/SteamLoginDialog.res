@@ -430,6 +430,12 @@
 
 	styles
 	{
+
+		loginerror_style_body {
+			bgcolor="255 0 0 50"
+			padding=4
+		}
+
 		"loginprocess_style_head"
 		{
 			"font-size"		"14"
@@ -449,6 +455,6 @@
 		place { control="UserNameEdit"start=usernamelabel y=2 margin-left=22 width=308 }
 		place { control="PasswordEdit"start=UserNameEdit dir=down y=10 width=308 }
 		place { control="SavePasswordCheck" start=PasswordEdit dir=down y=5 x=-10 }
-		place { control="ImagePanelLogo" x=50 y=26 height=40}
+		place { control="ImagePanelLogo" x=50 y=26 height=60}
 	}
 }

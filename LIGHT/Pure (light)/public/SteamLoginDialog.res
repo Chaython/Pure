@@ -430,6 +430,12 @@
 
 	styles
 	{
+
+		loginerror_style_body {
+			bgcolor="255 0 0 50"
+			padding=4
+		}
+
 		"loginprocess_style_head"
 		{
 			"font-size"		"14"

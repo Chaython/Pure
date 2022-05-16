@@ -222,10 +222,7 @@
 			bgcolor=BASE1
 			render
 			{
-				//Frame Border
-				1="fill( x0+1, y1-1, x1, y1, DIVIDER )"		// Bottom
-				2="fill( x0, y0+1, x0+1, y1, DIVIDER )"		// Left
-				3="fill( x1-1, y0+1, x1, y1-1, DIVIDER )"	// Right
+				0="fill( x0, y0+39, x1, y0+40, BASE1 )"
 			}
 		}
 		CDialogSettings
