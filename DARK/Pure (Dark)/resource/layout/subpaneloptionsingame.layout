@@ -97,7 +97,7 @@
 		
 		place { control=ScreenshotActionLabel start=EnableVRDesktopGameTheaterCheck dir=down y=8 }
 		place { controls=ScreenshotNotifyCheck,ScreenshotPlaySoundCheck,ScreenshotSaveUncompressedCheck dir=down start=ScreenshotActionLabel
-			y=4 height=22 width=max spacing=4 }
+			y=4 height=22 spacing=4 }
 		place { control=SetScreenshotFolderButton start=ScreenshotSaveUncompressedCheck height=24 width=112 dir=down margin-top=8 }
 		place { controls=ShowIngameFPSLabel dir=down start=SetScreenshotFolderButton margin-top=8 width=max }
 		place { controls="TextFilterLabel" start=ShowIngameFPSContrastCheck width=100 dir=down y=22 }
