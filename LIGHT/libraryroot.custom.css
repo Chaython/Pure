@@ -2208,7 +2208,7 @@ div.MediumWindow
 }
 
 .gamelistentry_Container_2-O4Z.gamelistentry_CloudOutOfDate_26PT_ {
-  color:var(--BLUE2)!important;
+  color:var(--UPDATINGGAMENAMECOLOR)!important;
 }
 
 .gamelistentry_Container_2-O4Z .gamelistentry_GameListEntryContainer_1vO6B svg:not(.SVGIcon_FriendIcon) {
