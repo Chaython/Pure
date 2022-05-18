@@ -10,6 +10,8 @@
 ![Pure](https://media.giphy.com/media/LpmuNBVvoJLZA7tHOy/giphy.gif)
 
 # INSTRUCTIONS 👨‍🏫
+* download https://github.com/git-for-windows/git/releases/download/v2.36.1.windows.1/Git-2.36.1-64-bit.exe if you want to use the skin installer
+
 * Move Pure (Light) or Pure (Dark) folder to steam/skins/
 * go to FONTS folder and install all the fonts there
 * Pick an extra that you like from the EXTRAS folder and paste the layout file in resource/layout (replace the file)

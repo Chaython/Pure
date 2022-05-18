@@ -34,7 +34,7 @@
 		
 		TextFilterLabel { controlname=label labeltext="#Steam_TextFilterSettingLabel" wrap=1 style=highlight }
 		TextFilterStatus { controlname=label wrap=1 }
-		TextFilterUpdateSettingURL { controlname=urllabel TEXT="Chat filtering preferences" wrap=1 }
+		TextFilterUpdateSettingURL { controlname=urllabel TEXT="Chat filtering preferences" wrap=1 style=highlight }
 
 		Divider2 { ControlName=Divider	}
 
@@ -49,8 +49,7 @@
 	}	
 	
 	styles
-	{
-
+	{		
 		highlight
 		{
 			textcolor= ACCENT
