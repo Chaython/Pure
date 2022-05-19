@@ -3,18 +3,18 @@
 	styles { 
 	
 		TASKBAR {
-			font-family="overlaytaskbar"
-			FONT-SIZE=26
+			//font-family="overlaytaskbar"
+			FONT-SIZE=22
 			font-weight=100
-			 render {
-			 	0="fill(x0+27,y0,x1,y1,BASE1"
-			 }
+			// render {
+			// 	0="fill(x0+27,y0,x1,y1,BASE1"
+			//}
 		}
 	}
 
 	layout {
 		place { control=TaskbarPanel height=max }
-		place { control=SettingsButton,WebBrowserButton,MusicPlayerButton dir=down spacing=4 height=34 width=34 y=56 align=right }
+		place { control=SettingsButton,WebBrowserButton,MusicPlayerButton dir=down spacing=4 y=70 align=right }
 		
 		place { control=SteamLogo,FriendPanel,view_friends,online_friends height=0 width=0 }
 	}
