@@ -106,8 +106,8 @@
 				
 
 		place { controls="PingRateLabel" start=Divider2 width=200 dir=down y=10}
-		place { controls="PingRateInfo" start=PingRateLabel dir=down height=76 width=130 y=10 }		
-		place { controls="PingRateCombo"  start=PingRateInfo width=135 dir=down height=28 y=4 }
+		place { controls="PingRateInfo" start=PingRateLabel dir=down height=36 width=235 y=10 }		
+		place { controls="PingRateCombo"  start=PingRateInfo width=135 dir=down height=28 y=6 }
 		
 
 		place { controls="ShareIPNetworkingLabel" start=PingRateLabel width=175 dir=right x=116 }
