@@ -110,10 +110,10 @@
 		place { controls="PingRateCombo"  start=PingRateInfo width=135 dir=down height=28 y=6 }
 		
 
-		place { controls="ShareIPNetworkingLabel" start=PingRateLabel width=175 dir=right x=116 }
-		place { controls="ShareIPNetworkingInfo"  start=ShareIPNetworkingLabel  width=235 dir=down y=10}		
-		place { controls="ShareIPNetworkingURL" start=ShareIPNetworkingInfo dir=down height=20 width=max y=4 }
-		place { controls="ShareIPNetworkingCombo" start=ShareIPNetworkingURL width=135 dir=down height=28 margin-top=8 }
+		place { controls="ShareIPNetworkingLabel" start=PingRateLabel width=125 dir=right x=110 }
+		place { controls="ShareIPNetworkingInfo"  start=ShareIPNetworkingLabel width=280 dir=down y=10}		
+		place { controls="ShareIPNetworkingCombo" start=ShareIPNetworkingInfo width=135 dir=down height=28 margin-top=8 }
+		place { controls="ShareIPNetworkingURL" height=0 width=0 }
 	}
 }
 
