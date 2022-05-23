@@ -162,7 +162,6 @@
   --BOXSHADOW: 0 1px 2px;
   --SHADOW: var(--DIVIDER);
   --SCROLLTOTOPSIDEBAR: transparent;
-  --SCROLLTOTOPSIDEBARBACKGROUNDBORDERRADIUS: 30px;
   --SCROLLTOTOPSIDEBARBACKGROUNDHOVER: #d5d5d5;
   --SCROLLTOTOPSIDEBARBACKGROUNDSELECTED: #cacaca;
   --SCROLLTOTOPSIDEBARHOVER: transparent;
@@ -1831,6 +1830,17 @@ div.MediumWindow
 
 /*-------------------------- 0 u 0 COMPACT SIDEBAR 0 u 0 -------------------------- */
 
+.gamelisthome_CollectionBar_xeuK3 {
+  width: 26px !important;
+  position: ABSOLUTE !important;
+  left: 39px !important;
+  bottom: 12px !important;
+}
+
+.gamelistdropdown_Bar_1ZS_x .gamelistdropdown_SearchBar_2WgQE {
+  height:28px!important;
+}
+
 .gamelistbar_GameListHomeAndSearch_2TKEa {
   box-shadow:unset!important;
   position: absolute !important;
@@ -1853,10 +1863,6 @@ div.MediumWindow
   z-index: 1 !important;
 }
 
-.gamelistdropdown_Bar_1ZS_x .gamelistdropdown_MenuHeader_2PF_m {
-  margin-left: 56px !important;
-}
-
 .gamelistdropdown_Bar_1ZS_x {
   padding-top: 5px !important;
   padding-right: 0 !important;
@@ -1869,11 +1875,9 @@ div.MediumWindow
 .gamelistdropdown_ScrollToTop_uE7Pj .SVGIcon_Arrow {
   width: 28px !important;
   height: 28px !important;
-  margin-top: 2px !important;
   margin-left: 3px !important;
   background-image: url(https://i.imgur.com/7sdRRO6.png) !important;
   background-position: center !important;
-  border-radius: VAR(--SCROLLTOTOPSIDEBARBACKGROUNDBORDERRADIUS) !important;
   border: NONE !important;
   background-color: TRANSPARENT !important;
 }
@@ -1917,10 +1921,9 @@ div.MediumWindow
   transition: filter 0.3s ease-in-out !important;
   width: 20px !important;
   color: var(--ACCENT) !important;
-  left: 8px !important;
-  margin-left: 2px !important;
+  left: 7px !important;
   height: 22px !important;
-  top: 11px !important;
+  top: 8px !important;
 }
 
 /*-------------------------- LIBRARY HOME ICON --------------------------*/
@@ -3246,7 +3249,7 @@ div.NarrowRightPanel
   .gamelistsearchbar_AdvancedSearchContainer_vCCmY
   .gamelistsearchbar_AdvancedSearchPaneContainer_1dgAM.gamelistsearchbar_Visible_1v65x
   .gamelistsearchbar_AdvancedSearchPane_Woh0k {
-  top: -36px !important;
+  top: -32px !important;
   left: 43px !important;
 }
 
@@ -6034,7 +6037,7 @@ div.NarrowRightPanel
   background-color: var(--ADVANCEDSEARCHPANE) !important;
   opacity: VAR(--ADVANCEDSEARCHPANEOP) !important;
   left: -16px !important;
-  top: 34px !important;
+  top: 30px !important;
   border-top: 1px solid var(--DIVIDER) !important;
   border-bottom: 1px solid var(--DIVIDER) !important;
   height: 30px !important;
@@ -6657,13 +6660,6 @@ div.NarrowRightPanel .appdetailsprimarylinkssection_LinksSection_3-V8v {
 }
 .gamelistsectionheader_SectionCount_29ute {
   color: var(--GAMEGROUPNAMECOLOR) !important;
-}
-
-.gamelisthome_CollectionBar_xeuK3 {
-  width: 26px !important;
-  position: ABSOLUTE !important;
-  left: 42px !important;
-  bottom: 9px !important;
 }
 
 .gamelisthome_Bar_3pSPl.gamelisthome_Selected_eNLOx {
@@ -7493,6 +7489,8 @@ button.DialogButton.appdetailsbutton_AppDetailsButton_3Cdin.appdetailsbutton_Lef
   background-color: var(--SIDEBARBORDERHOVER) !important;
 }
 .gamelistdropdown_Bar_1ZS_x .gamelistdropdown_MenuHeader_2PF_m {
+  height:28px!important;
+  margin-left: 53px !important;
   padding: 0 8px !important;
   border-radius: var(--DROPDOWNROUNDED1) !important;
   background-color: var(--DROPDOWN) !important;
@@ -8195,7 +8193,7 @@ button.TextButton.appdetailsfriendssection_ShowMore_34gmV:hover {
 }
 .gamelistdropdown_DropDown_EDl_m {
   width: fit-content !important;
-  margin-left: 56px !important;
+  margin-left: 53px !important;
   margin-top: 2px !important;
 }
 
