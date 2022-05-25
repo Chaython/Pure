@@ -432,8 +432,37 @@
 	{
 
 		loginerror_style_body {
-			bgcolor="255 0 0 50"
+			textcolor=WHITE
+			bgcolor=RED
 			padding=4
+			render_bg
+			{
+				
+				//TOP
+				0="fill(x0+2,y0-2,x1-2,y0,RED)"
+				
+				//LEFT
+				1="fill(x0-2,y0+2,x0,y1-2,RED)"
+
+				//RIGHT
+				2="fill(x1,y0+2,x1+2,y1-2,RED)"
+				
+				//BOTTOM
+				3="fill(x0+2,y1,x1-2,y1+2,RED)"
+				
+				//topleft
+				4="image(x0-3,y0-2,x0+3,y1, GRAPHICS/PURE/WARNINGDIALOG/TL)"
+
+				//topright
+				5="image(x1-2,y0-2,x1+5,y0+4, GRAPHICS/PURE/WARNINGDIALOG/TR)"
+
+				//bottomleft
+				6="image(x0-3,y1-2,x0+4,y1+6, GRAPHICS/PURE/WARNINGDIALOG/BL)"
+
+				//bottomright
+				7="image(x1-2,y1-2,x1+5,y1+4,GRAPHICS/PURE/WARNINGDIALOG/BR)"		
+			
+			}
 		}
 
 		"loginprocess_style_head"
