@@ -4520,6 +4520,7 @@ img {
   background: var(--LISTITEMBACKGROUNDHOVER) !important;
 }
 .pagedsettings_PagedSettingsDialog_PageListItem_1-vlr {
+  FONT-SIZE:14PX!important;
   font-family: VAR(--FONTFAMILY) !important;
   color: var(--ACCENT) !important;
   font-weight: 394 !important;
@@ -4527,7 +4528,7 @@ img {
   margin-bottom: 0 !important;
   padding-left: 17px !important;
   padding-top: 5px !important;
-  padding-bottom: 5px !important;
+  padding-bottom: 4px !important;
 }
 .pagedsettings_PagedSettingsDialog_PageListItem_1-vlr:not(.pagedsettings_Active_2DpXj):hover {
   color: var(--ACCENT) !important;
