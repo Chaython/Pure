@@ -4589,9 +4589,7 @@ img {
   border-top: 1px SOLID var(--SHADOW) !important;
 }
 .pagedsettings_PagedSettingsDialog_Title_2rjVT {
-  color: TRANSPARENT !important;
-  padding-left: 20px !important;
-  font-weight: bold !important;
+  display:none!important;
 }
 .appproperties_AppProperties_1FyBL .appproperties_Checkbox_2V2nc {
   padding-left:1px!important;
@@ -4599,6 +4597,7 @@ img {
   color: var(--ACCENT) !important;
 }
 .pagedsettings_PagedSettingsDialog_PageListColumn_2kwFF {
+  padding-top:93px!important;
   background: var(--SETTINGSSIDEBAR) !important;
   min-width: 140px !important;
   max-width: 140px !important;
