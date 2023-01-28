@@ -1,8 +1,3 @@
-# LINKS 🔗
-[SUPPORT ME ☕](https://www.patreon.com/puresteamskin)<br/>
-[REPORT A BUG 💻🐛](https://github.com/Snudgee/Pure/issues)<br/>
-[REQUEST A FEATURE 🤔](https://github.com/Snudgee/Pure/issues)
-
 # PREVIEW 🖼
 ![Pure](https://media.giphy.com/media/P7UAC7b1uGN7p8Vase/giphy.gif)
 
@@ -21,16 +16,6 @@
 * take the friends.custom.css file and paste it on steam/clientui/
 * open steamfriendspatcher and it will apply the library skin
 * Enjoy :)
-
-# STEAM GROUP 👪
-![Pure](https://i.imgur.com/RTWjQL6.png)
-
-* Join the Steam group here: https://steamcommunity.com/groups/pureskin
-
-# DISCORD SERVER 👪
-![Pure](https://i.imgur.com/kCxL1Bi.png)
-
-* Join the Discord server here: https://discord.gg/e8a2eZNx
 
 # CREDITS 💖
 * METRO SKIN <3
